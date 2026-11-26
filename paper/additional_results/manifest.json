@@ -1,0 +1,427 @@
+[
+  {
+    "file": "tab_app-x3.tex",
+    "labels": [
+      "tab:app-x3"
+    ],
+    "inputs": [
+      "tables/tab_x3"
+    ],
+    "reason": "Secondary simulation grid or resource analysis; retained verbatim outside the compact paper."
+  },
+  {
+    "file": "tab_app-grid.tex",
+    "labels": [
+      "tab:app-grid"
+    ],
+    "inputs": [
+      "tables/tab_x5"
+    ],
+    "reason": "Secondary simulation grid or resource analysis; retained verbatim outside the compact paper."
+  },
+  {
+    "file": "tab_app-x6.tex",
+    "labels": [
+      "tab:app-x6"
+    ],
+    "inputs": [
+      "tables/tab_x6"
+    ],
+    "reason": "Secondary simulation grid or resource analysis; retained verbatim outside the compact paper."
+  },
+  {
+    "file": "tab_app-d2f.tex",
+    "labels": [
+      "tab:app-d2f"
+    ],
+    "inputs": [
+      "tables/tab_d2_fresh"
+    ],
+    "reason": "Secondary simulation grid or resource analysis; retained verbatim outside the compact paper."
+  },
+  {
+    "file": "tab_app-d6.tex",
+    "labels": [
+      "tab:app-d6"
+    ],
+    "inputs": [
+      "tables/d6_logged"
+    ],
+    "reason": "Secondary simulation grid or resource analysis; retained verbatim outside the compact paper."
+  },
+  {
+    "file": "tab_app-metrics.tex",
+    "labels": [
+      "tab:app-metrics"
+    ],
+    "inputs": [
+      "tables/tab_metrics"
+    ],
+    "reason": "Secondary simulation grid or resource analysis; retained verbatim outside the compact paper."
+  },
+  {
+    "file": "tab_app-calib.tex",
+    "labels": [
+      "tab:app-calib"
+    ],
+    "inputs": [
+      "tables/tab_calib"
+    ],
+    "reason": "Secondary simulation grid or resource analysis; retained verbatim outside the compact paper."
+  },
+  {
+    "file": "fig_depth.tex",
+    "labels": [
+      "fig:depth-ab"
+    ],
+    "inputs": [
+      "figs/depth_ab.pdf"
+    ],
+    "reason": "Depth-only panels duplicate the retained depth-and-budget figure."
+  },
+  {
+    "file": "app_mech-regimes.tex",
+    "labels": [
+      "app:mech-regimes"
+    ],
+    "inputs": [
+      "figs/mechanism_app.pdf"
+    ],
+    "reason": "Second-regime illustration; the main mechanism figure and all theoretical boundary results remain."
+  },
+  {
+    "file": "item_10.tex",
+    "labels": [],
+    "inputs": [],
+    "reason": "Pilot numeric table duplicates the hybrid-versus-exact comparison in the retained mechanism figure."
+  },
+  {
+    "file": "tab_llm-budget.tex",
+    "labels": [
+      "tab:llm-budget"
+    ],
+    "inputs": [
+      "tables/llm_budget"
+    ],
+    "reason": "Full token/latency ledger; model caps and failure handling remain in the methods."
+  },
+  {
+    "file": "tab_newruns.tex",
+    "labels": [
+      "tab:newruns"
+    ],
+    "inputs": [],
+    "reason": "Per-run resource ledger; model versions and mixed-cap resampling remain in the methods."
+  },
+  {
+    "file": "tab_cost.tex",
+    "labels": [
+      "tab:cost"
+    ],
+    "inputs": [],
+    "reason": "Closed-loop resource ledger; protocols, counts and failures remain in the methods."
+  },
+  {
+    "file": "tab_agent-beh.tex",
+    "labels": [
+      "tab:agent-beh"
+    ],
+    "inputs": [
+      "tables/agent_oracle_behaviour"
+    ],
+    "reason": "Detailed oracle behaviour; baseline regret and the cache-use summary remain."
+  },
+  {
+    "file": "tab_k2replay.tex",
+    "labels": [
+      "tab:k2replay"
+    ],
+    "inputs": [
+      "tables/agent_k2replay"
+    ],
+    "reason": "Per-family replay contrasts overlap the retained one-step/full-DP table; headline paired contrasts remain in the main text."
+  },
+  {
+    "file": "item_17.tex",
+    "labels": [],
+    "inputs": [],
+    "reason": "Expanded prompt illustration. The compact paper retains the intervention definitions; the common header and response schema are in app_bench-prompt.tex."
+  },
+  {
+    "file": "item_18.tex",
+    "labels": [],
+    "inputs": [],
+    "reason": "Exploratory pilot results, with original selection and truncation caveats."
+  },
+  {
+    "file": "app_related-moved.tex",
+    "labels": [
+      "app:related-moved-archived",
+      "app:impact-archived"
+    ],
+    "inputs": [],
+    "reason": "Expanded related-work discussion; closest comparisons remain in the main paper and a focused appendix summary."
+  },
+  {
+    "file": "app_bench-parsing.tex",
+    "labels": [],
+    "inputs": [],
+    "reason": "Parsing, truncation and timeout rules of the single-decision benchmark; fallback scoring remains summarised in the methods."
+  },
+  {
+    "file": "app_bench-prompt.tex",
+    "labels": [],
+    "inputs": [],
+    "reason": "Prompt example of the single-decision benchmark; condition definitions remain in the appendix."
+  },
+  {
+    "file": "tab_llm-main.tex",
+    "labels": [
+      "tab:llm-main"
+    ],
+    "inputs": [
+      "tables/llm_main"
+    ],
+    "reason": "Full single-decision table (all runs, CIs, optimal/severe/MCWA); the compact table and every in-text estimate remain."
+  },
+  {
+    "file": "tab_llm-contrasts.tex",
+    "labels": [
+      "tab:llm-contrasts"
+    ],
+    "inputs": [
+      "tables/llm_contrasts"
+    ],
+    "reason": "Paired single-decision contrasts; those used in the text are stated there with their intervals."
+  },
+  {
+    "file": "tab_bench-ref.tex",
+    "labels": [
+      "tab:bench-ref"
+    ],
+    "inputs": [
+      "tables/bench_reference"
+    ],
+    "reason": "Benchmark reference policies; the MMI reference used in the text remains."
+  },
+  {
+    "file": "tab_t_cells.tex",
+    "labels": [
+      "tab:t-cells"
+    ],
+    "inputs": [
+      "tables/agent_t_cells"
+    ],
+    "reason": "Fault-wording results by cell; the planned paired contrasts remain in the appendix."
+  },
+  {
+    "file": "tab_r_cells.tex",
+    "labels": [
+      "tab:r-cells"
+    ],
+    "inputs": [
+      "tables/agent_r_cells"
+    ],
+    "reason": "Runbook results by cell; the planned paired contrasts remain in the appendix."
+  },
+  {
+    "file": "tab_llm-contrasts-added.tex",
+    "labels": [
+      "tab:llm-contrasts-added"
+    ],
+    "inputs": [
+      "tables/llm_contrasts_added"
+    ],
+    "reason": "Paired contrasts of the three added single-decision runs; their levels are in tab_llm-main.tex."
+  },
+  {
+    "file": "tab_agent-llm-terra.tex",
+    "labels": [
+      "tab:agent-llm-terra"
+    ],
+    "inputs": [
+      "tables/agent_llm"
+    ],
+    "reason": "Per-cell levels of every closed-loop condition for terra (K3, K4, K4c and the VALUE family included); the paper reports their contrasts."
+  },
+  {
+    "file": "tab_agent-llm-flash.tex",
+    "labels": [
+      "tab:agent-llm-flash"
+    ],
+    "inputs": [
+      "tables/agent_llm_flash"
+    ],
+    "reason": "Per-cell levels of every closed-loop condition for flash; the paper reports their contrasts."
+  },
+  {
+    "file": "tab_agent-llm-added.tex",
+    "labels": [
+      "tab:agent-llm-added"
+    ],
+    "inputs": [
+      "tables/agent_llm_new"
+    ],
+    "reason": "Per-cell levels of the added closed-loop runs; the paper reports their contrasts."
+  },
+  {
+    "file": "tab_s1.tex",
+    "labels": [
+      "tab:s1-full"
+    ],
+    "inputs": [
+      "tables/tab_s1"
+    ],
+    "reason": "Full S1 grid behind the stress-test summary table."
+  },
+  {
+    "file": "tab_s1_check.tex",
+    "labels": [
+      "tab:s1-check"
+    ],
+    "inputs": [
+      "tables/tab_s1_check"
+    ],
+    "reason": "Exclusion-bound check for S1 (the bound needs (A4))."
+  },
+  {
+    "file": "tab_s2.tex",
+    "labels": [
+      "tab:s2-full"
+    ],
+    "inputs": [
+      "tables/tab_s2"
+    ],
+    "reason": "Full S2 grid, including the zero violations of the corrected cap cited in the stress-test caption."
+  },
+  {
+    "file": "tab_s3.tex",
+    "labels": [
+      "tab:s3-full"
+    ],
+    "inputs": [
+      "tables/tab_s3"
+    ],
+    "reason": "Full S3 grid."
+  },
+  {
+    "file": "tab_s4.tex",
+    "labels": [
+      "tab:s4-full"
+    ],
+    "inputs": [
+      "tables/tab_s4"
+    ],
+    "reason": "Full S4 grid."
+  },
+  {
+    "file": "tab_s5.tex",
+    "labels": [
+      "tab:s5-full"
+    ],
+    "inputs": [
+      "tables/tab_s5"
+    ],
+    "reason": "Full S5 grid."
+  },
+  {
+    "file": "tab_agent-llm-added-contrasts.tex",
+    "labels": [
+      "tab:agent-llm-added-contrasts"
+    ],
+    "inputs": [
+      "tables/agent_llm_new_contrasts"
+    ],
+    "reason": "Paired contrasts of the added closed-loop runs (Sonnet K2-K1 included); the main-text contrast table covers terra (medium) and flash."
+  },
+  {
+    "file": "app_near-tie.tex",
+    "labels": [
+      "app:near-tie",
+      "tab:near-tie"
+    ],
+    "inputs": [
+      "tables/agent_neartie"
+    ],
+    "reason": "Near-tie sensitivity of regret attribution; headline summary retained in main.pdf."
+  },
+  {
+    "file": "app_t.tex",
+    "labels": [
+      "app:t",
+      "tab:t-contrasts"
+    ],
+    "inputs": [
+      "tables/agent_t_contrasts"
+    ],
+    "reason": "Fault wording vs. probability table; summary retained in Appendix D.8 of main.pdf."
+  },
+  {
+    "file": "app_r.tex",
+    "labels": [
+      "app:r",
+      "tab:r-contrasts"
+    ],
+    "inputs": [
+      "tables/agent_r_contrasts"
+    ],
+    "reason": "Runbook surface experiment; summary retained in Appendix D.8 of main.pdf."
+  },
+  {
+    "file": "app_asif.tex",
+    "labels": [
+      "app:asif",
+      "tab:asif",
+      "tab:asif-loss"
+    ],
+    "inputs": [
+      "tables/agent_z",
+      "tables/agent_zl"
+    ],
+    "reason": "Post hoc as-if models (fault odds, losses, prior, ambiguity); summary retained in main.pdf."
+  },
+  {
+    "file": "app_horizon.tex",
+    "labels": [
+      "app:horizon",
+      "tab:horizon"
+    ],
+    "inputs": [
+      "tables/agent_h"
+    ],
+    "reason": "Post hoc effective planning horizon analysis; summary retained in main.pdf."
+  },
+  {
+    "file": "app_sens.tex",
+    "labels": [
+      "app:sens",
+      "tab:sens"
+    ],
+    "inputs": [
+      "tables/agent_sens"
+    ],
+    "reason": "Post hoc scenario leave-one-out and Bonferroni sensitivity; summary retained in main.pdf."
+  },
+  {
+    "file": "app_k2d.tex",
+    "labels": [
+      "app:k2d",
+      "tab:k2d"
+    ],
+    "inputs": [
+      "tables/agent_k2d"
+    ],
+    "reason": "Post hoc independence-assuming decision-value planner (K2d/K2dp); summary retained in main.pdf."
+  },
+  {
+    "file": "app_units.tex",
+    "labels": [
+      "app:units",
+      "tab:units"
+    ],
+    "inputs": [
+      "tables/agent_u"
+    ],
+    "reason": "Post hoc realized outcomes in agent units; summary retained in main.pdf."
+  }
+]

@@ -1,0 +1,16 @@
+\subsection{A decision-value planner with independent checks on the same JSON}\label{app:k2d}
+% src: tables/agent_k2d.tex, nums_posthoc.tex (scripts/make_posthoc_outputs.py; raea4/agentenv/results/k2d_summary.json, k2d_summary.py). Post hoc; no model call.
+DIVA \citep{lee2026diva} values each remaining check by its expected decision value net of cost under a decision model written by the LLM, treats checks as independent given the state, removes a check from the candidate set once it is acquired, and has a variant that plans by dynamic programming over the remaining checks.
+We applied that valuation rule to the JSON each model wrote in K2e, in the same worlds as K2e, K2v and K2r (post hoc; no model call).
+\emph{K2d} is the one-step rule and \emph{K2dp} the dynamic program; in both, every fault the JSON declares is applied to each call separately with the written rate, and each tool is called at most once.
+This adapts the rule to our task (three statuses, four terminal actions, the model's own JSON). It is not a run of the DIVA system: its elicitation prompts, risk-form answers, shrinkage and uncertainty-aware variant are not reproduced, and the comparison says nothing about DIVA on the tasks it was designed for.
+Both planners have regret near 1 in every run (\cref{tab:k2d}): below flash's own regret (K2d$-$K2e \kdFlashKTwoDmKTwoE), above terra's and Sonnet's (\kdTerraKTwoDmKTwoE\ and \kdSonnetKTwoDmKTwoE), and above the exact planner that uses the dependence the same JSON declares (K2r$-$K2dp: terra \kdTerraKTwoRmKTwoDP, Sonnet \kdSonnetKTwoRmKTwoDP).
+Among the executors compared, the exact planner that keeps the dependence written in the JSON and may repeat queries does best. K2d and K2dp change both the dependence assumption and the action set (no repeats), so this comparison does not show which of the two is necessary. The stronger models, which under-use the replica tool, still decide better than a planner that treats its reports as independent and never repeats it.
+
+\begin{table}[!htbp]
+\centering
+\caption{Planners on the model's own K2e JSON (CORE, $n{=}100$; mean regret per episode; paired nested 95\% intervals; post hoc). K2v: one-step value of information, dependence as written, repeats allowed. K2d / K2dp: one-step / dynamic-programming decision value with checks independent given the status and each tool called at most once. K2r: exact planner, dependence as written.}
+\label{tab:k2d}
+\scriptsize\setlength{\tabcolsep}{4pt}
+\input{tables/agent_k2d}
+\end{table}

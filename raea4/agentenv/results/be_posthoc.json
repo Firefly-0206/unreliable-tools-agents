@@ -1,0 +1,277 @@
+{
+ "flash": {
+  "P1 stated - VOI1 (one-step) | U replica": {
+   "mean": -0.06585292920917384,
+   "lo": -1.0481516051256725,
+   "hi": 1.7046993172521074,
+   "n": 99,
+   "n_ep": 63
+  },
+  "P1 stated - VOI (multi-step) | U replica": {
+   "mean": -1.6738432990663845,
+   "lo": -2.6247389234521177,
+   "hi": -0.038662489520502226,
+   "n": 99,
+   "n_ep": 63
+  },
+  "P1 share closer to VOI1 than to VOI | U replica": {
+   "mean": 0.771957671957672,
+   "lo": 0.6480210309930423,
+   "hi": 0.898557194616977,
+   "n": 99,
+   "n_ep": 63
+  },
+  "P1 all tools, all points: within 0.06 of VOI1 / of VOI / tools": "77 / 64 / 1157",
+  "P2 rho(stated, VOI1) | U": {
+   "mean": 0.112002919828327,
+   "lo": -0.05718409438813966,
+   "hi": 0.26787604313013746,
+   "n": 94,
+   "n_ep": 63
+  },
+  "P2 rho(VOI1, VOI), no model | U": {
+   "mean": 0.5254290179115104,
+   "lo": 0.37880129320031086,
+   "hi": 0.6630038688332212,
+   "n": 99,
+   "n_ep": 64
+  },
+  "P2 rho(stated, VOI1) | O": {
+   "mean": 0.3220158445907061,
+   "lo": 0.1284099149271616,
+   "hi": 0.5060056826103396,
+   "n": 102,
+   "n_ep": 69
+  },
+  "P2 rho(VOI1, VOI), no model | O": {
+   "mean": 0.7452613112003823,
+   "lo": 0.6154881438828042,
+   "hi": 0.8363834560805674,
+   "n": 114,
+   "n_ep": 73
+  },
+  "P3 fork C action = argmax of own stated values | all": {
+   "mean": 0.6657509157509157,
+   "lo": 0.5580503989578244,
+   "hi": 0.7753623188405797,
+   "n": 169,
+   "n_ep": 91
+  },
+  "P3 ... | U": {
+   "mean": 0.6180555555555555,
+   "lo": 0.4196356566820277,
+   "hi": 0.8452609890109888,
+   "n": 60,
+   "n_ep": 48
+  },
+  "P4 B3 rep_bias_json | U, repaired rows excluded": {
+   "mean": -1.7250609962071939,
+   "lo": -2.674140128560018,
+   "hi": 0.12205462625814797,
+   "n": 74,
+   "n_ep": 55
+  },
+  "P4 B4 agree | all, logged first call anywhere among fork A's calls": {
+   "mean": 0.6985000000000001,
+   "lo": 0.6330157407407407,
+   "hi": 0.7600041666666667,
+   "n": 364,
+   "n_ep": 100
+  },
+  "P4 B5 replica C-A | U, missing C action = no replica (all U)": {
+   "mean": -0.06875,
+   "lo": -0.16919649621212118,
+   "hi": 0.02113929473304469,
+   "n": 103,
+   "n_ep": 64
+  },
+  "P4 B5 replica C-A | U, replica = any call of the turn, missing = no": {
+   "mean": -0.20156249999999998,
+   "lo": -0.3533709677419355,
+   "hi": -0.06213690476190479,
+   "n": 103,
+   "n_ep": 64
+  },
+  "P4 fork C gave no action | U": {
+   "mean": 0.36744791666666665,
+   "lo": 0.23201923076923076,
+   "hi": 0.5647554347826086,
+   "n": 103,
+   "n_ep": 64
+  },
+  "P4 B3 rep_bias_json | U, turns with a later replica call excluded": {
+   "mean": -1.9667082173854944,
+   "lo": -2.670316142494929,
+   "hi": -1.0879506279463973,
+   "n": 82,
+   "n_ep": 50
+  }
+ },
+ "terra": {
+  "P1 stated - VOI1 (one-step) | U replica": {
+   "mean": 0.525170745669462,
+   "lo": 0.17671268377019392,
+   "hi": 0.8810905442865702,
+   "n": 7,
+   "n_ep": 7
+  },
+  "P1 stated - VOI (multi-step) | U replica": {
+   "mean": -0.11723844746610444,
+   "lo": -0.1948570091120972,
+   "hi": -0.01617205291010402,
+   "n": 7,
+   "n_ep": 7
+  },
+  "P1 share closer to VOI1 than to VOI | U replica": {
+   "mean": 0.14285714285714285,
+   "lo": 0.0,
+   "hi": 0.6,
+   "n": 7,
+   "n_ep": 7
+  },
+  "P1 all tools, all points: within 0.06 of VOI1 / of VOI / tools": "176 / 177 / 253",
+  "P2 rho(stated, VOI1) | U": {
+   "mean": 0.7142857142857143,
+   "lo": 0.2857142857142857,
+   "hi": 1.0,
+   "n": 7,
+   "n_ep": 7
+  },
+  "P2 rho(VOI1, VOI), no model | U": {
+   "mean": 0.5815972222222222,
+   "lo": 0.3916356382978723,
+   "hi": 0.7367610554245281,
+   "n": 101,
+   "n_ep": 48
+  },
+  "P2 rho(stated, VOI1) | O": {
+   "mean": 0.8452497441248169,
+   "lo": 0.6877999805152153,
+   "hi": 0.9642898769251746,
+   "n": 45,
+   "n_ep": 41
+  },
+  "P2 rho(VOI1, VOI), no model | O": {
+   "mean": 0.7996922276184868,
+   "lo": 0.7380893113455299,
+   "hi": 0.8540365344815838,
+   "n": 198,
+   "n_ep": 89
+  },
+  "P3 fork C action = argmax of own stated values | all": {
+   "mean": 0.9240506329113926,
+   "lo": 0.8660292528558197,
+   "hi": 0.9704672375279224,
+   "n": 122,
+   "n_ep": 79
+  },
+  "P3 ... | U": {
+   "mean": 0.9365079365079364,
+   "lo": 0.8407196969696971,
+   "hi": 1.0,
+   "n": 28,
+   "n_ep": 21
+  },
+  "P4 B3 rep_bias_json | U, repaired rows excluded": {
+   "mean": -0.11723844746610444,
+   "lo": -0.1948570091120972,
+   "hi": -0.01617205291010402,
+   "n": 7,
+   "n_ep": 7
+  },
+  "P4 B3 rep_bias_json | U, turns with a later replica call excluded": {
+   "mean": -0.11723844746610444,
+   "lo": -0.1948570091120972,
+   "hi": -0.01617205291010402,
+   "n": 7,
+   "n_ep": 7
+  },
+  "P5 all-null values | O": "140/219",
+  "P5 all-null values | R": "9/15",
+  "P5 all-null values | U": "84/104",
+  "P5 all-null values | calls_before 0": "95/98",
+  "P5 all-null values | calls_before 1": "92/100",
+  "P5 all-null values | calls_before 2": "22/76",
+  "P5 all-null values | calls_before 3+": "24/64"
+ },
+ "sonnet": {
+  "P1 stated - VOI1 (one-step) | U replica": {
+   "mean": 0.1514027333923048,
+   "lo": -0.04053212052157906,
+   "hi": 0.38280659238153414,
+   "n": 75,
+   "n_ep": 44
+  },
+  "P1 stated - VOI (multi-step) | U replica": {
+   "mean": -1.3089160880852144,
+   "lo": -1.6675157169944097,
+   "hi": -0.9306127026027163,
+   "n": 75,
+   "n_ep": 44
+  },
+  "P1 share closer to VOI1 than to VOI | U replica": {
+   "mean": 0.8863636363636364,
+   "lo": 0.7727025691699605,
+   "hi": 0.9772727272727273,
+   "n": 75,
+   "n_ep": 44
+  },
+  "P1 all tools, all points: within 0.06 of VOI1 / of VOI / tools": "487 / 67 / 575",
+  "P2 rho(stated, VOI1) | U": {
+   "mean": 0.9371112371064434,
+   "lo": 0.8541373625098087,
+   "hi": 0.9968833111401616,
+   "n": 75,
+   "n_ep": 44
+  },
+  "P2 rho(VOI1, VOI), no model | U": {
+   "mean": 0.5857954545454546,
+   "lo": 0.3253963414634147,
+   "hi": 0.7851909722222221,
+   "n": 75,
+   "n_ep": 44
+  },
+  "P2 rho(stated, VOI1) | O": {
+   "mean": 0.9657103937238366,
+   "lo": 0.9382101370084795,
+   "hi": 0.9891939131767375,
+   "n": 70,
+   "n_ep": 60
+  },
+  "P2 rho(VOI1, VOI), no model | O": {
+   "mean": 0.853979623674508,
+   "lo": 0.7937074657622781,
+   "hi": 0.9060027140967971,
+   "n": 72,
+   "n_ep": 60
+  },
+  "P3 fork C action = argmax of own stated values | all": {
+   "mean": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n": 149,
+   "n_ep": 88
+  },
+  "P3 ... | U": {
+   "mean": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n": 75,
+   "n_ep": 44
+  },
+  "P4 B3 rep_bias_json | U, repaired rows excluded": {
+   "mean": -1.3089160880852144,
+   "lo": -1.6675157169944097,
+   "hi": -0.9306127026027163,
+   "n": 75,
+   "n_ep": 44
+  },
+  "P4 B3 rep_bias_json | U, turns with a later replica call excluded": {
+   "mean": -1.3089160880852144,
+   "lo": -1.6675157169944097,
+   "hi": -0.9306127026027163,
+   "n": 75,
+   "n_ep": 44
+  }
+ }
+}

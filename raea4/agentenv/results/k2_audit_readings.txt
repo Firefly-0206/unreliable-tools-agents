@@ -1,0 +1,7 @@
+family            R0      R1      R2      R3      R4      R5   (exact regret of the exact planner of each reading, true model; first 50 episodes)
+PERSIST         0.00    0.00    5.40    0.05    7.39    0.28
+SHARED         -0.00    1.32    6.12    0.04    5.10    0.34
+MIXED          -0.00    0.76    3.88    0.05    6.39    0.19
+TRANSIENT       0.00    0.00    0.00    0.00    0.00    1.32
+TRANSIENT_P    -0.00   -0.00   -0.00   -0.00   -0.00    1.03
+CORE           -0.00    0.52    3.85    0.04    4.72    0.53   (PERSIST SHARED MIXED TRANSIENT, equal weights)

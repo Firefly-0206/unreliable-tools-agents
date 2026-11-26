@@ -1,0 +1,16 @@
+﻿[P1-gen] min(1,Hs/Hs') <= LR <= min(max(1,Hs/Hs'), 1+(1-phi)/phi*Hs/F): 3000/3000 hold
+[P1a] f>q: claims hold in 300/300
+[P1a] f=q: claims hold in 300/300
+[P1a] f<q: claims hold in 300/300
+   f=0.97: LR (worst non-benign s) n=1..12: [2.83, 2.99, 2.86, 2.73, 2.6, 2.49, 2.38, 2.28, 2.19, 2.1, 2.02, 1.95]
+   f=0.9: LR (worst non-benign s) n=1..12: [2.95, 3.31, 3.33, 3.33, 3.33, 3.33, 3.33, 3.33, 3.33, 3.33, 3.33, 3.33]
+   f=0.8: LR (worst non-benign s) n=1..12: [3.16, 3.92, 4.32, 4.74, 5.2, 5.73, 6.32, 6.99, 7.74, 8.58, 9.52, 10.59]
+[P1b] LR(0 vs s) <= 1/phi_s: 2274/2274 hold; the marginal-phi bound 1/phibar fails in 530/2274
+   long run (phi_0=.1, phi_s=.4): LR after 300 reports 0.2500, predicted phi_0/phi_s = 0.2500
+   counterexample pi=(.5,.5), phi_s=(.6,.05): LR after 300 reports 12.000 > 1/phibar = 3.077
+[P1c partial sharing] LR <= 1/(phi pi^nB): 896/896 hold; long B-runs exceed 1/phi in 587/600
+[P1d stale value] enumerator vs sim cross-check |diff| = 4.44e-16
+   LR <= 1/(phi_s rho(0|s)): 2265/2265; value independent of s: LR <= 1+(1-phi)/(phi rho0)(q/qs)^n violations 0; with qs = q the long-run limit equals 1+(1-phi)/(phi rho0) (max rel. err 3.9e-15, 369 cases)
+[P1e recovery] rho=0 cross-check vs sim |diff| = 0.00e+00; x<1 bound holds 1236/1236; x>1: LR exceeds 10/phi after 200 reports in 572/572
+   x=1, rho>0 ((1-rho)f = q), 400 instances: closed form matches the enumerator (max rel. err 2.3e-14); lower bound holds 3600/3600; LR strictly increasing over n=1..400 in 400/400; LR(400) > 1/phi in 400/400
+   example phi=.3, q=.9, r=.05, rho=.1, f=1 (x=1): LR at n=5,20,50,100,200,400 = [3.48, 4.97, 7.95, 12.92, 22.87, 42.75] (1/phi = 3.33)

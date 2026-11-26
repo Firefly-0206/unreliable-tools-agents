@@ -1,0 +1,579 @@
+﻿BJ peak: waiting until 11-02 12:00
+BJ off-peak: running until done or the next peak window
+406 episode runs to do (94 already in logs\ds_chat_fc_k2decomp.jsonl)
+TRANSIENT-019 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-020 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-021 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-022 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-023 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-024 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-000 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-001 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-002 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-003 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-004 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-005 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-006 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-007 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-008 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-009 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-010 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-011 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-012 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-013 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-014 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-015 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-016 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-017 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-018 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-019 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-020 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-021 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-022 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-023 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-024 K2a deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-000 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-001 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-002 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-003 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-004 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-005 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-006 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-007 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-008 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-009 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-010 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-011 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-012 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-013 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-014 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-015 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-016 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-017 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-018 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-019 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-020 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-021 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-022 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-023 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-024 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-000 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-001 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-002 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-003 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-004 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-005 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-006 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-007 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-008 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-009 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-010 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-011 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-012 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-013 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-014 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-015 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-016 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-017 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-018 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-019 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-020 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-021 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-022 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-023 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+SHARED-024 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-000 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-001 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-002 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-003 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-004 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-005 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-006 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-007 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-008 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-009 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-010 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-011 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-012 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-013 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-014 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-015 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-016 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-017 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-018 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-019 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-020 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-021 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-022 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-023 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+MIXED-024 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-000 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-001 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-002 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-003 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-004 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-005 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-006 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-007 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-008 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-009 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-010 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-011 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-012 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-013 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-014 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-015 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-016 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-017 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-018 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-019 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-020 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-021 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-022 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-023 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT-024 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-000 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-001 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-002 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-003 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-004 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-005 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-006 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-007 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-008 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-009 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-010 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-011 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-012 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-013 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-014 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-015 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-016 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-017 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-018 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-019 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-020 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-021 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-022 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-023 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+TRANSIENT_P-024 K2e deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-000 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-001 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-002 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-003 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-004 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-005 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-006 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-007 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-008 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-009 K2p deepseek-chat: api_error: APIConnectionError: Connection error. verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+PERSIST-010 K2p deepseek-chat: submitted verdict=3 calls=6 api=1 tok={'prompt': 1020, 'completion': 229, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 636} lat=4.3s
+PERSIST-011 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 992, 'completion': 227, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 608} lat=1.9s
+PERSIST-012 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 994, 'completion': 222, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 610} lat=4.7s
+PERSIST-013 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 997, 'completion': 223, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 613} lat=1.7s
+PERSIST-014 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 998, 'completion': 228, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 614} lat=4.9s
+PERSIST-015 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1004, 'completion': 208, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 620} lat=5.0s
+PERSIST-016 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1020, 'completion': 229, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 636} lat=4.6s
+PERSIST-017 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 992, 'completion': 227, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 608} lat=5.0s
+PERSIST-018 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 994, 'completion': 222, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 610} lat=1.6s
+PERSIST-019 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 997, 'completion': 223, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 613} lat=1.4s
+PERSIST-020 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 998, 'completion': 228, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 614} lat=1.6s
+PERSIST-021 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 1004, 'completion': 226, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 620} lat=1.7s
+PERSIST-022 K2p deepseek-chat: submitted verdict=0 calls=6 api=1 tok={'prompt': 1020, 'completion': 229, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 636} lat=1.4s
+PERSIST-023 K2p deepseek-chat: submitted verdict=0 calls=4 api=1 tok={'prompt': 992, 'completion': 227, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 608} lat=1.7s
+PERSIST-024 K2p deepseek-chat: submitted verdict=0 calls=6 api=1 tok={'prompt': 994, 'completion': 222, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 610} lat=1.4s
+SHARED-000 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.3s
+SHARED-001 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1023, 'completion': 192, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.4s
+SHARED-002 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.4s
+SHARED-003 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.6s
+SHARED-004 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=1.7s
+SHARED-005 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.7s
+SHARED-006 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.8s
+SHARED-007 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1023, 'completion': 192, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.6s
+SHARED-008 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.5s
+SHARED-009 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.5s
+SHARED-010 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=1.6s
+SHARED-011 K2p deepseek-chat: submitted verdict=2 calls=3 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.6s
+SHARED-012 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.5s
+SHARED-013 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1023, 'completion': 180, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.6s
+SHARED-014 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.7s
+SHARED-015 K2p deepseek-chat: submitted verdict=0 calls=1 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.8s
+SHARED-016 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=1.5s
+SHARED-017 K2p deepseek-chat: submitted verdict=1 calls=3 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.5s
+SHARED-018 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.9s
+SHARED-019 K2p deepseek-chat: submitted verdict=2 calls=4 api=1 tok={'prompt': 1023, 'completion': 192, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.9s
+SHARED-020 K2p deepseek-chat: submitted verdict=3 calls=1 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.5s
+SHARED-021 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.8s
+SHARED-022 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=1.6s
+SHARED-023 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.6s
+SHARED-024 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.6s
+MIXED-000 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.5s
+MIXED-001 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1023, 'completion': 192, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.4s
+MIXED-002 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.5s
+MIXED-003 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.6s
+MIXED-004 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=1.3s
+MIXED-005 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.3s
+MIXED-006 K2p deepseek-chat: submitted verdict=0 calls=4 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.5s
+MIXED-007 K2p deepseek-chat: submitted verdict=2 calls=5 api=1 tok={'prompt': 1023, 'completion': 192, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.5s
+MIXED-008 K2p deepseek-chat: submitted verdict=0 calls=4 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.6s
+MIXED-009 K2p deepseek-chat: submitted verdict=0 calls=5 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.8s
+MIXED-010 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=1.8s
+MIXED-011 K2p deepseek-chat: submitted verdict=2 calls=4 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.4s
+MIXED-012 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.4s
+MIXED-013 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 1023, 'completion': 192, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.4s
+MIXED-014 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.4s
+MIXED-015 K2p deepseek-chat: submitted verdict=0 calls=4 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.4s
+MIXED-016 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=2.1s
+MIXED-017 K2p deepseek-chat: submitted verdict=0 calls=4 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.7s
+MIXED-018 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.4s
+MIXED-019 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 1023, 'completion': 192, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 511} lat=1.8s
+MIXED-020 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 1024, 'completion': 197, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 512} lat=1.5s
+MIXED-021 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1029, 'completion': 195, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 517} lat=1.5s
+MIXED-022 K2p deepseek-chat: submitted verdict=3 calls=6 api=1 tok={'prompt': 1047, 'completion': 198, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 535} lat=1.3s
+MIXED-023 K2p deepseek-chat: submitted verdict=0 calls=4 api=1 tok={'prompt': 1019, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.7s
+MIXED-024 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 1022, 'completion': 191, 'reasoning': 0, 'cache_hit': 512, 'cache_miss': 510} lat=1.3s
+TRANSIENT-000 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 996, 'completion': 171, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.4s
+TRANSIENT-001 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 996, 'completion': 195, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.3s
+TRANSIENT-002 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 998, 'completion': 212, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 614} lat=1.6s
+TRANSIENT-003 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1002, 'completion': 195, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 618} lat=1.7s
+TRANSIENT-004 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1019, 'completion': 177, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.4s
+TRANSIENT-005 K2p deepseek-chat: submitted verdict=1 calls=3 api=1 tok={'prompt': 992, 'completion': 175, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 608} lat=1.7s
+TRANSIENT-006 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 996, 'completion': 167, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.6s
+TRANSIENT-007 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 996, 'completion': 192, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.6s
+TRANSIENT-008 K2p deepseek-chat: submitted verdict=2 calls=2 api=1 tok={'prompt': 998, 'completion': 177, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 614} lat=1.3s
+TRANSIENT-009 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1002, 'completion': 198, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 618} lat=1.7s
+TRANSIENT-010 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1019, 'completion': 198, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.9s
+TRANSIENT-011 K2p deepseek-chat: submitted verdict=2 calls=3 api=1 tok={'prompt': 992, 'completion': 175, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 608} lat=1.8s
+TRANSIENT-012 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 996, 'completion': 198, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.4s
+TRANSIENT-013 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 996, 'completion': 192, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.4s
+TRANSIENT-014 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 998, 'completion': 177, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 614} lat=1.6s
+TRANSIENT-015 K2p deepseek-chat: submitted verdict=0 calls=1 api=1 tok={'prompt': 1002, 'completion': 195, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 618} lat=1.6s
+TRANSIENT-016 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 1019, 'completion': 173, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.7s
+TRANSIENT-017 K2p deepseek-chat: submitted verdict=1 calls=3 api=1 tok={'prompt': 992, 'completion': 175, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 608} lat=1.5s
+TRANSIENT-018 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 996, 'completion': 206, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.6s
+TRANSIENT-019 K2p deepseek-chat: submitted verdict=2 calls=4 api=1 tok={'prompt': 996, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.8s
+TRANSIENT-020 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 998, 'completion': 200, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 614} lat=1.6s
+TRANSIENT-021 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1002, 'completion': 169, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 618} lat=1.4s
+TRANSIENT-022 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 1019, 'completion': 213, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 635} lat=1.5s
+TRANSIENT-023 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 992, 'completion': 175, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 608} lat=1.3s
+TRANSIENT-024 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 996, 'completion': 171, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 612} lat=1.5s
+TRANSIENT_P-000 K2p deepseek-chat: submitted verdict=0 calls=5 api=1 tok={'prompt': 981, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 597} lat=1.5s
+TRANSIENT_P-001 K2p deepseek-chat: submitted verdict=0 calls=1 api=1 tok={'prompt': 983, 'completion': 223, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 599} lat=1.8s
+TRANSIENT_P-002 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 985, 'completion': 228, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 601} lat=1.4s
+TRANSIENT_P-003 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 990, 'completion': 232, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 606} lat=1.8s
+TRANSIENT_P-004 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1005, 'completion': 229, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 621} lat=1.9s
+TRANSIENT_P-005 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 978, 'completion': 200, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 594} lat=1.6s
+TRANSIENT_P-006 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 981, 'completion': 196, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 597} lat=1.5s
+TRANSIENT_P-007 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 983, 'completion': 229, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 599} lat=1.7s
+TRANSIENT_P-008 K2p deepseek-chat: submitted verdict=2 calls=4 api=1 tok={'prompt': 985, 'completion': 243, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 601} lat=1.4s
+TRANSIENT_P-009 K2p deepseek-chat: submitted verdict=1 calls=3 api=1 tok={'prompt': 990, 'completion': 258, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 606} lat=1.7s
+TRANSIENT_P-010 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1005, 'completion': 202, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 621} lat=1.7s
+TRANSIENT_P-011 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 978, 'completion': 208, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 594} lat=1.3s
+TRANSIENT_P-012 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 981, 'completion': 169, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 597} lat=1.6s
+TRANSIENT_P-013 K2p deepseek-chat: submitted verdict=0 calls=4 api=1 tok={'prompt': 983, 'completion': 232, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 599} lat=1.5s
+TRANSIENT_P-014 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 985, 'completion': 210, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 601} lat=1.5s
+TRANSIENT_P-015 K2p deepseek-chat: submitted verdict=1 calls=1 api=1 tok={'prompt': 990, 'completion': 226, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 606} lat=1.6s
+TRANSIENT_P-016 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1005, 'completion': 210, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 621} lat=1.8s
+TRANSIENT_P-017 K2p deepseek-chat: submitted verdict=0 calls=6 api=1 tok={'prompt': 978, 'completion': 227, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 594} lat=1.5s
+TRANSIENT_P-018 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 981, 'completion': 204, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 597} lat=1.6s
+TRANSIENT_P-019 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 983, 'completion': 232, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 599} lat=1.6s
+TRANSIENT_P-020 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 985, 'completion': 234, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 601} lat=1.6s
+TRANSIENT_P-021 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 990, 'completion': 198, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 606} lat=1.6s
+TRANSIENT_P-022 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 1005, 'completion': 210, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 621} lat=1.7s
+TRANSIENT_P-023 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 978, 'completion': 208, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 594} lat=1.4s
+TRANSIENT_P-024 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 981, 'completion': 204, 'reasoning': 0, 'cache_hit': 384, 'cache_miss': 597} lat=1.6s
+PERSIST-000 K1e deepseek-chat: submitted verdict=1 calls=5 api=5 tok={'prompt': 12531, 'completion': 1408, 'reasoning': 0, 'cache_hit': 10240, 'cache_miss': 2291} lat=10.5s
+PERSIST-001 K1e deepseek-chat: submitted verdict=3 calls=4 api=6 tok={'prompt': 14803, 'completion': 1580, 'reasoning': 0, 'cache_hit': 12160, 'cache_miss': 2643} lat=12.0s
+PERSIST-002 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8796, 'completion': 509, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2140} lat=5.3s
+PERSIST-003 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8759, 'completion': 449, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2231} lat=5.6s
+PERSIST-004 K1e deepseek-chat: submitted verdict=1 calls=5 api=5 tok={'prompt': 11884, 'completion': 596, 'reasoning': 0, 'cache_hit': 9472, 'cache_miss': 2412} lat=6.5s
+PERSIST-005 K1e deepseek-chat: submitted verdict=2 calls=4 api=6 tok={'prompt': 13776, 'completion': 465, 'reasoning': 0, 'cache_hit': 11264, 'cache_miss': 2512} lat=6.9s
+PERSIST-006 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8691, 'completion': 468, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2163} lat=5.2s
+PERSIST-007 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 13384, 'completion': 1566, 'reasoning': 0, 'cache_hit': 10880, 'cache_miss': 2504} lat=12.1s
+PERSIST-008 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 9125, 'completion': 1021, 'reasoning': 0, 'cache_hit': 6912, 'cache_miss': 2213} lat=7.7s
+PERSIST-009 K1e deepseek-chat: submitted verdict=1 calls=2 api=4 tok={'prompt': 8599, 'completion': 634, 'reasoning': 0, 'cache_hit': 6400, 'cache_miss': 2199} lat=6.3s
+PERSIST-010 K1e deepseek-chat: submitted verdict=2 calls=4 api=4 tok={'prompt': 9025, 'completion': 831, 'reasoning': 0, 'cache_hit': 6784, 'cache_miss': 2241} lat=7.4s
+PERSIST-011 K1e deepseek-chat: submitted verdict=0 calls=4 api=6 tok={'prompt': 14012, 'completion': 1334, 'reasoning': 0, 'cache_hit': 11392, 'cache_miss': 2620} lat=12.4s
+PERSIST-012 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8754, 'completion': 556, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2098} lat=6.0s
+PERSIST-013 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11565, 'completion': 1077, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2477} lat=9.2s
+PERSIST-014 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11270, 'completion': 965, 'reasoning': 0, 'cache_hit': 8960, 'cache_miss': 2310} lat=8.4s
+PERSIST-015 K1e deepseek-chat: submitted verdict=3 calls=4 api=5 tok={'prompt': 11460, 'completion': 1258, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2372} lat=10.7s
+PERSIST-016 K1e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 11673, 'completion': 571, 'reasoning': 0, 'cache_hit': 9344, 'cache_miss': 2329} lat=7.0s
+PERSIST-017 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 11317, 'completion': 453, 'reasoning': 0, 'cache_hit': 8960, 'cache_miss': 2357} lat=7.2s
+PERSIST-018 K1e deepseek-chat: submitted verdict=3 calls=4 api=4 tok={'prompt': 8785, 'completion': 1445, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2129} lat=10.6s
+PERSIST-019 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8701, 'completion': 932, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2173} lat=7.4s
+PERSIST-020 K1e deepseek-chat: submitted verdict=2 calls=4 api=5 tok={'prompt': 12345, 'completion': 1326, 'reasoning': 0, 'cache_hit': 10112, 'cache_miss': 2233} lat=10.3s
+PERSIST-021 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8702, 'completion': 514, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2174} lat=5.7s
+PERSIST-022 K1e deepseek-chat: submitted verdict=1 calls=5 api=6 tok={'prompt': 16324, 'completion': 2013, 'reasoning': 0, 'cache_hit': 13696, 'cache_miss': 2628} lat=13.8s
+PERSIST-023 K1e deepseek-chat: submitted verdict=0 calls=4 api=4 tok={'prompt': 8952, 'completion': 1281, 'reasoning': 0, 'cache_hit': 6784, 'cache_miss': 2168} lat=8.8s
+PERSIST-024 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 12272, 'completion': 1473, 'reasoning': 0, 'cache_hit': 9856, 'cache_miss': 2416} lat=10.4s
+SHARED-000 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8864, 'completion': 538, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2208} lat=6.2s
+SHARED-001 K1e deepseek-chat: submitted verdict=0 calls=4 api=6 tok={'prompt': 13911, 'completion': 869, 'reasoning': 0, 'cache_hit': 11264, 'cache_miss': 2647} lat=9.6s
+SHARED-002 K1e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 11461, 'completion': 1121, 'reasoning': 0, 'cache_hit': 9216, 'cache_miss': 2245} lat=9.4s
+SHARED-003 K1e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 11259, 'completion': 414, 'reasoning': 0, 'cache_hit': 8832, 'cache_miss': 2427} lat=6.2s
+SHARED-004 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 9057, 'completion': 1070, 'reasoning': 0, 'cache_hit': 6784, 'cache_miss': 2273} lat=8.8s
+SHARED-005 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 11776, 'completion': 1117, 'reasoning': 0, 'cache_hit': 9472, 'cache_miss': 2304} lat=9.1s
+SHARED-006 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8861, 'completion': 578, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2205} lat=5.8s
+SHARED-007 K1e deepseek-chat: submitted verdict=1 calls=4 api=6 tok={'prompt': 15264, 'completion': 1160, 'reasoning': 0, 'cache_hit': 12672, 'cache_miss': 2592} lat=11.2s
+SHARED-008 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8837, 'completion': 636, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2181} lat=6.2s
+SHARED-009 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8815, 'completion': 445, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2287} lat=5.6s
+SHARED-010 K1e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 11661, 'completion': 447, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2573} lat=6.0s
+SHARED-011 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8831, 'completion': 606, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2175} lat=6.3s
+SHARED-012 K1e deepseek-chat: submitted verdict=2 calls=2 api=4 tok={'prompt': 8645, 'completion': 459, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2117} lat=5.8s
+SHARED-013 K1e deepseek-chat: submitted verdict=1 calls=4 api=6 tok={'prompt': 13922, 'completion': 445, 'reasoning': 0, 'cache_hit': 11264, 'cache_miss': 2658} lat=7.4s
+SHARED-014 K1e deepseek-chat: submitted verdict=1 calls=2 api=4 tok={'prompt': 8691, 'completion': 448, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2163} lat=5.5s
+SHARED-015 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11467, 'completion': 664, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2379} lat=8.0s
+SHARED-016 K1e deepseek-chat: submitted verdict=2 calls=4 api=6 tok={'prompt': 14368, 'completion': 620, 'reasoning': 0, 'cache_hit': 11776, 'cache_miss': 2592} lat=9.6s
+SHARED-017 K1e deepseek-chat: submitted verdict=2 calls=2 api=4 tok={'prompt': 8768, 'completion': 483, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2240} lat=5.3s
+SHARED-018 K1e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 11807, 'completion': 1175, 'reasoning': 0, 'cache_hit': 9472, 'cache_miss': 2335} lat=9.9s
+SHARED-019 K1e deepseek-chat: submitted verdict=1 calls=4 api=7 tok={'prompt': 16618, 'completion': 486, 'reasoning': 0, 'cache_hit': 13824, 'cache_miss': 2794} lat=9.5s
+SHARED-020 K1e deepseek-chat: submitted verdict=3 calls=4 api=5 tok={'prompt': 13730, 'completion': 2072, 'reasoning': 0, 'cache_hit': 11008, 'cache_miss': 2722} lat=15.2s
+SHARED-021 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8856, 'completion': 654, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2328} lat=6.8s
+SHARED-022 K1e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 11640, 'completion': 846, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2552} lat=9.1s
+SHARED-023 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8796, 'completion': 540, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2268} lat=6.5s
+SHARED-024 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8782, 'completion': 767, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2254} lat=7.4s
+MIXED-000 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11193, 'completion': 384, 'reasoning': 0, 'cache_hit': 8832, 'cache_miss': 2361} lat=6.7s
+MIXED-001 K1e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 11622, 'completion': 648, 'reasoning': 0, 'cache_hit': 9216, 'cache_miss': 2406} lat=8.2s
+MIXED-002 K1e deepseek-chat: submitted verdict=1 calls=2 api=4 tok={'prompt': 8591, 'completion': 356, 'reasoning': 0, 'cache_hit': 6400, 'cache_miss': 2191} lat=5.3s
+MIXED-003 K1e deepseek-chat: submitted verdict=0 calls=5 api=6 tok={'prompt': 15011, 'completion': 970, 'reasoning': 0, 'cache_hit': 12416, 'cache_miss': 2595} lat=9.8s
+MIXED-004 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 12101, 'completion': 630, 'reasoning': 0, 'cache_hit': 9728, 'cache_miss': 2373} lat=7.8s
+MIXED-005 K1e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 11607, 'completion': 708, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2519} lat=7.7s
+MIXED-006 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11229, 'completion': 478, 'reasoning': 0, 'cache_hit': 8832, 'cache_miss': 2397} lat=7.4s
+MIXED-007 K1e deepseek-chat: submitted verdict=2 calls=4 api=5 tok={'prompt': 11539, 'completion': 1072, 'reasoning': 0, 'cache_hit': 9216, 'cache_miss': 2323} lat=9.9s
+MIXED-008 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8868, 'completion': 632, 'reasoning': 0, 'cache_hit': 6656, 'cache_miss': 2212} lat=6.9s
+MIXED-009 K1e deepseek-chat: submitted verdict=0 calls=5 api=6 tok={'prompt': 14239, 'completion': 473, 'reasoning': 0, 'cache_hit': 11648, 'cache_miss': 2591} lat=8.2s
+MIXED-010 K1e deepseek-chat: submitted verdict=0 calls=5 api=6 tok={'prompt': 14751, 'completion': 526, 'reasoning': 0, 'cache_hit': 12032, 'cache_miss': 2719} lat=8.5s
+MIXED-011 K1e deepseek-chat: submitted verdict=2 calls=4 api=5 tok={'prompt': 11535, 'completion': 529, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2447} lat=7.8s
+MIXED-012 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11937, 'completion': 926, 'reasoning': 0, 'cache_hit': 9472, 'cache_miss': 2465} lat=9.3s
+MIXED-013 K1e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 11285, 'completion': 479, 'reasoning': 0, 'cache_hit': 8960, 'cache_miss': 2325} lat=6.8s
+MIXED-014 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11501, 'completion': 1010, 'reasoning': 0, 'cache_hit': 9216, 'cache_miss': 2285} lat=9.2s
+MIXED-015 K1e deepseek-chat: submitted verdict=0 calls=5 api=6 tok={'prompt': 15735, 'completion': 1589, 'reasoning': 0, 'cache_hit': 13056, 'cache_miss': 2679} lat=12.8s
+MIXED-016 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 11499, 'completion': 440, 'reasoning': 0, 'cache_hit': 9088, 'cache_miss': 2411} lat=6.8s
+MIXED-017 K1e deepseek-chat: submitted verdict=0 calls=5 api=7 tok={'prompt': 16696, 'completion': 476, 'reasoning': 0, 'cache_hit': 13824, 'cache_miss': 2872} lat=8.5s
+MIXED-018 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8773, 'completion': 1202, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 2245} lat=9.2s
+MIXED-019 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8637, 'completion': 392, 'reasoning': 0, 'cache_hit': 6400, 'cache_miss': 2237} lat=4.9s
+MIXED-020 K1e deepseek-chat: submitted verdict=0 calls=4 api=4 tok={'prompt': 9384, 'completion': 1343, 'reasoning': 0, 'cache_hit': 6912, 'cache_miss': 2472} lat=9.6s
+MIXED-021 K1e deepseek-chat: submitted verdict=1 calls=4 api=6 tok={'prompt': 14594, 'completion': 619, 'reasoning': 0, 'cache_hit': 11776, 'cache_miss': 2818} lat=8.7s
+MIXED-022 K1e deepseek-chat: submitted verdict=3 calls=5 api=5 tok={'prompt': 11991, 'completion': 1689, 'reasoning': 0, 'cache_hit': 9600, 'cache_miss': 2391} lat=11.9s
+MIXED-023 K1e deepseek-chat: submitted verdict=0 calls=5 api=5 tok={'prompt': 11932, 'completion': 1095, 'reasoning': 0, 'cache_hit': 9472, 'cache_miss': 2460} lat=10.0s
+MIXED-024 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 11527, 'completion': 1028, 'reasoning': 0, 'cache_hit': 9216, 'cache_miss': 2311} lat=8.9s
+TRANSIENT-000 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8174, 'completion': 348, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2158} lat=5.6s
+TRANSIENT-001 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8237, 'completion': 418, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 2093} lat=5.9s
+TRANSIENT-002 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8269, 'completion': 645, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2253} lat=6.7s
+TRANSIENT-003 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8224, 'completion': 381, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2208} lat=5.6s
+TRANSIENT-004 K1e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 11010, 'completion': 428, 'reasoning': 0, 'cache_hit': 8448, 'cache_miss': 2562} lat=6.8s
+TRANSIENT-005 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10456, 'completion': 366, 'reasoning': 0, 'cache_hit': 8064, 'cache_miss': 2392} lat=5.9s
+TRANSIENT-006 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8228, 'completion': 426, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2212} lat=6.1s
+TRANSIENT-007 K1e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 11177, 'completion': 682, 'reasoning': 0, 'cache_hit': 8832, 'cache_miss': 2345} lat=7.3s
+TRANSIENT-008 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8307, 'completion': 391, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2291} lat=4.9s
+TRANSIENT-009 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8273, 'completion': 420, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2257} lat=5.6s
+TRANSIENT-010 K1e deepseek-chat: submitted verdict=1 calls=4 api=4 tok={'prompt': 8646, 'completion': 908, 'reasoning': 0, 'cache_hit': 6272, 'cache_miss': 2374} lat=7.4s
+TRANSIENT-011 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8429, 'completion': 903, 'reasoning': 0, 'cache_hit': 6272, 'cache_miss': 2157} lat=7.6s
+TRANSIENT-012 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8222, 'completion': 394, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2206} lat=5.6s
+TRANSIENT-013 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8323, 'completion': 837, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 2179} lat=6.5s
+TRANSIENT-014 K1e deepseek-chat: submitted verdict=2 calls=5 api=6 tok={'prompt': 13457, 'completion': 444, 'reasoning': 0, 'cache_hit': 10880, 'cache_miss': 2577} lat=7.8s
+TRANSIENT-015 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8261, 'completion': 408, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2245} lat=5.5s
+TRANSIENT-016 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8436, 'completion': 462, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 2292} lat=5.5s
+TRANSIENT-017 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8199, 'completion': 636, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2183} lat=7.0s
+TRANSIENT-018 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8254, 'completion': 431, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2238} lat=6.2s
+TRANSIENT-019 K1e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 10478, 'completion': 1246, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2286} lat=11.7s
+TRANSIENT-020 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8258, 'completion': 413, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2242} lat=5.6s
+TRANSIENT-021 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8223, 'completion': 362, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2207} lat=6.0s
+TRANSIENT-022 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8436, 'completion': 562, 'reasoning': 0, 'cache_hit': 6272, 'cache_miss': 2164} lat=6.1s
+TRANSIENT-023 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8297, 'completion': 454, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2281} lat=5.0s
+TRANSIENT-024 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8257, 'completion': 411, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2241} lat=5.7s
+TRANSIENT_P-000 K1e deepseek-chat: submitted verdict=0 calls=5 api=5 tok={'prompt': 11106, 'completion': 957, 'reasoning': 0, 'cache_hit': 8832, 'cache_miss': 2274} lat=8.7s
+TRANSIENT_P-001 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8356, 'completion': 662, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2340} lat=6.2s
+TRANSIENT_P-002 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8292, 'completion': 561, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2276} lat=5.8s
+TRANSIENT_P-003 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8318, 'completion': 424, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2302} lat=5.7s
+TRANSIENT_P-004 K1e deepseek-chat: submitted verdict=1 calls=3 api=6 tok={'prompt': 13464, 'completion': 502, 'reasoning': 0, 'cache_hit': 10752, 'cache_miss': 2712} lat=7.7s
+TRANSIENT_P-005 K1e deepseek-chat: submitted verdict=2 calls=4 api=6 tok={'prompt': 13205, 'completion': 1015, 'reasoning': 0, 'cache_hit': 10496, 'cache_miss': 2709} lat=9.7s
+TRANSIENT_P-006 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8246, 'completion': 487, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 2102} lat=6.1s
+TRANSIENT_P-007 K1e deepseek-chat: submitted verdict=0 calls=2 api=3 tok={'prompt': 5743, 'completion': 743, 'reasoning': 0, 'cache_hit': 3712, 'cache_miss': 2031} lat=6.8s
+TRANSIENT_P-008 K1e deepseek-chat: submitted verdict=1 calls=5 api=5 tok={'prompt': 11920, 'completion': 1518, 'reasoning': 0, 'cache_hit': 9472, 'cache_miss': 2448} lat=11.4s
+TRANSIENT_P-009 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8294, 'completion': 399, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2278} lat=5.2s
+TRANSIENT_P-010 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8512, 'completion': 758, 'reasoning': 0, 'cache_hit': 6272, 'cache_miss': 2240} lat=6.5s
+TRANSIENT_P-011 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8297, 'completion': 519, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 2153} lat=5.7s
+TRANSIENT_P-012 K1e deepseek-chat: submitted verdict=0 calls=2 api=4 tok={'prompt': 8096, 'completion': 476, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2080} lat=5.8s
+TRANSIENT_P-013 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8282, 'completion': 460, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2266} lat=6.1s
+TRANSIENT_P-014 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8531, 'completion': 673, 'reasoning': 0, 'cache_hit': 6272, 'cache_miss': 2259} lat=7.0s
+TRANSIENT_P-015 K1e deepseek-chat: submitted verdict=1 calls=5 api=7 tok={'prompt': 15996, 'completion': 894, 'reasoning': 0, 'cache_hit': 13184, 'cache_miss': 2812} lat=9.9s
+TRANSIENT_P-016 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8466, 'completion': 592, 'reasoning': 0, 'cache_hit': 6272, 'cache_miss': 2194} lat=6.4s
+TRANSIENT_P-017 K1e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10826, 'completion': 531, 'reasoning': 0, 'cache_hit': 8448, 'cache_miss': 2378} lat=6.9s
+TRANSIENT_P-018 K1e deepseek-chat: submitted verdict=1 calls=5 api=6 tok={'prompt': 14653, 'completion': 1680, 'reasoning': 0, 'cache_hit': 12160, 'cache_miss': 2493} lat=13.1s
+TRANSIENT_P-019 K1e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8275, 'completion': 538, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2259} lat=5.7s
+TRANSIENT_P-020 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8268, 'completion': 396, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2252} lat=5.3s
+TRANSIENT_P-021 K1e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8312, 'completion': 416, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 2296} lat=5.4s
+TRANSIENT_P-022 K1e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8372, 'completion': 924, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 2228} lat=7.9s
+TRANSIENT_P-023 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 11144, 'completion': 909, 'reasoning': 0, 'cache_hit': 8704, 'cache_miss': 2440} lat=8.3s
+TRANSIENT_P-024 K1e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 10857, 'completion': 514, 'reasoning': 0, 'cache_hit': 8576, 'cache_miss': 2281} lat=7.3s
+job exited 0
+BJ off-peak: running until done or the next peak window
+166 episode runs to do (334 already in logs\ds_chat_fc_k2decomp.jsonl)
+TRANSIENT-019 K2a deepseek-chat: submitted verdict=1 calls=4 api=4 tok={'prompt': 7630, 'completion': 883, 'reasoning': 0, 'cache_hit': 6784, 'cache_miss': 846} lat=7.8s
+TRANSIENT-020 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5516, 'completion': 367, 'reasoning': 0, 'cache_hit': 4992, 'cache_miss': 524} lat=5.0s
+TRANSIENT-021 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5523, 'completion': 268, 'reasoning': 0, 'cache_hit': 4992, 'cache_miss': 531} lat=5.1s
+TRANSIENT-022 K2a deepseek-chat: submitted verdict=2 calls=3 api=3 tok={'prompt': 5659, 'completion': 587, 'reasoning': 0, 'cache_hit': 4992, 'cache_miss': 667} lat=6.2s
+TRANSIENT-023 K2a deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7251, 'completion': 253, 'reasoning': 0, 'cache_hit': 5376, 'cache_miss': 1875} lat=5.2s
+TRANSIENT-024 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5504, 'completion': 254, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1664} lat=3.7s
+TRANSIENT_P-000 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5463, 'completion': 469, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1623} lat=4.5s
+TRANSIENT_P-001 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5440, 'completion': 526, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1600} lat=5.2s
+TRANSIENT_P-002 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5464, 'completion': 263, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1624} lat=4.0s
+TRANSIENT_P-003 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5520, 'completion': 266, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1680} lat=4.0s
+TRANSIENT_P-004 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5613, 'completion': 440, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1773} lat=4.9s
+TRANSIENT_P-005 K2a deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7141, 'completion': 214, 'reasoning': 0, 'cache_hit': 5376, 'cache_miss': 1765} lat=4.5s
+TRANSIENT_P-006 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5444, 'completion': 222, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1604} lat=4.1s
+TRANSIENT_P-007 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5479, 'completion': 407, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1639} lat=4.9s
+TRANSIENT_P-008 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5492, 'completion': 595, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1652} lat=5.8s
+TRANSIENT_P-009 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5735, 'completion': 572, 'reasoning': 0, 'cache_hit': 4096, 'cache_miss': 1639} lat=5.1s
+TRANSIENT_P-010 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5511, 'completion': 619, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1671} lat=5.1s
+TRANSIENT_P-011 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5404, 'completion': 556, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1564} lat=5.3s
+TRANSIENT_P-012 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5477, 'completion': 258, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1637} lat=4.0s
+TRANSIENT_P-013 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5449, 'completion': 385, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1609} lat=4.9s
+TRANSIENT_P-014 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5477, 'completion': 355, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1637} lat=4.8s
+TRANSIENT_P-015 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5522, 'completion': 258, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1682} lat=4.5s
+TRANSIENT_P-016 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5636, 'completion': 387, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1796} lat=4.4s
+TRANSIENT_P-017 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5428, 'completion': 260, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1588} lat=4.5s
+TRANSIENT_P-018 K2a deepseek-chat: submitted verdict=3 calls=4 api=4 tok={'prompt': 7551, 'completion': 1124, 'reasoning': 0, 'cache_hit': 5632, 'cache_miss': 1919} lat=8.9s
+TRANSIENT_P-019 K2a deepseek-chat: submitted verdict=1 calls=3 api=3 tok={'prompt': 5460, 'completion': 272, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1620} lat=3.6s
+TRANSIENT_P-020 K2a deepseek-chat: submitted verdict=2 calls=5 api=5 tok={'prompt': 10450, 'completion': 841, 'reasoning': 0, 'cache_hit': 8448, 'cache_miss': 2002} lat=8.8s
+TRANSIENT_P-021 K2a deepseek-chat: submitted verdict=2 calls=3 api=3 tok={'prompt': 5512, 'completion': 249, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1672} lat=4.0s
+TRANSIENT_P-022 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5527, 'completion': 504, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1687} lat=5.4s
+TRANSIENT_P-023 K2a deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7248, 'completion': 552, 'reasoning': 0, 'cache_hit': 5376, 'cache_miss': 1872} lat=6.3s
+TRANSIENT_P-024 K2a deepseek-chat: submitted verdict=0 calls=3 api=3 tok={'prompt': 5628, 'completion': 490, 'reasoning': 0, 'cache_hit': 3968, 'cache_miss': 1660} lat=5.0s
+PERSIST-000 K2e deepseek-chat: submitted verdict=1 calls=4 api=4 tok={'prompt': 7869, 'completion': 1219, 'reasoning': 0, 'cache_hit': 5632, 'cache_miss': 2237} lat=8.3s
+PERSIST-001 K2e deepseek-chat: submitted verdict=3 calls=4 api=5 tok={'prompt': 10153, 'completion': 1433, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 2345} lat=10.4s
+PERSIST-002 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7858, 'completion': 493, 'reasoning': 0, 'cache_hit': 5760, 'cache_miss': 2098} lat=5.6s
+PERSIST-003 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7914, 'completion': 1114, 'reasoning': 0, 'cache_hit': 5760, 'cache_miss': 2154} lat=8.0s
+PERSIST-004 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7956, 'completion': 529, 'reasoning': 0, 'cache_hit': 5760, 'cache_miss': 2196} lat=5.7s
+PERSIST-005 K2e deepseek-chat: submitted verdict=3 calls=4 api=6 tok={'prompt': 13185, 'completion': 1270, 'reasoning': 0, 'cache_hit': 10496, 'cache_miss': 2689} lat=10.9s
+PERSIST-006 K2e deepseek-chat: submitted verdict=1 calls=4 api=6 tok={'prompt': 12444, 'completion': 501, 'reasoning': 0, 'cache_hit': 9856, 'cache_miss': 2588} lat=8.1s
+PERSIST-007 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 9964, 'completion': 490, 'reasoning': 0, 'cache_hit': 7552, 'cache_miss': 2412} lat=7.2s
+PERSIST-008 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 10448, 'completion': 1044, 'reasoning': 0, 'cache_hit': 8064, 'cache_miss': 2384} lat=9.0s
+PERSIST-009 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 10119, 'completion': 1415, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 2311} lat=11.7s
+PERSIST-010 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 8016, 'completion': 705, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 1872} lat=7.2s
+PERSIST-011 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7769, 'completion': 491, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1881} lat=5.5s
+PERSIST-012 K2e deepseek-chat: submitted verdict=0 calls=3 api=6 tok={'prompt': 12378, 'completion': 475, 'reasoning': 0, 'cache_hit': 10240, 'cache_miss': 2138} lat=7.4s
+PERSIST-013 K2e deepseek-chat: submitted verdict=0 calls=4 api=6 tok={'prompt': 12482, 'completion': 512, 'reasoning': 0, 'cache_hit': 10240, 'cache_miss': 2242} lat=7.5s
+PERSIST-014 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7818, 'completion': 490, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1930} lat=5.6s
+PERSIST-015 K2e deepseek-chat: submitted verdict=1 calls=4 api=6 tok={'prompt': 12509, 'completion': 476, 'reasoning': 0, 'cache_hit': 10240, 'cache_miss': 2269} lat=7.9s
+PERSIST-016 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 10304, 'completion': 804, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2112} lat=8.2s
+PERSIST-017 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 9908, 'completion': 428, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 2100} lat=6.6s
+PERSIST-018 K2e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 10359, 'completion': 1488, 'reasoning': 0, 'cache_hit': 8448, 'cache_miss': 1911} lat=11.4s
+PERSIST-019 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10031, 'completion': 463, 'reasoning': 0, 'cache_hit': 8064, 'cache_miss': 1967} lat=7.1s
+PERSIST-020 K2e deepseek-chat: submitted verdict=2 calls=4 api=6 tok={'prompt': 12474, 'completion': 471, 'reasoning': 0, 'cache_hit': 10240, 'cache_miss': 2234} lat=7.5s
+PERSIST-021 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7834, 'completion': 451, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1946} lat=5.4s
+PERSIST-022 K2e deepseek-chat: submitted verdict=3 calls=4 api=5 tok={'prompt': 10507, 'completion': 1150, 'reasoning': 0, 'cache_hit': 8448, 'cache_miss': 2059} lat=10.2s
+PERSIST-023 K2e deepseek-chat: submitted verdict=0 calls=4 api=4 tok={'prompt': 7844, 'completion': 554, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 1828} lat=5.8s
+PERSIST-024 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10001, 'completion': 1024, 'reasoning': 0, 'cache_hit': 7936, 'cache_miss': 2065} lat=9.5s
+SHARED-000 K2e deepseek-chat: submitted verdict=2 calls=2 api=4 tok={'prompt': 7737, 'completion': 451, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1849} lat=6.3s
+SHARED-001 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10041, 'completion': 393, 'reasoning': 0, 'cache_hit': 7936, 'cache_miss': 2105} lat=6.5s
+SHARED-002 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 10313, 'completion': 680, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2121} lat=8.7s
+SHARED-003 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7786, 'completion': 387, 'reasoning': 0, 'cache_hit': 5887, 'cache_miss': 1899} lat=5.0s
+SHARED-004 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10652, 'completion': 570, 'reasoning': 0, 'cache_hit': 8448, 'cache_miss': 2204} lat=7.5s
+SHARED-005 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7855, 'completion': 415, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 1839} lat=5.3s
+SHARED-006 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7890, 'completion': 498, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 1874} lat=5.9s
+SHARED-007 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7989, 'completion': 573, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 1845} lat=6.7s
+SHARED-008 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7961, 'completion': 526, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 1817} lat=6.0s
+SHARED-009 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7982, 'completion': 498, 'reasoning': 0, 'cache_hit': 6143, 'cache_miss': 1839} lat=5.7s
+SHARED-010 K2e deepseek-chat: submitted verdict=1 calls=2 api=4 tok={'prompt': 7925, 'completion': 501, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 2037} lat=6.1s
+SHARED-011 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7781, 'completion': 504, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1893} lat=6.4s
+SHARED-012 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7889, 'completion': 457, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 1873} lat=5.5s
+SHARED-013 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 10631, 'completion': 1020, 'reasoning': 0, 'cache_hit': 8704, 'cache_miss': 1927} lat=9.8s
+SHARED-014 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10799, 'completion': 897, 'reasoning': 0, 'cache_hit': 8832, 'cache_miss': 1967} lat=9.3s
+SHARED-015 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10115, 'completion': 389, 'reasoning': 0, 'cache_hit': 8063, 'cache_miss': 2052} lat=7.0s
+SHARED-016 K2e deepseek-chat: submitted verdict=2 calls=4 api=5 tok={'prompt': 11155, 'completion': 926, 'reasoning': 0, 'cache_hit': 8960, 'cache_miss': 2195} lat=10.6s
+SHARED-017 K2e deepseek-chat: submitted verdict=2 calls=3 api=6 tok={'prompt': 12629, 'completion': 565, 'reasoning': 0, 'cache_hit': 10368, 'cache_miss': 2261} lat=8.2s
+SHARED-018 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7858, 'completion': 435, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1970} lat=6.1s
+SHARED-019 K2e deepseek-chat: submitted verdict=2 calls=3 api=6 tok={'prompt': 13292, 'completion': 1060, 'reasoning': 0, 'cache_hit': 11136, 'cache_miss': 2156} lat=11.3s
+SHARED-020 K2e deepseek-chat: submitted verdict=1 calls=2 api=3 tok={'prompt': 5472, 'completion': 368, 'reasoning': 0, 'cache_hit': 3840, 'cache_miss': 1632} lat=4.1s
+SHARED-021 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7926, 'completion': 509, 'reasoning': 0, 'cache_hit': 6143, 'cache_miss': 1783} lat=6.0s
+SHARED-022 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 8129, 'completion': 844, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 1985} lat=8.0s
+SHARED-023 K2e deepseek-chat: submitted verdict=1 calls=2 api=4 tok={'prompt': 7733, 'completion': 429, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1845} lat=5.5s
+SHARED-024 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 11108, 'completion': 1457, 'reasoning': 0, 'cache_hit': 8960, 'cache_miss': 2148} lat=10.9s
+MIXED-000 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7915, 'completion': 516, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 1899} lat=5.7s
+MIXED-001 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7812, 'completion': 530, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 1796} lat=6.6s
+MIXED-002 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 11009, 'completion': 1456, 'reasoning': 0, 'cache_hit': 8960, 'cache_miss': 2049} lat=10.9s
+MIXED-003 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7902, 'completion': 431, 'reasoning': 0, 'cache_hit': 6015, 'cache_miss': 1887} lat=5.8s
+MIXED-004 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10459, 'completion': 531, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2267} lat=7.7s
+MIXED-005 K2e deepseek-chat: submitted verdict=1 calls=5 api=7 tok={'prompt': 15200, 'completion': 520, 'reasoning': 0, 'cache_hit': 12672, 'cache_miss': 2528} lat=8.9s
+MIXED-006 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10198, 'completion': 512, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2006} lat=6.7s
+MIXED-007 K2e deepseek-chat: submitted verdict=3 calls=5 api=6 tok={'prompt': 13105, 'completion': 1445, 'reasoning': 0, 'cache_hit': 10624, 'cache_miss': 2481} lat=12.3s
+MIXED-008 K2e deepseek-chat: submitted verdict=0 calls=6 api=8 tok={'prompt': 18318, 'completion': 580, 'reasoning': 0, 'cache_hit': 15616, 'cache_miss': 2702} lat=10.8s
+MIXED-009 K2e deepseek-chat: submitted verdict=0 calls=6 api=8 tok={'prompt': 18390, 'completion': 560, 'reasoning': 0, 'cache_hit': 15615, 'cache_miss': 2775} lat=10.6s
+MIXED-010 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10376, 'completion': 789, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2184} lat=8.4s
+MIXED-011 K2e deepseek-chat: submitted verdict=2 calls=4 api=5 tok={'prompt': 10456, 'completion': 594, 'reasoning': 0, 'cache_hit': 8320, 'cache_miss': 2136} lat=7.7s
+MIXED-012 K2e deepseek-chat: submitted verdict=0 calls=4 api=4 tok={'prompt': 8412, 'completion': 945, 'reasoning': 0, 'cache_hit': 6528, 'cache_miss': 1884} lat=8.3s
+MIXED-013 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 10231, 'completion': 529, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2039} lat=7.6s
+MIXED-014 K2e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 10661, 'completion': 867, 'reasoning': 0, 'cache_hit': 8576, 'cache_miss': 2085} lat=9.1s
+MIXED-015 K2e deepseek-chat: submitted verdict=1 calls=3 api=6 tok={'prompt': 12442, 'completion': 445, 'reasoning': 0, 'cache_hit': 10111, 'cache_miss': 2331} lat=7.4s
+MIXED-016 K2e deepseek-chat: submitted verdict=0 calls=5 api=6 tok={'prompt': 13501, 'completion': 893, 'reasoning': 0, 'cache_hit': 11136, 'cache_miss': 2365} lat=10.4s
+MIXED-017 K2e deepseek-chat: submitted verdict=0 calls=6 api=6 tok={'prompt': 12975, 'completion': 518, 'reasoning': 0, 'cache_hit': 10624, 'cache_miss': 2351} lat=8.0s
+MIXED-018 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 10336, 'completion': 531, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2144} lat=7.5s
+MIXED-019 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7892, 'completion': 457, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 1748} lat=6.0s
+MIXED-020 K2e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 10689, 'completion': 699, 'reasoning': 0, 'cache_hit': 8576, 'cache_miss': 2113} lat=8.0s
+MIXED-021 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7965, 'completion': 526, 'reasoning': 0, 'cache_hit': 6143, 'cache_miss': 1822} lat=5.9s
+MIXED-022 K2e deepseek-chat: submitted verdict=1 calls=5 api=6 tok={'prompt': 13147, 'completion': 497, 'reasoning': 0, 'cache_hit': 10752, 'cache_miss': 2395} lat=7.8s
+MIXED-023 K2e deepseek-chat: submitted verdict=1 calls=4 api=6 tok={'prompt': 12572, 'completion': 451, 'reasoning': 0, 'cache_hit': 10368, 'cache_miss': 2204} lat=8.4s
+MIXED-024 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7814, 'completion': 447, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1926} lat=6.3s
+TRANSIENT-000 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7683, 'completion': 424, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1795} lat=6.0s
+TRANSIENT-001 K2e deepseek-chat: submitted verdict=0 calls=4 api=5 tok={'prompt': 10268, 'completion': 578, 'reasoning': 0, 'cache_hit': 8320, 'cache_miss': 1948} lat=7.2s
+TRANSIENT-002 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7589, 'completion': 380, 'reasoning': 0, 'cache_hit': 5760, 'cache_miss': 1829} lat=5.9s
+TRANSIENT-003 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7716, 'completion': 747, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1828} lat=7.8s
+TRANSIENT-004 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10460, 'completion': 592, 'reasoning': 0, 'cache_hit': 8448, 'cache_miss': 2012} lat=7.6s
+TRANSIENT-005 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7687, 'completion': 555, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1799} lat=7.3s
+TRANSIENT-006 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7708, 'completion': 477, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1820} lat=5.5s
+TRANSIENT-007 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7744, 'completion': 876, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1856} lat=7.9s
+TRANSIENT-008 K2e deepseek-chat: submitted verdict=2 calls=2 api=4 tok={'prompt': 7570, 'completion': 414, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1682} lat=6.4s
+TRANSIENT-009 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7728, 'completion': 456, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1840} lat=5.8s
+TRANSIENT-010 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10365, 'completion': 804, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2173} lat=8.4s
+TRANSIENT-011 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7618, 'completion': 388, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1730} lat=5.4s
+TRANSIENT-012 K2e deepseek-chat: submitted verdict=2 calls=3 api=4 tok={'prompt': 7694, 'completion': 425, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1806} lat=5.4s
+TRANSIENT-013 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10088, 'completion': 522, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 1896} lat=6.4s
+TRANSIENT-014 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 10267, 'completion': 1077, 'reasoning': 0, 'cache_hit': 8320, 'cache_miss': 1947} lat=10.0s
+TRANSIENT-015 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7741, 'completion': 476, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1853} lat=5.6s
+TRANSIENT-016 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7874, 'completion': 702, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1986} lat=6.2s
+TRANSIENT-017 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 9685, 'completion': 372, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 1877} lat=6.5s
+TRANSIENT-018 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7633, 'completion': 383, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1745} lat=5.4s
+TRANSIENT-019 K2e deepseek-chat: submitted verdict=2 calls=2 api=5 tok={'prompt': 9674, 'completion': 390, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 1866} lat=6.0s
+TRANSIENT-020 K2e deepseek-chat: submitted verdict=1 calls=2 api=4 tok={'prompt': 7518, 'completion': 372, 'reasoning': 0, 'cache_hit': 5632, 'cache_miss': 1886} lat=5.0s
+TRANSIENT-021 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7730, 'completion': 466, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1842} lat=6.0s
+TRANSIENT-022 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 9971, 'completion': 385, 'reasoning': 0, 'cache_hit': 7936, 'cache_miss': 2035} lat=6.0s
+TRANSIENT-023 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7708, 'completion': 486, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1820} lat=5.4s
+TRANSIENT-024 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 9726, 'completion': 372, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 1918} lat=6.6s
+TRANSIENT_P-000 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 9798, 'completion': 521, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 1990} lat=6.4s
+TRANSIENT_P-001 K2e deepseek-chat: submitted verdict=0 calls=5 api=8 tok={'prompt': 17277, 'completion': 544, 'reasoning': 0, 'cache_hit': 14720, 'cache_miss': 2557} lat=10.0s
+TRANSIENT_P-002 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7740, 'completion': 486, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1852} lat=6.0s
+TRANSIENT_P-003 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7546, 'completion': 390, 'reasoning': 0, 'cache_hit': 5760, 'cache_miss': 1786} lat=5.4s
+TRANSIENT_P-004 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 9950, 'completion': 408, 'reasoning': 0, 'cache_hit': 7936, 'cache_miss': 2014} lat=6.3s
+TRANSIENT_P-005 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 9783, 'completion': 792, 'reasoning': 0, 'cache_hit': 7808, 'cache_miss': 1975} lat=8.4s
+TRANSIENT_P-006 K2e deepseek-chat: submitted verdict=1 calls=5 api=6 tok={'prompt': 12425, 'completion': 478, 'reasoning': 0, 'cache_hit': 10240, 'cache_miss': 2185} lat=7.1s
+TRANSIENT_P-007 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7776, 'completion': 546, 'reasoning': 0, 'cache_hit': 6016, 'cache_miss': 1760} lat=5.9s
+TRANSIENT_P-008 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7703, 'completion': 443, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1815} lat=5.4s
+TRANSIENT_P-009 K2e deepseek-chat: submitted verdict=1 calls=5 api=5 tok={'prompt': 10897, 'completion': 1029, 'reasoning': 0, 'cache_hit': 8832, 'cache_miss': 2065} lat=8.9s
+TRANSIENT_P-010 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10414, 'completion': 673, 'reasoning': 0, 'cache_hit': 8320, 'cache_miss': 2094} lat=7.6s
+TRANSIENT_P-011 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10327, 'completion': 740, 'reasoning': 0, 'cache_hit': 8320, 'cache_miss': 2007} lat=8.5s
+TRANSIENT_P-012 K2e deepseek-chat: submitted verdict=2 calls=4 api=6 tok={'prompt': 12290, 'completion': 656, 'reasoning': 0, 'cache_hit': 10112, 'cache_miss': 2178} lat=9.2s
+TRANSIENT_P-013 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10068, 'completion': 540, 'reasoning': 0, 'cache_hit': 8064, 'cache_miss': 2004} lat=7.5s
+TRANSIENT_P-014 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7699, 'completion': 512, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1811} lat=5.9s
+TRANSIENT_P-015 K2e deepseek-chat: submitted verdict=1 calls=4 api=5 tok={'prompt': 10247, 'completion': 611, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2055} lat=7.0s
+TRANSIENT_P-016 K2e deepseek-chat: submitted verdict=1 calls=3 api=5 tok={'prompt': 10097, 'completion': 824, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 1905} lat=8.5s
+TRANSIENT_P-017 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 8091, 'completion': 601, 'reasoning': 0, 'cache_hit': 6144, 'cache_miss': 1947} lat=6.3s
+TRANSIENT_P-018 K2e deepseek-chat: submitted verdict=3 calls=4 api=5 tok={'prompt': 9946, 'completion': 1120, 'reasoning': 0, 'cache_hit': 8064, 'cache_miss': 1882} lat=9.0s
+TRANSIENT_P-019 K2e deepseek-chat: submitted verdict=1 calls=3 api=4 tok={'prompt': 7556, 'completion': 427, 'reasoning': 0, 'cache_hit': 5760, 'cache_miss': 1796} lat=5.6s
+TRANSIENT_P-020 K2e deepseek-chat: submitted verdict=2 calls=5 api=6 tok={'prompt': 14520, 'completion': 1526, 'reasoning': 0, 'cache_hit': 12288, 'cache_miss': 2232} lat=13.2s
+TRANSIENT_P-021 K2e deepseek-chat: submitted verdict=2 calls=3 api=5 tok={'prompt': 9995, 'completion': 461, 'reasoning': 0, 'cache_hit': 7936, 'cache_miss': 2059} lat=6.9s
+TRANSIENT_P-022 K2e deepseek-chat: submitted verdict=0 calls=3 api=5 tok={'prompt': 10326, 'completion': 832, 'reasoning': 0, 'cache_hit': 8192, 'cache_miss': 2134} lat=8.1s
+TRANSIENT_P-023 K2e deepseek-chat: submitted verdict=0 calls=3 api=4 tok={'prompt': 7646, 'completion': 958, 'reasoning': 0, 'cache_hit': 5888, 'cache_miss': 1758} lat=8.2s
+TRANSIENT_P-024 K2e deepseek-chat: submitted verdict=0 calls=5 api=5 tok={'prompt': 10320, 'completion': 615, 'reasoning': 0, 'cache_hit': 8320, 'cache_miss': 2000} lat=6.6s
+PERSIST-000 K2p deepseek-chat: submitted verdict=0 calls=6 api=1 tok={'prompt': 994, 'completion': 222, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 226} lat=1.3s
+PERSIST-001 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 997, 'completion': 223, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 229} lat=1.5s
+PERSIST-002 K2p deepseek-chat: submitted verdict=0 calls=3 api=1 tok={'prompt': 998, 'completion': 228, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 230} lat=1.8s
+PERSIST-003 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 1004, 'completion': 226, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 236} lat=1.9s
+PERSIST-004 K2p deepseek-chat: submitted verdict=1 calls=4 api=1 tok={'prompt': 1020, 'completion': 229, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 252} lat=1.7s
+PERSIST-005 K2p deepseek-chat: submitted verdict=2 calls=1 api=1 tok={'prompt': 992, 'completion': 227, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 224} lat=1.5s
+PERSIST-006 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 994, 'completion': 222, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 226} lat=1.7s
+PERSIST-007 K2p deepseek-chat: submitted verdict=0 calls=2 api=1 tok={'prompt': 997, 'completion': 223, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 229} lat=1.9s
+PERSIST-008 K2p deepseek-chat: submitted verdict=1 calls=2 api=1 tok={'prompt': 998, 'completion': 228, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 230} lat=1.6s
+PERSIST-009 K2p deepseek-chat: submitted verdict=1 calls=3 api=1 tok={'prompt': 1004, 'completion': 226, 'reasoning': 0, 'cache_hit': 768, 'cache_miss': 236} lat=1.4s
+job exited 0

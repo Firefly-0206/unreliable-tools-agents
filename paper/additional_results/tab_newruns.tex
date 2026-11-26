@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{Run records of the later single-decision runs. Answers: stored records (all conditions); Date: last-modified date of the record file (records carry no timestamp); in (cache) and out (reasoning): input and output tokens summed over answers, in millions, with cache hits and reasoning tokens in brackets; latency: median per answer, seconds. Sonnet: conditions P0, L1--L3, C2, X1, H1 on 140 tasks; Sonnet (confirmation): P0, L2, H1 on 134 tasks, run after the analysis plan; terra (high): P0, L2, H1; flash (thinking): the 64k composite, its 16k first run (420 answers) and the 191 re-sampled answers.}
+\label{tab:newruns}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrcccc@{}}
+\toprule
+Run & Answers & Date & In (cache), M & Out (reas.), M & Latency, s \\
+\midrule
+Sonnet 5.5 (high) & \llmRecSonnetRows & \llmRecSonnetDate & \llmRecSonnetInTokM\ (\llmRecSonnetCacheTokM) & \llmRecSonnetOutTokM\ (\llmRecSonnetReasonTokM) & \llmRecSonnetLatMedian \\
+Sonnet 5.5 (confirmation) & \llmRecSonnetCfRows & \llmRecSonnetCfDate & \llmRecSonnetCfInTokM\ (\llmRecSonnetCfCacheTokM) & \llmRecSonnetCfOutTokM\ (\llmRecSonnetCfReasonTokM) & \llmRecSonnetCfLatMedian \\
+gpt-6.1-terra (high) & \llmRecTerraHighRows & \llmRecTerraHighDate & \llmRecTerraHighInTokM\ (\llmRecTerraHighCacheTokM) & \llmRecTerraHighOutTokM\ (\llmRecTerraHighReasonTokM) & \llmRecTerraHighLatMedian \\
+flash (thinking), composite & \llmRecFlashThinkRows & \llmRecFlashThinkDate & \llmRecFlashThinkInTokM\ (\llmRecFlashThinkCacheTokM) & \llmRecFlashThinkOutTokM\ (\llmRecFlashThinkReasonTokM) & \llmRecFlashThinkLatMedian \\
+flash (thinking), 16k first run & \llmRecFlashThinkSixteenRows & \llmRecFlashThinkSixteenDate & \llmRecFlashThinkSixteenInTokM\ (\llmRecFlashThinkSixteenCacheTokM) & \llmRecFlashThinkSixteenOutTokM\ (\llmRecFlashThinkSixteenReasonTokM) & \llmRecFlashThinkSixteenLatMedian \\
+flash (thinking), 64k re-samples & \llmRecFlashThinkSixtyFourRows & \llmRecFlashThinkSixtyFourDate & \llmRecFlashThinkSixtyFourInTokM\ (\llmRecFlashThinkSixtyFourCacheTokM) & \llmRecFlashThinkSixtyFourOutTokM\ (\llmRecFlashThinkSixtyFourReasonTokM) & \llmRecFlashThinkSixtyFourLatMedian \\
+\bottomrule
+\end{tabular}
+\end{table}

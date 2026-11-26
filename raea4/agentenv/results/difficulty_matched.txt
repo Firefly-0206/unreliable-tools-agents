@@ -1,0 +1,12 @@
+== flash: 375 first decisions; unmatched suboptimal share R 89% (n=204, median margin 0.21) N 11% (n=171, median margin 0.42)
+   matched on margin (overlap weight 123): suboptimal share R 88%  N 12%  difference +76 [+62, +89] points; first-step loss R 0.30  N 0.02  difference +0.28 [+0.22, +0.35]
+   bins (margin: n_R / n_N, suboptimal R / N): 0-0.05: 8/16, 88%/25%; 0.05-0.1: 24/15, 100%/53%; 0.1-0.2: 62/23, 97%/9%; 0.2-0.4: 61/28, 84%/0%; 0.4-0.8: 47/84, 81%/6%; 0.8-inf: 2/5, 100%/0%
+   of the suboptimal first actions in group N, 42% choose the replica tool
+== terra: 375 first decisions; unmatched suboptimal share R 60% (n=204, median margin 0.21) N 6% (n=171, median margin 0.42)
+   matched on margin (overlap weight 123): suboptimal share R 53%  N 7%  difference +46 [+36, +54] points; first-step loss R 0.11  N 0.00  difference +0.11 [+0.08, +0.15]
+   bins (margin: n_R / n_N, suboptimal R / N): 0-0.05: 8/16, 88%/25%; 0.05-0.1: 24/15, 96%/47%; 0.1-0.2: 62/23, 82%/0%; 0.2-0.4: 61/28, 52%/0%; 0.4-0.8: 47/84, 21%/0%; 0.8-inf: 2/5, 0%/0%
+   of the suboptimal first actions in group N, 0% choose the replica tool
+== sonnet: 375 first decisions; unmatched suboptimal share R 57% (n=204, median margin 0.21) N 6% (n=171, median margin 0.42)
+   matched on margin (overlap weight 123): suboptimal share R 49%  N 7%  difference +43 [+28, +57] points; first-step loss R 0.11  N 0.01  difference +0.10 [+0.05, +0.16]
+   bins (margin: n_R / n_N, suboptimal R / N): 0-0.05: 8/16, 75%/31%; 0.05-0.1: 24/15, 83%/40%; 0.1-0.2: 62/23, 79%/0%; 0.2-0.4: 61/28, 54%/0%; 0.4-0.8: 47/84, 19%/0%; 0.8-inf: 2/5, 0%/0%
+   of the suboptimal first actions in group N, 27% choose the replica tool

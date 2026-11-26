@@ -1,0 +1,9 @@
+% Moved out of main.pdf on 2026-11-18 (appendix trim); verbatim from sections/app_llm.tex. Inputs are relative to the manuscript root.
+\begin{table}[!htbp]
+\centering
+\caption{Single-decision benchmark, 140 base tasks, for flash (non-thinking), gpt-6.1-terra (effort medium), Sonnet 5.5 (effort high), gpt-6.1-terra at effort high and flash with thinking mode (64k composite); conditions not run for a model are absent. Columns: one-step regret (optimal continuation) with 95\% task-bootstrap CI; Optimal and Severe: share of answers (\%) with the optimal first action and with a benign declaration when exact P(benign) is below $\tau^*$; $|\hat p-p|$: mean absolute error of the stated P(benign); MCWA: share of parsed answers (\%) with stated P(benign) within $0.02$ of the exact benign-state marginal and a suboptimal action. T1 was not run for gpt-6.1-terra. Exact MMI planner on the same tasks: 0.45 [0.30, 0.64] regret, 64\% optimal, 9\% severe; forbid-repeat: 0.02 (grid: 0.47 / 0.02). Controls: \cref{tab:llm-contrasts}.}
+\label{tab:llm-main}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{tables/llm_main}
+\end{table}

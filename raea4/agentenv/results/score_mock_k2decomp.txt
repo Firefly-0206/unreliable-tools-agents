@@ -1,0 +1,430 @@
+﻿model           prot family      cond    n   loss       regret [95% CI]  info/verd severe   esc   acc calls  useC  repC  repL noSub Probe1 d-Probe1
+mock-docreader  fc   MIXED       K1e     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  fc   MIXED       K2a     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  fc   MIXED       K2e     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  fc   MIXED       K2p     3   1.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  1.67  1.00  0.00  0.33  0.00   2.65    -2.65
+mock-docreader  fc   PERSIST     K1e     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  fc   PERSIST     K2a     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  fc   PERSIST     K2e     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  fc   PERSIST     K2p     3   3.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  3.67  1.00  0.67  1.00  0.00   1.55    -1.55
+mock-docreader  fc   SHARED      K1e     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  fc   SHARED      K2a     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  fc   SHARED      K2e     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  fc   SHARED      K2p     3   3.00    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.00  1.00  0.67  0.00  0.00   1.76    -1.76
+mock-docreader  fc   TRANSIENT   K1e     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  fc   TRANSIENT   K2a     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  fc   TRANSIENT   K2e     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  fc   TRANSIENT   K2p     3   2.00    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.00  1.00  1.00  0.00  0.00   4.85    -4.85
+mock-docreader  fc   TRANSIENT_P K1e     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  fc   TRANSIENT_P K2a     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  fc   TRANSIENT_P K2e     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  fc   TRANSIENT_P K2p     3   2.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.67  1.00  1.67  0.00  0.00   4.79    -4.79
+mock-docreader  text MIXED       K1      3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  text MIXED       K1e     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  text MIXED       K2      3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  text MIXED       K2a     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  text MIXED       K2e     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-docreader  text MIXED       K2p     3   1.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  1.67  1.00  0.00  0.33  0.00   2.65    -2.65
+mock-docreader  text PERSIST     K1      3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  text PERSIST     K1e     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  text PERSIST     K2      3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  text PERSIST     K2a     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  text PERSIST     K2e     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-docreader  text PERSIST     K2p     3   3.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  3.67  1.00  0.67  1.00  0.00   1.55    -1.55
+mock-docreader  text SHARED      K1      3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  text SHARED      K1e     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  text SHARED      K2      3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  text SHARED      K2a     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  text SHARED      K2e     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-docreader  text SHARED      K2p     3   3.00    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.00  1.00  0.67  0.00  0.00   1.76    -1.76
+mock-docreader  text TRANSIENT   K1      3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  text TRANSIENT   K1e     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  text TRANSIENT   K2      3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  text TRANSIENT   K2a     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  text TRANSIENT   K2e     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-docreader  text TRANSIENT   K2p     3   2.00    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.00  1.00  1.00  0.00  0.00   4.85    -4.85
+mock-docreader  text TRANSIENT_P K1      3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  text TRANSIENT_P K1e     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  text TRANSIENT_P K2      3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  text TRANSIENT_P K2a     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  text TRANSIENT_P K2e     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-docreader  text TRANSIENT_P K2p     3   2.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.67  1.00  1.67  0.00  0.00   4.79    -4.79
+mock-nolink     text MIXED       K1      3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-nolink     text MIXED       K1e     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-nolink     text MIXED       K2      3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-nolink     text MIXED       K2a     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-nolink     text MIXED       K2e     3   3.00    2.08 [ 1.08, 3.83] 2.08/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   2.65    -0.56
+mock-nolink     text MIXED       K2p     3   1.67    0.59 [ 0.00, 1.76] 0.59/ 0.00   0.00  0.00  1.00  1.67  1.00  0.33  0.00  0.00   2.65    -2.06
+mock-nolink     text PERSIST     K1      3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-nolink     text PERSIST     K1e     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-nolink     text PERSIST     K2      3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-nolink     text PERSIST     K2a     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-nolink     text PERSIST     K2e     3   3.00    8.25 [ 6.41,11.86] 3.42/ 4.82   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.55     6.70
+mock-nolink     text PERSIST     K2p     3   3.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  3.67  1.00  0.67  1.00  0.00   1.55    -1.55
+mock-nolink     text SHARED      K1      3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-nolink     text SHARED      K1e     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-nolink     text SHARED      K2      3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-nolink     text SHARED      K2a     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-nolink     text SHARED      K2e     3   3.00    2.73 [ 0.79, 6.46] 1.75/ 0.98   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   1.76     0.97
+mock-nolink     text SHARED      K2p     3   2.00    1.89 [ 0.00, 5.67] 0.78/ 1.10   0.00  0.00  1.00  2.00  1.00  1.00  0.00  0.00   1.76     0.13
+mock-nolink     text TRANSIENT   K1      3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-nolink     text TRANSIENT   K1e     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-nolink     text TRANSIENT   K2      3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-nolink     text TRANSIENT   K2a     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-nolink     text TRANSIENT   K2e     3   3.00    0.90 [ 0.78, 0.99] 0.90/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.85    -3.95
+mock-nolink     text TRANSIENT   K2p     3   2.00    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.00  1.00  1.00  0.00  0.00   4.85    -4.85
+mock-nolink     text TRANSIENT_P K1      3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-nolink     text TRANSIENT_P K1e     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-nolink     text TRANSIENT_P K2      3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-nolink     text TRANSIENT_P K2a     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-nolink     text TRANSIENT_P K2e     3   3.00    1.21 [ 0.96, 1.50] 1.21/ 0.00   0.00  0.00  1.00  3.00  1.00  2.00  0.00  0.00   4.79    -3.57
+mock-nolink     text TRANSIENT_P K2p     3   2.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.67  1.00  1.67  0.00  0.00   4.79    -4.79
+mock-random     text MIXED       K1      3  15.00   11.24 [ 0.00,17.45] 0.80/10.44   0.00  0.00  0.33  1.67  1.00  0.33  0.00  0.00   2.65     8.60
+mock-random     text MIXED       K1e     3   7.00   10.07 [ 6.01,14.74] 3.74/ 6.32   0.00  0.00  0.67  0.33  0.33  0.00  0.00  0.00   2.65     7.42
+mock-random     text MIXED       K2      3  23.33   21.60 [ 0.31,61.27] 1.62/19.98   0.33  0.00  0.67  2.33  0.67  1.00  0.00  0.00   2.65    18.95
+mock-random     text MIXED       K2a     3  24.33   19.43 [17.35,23.21] 3.68/15.75   0.00  0.00  0.00  2.33  0.33  0.00  0.33  0.00   2.65    16.78
+mock-random     text MIXED       K2e     3  16.33   20.79 [14.19,27.92] 2.91/17.89   0.00  0.00  0.33  1.00  0.00  0.00  0.00  0.00   2.65    18.14
+mock-random     text MIXED       K2p     3   1.67    0.59 [ 0.00, 1.76] 0.59/ 0.00   0.00  0.00  1.00  1.67  1.00  0.33  0.00  0.00   2.65    -2.06
+mock-random     text PERSIST     K1      3  10.67    4.65 [ 1.21, 9.33] 2.12/ 2.53   0.00  0.00  0.67  2.00  0.33  0.00  0.33  0.00   1.55     3.10
+mock-random     text PERSIST     K1e     3  10.67   10.20 [ 2.05,19.52] 2.59/ 7.61   0.00  0.00  0.67  1.67  0.33  0.00  0.00  0.00   1.55     8.65
+mock-random     text PERSIST     K2      3  15.67   16.20 [ 9.33,21.93] 3.33/12.87   0.00  0.00  0.33  1.67  0.67  0.33  0.00  0.00   1.55    14.65
+mock-random     text PERSIST     K2a     3  24.00   18.31 [12.87,21.19] 2.11/16.20   0.00  0.00  0.00  2.00  0.00  0.00  0.33  0.00   1.55    16.76
+mock-random     text PERSIST     K2e     3  22.00   15.35 [12.36,17.21] 2.85/12.51   0.00  0.00  0.00  1.33  0.67  0.00  0.00  0.00   1.55    13.80
+mock-random     text PERSIST     K2p     3   3.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  3.67  1.00  0.67  1.00  0.00   1.55    -1.55
+mock-random     text SHARED      K1      3  16.33   15.81 [11.40,19.73] 3.15/12.67   0.00  0.00  0.33  1.67  0.67  0.33  0.00  0.00   1.76    14.06
+mock-random     text SHARED      K1e     3   9.67    6.70 [ 1.25,10.14] 2.90/ 3.80   0.00  0.00  0.67  1.67  1.00  0.00  0.00  0.00   1.76     4.95
+mock-random     text SHARED      K2      3  33.67   20.17 [ 6.40,46.96] 2.65/17.52   0.33  0.00  0.00  0.33  0.33  0.00  0.00  0.00   1.76    18.41
+mock-random     text SHARED      K2a     3   3.67    2.52 [ 0.91, 3.84] 2.52/ 0.00   0.00  0.00  1.00  1.67  1.00  0.00  0.00  0.00   1.76     0.77
+mock-random     text SHARED      K2e     3  15.00   12.48 [ 7.21,18.82] 1.67/10.81   0.00  0.00  0.33  0.67  0.33  0.00  0.00  0.00   1.76    10.72
+mock-random     text SHARED      K2p     3   2.00    1.89 [ 0.00, 5.67] 0.78/ 1.10   0.00  0.00  1.00  2.00  1.00  1.00  0.00  0.00   1.76     0.13
+mock-random     text TRANSIENT   K1      3  15.33   11.87 [ 0.19,19.91] 1.97/ 9.90   0.00  0.00  0.33  1.67  1.00  0.33  0.00  0.00   4.85     7.02
+mock-random     text TRANSIENT   K1e     3  30.00   17.79 [ 3.49,27.22] 4.06/13.73   0.33  0.00  0.33  2.00  0.67  0.67  0.00  0.00   4.85    12.94
+mock-random     text TRANSIENT   K2      3  34.67   19.57 [14.21,27.22] 6.77/12.80   0.33  0.00  0.00  0.67  0.00  0.00  0.00  0.00   4.85    14.72
+mock-random     text TRANSIENT   K2a     3   9.00   17.95 [14.14,20.98] 3.87/14.08   0.00  0.00  0.67  1.67  0.67  0.33  0.00  0.00   4.85    13.10
+mock-random     text TRANSIENT   K2e     3  37.33   33.43 [17.33,58.15] 4.61/28.83   0.33  0.00  0.00  2.67  1.00  0.33  0.33  0.00   4.85    28.59
+mock-random     text TRANSIENT   K2p     3   2.00    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.00  1.00  1.00  0.00  0.00   4.85    -4.85
+mock-random     text TRANSIENT_P K1      3   8.33   22.31 [ 0.62,46.00] 2.08/20.23   0.00  0.00  0.67  1.67  0.67  0.00  0.00  0.00   4.79    17.52
+mock-random     text TRANSIENT_P K1e     3  16.00   25.25 [10.79,39.57] 6.22/19.04   0.00  0.00  0.33  1.00  0.00  0.00  0.00  0.00   4.79    20.47
+mock-random     text TRANSIENT_P K2      3  18.33   15.55 [ 3.41,24.30] 5.52/10.03   0.00  0.00  0.33  2.00  0.33  0.00  0.00  0.00   4.79    10.76
+mock-random     text TRANSIENT_P K2a     3  25.00   20.54 [12.02,25.09] 5.82/14.73   0.00  0.00  0.00  3.00  0.33  0.00  0.33  0.00   4.79    15.75
+mock-random     text TRANSIENT_P K2e     3  24.33   18.77 [15.58,24.93] 5.60/13.17   0.00  0.00  0.00  1.67  0.00  0.00  0.00  0.00   4.79    13.98
+mock-random     text TRANSIENT_P K2p     3   2.67    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.67  1.00  1.67  0.00  0.00   4.79    -4.79
+
+Paired condition contrasts (A - B over common episodes) [95% nested CI]
+mock-docreader  fc   MIXED        K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   MIXED        K2p-K2e  n=  3  regret -2.08 [-3.83,-1.08]  info -2.08 [-3.83,-1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -2.00 [-2.00,-2.00]
+mock-docreader  fc   PERSIST      K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   PERSIST      K2p-K2e  n=  3  regret -8.25 [-11.86,-6.41]  info -3.42 [-4.88,-1.97]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,+0.00]
+mock-docreader  fc   SHARED       K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   SHARED       K2p-K2e  n=  3  regret -2.73 [-6.46,-0.79]  info -1.75 [-3.52,-0.79]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,-1.00]
+mock-docreader  fc   TRANSIENT    K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   TRANSIENT    K2p-K2e  n=  3  regret -0.90 [-0.99,-0.78]  info -0.90 [-0.99,-0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-docreader  fc   TRANSIENT_P  K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   TRANSIENT_P  K2p-K2e  n=  3  regret -1.21 [-1.50,-0.96]  info -1.21 [-1.50,-0.96]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-2.00,+2.00]
+mock-docreader  fc   CORE         K2e-K1e  n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   CORE         K2p-K2e  n= 12  regret -3.49 [-5.57,-1.76]  info -2.04 [-3.05,-1.21]  severe +0.00 [+0.00,+0.00]  rep_cache -1.42 [-1.83,-0.92]
+mock-docreader  text MIXED         K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text MIXED        K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text MIXED        K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text MIXED        K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text MIXED        K2p-K2   n=  3  regret -2.08 [-3.83,-1.08]  info -2.08 [-3.83,-1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -2.00 [-2.00,-2.00]
+mock-docreader  text MIXED        K2p-K1   n=  3  regret -2.08 [-3.83,-1.08]  info -2.08 [-3.83,-1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -2.00 [-2.00,-2.00]
+mock-docreader  text MIXED        K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text MIXED        K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text MIXED        K2p-K2e  n=  3  regret -2.08 [-3.83,-1.08]  info -2.08 [-3.83,-1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -2.00 [-2.00,-2.00]
+mock-docreader  text PERSIST       K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text PERSIST      K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text PERSIST      K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text PERSIST      K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text PERSIST      K2p-K2   n=  3  regret -8.25 [-11.86,-6.41]  info -3.42 [-4.88,-1.97]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,+0.00]
+mock-docreader  text PERSIST      K2p-K1   n=  3  regret -8.25 [-11.86,-6.41]  info -3.42 [-4.88,-1.97]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,+0.00]
+mock-docreader  text PERSIST      K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text PERSIST      K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text PERSIST      K2p-K2e  n=  3  regret -8.25 [-11.86,-6.41]  info -3.42 [-4.88,-1.97]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,+0.00]
+mock-docreader  text SHARED        K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text SHARED       K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text SHARED       K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text SHARED       K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text SHARED       K2p-K2   n=  3  regret -2.73 [-6.46,-0.79]  info -1.75 [-3.52,-0.79]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,-1.00]
+mock-docreader  text SHARED       K2p-K1   n=  3  regret -2.73 [-6.46,-0.79]  info -1.75 [-3.52,-0.79]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,-1.00]
+mock-docreader  text SHARED       K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text SHARED       K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text SHARED       K2p-K2e  n=  3  regret -2.73 [-6.46,-0.79]  info -1.75 [-3.52,-0.79]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,-1.00]
+mock-docreader  text TRANSIENT     K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT    K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT    K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT    K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT    K2p-K2   n=  3  regret -0.90 [-0.99,-0.78]  info -0.90 [-0.99,-0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-docreader  text TRANSIENT    K2p-K1   n=  3  regret -0.90 [-0.99,-0.78]  info -0.90 [-0.99,-0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-docreader  text TRANSIENT    K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT    K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT    K2p-K2e  n=  3  regret -0.90 [-0.99,-0.78]  info -0.90 [-0.99,-0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-docreader  text TRANSIENT_P   K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT_P  K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT_P  K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT_P  K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT_P  K2p-K2   n=  3  regret -1.21 [-1.50,-0.96]  info -1.21 [-1.50,-0.96]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-2.00,+2.00]
+mock-docreader  text TRANSIENT_P  K2p-K1   n=  3  regret -1.21 [-1.50,-0.96]  info -1.21 [-1.50,-0.96]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-2.00,+2.00]
+mock-docreader  text TRANSIENT_P  K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT_P  K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text TRANSIENT_P  K2p-K2e  n=  3  regret -1.21 [-1.50,-0.96]  info -1.21 [-1.50,-0.96]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-2.00,+2.00]
+mock-docreader  text CORE          K2-K1   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text CORE         K2a-K1   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text CORE         K2a-K2   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text CORE         K2e-K2   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text CORE         K2p-K2   n= 12  regret -3.49 [-5.57,-1.76]  info -2.04 [-3.05,-1.21]  severe +0.00 [+0.00,+0.00]  rep_cache -1.42 [-1.83,-0.92]
+mock-docreader  text CORE         K2p-K1   n= 12  regret -3.49 [-5.57,-1.76]  info -2.04 [-3.05,-1.21]  severe +0.00 [+0.00,+0.00]  rep_cache -1.42 [-1.83,-0.92]
+mock-docreader  text CORE         K1e-K1   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text CORE         K2e-K1e  n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text CORE         K2p-K2e  n= 12  regret -3.49 [-5.57,-1.76]  info -2.04 [-3.05,-1.21]  severe +0.00 [+0.00,+0.00]  rep_cache -1.42 [-1.83,-0.92]
+mock-nolink     text MIXED         K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text MIXED        K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text MIXED        K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text MIXED        K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text MIXED        K2p-K2   n=  3  regret -1.50 [-2.07,-1.08]  info -1.50 [-2.07,-1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -1.67 [-2.00,-1.00]
+mock-nolink     text MIXED        K2p-K1   n=  3  regret -1.50 [-2.07,-1.08]  info -1.50 [-2.07,-1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -1.67 [-2.00,-1.00]
+mock-nolink     text MIXED        K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text MIXED        K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text MIXED        K2p-K2e  n=  3  regret -1.50 [-2.07,-1.08]  info -1.50 [-2.07,-1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -1.67 [-2.00,-1.00]
+mock-nolink     text PERSIST       K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text PERSIST      K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text PERSIST      K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text PERSIST      K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text PERSIST      K2p-K2   n=  3  regret -8.25 [-11.86,-6.41]  info -3.42 [-4.88,-1.97]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,+0.00]
+mock-nolink     text PERSIST      K2p-K1   n=  3  regret -8.25 [-11.86,-6.41]  info -3.42 [-4.88,-1.97]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,+0.00]
+mock-nolink     text PERSIST      K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text PERSIST      K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text PERSIST      K2p-K2e  n=  3  regret -8.25 [-11.86,-6.41]  info -3.42 [-4.88,-1.97]  severe +0.00 [+0.00,+0.00]  rep_cache -1.33 [-2.00,+0.00]
+mock-nolink     text SHARED        K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text SHARED       K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text SHARED       K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text SHARED       K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text SHARED       K2p-K2   n=  3  regret -0.84 [-0.93,-0.79]  info -0.96 [-1.17,-0.79]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-nolink     text SHARED       K2p-K1   n=  3  regret -0.84 [-0.93,-0.79]  info -0.96 [-1.17,-0.79]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-nolink     text SHARED       K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text SHARED       K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text SHARED       K2p-K2e  n=  3  regret -0.84 [-0.93,-0.79]  info -0.96 [-1.17,-0.79]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-nolink     text TRANSIENT     K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT    K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT    K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT    K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT    K2p-K2   n=  3  regret -0.90 [-0.99,-0.78]  info -0.90 [-0.99,-0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-nolink     text TRANSIENT    K2p-K1   n=  3  regret -0.90 [-0.99,-0.78]  info -0.90 [-0.99,-0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-nolink     text TRANSIENT    K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT    K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT    K2p-K2e  n=  3  regret -0.90 [-0.99,-0.78]  info -0.90 [-0.99,-0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -1.00 [-1.00,-1.00]
+mock-nolink     text TRANSIENT_P   K2-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT_P  K2a-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT_P  K2a-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT_P  K2e-K2   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT_P  K2p-K2   n=  3  regret -1.21 [-1.50,-0.96]  info -1.21 [-1.50,-0.96]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-2.00,+2.00]
+mock-nolink     text TRANSIENT_P  K2p-K1   n=  3  regret -1.21 [-1.50,-0.96]  info -1.21 [-1.50,-0.96]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-2.00,+2.00]
+mock-nolink     text TRANSIENT_P  K1e-K1   n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT_P  K2e-K1e  n=  3  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text TRANSIENT_P  K2p-K2e  n=  3  regret -1.21 [-1.50,-0.96]  info -1.21 [-1.50,-0.96]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-2.00,+2.00]
+mock-nolink     text CORE          K2-K1   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text CORE         K2a-K1   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text CORE         K2a-K2   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text CORE         K2e-K2   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text CORE         K2p-K2   n= 12  regret -2.87 [-5.14,-1.28]  info -1.70 [-2.53,-1.09]  severe +0.00 [+0.00,+0.00]  rep_cache -1.25 [-1.67,-0.75]
+mock-nolink     text CORE         K2p-K1   n= 12  regret -2.87 [-5.14,-1.28]  info -1.70 [-2.53,-1.09]  severe +0.00 [+0.00,+0.00]  rep_cache -1.25 [-1.67,-0.75]
+mock-nolink     text CORE         K1e-K1   n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text CORE         K2e-K1e  n= 12  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text CORE         K2p-K2e  n= 12  regret -2.87 [-5.14,-1.28]  info -1.70 [-2.53,-1.09]  severe +0.00 [+0.00,+0.00]  rep_cache -1.25 [-1.67,-0.75]
+mock-random     text MIXED         K2-K1   n=  3  regret +10.35 [-17.15,+61.27]  info +0.82 [-0.93,+2.05]  severe +0.33 [+0.00,+1.00]  rep_cache +0.67 [+0.00,+1.00]
+mock-random     text MIXED        K2a-K1   n=  3  regret +8.19 [-0.10,+23.21]  info +2.88 [-1.01,+5.90]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text MIXED        K2a-K2   n=  3  regret -2.17 [-38.05,+17.05]  info +2.06 [-3.06,+4.67]  severe -0.33 [-1.00,+0.00]  rep_cache -1.00 [-2.00,+0.00]
+mock-random     text MIXED        K2e-K2   n=  3  regret -0.80 [-47.07,+24.70]  info +1.29 [+0.30,+1.97]  severe -0.33 [-1.00,+0.00]  rep_cache -1.00 [-2.00,+0.00]
+mock-random     text MIXED        K2p-K2   n=  3  regret -21.01 [-61.27,-0.31]  info -1.03 [-1.46,-0.31]  severe -0.33 [-1.00,+0.00]  rep_cache -0.67 [-2.00,+1.00]
+mock-random     text MIXED        K2p-K1   n=  3  regret -10.66 [-17.45,+0.00]  info -0.21 [-1.23,+0.59]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-1.00,+1.00]
+mock-random     text MIXED        K1e-K1   n=  3  regret -1.18 [-8.00,+6.01]  info +2.94 [+2.40,+3.41]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text MIXED        K2e-K1e  n=  3  regret +10.72 [+8.18,+13.18]  info -0.84 [-1.98,-0.05]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text MIXED        K2p-K2e  n=  3  regret -20.20 [-26.16,-14.19]  info -2.32 [-2.92,-1.76]  severe +0.00 [+0.00,+0.00]  rep_cache +0.33 [+0.00,+1.00]
+mock-random     text PERSIST       K2-K1   n=  3  regret +11.55 [+0.00,+18.51]  info +1.21 [-0.53,+4.16]  severe +0.00 [+0.00,+0.00]  rep_cache +0.33 [+0.00,+1.00]
+mock-random     text PERSIST      K2a-K1   n=  3  regret +13.66 [+11.54,+17.77]  info -0.01 [-1.03,+0.88]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text PERSIST      K2a-K2   n=  3  regret +2.11 [-4.48,+11.54]  info -1.22 [-3.28,+0.14]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text PERSIST      K2e-K2   n=  3  regret -0.85 [-9.56,+7.16]  info -0.48 [-0.98,-0.14]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text PERSIST      K2p-K2   n=  3  regret -16.20 [-21.93,-9.33]  info -3.33 [-5.37,-1.73]  severe +0.00 [+0.00,+0.00]  rep_cache +0.33 [-1.00,+2.00]
+mock-random     text PERSIST      K2p-K1   n=  3  regret -4.65 [-9.33,-1.21]  info -2.12 [-3.42,-1.21]  severe +0.00 [+0.00,+0.00]  rep_cache +0.67 [+0.00,+2.00]
+mock-random     text PERSIST      K1e-K1   n=  3  regret +5.55 [-7.28,+16.11]  info +0.47 [-1.53,+2.62]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text PERSIST      K2e-K1e  n=  3  regret +5.15 [-7.16,+14.44]  info +0.26 [-1.30,+1.39]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text PERSIST      K2p-K2e  n=  3  regret -15.35 [-17.21,-12.36]  info -2.85 [-5.23,-0.75]  severe +0.00 [+0.00,+0.00]  rep_cache +0.67 [+0.00,+2.00]
+mock-random     text SHARED        K2-K1   n=  3  regret +4.35 [-12.58,+30.64]  info -0.50 [-2.85,+1.35]  severe +0.33 [+0.00,+1.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text SHARED       K2a-K1   n=  3  regret -13.29 [-18.82,-7.56]  info -0.63 [-3.03,+1.04]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text SHARED       K2a-K2   n=  3  regret -17.65 [-44.14,-2.56]  info -0.13 [-1.24,+1.04]  severe -0.33 [-1.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text SHARED       K2e-K2   n=  3  regret -7.69 [-39.75,+11.67]  info -0.98 [-2.15,+0.00]  severe -0.33 [-1.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text SHARED       K2p-K2   n=  3  regret -18.28 [-46.96,-1.48]  info -1.87 [-3.00,+0.21]  severe -0.33 [-1.00,+0.00]  rep_cache +1.00 [+1.00,+1.00]
+mock-random     text SHARED       K2p-K1   n=  3  regret -13.93 [-16.32,-11.40]  info -2.36 [-5.85,+1.56]  severe +0.00 [+0.00,+0.00]  rep_cache +0.67 [+0.00,+1.00]
+mock-random     text SHARED       K1e-K1   n=  3  regret -9.11 [-10.15,-7.59]  info -0.25 [-1.55,+0.81]  severe +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text SHARED       K2e-K1e  n=  3  regret +5.77 [-1.51,+10.15]  info -1.23 [-3.65,+1.55]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text SHARED       K2p-K2e  n=  3  regret -10.59 [-13.15,-7.21]  info -0.89 [-2.80,+2.35]  severe +0.00 [+0.00,+0.00]  rep_cache +1.00 [+1.00,+1.00]
+mock-random     text TRANSIENT     K2-K1   n=  3  regret +7.71 [-5.70,+17.11]  info +4.81 [+1.85,+7.66]  severe +0.33 [+0.00,+1.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text TRANSIENT    K2a-K1   n=  3  regret +6.08 [-5.77,+20.80]  info +1.91 [+1.20,+3.19]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-1.00,+1.00]
+mock-random     text TRANSIENT    K2a-K2   n=  3  regret -1.62 [-8.49,+3.69]  info -2.90 [-6.33,-0.65]  severe -0.33 [-1.00,+0.00]  rep_cache +0.33 [+0.00,+1.00]
+mock-random     text TRANSIENT    K2e-K2   n=  3  regret +13.86 [-9.89,+43.95]  info -2.17 [-5.09,+1.61]  severe +0.00 [-1.00,+1.00]  rep_cache +0.33 [+0.00,+1.00]
+mock-random     text TRANSIENT    K2p-K2   n=  3  regret -19.57 [-27.22,-14.21]  info -6.77 [-7.84,-5.22]  severe -0.33 [-1.00,+0.00]  rep_cache +1.00 [+1.00,+1.00]
+mock-random     text TRANSIENT    K2p-K1   n=  3  regret -11.87 [-19.91,-0.19]  info -1.97 [-3.37,-0.19]  severe +0.00 [+0.00,+0.00]  rep_cache +0.67 [+0.00,+1.00]
+mock-random     text TRANSIENT    K1e-K1   n=  3  regret +5.93 [-16.41,+22.48]  info +2.10 [+1.15,+3.29]  severe +0.33 [+0.00,+1.00]  rep_cache +0.33 [+0.00,+1.00]
+mock-random     text TRANSIENT    K2e-K1e  n=  3  regret +15.64 [-9.89,+54.66]  info +0.54 [-1.32,+1.61]  severe +0.00 [-1.00,+1.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text TRANSIENT    K2p-K2e  n=  3  regret -33.43 [-58.15,-17.33]  info -4.61 [-6.83,-2.17]  severe -0.33 [-1.00,+0.00]  rep_cache +0.67 [+0.00,+1.00]
+mock-random     text TRANSIENT_P   K2-K1   n=  3  regret -6.76 [-21.70,+18.31]  info +3.44 [+0.26,+7.26]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text TRANSIENT_P  K2a-K1   n=  3  regret -1.76 [-33.98,+24.48]  info +3.74 [+2.40,+4.73]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text TRANSIENT_P  K2a-K2   n=  3  regret +5.00 [-12.28,+21.11]  info +0.30 [-2.53,+2.14]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text TRANSIENT_P  K2e-K2   n=  3  regret +3.23 [-8.50,+12.17]  info +0.08 [-2.23,+2.74]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text TRANSIENT_P  K2p-K2   n=  3  regret -15.55 [-24.30,-3.41]  info -5.52 [-7.87,-3.41]  severe +0.00 [+0.00,+0.00]  rep_cache +1.67 [+0.00,+4.00]
+mock-random     text TRANSIENT_P  K2p-K1   n=  3  regret -22.31 [-46.00,-0.62]  info -2.08 [-5.02,-0.59]  severe +0.00 [+0.00,+0.00]  rep_cache +1.67 [+0.00,+4.00]
+mock-random     text TRANSIENT_P  K1e-K1   n=  3  regret +2.95 [-35.21,+24.79]  info +4.14 [+0.17,+6.75]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text TRANSIENT_P  K2e-K1e  n=  3  regret -6.48 [-23.99,+5.01]  info -0.61 [-1.19,-0.17]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text TRANSIENT_P  K2p-K2e  n=  3  regret -18.77 [-24.93,-15.58]  info -5.60 [-6.15,-5.02]  severe +0.00 [+0.00,+0.00]  rep_cache +1.67 [+0.00,+4.00]
+mock-random     text CORE          K2-K1   n= 12  regret +8.49 [-4.45,+24.64]  info +1.58 [-0.49,+3.59]  severe +0.25 [+0.00,+0.58]  rep_cache +0.08 [-0.33,+0.50]
+mock-random     text CORE         K2a-K1   n= 12  regret +3.66 [-3.75,+13.85]  info +1.04 [-0.26,+2.37]  severe +0.00 [+0.00,+0.00]  rep_cache -0.17 [-0.58,+0.17]
+mock-random     text CORE         K2a-K2   n= 12  regret -4.83 [-16.51,+5.17]  info -0.55 [-2.42,+1.46]  severe -0.25 [-0.58,+0.00]  rep_cache -0.25 [-0.75,+0.17]
+mock-random     text CORE         K2e-K2   n= 12  regret +1.13 [-16.03,+19.55]  info -0.59 [-1.98,+0.65]  severe -0.17 [-0.58,+0.25]  rep_cache -0.25 [-0.75,+0.08]
+mock-random     text CORE         K2p-K2   n= 12  regret -18.77 [-31.41,-8.52]  info -3.25 [-4.79,-1.78]  severe -0.25 [-0.58,+0.00]  rep_cache +0.42 [-0.50,+1.17]
+mock-random     text CORE         K2p-K1   n= 12  regret -10.28 [-15.40,-4.40]  info -1.67 [-3.20,-0.23]  severe +0.00 [+0.00,+0.00]  rep_cache +0.50 [-0.08,+1.17]
+mock-random     text CORE         K1e-K1   n= 12  regret +0.30 [-7.40,+9.98]  info +1.32 [+0.33,+2.21]  severe +0.08 [+0.00,+0.33]  rep_cache -0.08 [-0.42,+0.25]
+mock-random     text CORE         K2e-K1e  n= 12  regret +9.32 [+0.29,+22.94]  info -0.32 [-1.56,+0.65]  severe +0.00 [-0.33,+0.33]  rep_cache -0.08 [-0.33,+0.00]
+mock-random     text CORE         K2p-K2e  n= 12  regret -19.90 [-31.24,-13.64]  info -2.66 [-3.91,-1.28]  severe -0.08 [-0.33,+0.00]  rep_cache +0.67 [+0.17,+1.17]
+
+Recovery of the observation model (K1e / K2e / K2p); rates over episodes where defined, errors are means
+model           prot family      cond    n parse struct  pair single fault persist phiErr phantom  emTV accMAE dflt reg|exact reg|wrong
+mock-docreader  fc   MIXED       K1e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.08         -
+mock-docreader  fc   MIXED       K2e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.08         -
+mock-docreader  fc   MIXED       K2p     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-docreader  fc   PERSIST     K1e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      8.25         -
+mock-docreader  fc   PERSIST     K2e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      8.25         -
+mock-docreader  fc   PERSIST     K2p     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-docreader  fc   SHARED      K1e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.73         -
+mock-docreader  fc   SHARED      K2e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.73         -
+mock-docreader  fc   SHARED      K2p     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-docreader  fc   TRANSIENT   K1e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.90         -
+mock-docreader  fc   TRANSIENT   K2e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.90         -
+mock-docreader  fc   TRANSIENT   K2p     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+mock-docreader  fc   TRANSIENT_P K1e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      1.21         -
+mock-docreader  fc   TRANSIENT_P K2e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      1.21         -
+mock-docreader  fc   TRANSIENT_P K2p     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+mock-docreader  text MIXED       K1e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.08         -
+mock-docreader  text MIXED       K2e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.08         -
+mock-docreader  text MIXED       K2p     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-docreader  text PERSIST     K1e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      8.25         -
+mock-docreader  text PERSIST     K2e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      8.25         -
+mock-docreader  text PERSIST     K2p     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-docreader  text SHARED      K1e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.73         -
+mock-docreader  text SHARED      K2e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.73         -
+mock-docreader  text SHARED      K2p     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-docreader  text TRANSIENT   K1e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.90         -
+mock-docreader  text TRANSIENT   K2e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.90         -
+mock-docreader  text TRANSIENT   K2p     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+mock-docreader  text TRANSIENT_P K1e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      1.21         -
+mock-docreader  text TRANSIENT_P K2e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      1.21         -
+mock-docreader  text TRANSIENT_P K2p     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+mock-nolink     text MIXED       K1e     3  1.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0         -      2.08
+mock-nolink     text MIXED       K2e     3  1.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0         -      2.08
+mock-nolink     text MIXED       K2p     3  1.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0         -      0.59
+mock-nolink     text PERSIST     K1e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      8.25         -
+mock-nolink     text PERSIST     K2e     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      8.25         -
+mock-nolink     text PERSIST     K2p     3  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-nolink     text SHARED      K1e     3  1.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0         -      2.73
+mock-nolink     text SHARED      K2e     3  1.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0         -      2.73
+mock-nolink     text SHARED      K2p     3  1.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0         -      1.89
+mock-nolink     text TRANSIENT   K1e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.90         -
+mock-nolink     text TRANSIENT   K2e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.90         -
+mock-nolink     text TRANSIENT   K2p     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+mock-nolink     text TRANSIENT_P K1e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      1.21         -
+mock-nolink     text TRANSIENT_P K2e     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      1.21         -
+mock-nolink     text TRANSIENT_P K2p     3  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+mock-random     text MIXED       K1e     3  0.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0         -     10.07
+mock-random     text MIXED       K2e     3  0.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0         -     20.79
+mock-random     text MIXED       K2p     3  0.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0         -      0.59
+mock-random     text PERSIST     K1e     3  0.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0     10.20         -
+mock-random     text PERSIST     K2e     3  0.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0     15.35         -
+mock-random     text PERSIST     K2p     3  0.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0      0.00         -
+mock-random     text SHARED      K1e     3  0.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0         -      6.70
+mock-random     text SHARED      K2e     3  0.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0         -     12.48
+mock-random     text SHARED      K2p     3  0.00   0.00  0.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0         -      1.89
+mock-random     text TRANSIENT   K1e     3  0.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  1.0     17.79         -
+mock-random     text TRANSIENT   K2e     3  0.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  1.0     33.43         -
+mock-random     text TRANSIENT   K2p     3  0.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  1.0      0.00         -
+mock-random     text TRANSIENT_P K1e     3  0.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  1.0     25.25         -
+mock-random     text TRANSIENT_P K2e     3  0.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  1.0     18.77         -
+mock-random     text TRANSIENT_P K2p     3  0.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  1.0      0.00         -
+mock-docreader  fc   CORE        K1e    12  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.49         -
+mock-docreader  fc   CORE        K2e    12  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.49         -
+mock-docreader  fc   CORE        K2p    12  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-docreader  text CORE        K1e    12  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.49         -
+mock-docreader  text CORE        K2e    12  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.49         -
+mock-docreader  text CORE        K2p    12  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+mock-nolink     text CORE        K1e    12  1.00   0.50  0.50   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      4.57      2.41
+mock-nolink     text CORE        K2e    12  1.00   0.50  0.50   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      4.57      2.41
+mock-nolink     text CORE        K2p    12  1.00   0.50  0.50   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00      1.24
+mock-random     text CORE        K1e    12  0.00   0.50  0.50   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0     14.00      8.39
+mock-random     text CORE        K2e    12  0.00   0.50  0.50   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0     24.39     16.63
+mock-random     text CORE        K2p    12  0.00   0.50  0.50   1.00  1.00    1.00   0.00    0.00  0.00  0.000  1.0      0.00      1.24
+
+Twin contrasts (fault family minus its phi=0 twin, same parameters) [95% nested CI]; conditions of runs that include a K2 decomposition condition
+mock-docreader  fc   Shared   K1e n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Persist  K1e n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Both     K1e n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Shared   K2a n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Persist  K2a n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Both     K2a n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Shared   K2e n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Persist  K2e n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Both     K2e n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  fc   Shared   K2p n=  3  regret +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-docreader  fc   Persist  K2p n=  3  regret +0.00 [+0.00,+0.00]  rep_cache -1.00 [-2.00,+0.00]
+mock-docreader  fc   Both     K2p n=  6  regret +0.00 [+0.00,+0.00]  rep_cache -0.67 [-1.33,-0.17]
+mock-docreader  text Shared    K1 n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Persist   K1 n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Both      K1 n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Shared   K1e n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Persist  K1e n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Both     K1e n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Shared    K2 n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Persist   K2 n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Both      K2 n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Shared   K2a n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Persist  K2a n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Both     K2a n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Shared   K2e n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Persist  K2e n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Both     K2e n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-docreader  text Shared   K2p n=  3  regret +0.00 [+0.00,+0.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-docreader  text Persist  K2p n=  3  regret +0.00 [+0.00,+0.00]  rep_cache -1.00 [-2.00,+0.00]
+mock-docreader  text Both     K2p n=  6  regret +0.00 [+0.00,+0.00]  rep_cache -0.67 [-1.33,-0.17]
+mock-nolink     text Shared    K1 n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Persist   K1 n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Both      K1 n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Shared   K1e n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Persist  K1e n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Both     K1e n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Shared    K2 n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Persist   K2 n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Both      K2 n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Shared   K2a n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Persist  K2a n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Both     K2a n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Shared   K2e n=  3  regret +1.83 [+0.01,+5.47]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Persist  K2e n=  3  regret +7.03 [+4.97,+10.90]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Both     K2e n=  6  regret +4.43 [+1.66,+7.27]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Shared   K2p n=  3  regret +1.89 [+0.00,+5.67]  rep_cache +0.00 [+0.00,+0.00]
+mock-nolink     text Persist  K2p n=  3  regret +0.00 [+0.00,+0.00]  rep_cache -1.00 [-2.00,+0.00]
+mock-nolink     text Both     K2p n=  6  regret +0.94 [+0.00,+3.78]  rep_cache -0.50 [-1.33,+0.00]
+mock-random     text Shared    K1 n=  3  regret +3.95 [-8.51,+19.54]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Persist   K1 n=  3  regret -17.65 [-44.79,+8.71]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Both      K1 n=  6  regret -6.85 [-29.42,+9.69]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Shared   K1e n=  3  regret -11.09 [-18.50,-2.25]  rep_cache -0.67 [-2.00,+0.00]
+mock-random     text Persist  K1e n=  3  regret -15.05 [-23.36,-1.76]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Both     K1e n=  6  regret -13.07 [-21.16,-2.08]  rep_cache -0.33 [-1.33,+0.00]
+mock-random     text Shared    K2 n=  3  regret +0.60 [-10.15,+19.74]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Persist   K2 n=  3  regret +0.66 [-9.60,+18.52]  rep_cache +0.33 [+0.00,+1.00]
+mock-random     text Both      K2 n=  6  regret +0.63 [-8.90,+14.04]  rep_cache +0.17 [+0.00,+0.50]
+mock-random     text Shared   K2a n=  3  regret -15.43 [-20.08,-10.30]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text Persist  K2a n=  3  regret -2.23 [-4.22,+0.85]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Both     K2a n=  6  regret -8.83 [-15.35,-2.70]  rep_cache -0.17 [-0.50,+0.00]
+mock-random     text Shared   K2e n=  3  regret -20.96 [-46.75,-6.00]  rep_cache -0.33 [-1.00,+0.00]
+mock-random     text Persist  K2e n=  3  regret -3.42 [-8.44,+1.41]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Both     K2e n=  6  regret -12.19 [-26.52,-2.60]  rep_cache -0.17 [-0.67,+0.00]
+mock-random     text Shared   K2p n=  3  regret +1.89 [+0.00,+5.67]  rep_cache +0.00 [+0.00,+0.00]
+mock-random     text Persist  K2p n=  3  regret +0.00 [+0.00,+0.00]  rep_cache -1.00 [-2.00,+0.00]
+mock-random     text Both     K2p n=  6  regret +0.94 [+0.00,+3.78]  rep_cache -0.50 [-1.33,+0.00]

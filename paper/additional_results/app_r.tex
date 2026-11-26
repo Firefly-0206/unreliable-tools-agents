@@ -1,0 +1,15 @@
+\subsubsection{A runbook surface on the same exact task}\label{app:r}
+% src: raea4/agentenv/PLAN_r_runbook.md, frozen_r_runbook.sha256, make_episodes_r.py, run_r.sh, r_analysis.py -> results/r_analysis.json|txt; scripts/make_r_outputs.py
+\paragraph{Design.}
+Reusing the 75 persistent-arm episodes at fault rates 0.10, 0.30, and 0.70 from \cref{app:x} under K2e, we bundle three surface changes into a longer runbook format (~1,000 vs.\ 620 prompt words): operational details, exact rates encoded as representative counts (e.g., 12 affected sessions in 40 for $\varphi=0.30$), and status-independent metadata around each tool response. Planned nested 95\% contrasts evaluate within-\agStrTol\ JSON recovery (\cref{tab:k2strict}), the executor gap K2r$-$K2e overall and within tolerance (R1), low-rate replica under-use at 0.10 and 0.30 (R2), tracking from 0.10 to 0.70 (R3), and paired runbook-minus-original shifts (R4).
+
+\paragraph{Results (\cref{tab:r-contrasts}).}
+All 225 episodes submitted a verdict with a usable JSON (per-cell estimates in \texttt{additional\_results/tab\_r\_cells.tex}). Models read the count-encoded rates accurately, staying within tolerance in \rbFlashNTol, \rbTerraNTol, and \rbSonnetNTol\ of 75 episodes for flash, terra, and Sonnet (with zero planner regret on all within-tolerance episodes). Both the executor gap (R1: flash \rbFlashGap, terra \rbTerraGap, Sonnet \rbSonnetGap; within tolerance: \rbFlashGapTol, \rbTerraGapTol, \rbSonnetGapTol) and low-rate under-use (R2: flash \rbFlashLowGap, terra \rbTerraLowGap, Sonnet \rbSonnetLowGap\ points; under-use regret \rbFlashLowUnder, \rbTerraLowUnder, \rbSonnetLowUnder) persist. Terra and Sonnet track the fault rate (\rbTerraTrack\ and \rbSonnetTrack\ points, opening with the replica in \rbTerraFirstHigh\% and \rbSonnetFirstHigh\% of episodes at 0.70; flash \rbFlashTrack). Compared with the original surface (R4), the runbook increases replica first-call shares for terra (\rbTerraSurfFirst\ points) and Sonnet (\rbSonnetSurfFirst; flash \rbFlashSurfFirst) and lowers terra's regret (\rbTerraSurfRegret; Sonnet \rbSonnetSurfRegret, flash \rbFlashSurfRegret). Because multiple surface features changed together, the direction (which was not predicted) cannot be isolated to a single feature, and the counts still determine the true rates exactly in this simulated setting.
+
+\begin{table}[!htbp]
+\centering
+\caption{Runbook surface: the planned contrasts (nested 95\% intervals; regret in regret units, first-call shares of the replica tool in points). R4 pairs each episode with the same run's episode under the original surface (\cref{app:x}).}
+\label{tab:r-contrasts}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{\input{tables/agent_r_contrasts}}
+\end{table}

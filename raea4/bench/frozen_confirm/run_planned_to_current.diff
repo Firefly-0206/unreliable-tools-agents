@@ -1,0 +1,69 @@
+--- run_planned.py
++++ run.py
+@@ -22,6 +22,7 @@
+ import core                                         # noqa: E402
+ sys.path.insert(0, os.path.dirname(HERE))
+ import codex_backend                                 # noqa: E402
++import claude_backend                                # noqa: E402
+ 
+ URL = "https://api.deepseek.com/chat/completions"
+ KEYFILE = os.path.join(os.path.dirname(os.path.dirname(HERE)), "api.txt")
+@@ -83,6 +84,17 @@
+     msg = {"role": "assistant", "content": r["content"], "reasoning_content": None}
+     return {"model": r["model"], "choices": [{"message": msg, "finish_reason": "stop"}], "usage": r["usage"],
+             "codex_tool_items": r["tool_items"]}
++
++def claude_call(a, messages):
++    """Claude Code CLI (text protocol, no function calling, so T1 is not run with this provider). Prompts are
++    rendered exactly as for the Codex provider. Per-call cost / thinking tokens / stop reason go to `claude_meta`."""
++    with lock:
++        if a.max_api_calls is not None and api_calls[0] >= a.max_api_calls: raise BudgetExhausted()
++        api_calls[0] += 1
++    r = claude_backend.call(a.model, messages, timeout=a.timeout, max_waits=a.max_waits)
++    msg = {"role": "assistant", "content": r["content"], "reasoning_content": None}
++    return {"model": r["model"], "choices": [{"message": msg, "finish_reason": r["finish_reason"]}], "usage": r["usage"],
++            "claude_meta": r["meta"]}
+ 
+ def mock_call(a, messages, it, cond, sample, tools=None, tool_choice=None):
+     """Deterministic fake model: mostly optimal, sometimes the fault-unaware choice, sometimes junk."""
+@@ -135,10 +147,12 @@
+             messages.append({"role": "user", "content": FINAL_NUDGE})
+         if a.provider == "mock": resp = mock_call(a, messages, it, p["cond"], sample, tools, tc_mode)
+         elif a.provider == "codex": resp = codex_call(a, messages)
++        elif a.provider == "claude": resp = claude_call(a, messages)
+         else: resp = deepseek_call(a, messages, tools, tc_mode)
+         ch = resp["choices"][0]; msg = ch["message"]; fin = ch.get("finish_reason"); model_ret = resp.get("model")
+         if resp.get("codex_tool_items"): trace.append(dict(codex_tool_items=resp["codex_tool_items"]))
+         add_usage(tot, resp.get("usage")); turns.append(dict(usage=resp.get("usage"), finish_reason=fin))
++        if resp.get("claude_meta"): turns[-1]["claude_meta"] = resp["claude_meta"]
+         if msg.get("reasoning_content"): reasoning.append(msg["reasoning_content"])
+         tcs = msg.get("tool_calls") or []
+         if not tools or not tcs or last:
+@@ -267,7 +281,7 @@
+ 
+ def main():
+     ap = argparse.ArgumentParser()
+-    ap.add_argument("--provider", default="deepseek", choices=["deepseek", "codex", "mock"])
++    ap.add_argument("--provider", default="deepseek", choices=["deepseek", "codex", "claude", "mock"])
+     ap.add_argument("--model", default="deepseek-chat")
+     ap.add_argument("--conds", default="all", help="comma list or 'all' or 'core' (P0-P3,L1-L3,C1-C3)")
+     ap.add_argument("--samples", type=int, default=1)
+@@ -281,6 +295,7 @@
+     ap.add_argument("--max-tool-calls", type=int, default=20)
+     ap.add_argument("--timeout", type=int, default=1800)
+     ap.add_argument("--retries", type=int, default=4)
++    ap.add_argument("--max-waits", type=int, default=12, help="claude provider: max usage/rate-limit waits per call")
+     ap.add_argument("--extra-body", default=None, help="JSON merged into the request body")
+     ap.add_argument("--tag", default="")
+     ap.add_argument("--items-file", default=None, help="alternate items jsonl (default bench/items.jsonl)")
+@@ -303,7 +318,9 @@
+     prompts.sort(key=lambda p: (conds.index(p["cond"]), p["item"]))
+     if a.limit: prompts = prompts[: a.limit]
+     os.makedirs(os.path.join(HERE, "results"), exist_ok=True)
+-    if a.out is None: a.out = os.path.join(HERE, "results", f"{a.provider}_{a.model}{'_' + a.tag if a.tag else ''}.jsonl")
++    if a.provider == "claude" and not a.model.startswith("claude:"): sys.exit("claude provider needs --model claude:<model>@<effort>")
++    if a.out is None:
++        a.out = os.path.join(HERE, "results", re.sub(r"[^A-Za-z0-9._-]", "_", f"{a.provider}_{a.model}") + (f"_{a.tag}" if a.tag else "") + ".jsonl")
+     if a.estimate_cost:
+         estimate(prompts, [a.model], a.samples, cap=a.max_tokens if a.max_tokens != 8192 else None, t1_rounds=a.t1_rounds); return
+     if a.export: export(prompts, a.samples, a.export); return

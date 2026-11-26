@@ -1,0 +1,356 @@
+{
+ "flash": {
+  "obs|MF": {
+   "regret": 2.690436965664669,
+   "calls": 3.56,
+   "rep": 0.82,
+   "first": 0.02
+  },
+  "obs|MZ": {
+   "regret": 2.812734965096102,
+   "calls": 3.48,
+   "rep": 1.08,
+   "first": 0.54
+  },
+  "g|MF": {
+   "value": 24,
+   "regret": 0.618203645746673,
+   "calls": 2.84,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "g|MZ": {
+   "value": 24,
+   "regret": 0.0,
+   "calls": 2.98,
+   "rep": 2.98,
+   "first": 1.0
+  },
+  "sev|MF": {
+   "value": 1.5,
+   "regret": 0.025108325920362287,
+   "calls": 3.32,
+   "rep": 1.36,
+   "first": 1.0
+  },
+  "sev|MZ": {
+   "value": 1.5,
+   "regret": 0.09290942352117304,
+   "calls": 3.26,
+   "rep": 3.26,
+   "first": 1.0
+  },
+  "esc|MF": {
+   "value": 0.25,
+   "regret": 3.065438546916774,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "esc|MZ": {
+   "value": 0.25,
+   "regret": 3.0790853831076386,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "err|MF": {
+   "value": 0.5,
+   "regret": 0.5961771355302592,
+   "calls": 2.52,
+   "rep": 1.02,
+   "first": 0.84
+  },
+  "err|MZ": {
+   "value": 0.5,
+   "regret": 0.41933110438174565,
+   "calls": 2.38,
+   "rep": 2.38,
+   "first": 1.0
+  },
+  "lsc|MF": {
+   "value": 0.25,
+   "regret": 3.065438546916774,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "lsc|MZ": {
+   "value": 0.25,
+   "regret": 3.0790853831076386,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "pri|MF": {
+   "value": 4,
+   "regret": 1.1823602912938254,
+   "calls": 2.86,
+   "rep": 1.4,
+   "first": 0.94
+  },
+  "pri|MZ": {
+   "value": 4,
+   "regret": 1.0193844217416845,
+   "calls": 2.8,
+   "rep": 2.8,
+   "first": 1.0
+  },
+  "sevxesc|MF": {
+   "value": [
+    1,
+    0.25
+   ],
+   "regret": 3.065438546916774,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "sevxesc|MZ": {
+   "value": [
+    1,
+    0.25
+   ],
+   "regret": 3.0790853831076386,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  }
+ },
+ "terra": {
+  "obs|MF": {
+   "regret": 0.5181513529195206,
+   "calls": 2.88,
+   "rep": 0.44,
+   "first": 0.1
+  },
+  "obs|MZ": {
+   "regret": 0.318607401588672,
+   "calls": 2.96,
+   "rep": 1.92,
+   "first": 0.96
+  },
+  "g|MF": {
+   "value": 4,
+   "regret": 0.6019152968390313,
+   "calls": 2.84,
+   "rep": 0.02,
+   "first": 0.0
+  },
+  "g|MZ": {
+   "value": 4,
+   "regret": 0.0,
+   "calls": 2.98,
+   "rep": 2.98,
+   "first": 1.0
+  },
+  "sev|MF": {
+   "value": 1.5,
+   "regret": 0.025108325920362287,
+   "calls": 3.32,
+   "rep": 1.36,
+   "first": 1.0
+  },
+  "sev|MZ": {
+   "value": 1.5,
+   "regret": 0.09290942352117304,
+   "calls": 3.26,
+   "rep": 3.26,
+   "first": 1.0
+  },
+  "esc|MF": {
+   "value": 0.5,
+   "regret": 2.6069302448150675,
+   "calls": 0.34,
+   "rep": 0.32,
+   "first": 0.28
+  },
+  "esc|MZ": {
+   "value": 0.5,
+   "regret": 2.999182785589607,
+   "calls": 0.12,
+   "rep": 0.12,
+   "first": 0.02
+  },
+  "err|MF": {
+   "value": 0.5,
+   "regret": 0.5961771355302592,
+   "calls": 2.52,
+   "rep": 1.02,
+   "first": 0.84
+  },
+  "err|MZ": {
+   "value": 0.5,
+   "regret": 0.41933110438174565,
+   "calls": 2.38,
+   "rep": 2.38,
+   "first": 1.0
+  },
+  "lsc|MF": {
+   "value": 0.25,
+   "regret": 3.065438546916774,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "lsc|MZ": {
+   "value": 0.25,
+   "regret": 3.0790853831076386,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "pri|MF": {
+   "value": 4,
+   "regret": 1.1823602912938254,
+   "calls": 2.86,
+   "rep": 1.4,
+   "first": 0.94
+  },
+  "pri|MZ": {
+   "value": 4,
+   "regret": 1.0193844217416845,
+   "calls": 2.8,
+   "rep": 2.8,
+   "first": 1.0
+  },
+  "sevxesc|MF": {
+   "value": [
+    1,
+    0.5
+   ],
+   "regret": 2.6069302448150675,
+   "calls": 0.34,
+   "rep": 0.32,
+   "first": 0.28
+  },
+  "sevxesc|MZ": {
+   "value": [
+    1,
+    0.5
+   ],
+   "regret": 2.999182785589607,
+   "calls": 0.12,
+   "rep": 0.12,
+   "first": 0.02
+  }
+ },
+ "sonnet": {
+  "obs|MF": {
+   "regret": 0.6523677541761748,
+   "calls": 2.38,
+   "rep": 0.38,
+   "first": 0.28
+  },
+  "obs|MZ": {
+   "regret": 0.4959833576461405,
+   "calls": 2.54,
+   "rep": 1.44,
+   "first": 0.9
+  },
+  "g|MF": {
+   "value": 12,
+   "regret": 0.618203645746673,
+   "calls": 2.84,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "g|MZ": {
+   "value": 12,
+   "regret": 0.0,
+   "calls": 2.98,
+   "rep": 2.98,
+   "first": 1.0
+  },
+  "sev|MF": {
+   "value": 1.5,
+   "regret": 0.025108325920362287,
+   "calls": 3.32,
+   "rep": 1.36,
+   "first": 1.0
+  },
+  "sev|MZ": {
+   "value": 1.5,
+   "regret": 0.09290942352117304,
+   "calls": 3.26,
+   "rep": 3.26,
+   "first": 1.0
+  },
+  "esc|MF": {
+   "value": 0.25,
+   "regret": 3.065438546916774,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "esc|MZ": {
+   "value": 0.25,
+   "regret": 3.0790853831076386,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "err|MF": {
+   "value": 0.5,
+   "regret": 0.5961771355302592,
+   "calls": 2.52,
+   "rep": 1.02,
+   "first": 0.84
+  },
+  "err|MZ": {
+   "value": 0.5,
+   "regret": 0.41933110438174565,
+   "calls": 2.38,
+   "rep": 2.38,
+   "first": 1.0
+  },
+  "lsc|MF": {
+   "value": 0.25,
+   "regret": 3.065438546916774,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "lsc|MZ": {
+   "value": 0.25,
+   "regret": 3.0790853831076386,
+   "calls": 0.0,
+   "rep": 0.0,
+   "first": 0.0
+  },
+  "pri|MF": {
+   "value": 4,
+   "regret": 1.1823602912938254,
+   "calls": 2.86,
+   "rep": 1.4,
+   "first": 0.94
+  },
+  "pri|MZ": {
+   "value": 4,
+   "regret": 1.0193844217416845,
+   "calls": 2.8,
+   "rep": 2.8,
+   "first": 1.0
+  },
+  "sevxesc|MF": {
+   "value": [
+    1.5,
+    0.5
+   ],
+   "regret": 2.6836384786881364,
+   "calls": 0.3,
+   "rep": 0.3,
+   "first": 0.26
+  },
+  "sevxesc|MZ": {
+   "value": [
+    1.5,
+    0.5
+   ],
+   "regret": 2.999182785589607,
+   "calls": 0.12,
+   "rep": 0.12,
+   "first": 0.02
+  }
+ }
+}

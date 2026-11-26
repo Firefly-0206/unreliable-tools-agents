@@ -1,0 +1,38 @@
+﻿[Lemma 3] 200 RETRY/SHARED instances: mismatches at the root -- s-marginal 0, one-step predictive 0, s-posterior after one report 0, VOI-1 action values 0
+   after one group report, the next same-group predictive differs (max abs diff): median 0.174, min 0.026
+[Lemma 4] P_exact(o,o'|s) - P_MMI(o,o'|s) = phi(1-phi)(h(o)-e(o))(h'(o')-e'(o')): 32400/32400 hold
+[Prop 3b] only fault-free tools affordable: V and the optimal action depend on b only through Pi(b): 300/300
+[Example 1] phi=0.3, q=0.9, A reported ['healthy', 'healthy', 'degraded'], budget 4
+   exact joint: P(s)=[0.8655 0.0771 0.0574], P(stale)=0.2249, P(stale|s)=[0.13  0.729 0.98 ]
+   exact Q = {'declare_healthy': 4.036, 'declare_degraded': 9.229, 'declare_down': 9.426, 'escalate': 4.0, 'query_A': 4.422, 'query_V': 3.58}
+   same Pi AND same one-step predictive for A and V (max pred diff 2.2e-16): P(stale) 0.197..0.921; optimal actions ['query_A', 'query_V']
+     P(stale)=0.197 P(stale|s)=[0.095, 0.744, 1.0] best=query_V      Q(A)=4.408 Q(V)=3.580 Q(esc)=4.000
+     P(stale)=0.668 P(stale|s)=[0.684, 0.493, 0.662] best=query_A      Q(A)=3.565 Q(V)=3.580 Q(esc)=4.000
+     P(stale)=0.921 P(stale|s)=[1.0, 0.358, 0.481] best=query_A      Q(A)=2.936 Q(V)=3.580 Q(esc)=4.000
+   same Pi only, stale independent of s: best=query_A  Q={'declare_healthy': 4.036, 'declare_degraded': 9.229, 'declare_down': 9.426, 'escalate': 4.0, 'query_A': 2.405, 'query_V': 3.576}
+   same Pi only, stale only if healthy: best=query_A  Q={'declare_healthy': 4.036, 'declare_degraded': 9.229, 'declare_down': 9.426, 'escalate': 4.0, 'query_A': 1.577, 'query_V': 3.023}
+   MMI after the same history: P(s)=[0.4833 0.4864 0.0303], best=query_A
+[Example 2] phi=0.3, q=0.9, A reported ['healthy', 'healthy', 'healthy'], budget 4
+   exact joint: P(s)=[0.7411 0.1294 0.1294], P(stale)=0.5176, P(stale|s)=[0.349 1.    1.   ]
+   exact Q = {'declare_healthy': 7.766, 'declare_degraded': 8.706, 'declare_down': 8.706, 'escalate': 4.0, 'query_A': 4.969, 'query_V': 4.301}
+   same Pi AND same one-step predictive for A and V (max pred diff 2.2e-16): P(stale) 0.517..0.963; optimal actions ['escalate']
+     P(stale)=0.517 P(stale|s)=[0.348, 1.0, 1.0] best=escalate     Q(A)=4.968 Q(V)=4.301 Q(esc)=4.000
+     P(stale)=0.963 P(stale|s)=[1.0, 0.858, 0.858] best=escalate     Q(A)=4.940 Q(V)=4.301 Q(esc)=4.000
+   same Pi only, stale independent of s: best=escalate  Q={'declare_healthy': 7.766, 'declare_degraded': 8.706, 'declare_down': 8.706, 'escalate': 4.0, 'query_A': 4.534, 'query_V': 4.301}
+   same Pi only, stale only if healthy: best=query_A  Q={'declare_healthy': 7.766, 'declare_degraded': 8.706, 'declare_down': 8.706, 'escalate': 4.0, 'query_A': 1.82, 'query_V': 3.511}
+   MMI after the same history: P(s)=[0.9575 0.0212 0.0212], best=declare_healthy
+[Example 3] phi=0.15, q=0.85, A reported ['healthy', 'healthy'], budget 4
+   exact joint: P(s)=[0.8381 0.081  0.081 ], P(stale)=0.3132, P(stale|s)=[0.187 0.967 0.967]
+   exact Q = {'declare_healthy': 4.858, 'declare_degraded': 9.19, 'declare_down': 9.19, 'escalate': 4.0, 'query_A': 4.645, 'query_V': 3.739}
+   same Pi AND same one-step predictive for A and V (max pred diff 2.2e-16): P(stale) 0.280..0.903; optimal actions ['query_A', 'query_V']
+     P(stale)=0.280 P(stale|s)=[0.141, 0.999, 0.999] best=query_V      Q(A)=4.533 Q(V)=3.739 Q(esc)=4.000
+     P(stale)=0.831 P(stale|s)=[0.901, 0.472, 0.472] best=query_A      Q(A)=3.716 Q(V)=3.739 Q(esc)=4.000
+     P(stale)=0.903 P(stale|s)=[0.999, 0.403, 0.403] best=query_A      Q(A)=3.382 Q(V)=3.739 Q(esc)=4.000
+   same Pi only, stale independent of s: best=query_A  Q={'declare_healthy': 4.858, 'declare_degraded': 9.19, 'declare_down': 9.19, 'escalate': 4.0, 'query_A': 3.256, 'query_V': 3.739}
+   same Pi only, stale only if healthy: best=query_A  Q={'declare_healthy': 4.858, 'declare_degraded': 9.19, 'declare_down': 9.19, 'escalate': 4.0, 'query_A': 1.915, 'query_V': 3.286}
+   MMI after the same history: P(s)=[0.9451 0.0275 0.0275], best=declare_healthy
+[Pilot items] correct current Pi(b) + independent model of future same-source reports ('hybrid'):
+   frequent A:healthy/healthy/healthy  P(h)=0.741 next P(healthy) exact 0.936 hybrid 0.767 | P(h | +healthy) exact 0.732 hybrid 0.890 | Q(query_A) exact 4.97 hybrid 3.71 mixed 3.66 | best exact escalate, hybrid query_A
+   frequent A:healthy/healthy/degraded P(h)=0.865 next P(healthy) exact 0.897 hybrid 0.841 | P(h | +healthy) exact 0.877 hybrid 0.948 | Q(query_A) exact 4.42 hybrid 2.87 mixed 2.76 | best exact query_V, hybrid query_A
+   moderate A:healthy/healthy          P(h)=0.838 next P(healthy) exact 0.883 hybrid 0.761 | P(h | +healthy) exact 0.828 hybrid 0.955 | Q(query_A) exact 4.64 hybrid 2.81 mixed 2.57 | best exact query_V, hybrid query_A
+   rare     A:healthy                  P(h)=0.820 next P(healthy) exact 0.693 hybrid 0.654 | P(h | +healthy) exact 0.904 hybrid 0.954 | Q(query_A) exact 4.18 hybrid 3.24 mixed 3.15 | best exact query_V, hybrid query_A

@@ -1,0 +1,54 @@
+POST HOC (not in the frozen plan); episode-weighted means, nested bootstrap 95%, own-JSON references
+
+== flash
+  P1 stated - VOI1 (one-step) | U replica                                  -0.066 [-1.048, +1.705]  n=99
+  P1 stated - VOI (multi-step) | U replica                                 -1.674 [-2.625, -0.039]  n=99
+  P1 share closer to VOI1 than to VOI | U replica                          +0.772 [+0.648, +0.899]  n=99
+  P1 all tools, all points: within 0.06 of VOI1 / of VOI / tools           77 / 64 / 1157
+  P2 rho(stated, VOI1) | U                                                 +0.112 [-0.057, +0.268]  n=94
+  P2 rho(VOI1, VOI), no model | U                                          +0.525 [+0.379, +0.663]  n=99
+  P2 rho(stated, VOI1) | O                                                 +0.322 [+0.128, +0.506]  n=102
+  P2 rho(VOI1, VOI), no model | O                                          +0.745 [+0.615, +0.836]  n=114
+  P3 fork C action = argmax of own stated values | all                     +0.666 [+0.558, +0.775]  n=169
+  P3 ... | U                                                               +0.618 [+0.420, +0.845]  n=60
+  P4 B3 rep_bias_json | U, repaired rows excluded                          -1.725 [-2.674, +0.122]  n=74
+  P4 B4 agree | all, logged first call anywhere among fork A's calls       +0.699 [+0.633, +0.760]  n=364
+  P4 B5 replica C-A | U, missing C action = no replica (all U)             -0.069 [-0.169, +0.021]  n=103
+  P4 B5 replica C-A | U, replica = any call of the turn, missing = no      -0.202 [-0.353, -0.062]  n=103
+  P4 fork C gave no action | U                                             +0.367 [+0.232, +0.565]  n=103
+  P4 B3 rep_bias_json | U, turns with a later replica call excluded        -1.967 [-2.670, -1.088]  n=82
+
+== terra
+  P1 stated - VOI1 (one-step) | U replica                                  +0.525 [+0.177, +0.881]  n=7
+  P1 stated - VOI (multi-step) | U replica                                 -0.117 [-0.195, -0.016]  n=7
+  P1 share closer to VOI1 than to VOI | U replica                          +0.143 [+0.000, +0.600]  n=7
+  P1 all tools, all points: within 0.06 of VOI1 / of VOI / tools           176 / 177 / 253
+  P2 rho(stated, VOI1) | U                                                 +0.714 [+0.286, +1.000]  n=7
+  P2 rho(VOI1, VOI), no model | U                                          +0.582 [+0.392, +0.737]  n=101
+  P2 rho(stated, VOI1) | O                                                 +0.845 [+0.688, +0.964]  n=45
+  P2 rho(VOI1, VOI), no model | O                                          +0.800 [+0.738, +0.854]  n=198
+  P3 fork C action = argmax of own stated values | all                     +0.924 [+0.866, +0.970]  n=122
+  P3 ... | U                                                               +0.937 [+0.841, +1.000]  n=28
+  P4 B3 rep_bias_json | U, repaired rows excluded                          -0.117 [-0.195, -0.016]  n=7
+  P4 B3 rep_bias_json | U, turns with a later replica call excluded        -0.117 [-0.195, -0.016]  n=7
+  P5 all-null values | O                                                   140/219
+  P5 all-null values | R                                                   9/15
+  P5 all-null values | U                                                   84/104
+  P5 all-null values | calls_before 0                                      95/98
+  P5 all-null values | calls_before 1                                      92/100
+  P5 all-null values | calls_before 2                                      22/76
+  P5 all-null values | calls_before 3+                                     24/64
+
+== sonnet
+  P1 stated - VOI1 (one-step) | U replica                                  +0.151 [-0.041, +0.383]  n=75
+  P1 stated - VOI (multi-step) | U replica                                 -1.309 [-1.668, -0.931]  n=75
+  P1 share closer to VOI1 than to VOI | U replica                          +0.886 [+0.773, +0.977]  n=75
+  P1 all tools, all points: within 0.06 of VOI1 / of VOI / tools           487 / 67 / 575
+  P2 rho(stated, VOI1) | U                                                 +0.937 [+0.854, +0.997]  n=75
+  P2 rho(VOI1, VOI), no model | U                                          +0.586 [+0.325, +0.785]  n=75
+  P2 rho(stated, VOI1) | O                                                 +0.966 [+0.938, +0.989]  n=70
+  P2 rho(VOI1, VOI), no model | O                                          +0.854 [+0.794, +0.906]  n=72
+  P3 fork C action = argmax of own stated values | all                     +1.000 [+1.000, +1.000]  n=149
+  P3 ... | U                                                               +1.000 [+1.000, +1.000]  n=75
+  P4 B3 rep_bias_json | U, repaired rows excluded                          -1.309 [-1.668, -0.931]  n=75
+  P4 B3 rep_bias_json | U, turns with a later replica call excluded        -1.309 [-1.668, -0.931]  n=75

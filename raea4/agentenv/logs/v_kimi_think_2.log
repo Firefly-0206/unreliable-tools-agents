@@ -1,0 +1,30 @@
+19 episode runs to do (0 already in logs/x_kimi_k31pro_think_s2_k2e.jsonl)
+XP30-013 K2e kimi-k3.1-pro: submitted verdict=0 calls=6 api=8 tok={'prompt': 65808, 'completion': 13637, 'reasoning': 13005, 'cache_hit': 0, 'cache_miss': 0} lat=442.5s
+XP30-014 K2e kimi-k3.1-pro: submitted verdict=0 calls=5 api=7 tok={'prompt': 54348, 'completion': 16863, 'reasoning': 16330, 'cache_hit': 0, 'cache_miss': 0} lat=650.6s
+XP30-015 K2e kimi-k3.1-pro: submitted verdict=1 calls=2 api=4 tok={'prompt': 10218, 'completion': 4701, 'reasoning': 4330, 'cache_hit': 0, 'cache_miss': 0} lat=171.8s
+XP30-016 K2e kimi-k3.1-pro: submitted verdict=2 calls=1 api=3 tok={'prompt': 8824, 'completion': 4852, 'reasoning': 4521, 'cache_hit': 0, 'cache_miss': 0} lat=183.3s
+XP30-017 K2e kimi-k3.1-pro: submitted verdict=2 calls=5 api=7 tok={'prompt': 38341, 'completion': 9617, 'reasoning': 9081, 'cache_hit': 0, 'cache_miss': 0} lat=333.0s
+XP30-018 K2e kimi-k3.1-pro: submitted verdict=2 calls=1 api=3 tok={'prompt': 17741, 'completion': 12918, 'reasoning': 12599, 'cache_hit': 0, 'cache_miss': 0} lat=471.9s
+XP30-019 K2e kimi-k3.1-pro: submitted verdict=2 calls=2 api=4 tok={'prompt': 23023, 'completion': 9437, 'reasoning': 9066, 'cache_hit': 0, 'cache_miss': 0} lat=322.8s
+XP30-020 K2e kimi-k3.1-pro: submitted verdict=2 calls=3 api=5 tok={'prompt': 31232, 'completion': 11823, 'reasoning': 11410, 'cache_hit': 0, 'cache_miss': 0} lat=465.4s
+XP30-021 K2e kimi-k3.1-pro: submitted verdict=1 calls=1 api=3 tok={'prompt': 10119, 'completion': 5484, 'reasoning': 5166, 'cache_hit': 0, 'cache_miss': 0} lat=194.4s
+XP30-022 K2e kimi-k3.1-pro: submitted verdict=2 calls=4 api=6 tok={'prompt': 39290, 'completion': 10891, 'reasoning': 10385, 'cache_hit': 0, 'cache_miss': 0} lat=367.7s
+XP30-023 K2e kimi-k3.1-pro: submitted verdict=0 calls=4 api=6 tok={'prompt': 67436, 'completion': 19506, 'reasoning': 9527, 'cache_hit': 0, 'cache_miss': 0} lat=716.0s
+XP30-024 K2e kimi-k3.1-pro: submitted verdict=1 calls=6 api=8 tok={'prompt': 74477, 'completion': 19429, 'reasoning': 18860, 'cache_hit': 0, 'cache_miss': 0} lat=664.5s
+XP70-000 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 10406, 'completion': 4079, 'reasoning': 3705, 'cache_hit': 0, 'cache_miss': 0} lat=149.0s
+XP70-001 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 30648, 'completion': 12982, 'reasoning': 12590, 'cache_hit': 0, 'cache_miss': 0} lat=425.9s
+XP70-002 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your credit balance is running low for account <org-REDACTED>, please recharge immediately to avoid service disruption verdict=None calls=3 api=4 tok={'prompt': 41914, 'completion': 20860, 'reasoning': 20524, 'cache_hit': 0, 'cache_miss': 0} lat=788.6s
+XP70-003 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your account org-REDACTED <ak-REDACTED> is suspended due to insufficient balance, please recharge your account or check your plan and billing deta verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+XP70-004 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your account org-REDACTED <ak-REDACTED> is suspended due to insufficient balance, please recharge your account or check your plan and billing deta verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+XP70-005 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your account org-REDACTED <ak-REDACTED> is suspended due to insufficient balance, please recharge your account or check your plan and billing deta verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+XP70-006 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your account org-REDACTED <ak-REDACTED> is suspended due to insufficient balance, please recharge your account or check your plan and billing deta verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+5 episode runs to do (14 already in logs/x_kimi_k31pro_think_s2_k2e.jsonl)
+XP70-002 K2e kimi-k3.1-pro: submitted verdict=0 calls=1 api=3 tok={'prompt': 22258, 'completion': 17966, 'reasoning': 17657, 'cache_hit': 0, 'cache_miss': 0} lat=688.3s
+XP70-003 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 32564, 'completion': 13964, 'reasoning': 13596, 'cache_hit': 0, 'cache_miss': 0} lat=545.5s
+XP70-004 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your credit balance is running low for account <org-REDACTED>, please recharge immediately to avoid service disruption verdict=None calls=3 api=4 tok={'prompt': 18548, 'completion': 9707, 'reasoning': 9357, 'cache_hit': 0, 'cache_miss': 0} lat=319.2s
+XP70-005 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your credit balance is running low for account <org-REDACTED>, please recharge immediately to avoid service disruption verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+XP70-006 K2e kimi-k3.1-pro: api_error: RateLimitError: Error code: 429 - Your credit balance is running low for account <org-REDACTED>, please recharge immediately to avoid service disruption verdict=None calls=0 api=0 tok={'prompt': 0, 'completion': 0, 'reasoning': 0, 'cache_hit': 0, 'cache_miss': 0} lat=0.0s
+3 episode runs to do (16 already in logs/x_kimi_k31pro_think_s2_k2e.jsonl)
+XP70-004 K2e kimi-k3.1-pro: submitted verdict=0 calls=6 api=8 tok={'prompt': 63541, 'completion': 15405, 'reasoning': 14779, 'cache_hit': 0, 'cache_miss': 0} lat=488.2s
+XP70-005 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 20991, 'completion': 7820, 'reasoning': 7450, 'cache_hit': 0, 'cache_miss': 0} lat=317.6s
+XP70-006 K2e kimi-k3.1-pro: submitted verdict=0 calls=5 api=7 tok={'prompt': 35621, 'completion': 7405, 'reasoning': 6880, 'cache_hit': 0, 'cache_miss': 0} lat=262.8s

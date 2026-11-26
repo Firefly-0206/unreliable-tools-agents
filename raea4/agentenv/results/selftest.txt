@@ -1,0 +1,38 @@
+﻿PERSIST-000: V0=5.89704 exact_eval=5.89704 exact.py=5.89704
+   coherent discard 6.234118 == forbid-cache 6.234118
+   MMI-DP           exact 12.740  MC loss 12.546 (z=-0.63)  exact regret 6.843  MC adv-sum 6.821 (z=-0.13, sd 11.14 vs loss sd 19.47)
+   Fixed2-A         exact 7.811  MC loss 7.833 (z=+0.37)  exact regret 1.914  MC adv-sum 1.932 (z=+0.82, sd 1.35 vs loss sd 3.66)
+   FaultUnaware-DP  exact 15.769  MC loss 15.720 (z=-0.12)  exact regret 9.872  MC adv-sum 9.865 (z=-0.05, sd 7.93 vs loss sd 24.77)
+   Oracle max |advantage| = 0.00e+00
+TRANSIENT-001: V0=2.32343 exact_eval=2.32343 exact.py=2.32343
+   coherent discard 3.002000 == forbid-cache 3.002000
+   MMI-DP           exact 2.323  MC loss 2.339 (z=+0.29)  exact regret 0.000  MC adv-sum 0.000 (z=+0.00, sd 0.00 vs loss sd 3.48)
+   Fixed2-A         exact 3.028  MC loss 3.050 (z=+0.42)  exact regret 0.705  MC adv-sum 0.729 (z=+0.80, sd 1.90 vs loss sd 3.26)
+   FaultUnaware-DP  exact 2.323  MC loss 2.339 (z=+0.29)  exact regret 0.000  MC adv-sum 0.000 (z=+0.00, sd 0.00 vs loss sd 3.48)
+   Oracle max |advantage| = 0.00e+00
+SHARED-002: V0=5.79033 exact_eval=5.79033 exact.py=5.79033
+   coherent discard 6.339688 == forbid-cache 6.339688
+   MMI-DP           exact 9.538  MC loss 9.291 (z=-0.87)  exact regret 3.748  MC adv-sum 3.709 (z=-0.75, sd 3.30 vs loss sd 17.90)
+   Fixed2-A         exact 7.525  MC loss 7.489 (z=-0.53)  exact regret 1.735  MC adv-sum 1.740 (z=+0.27, sd 1.34 vs loss sd 4.32)
+   FaultUnaware-DP  exact 8.641  MC loss 8.359 (z=-1.00)  exact regret 2.850  MC adv-sum 2.805 (z=-1.04, sd 2.76 vs loss sd 17.80)
+   Oracle max |advantage| = 0.00e+00
+MIXED-003: V0=3.64810 exact_eval=3.64810 exact.py=3.64810
+   coherent discard 3.858233 == forbid-cache 3.858233
+   MMI-DP           exact 5.496  MC loss 5.463 (z=-0.17)  exact regret 1.847  MC adv-sum 1.873 (z=+0.29, sd 5.46 vs loss sd 12.37)
+   Fixed2-A         exact 6.846  MC loss 6.669 (z=-0.73)  exact regret 3.198  MC adv-sum 3.189 (z=-0.37, sd 1.49 vs loss sd 15.31)
+   FaultUnaware-DP  exact 6.033  MC loss 5.827 (z=-0.83)  exact regret 2.385  MC adv-sum 2.374 (z=-0.58, sd 1.19 vs loss sd 15.76)
+   Oracle max |advantage| = 0.00e+00
+VALUE-004: V0=6.34989 exact_eval=6.34989 exact.py=6.34989
+   coherent discard 6.672865 == forbid-cache 6.672865
+   MMI-DP           exact 9.822  MC loss 9.544 (z=-1.00)  exact regret 3.472  MC adv-sum 3.414 (z=-1.14, sd 3.25 vs loss sd 17.60)
+   Fixed2-A         exact 8.167  MC loss 8.212 (z=+0.61)  exact regret 1.817  MC adv-sum 1.813 (z=-0.19, sd 1.41 vs loss sd 4.71)
+   FaultUnaware-DP  exact 9.118  MC loss 8.825 (z=-1.06)  exact regret 2.768  MC adv-sum 2.721 (z=-1.13, sd 2.68 vs loss sd 17.54)
+   Oracle max |advantage| = 0.00e+00
+TRANSIENT_P-005: V0=2.20997 exact_eval=2.20997 exact.py=2.20997
+   coherent discard 3.455636 == forbid-cache 3.455636
+   MMI-DP           exact 2.210  MC loss 2.213 (z=+0.04)  exact regret 0.000  MC adv-sum 0.000 (z=+0.00, sd 0.00 vs loss sd 4.40)
+   Fixed2-A         exact 3.216  MC loss 3.240 (z=+0.31)  exact regret 1.006  MC adv-sum 1.010 (z=+0.21, sd 1.38 vs loss sd 5.04)
+   FaultUnaware-DP  exact 2.210  MC loss 2.213 (z=+0.04)  exact regret 0.000  MC adv-sum 0.000 (z=+0.00, sd 0.00 vs loss sd 4.40)
+   Oracle max |advantage| = 0.00e+00
+Policies with nonzero regret: adv-sum sd 1.19-11.14 (median 2.29) vs realised-loss sd 3.26-24.77 (median 15.53); ratio loss/adv sd 1.7-13.3
+SELFTEST PASSED

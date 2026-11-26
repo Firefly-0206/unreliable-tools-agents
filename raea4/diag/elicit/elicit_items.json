@@ -1,0 +1,1292 @@
+[
+ {
+  "id": "frequent|single",
+  "regime": "frequent",
+  "pattern": "single",
+  "exact": {
+   "posterior": {
+    "healthy": 0.7385725741780271,
+    "degraded": 0.13071371291098635,
+    "down": 0.13071371291098635
+   },
+   "p_stale_A": 0.46672012830793896,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.9088131515637529,
+     "degraded": 0.04559342421812348,
+     "down": 0.04559342421812348
+    },
+    "query_V": {
+     "healthy": 0.6170008019246189,
+     "degraded": 0.19149959903769043,
+     "down": 0.1914995990376904
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.7493845352910552,
+      "degraded": 0.12530773235447235,
+      "down": 0.12530773235447235
+     },
+     "degraded": {
+      "healthy": 0.630815231729839,
+      "degraded": 0.3154076158649195,
+      "down": 0.053777152405241405
+     },
+     "down": {
+      "healthy": 0.630815231729839,
+      "degraded": 0.053777152405241405,
+      "down": 0.3154076158649195
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9576293215492593,
+      "degraded": 0.021185339225370414,
+      "down": 0.021185339225370414
+     },
+     "degraded": {
+      "healthy": 0.38567839195979886,
+      "degraded": 0.5460636515912898,
+      "down": 0.0682579564489112
+     },
+     "down": {
+      "healthy": 0.38567839195979897,
+      "degraded": 0.06825795644891121,
+      "down": 0.5460636515912899
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 7.842822774659181,
+    "declare_degraded": 8.692862870890135,
+    "declare_down": 8.692862870890135,
+    "escalate": 3.999999999999999,
+    "query_A": 4.986114324378507,
+    "query_V": 4.316279069767441
+   },
+   "best_action": "escalate"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.9, and each of the two wrong states with probability 0.05.\n- Tool A's backend is stale with probability 0.3 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "frequent|retry2",
+  "regime": "frequent",
+  "pattern": "retry2",
+  "exact": {
+   "posterior": {
+    "healthy": 0.7493845352910552,
+    "degraded": 0.12530773235447235,
+    "down": 0.12530773235447235
+   },
+   "p_stale_A": 0.498142576039672,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.9335574301370344,
+     "degraded": 0.03322128493148266,
+     "down": 0.033221284931482666
+    },
+    "query_V": {
+     "healthy": 0.6245691747037386,
+     "degraded": 0.18771541264813063,
+     "down": 0.18771541264813063
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.7411232020527958,
+      "degraded": 0.12943839897360215,
+      "down": 0.12943839897360215
+     },
+     "degraded": {
+      "healthy": 0.8654611566999166,
+      "degraded": 0.07714675020949897,
+      "down": 0.05739209309058457
+     },
+     "down": {
+      "healthy": 0.8654611566999165,
+      "degraded": 0.05739209309058456,
+      "down": 0.07714675020949896
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9598738658807775,
+      "degraded": 0.020063067059611365,
+      "down": 0.020063067059611365
+     },
+     "degraded": {
+      "healthy": 0.39921310920577613,
+      "degraded": 0.5340327918170878,
+      "down": 0.06675409897713597
+     },
+     "down": {
+      "healthy": 0.39921310920577613,
+      "degraded": 0.06675409897713597,
+      "down": 0.5340327918170878
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 7.51846394126834,
+    "declare_degraded": 8.746922676455275,
+    "declare_down": 8.746922676455275,
+    "escalate": 3.9999999999999996,
+    "query_A": 4.972115733836881,
+    "query_V": 4.253569695311879
+   },
+   "best_action": "escalate"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.9, and each of the two wrong states with probability 0.05.\n- Tool A's backend is stale with probability 0.3 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "frequent|retry3",
+  "regime": "frequent",
+  "pattern": "retry3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.7411232020527958,
+    "degraded": 0.12943839897360215,
+    "down": 0.12943839897360215
+   },
+   "p_stale_A": 0.5175881881070289,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.9361608748578558,
+     "degraded": 0.03191956257107218,
+     "down": 0.03191956257107218
+    },
+    "query_V": {
+     "healthy": 0.6187862414369572,
+     "degraded": 0.1906068792815215,
+     "down": 0.1906068792815215
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.7318469366018849,
+      "degraded": 0.13407653169905756,
+      "down": 0.13407653169905756
+     },
+     "degraded": {
+      "healthy": 0.877153837820476,
+      "degraded": 0.061973670634025535,
+      "down": 0.0608724915454986
+     },
+     "down": {
+      "healthy": 0.877153837820476,
+      "degraded": 0.0608724915454986,
+      "down": 0.061973670634025535
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9581637760164101,
+      "degraded": 0.02091811199179508,
+      "down": 0.02091811199179508
+     },
+     "degraded": {
+      "healthy": 0.3888229033738995,
+      "degraded": 0.5432685303343116,
+      "down": 0.06790856629178893
+     },
+     "down": {
+      "healthy": 0.3888229033738995,
+      "degraded": 0.06790856629178893,
+      "down": 0.5432685303343116
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 7.766303938416129,
+    "declare_degraded": 8.705616010263979,
+    "declare_down": 8.705616010263979,
+    "escalate": 4.0,
+    "query_A": 4.9688789206489705,
+    "query_V": 4.301485428093786
+   },
+   "best_action": "escalate"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.9, and each of the two wrong states with probability 0.05.\n- Tool A's backend is stale with probability 0.3 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n3. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "frequent|retry_mixed",
+  "regime": "frequent",
+  "pattern": "retry_mixed",
+  "exact": {
+   "posterior": {
+    "healthy": 0.8654611566999166,
+    "degraded": 0.07714675020949897,
+    "down": 0.05739209309058457
+   },
+   "p_stale_A": 0.22492021774612314,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.8969774909792603,
+     "degraded": 0.059906983785908655,
+     "down": 0.043115525234831406
+    },
+    "query_V": {
+     "healthy": 0.7058228096899417,
+     "degraded": 0.15400272514664926,
+     "down": 0.1401744651634092
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.8771538378204757,
+      "degraded": 0.061973670634025514,
+      "down": 0.06087249154549858
+     },
+     "degraded": {
+      "healthy": 0.6566338603361888,
+      "degraded": 0.3283169301680943,
+      "down": 0.015049209495716837
+     },
+     "down": {
+      "healthy": 0.9123617028944327,
+      "degraded": 0.04381914855278368,
+      "down": 0.04381914855278368
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9809387226577184,
+      "degraded": 0.010930044927761468,
+      "down": 0.008131232414520028
+     },
+     "degraded": {
+      "healthy": 0.561977819467662,
+      "degraded": 0.4007552470829897,
+      "down": 0.0372669334493483
+     },
+     "down": {
+      "healthy": 0.6174171277850071,
+      "degraded": 0.05503623653535234,
+      "down": 0.32754663567964054
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 4.036165299002507,
+    "declare_degraded": 9.228532497905013,
+    "declare_down": 9.426079069094156,
+    "escalate": 4.000000000000001,
+    "query_A": 4.42236336352496,
+    "query_V": 3.5803252911404844
+   },
+   "best_action": "query_V"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.9, and each of the two wrong states with probability 0.05.\n- Tool A's backend is stale with probability 0.3 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n3. tool A reported \"degraded\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "frequent|shared3",
+  "regime": "frequent",
+  "pattern": "shared3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.7411232020527958,
+    "degraded": 0.12943839897360215,
+    "down": 0.12943839897360215
+   },
+   "p_stale_A": 0.5175881881070289,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.9361608748578558,
+     "degraded": 0.03191956257107218,
+     "down": 0.03191956257107218
+    },
+    "query_V": {
+     "healthy": 0.6187862414369572,
+     "degraded": 0.1906068792815215,
+     "down": 0.1906068792815215
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.7318469366018849,
+      "degraded": 0.13407653169905756,
+      "down": 0.13407653169905756
+     },
+     "degraded": {
+      "healthy": 0.877153837820476,
+      "degraded": 0.061973670634025535,
+      "down": 0.0608724915454986
+     },
+     "down": {
+      "healthy": 0.877153837820476,
+      "degraded": 0.0608724915454986,
+      "down": 0.061973670634025535
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9581637760164101,
+      "degraded": 0.02091811199179508,
+      "down": 0.02091811199179508
+     },
+     "degraded": {
+      "healthy": 0.3888229033738995,
+      "degraded": 0.5432685303343116,
+      "down": 0.06790856629178893
+     },
+     "down": {
+      "healthy": 0.3888229033738995,
+      "degraded": 0.06790856629178893,
+      "down": 0.5432685303343116
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 7.766303938416129,
+    "declare_degraded": 8.705616010263979,
+    "declare_down": 8.705616010263979,
+    "escalate": 4.0,
+    "query_A": 4.9688789206489705,
+    "query_B": 4.9688789206489705,
+    "query_C": 4.9688789206489705,
+    "query_V": 4.301485428093786
+   },
+   "best_action": "escalate"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tools A, B, C are three different interfaces that all read from the SAME metrics cache. If that cache is stale, all three are affected together for the whole incident.\n- When its backend is working, a tool reports the true state with probability 0.9, and each of the two wrong states with probability 0.05.\n- The shared cache is stale with probability 0.3 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A, B, C again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool B reported \"healthy\"\n3. tool C reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_B, query_C, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_B\": 0.0, \"query_C\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "frequent|indep3",
+  "regime": "frequent",
+  "pattern": "indep3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9575352398216397,
+    "degraded": 0.02123238008918015,
+    "down": 0.02123238008918015
+   },
+   "p_stale_A": 0.34044936785529945,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.9199562207335946,
+     "degraded": 0.04002188963320287,
+     "down": 0.04002188963320287
+    },
+    "query_V": {
+     "healthy": 0.7702746678751476,
+     "degraded": 0.1148626660624261,
+     "down": 0.1148626660624261
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.9597845587414036,
+      "degraded": 0.020107720629298262,
+      "down": 0.020107720629298262
+     },
+     "degraded": {
+      "healthy": 0.9316834503182557,
+      "degraded": 0.058365246649255895,
+      "down": 0.009951303032488493
+     },
+     "down": {
+      "healthy": 0.9316834503182557,
+      "degraded": 0.009951303032488493,
+      "down": 0.058365246649255895
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9944870626090428,
+      "degraded": 0.002756468695478593,
+      "down": 0.002756468695478593
+     },
+     "degraded": {
+      "healthy": 0.8336348725365943,
+      "degraded": 0.1478801133008052,
+      "down": 0.018485014162600642
+     },
+     "down": {
+      "healthy": 0.8336348725365943,
+      "degraded": 0.018485014162600642,
+      "down": 0.1478801133008052
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 1.273942805350809,
+    "declare_degraded": 9.7876761991082,
+    "declare_down": 9.7876761991082,
+    "escalate": 4.0,
+    "query_A": 2.2514412165946633,
+    "query_B": 2.2514412165946633,
+    "query_C": 2.251441216594663,
+    "query_V": 2.9922912586157078
+   },
+   "best_action": "declare_healthy"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tools A, B, C each read from their OWN independent backend. Each backend can be stale independently of the others.\n- When its backend is working, a tool reports the true state with probability 0.9, and each of the two wrong states with probability 0.05.\n- Each backend is stale with probability 0.3 for this incident, independently. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A, B, C again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool B reported \"healthy\"\n3. tool C reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_B, query_C, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_B\": 0.0, \"query_C\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "moderate|single",
+  "regime": "moderate",
+  "pattern": "single",
+  "exact": {
+   "posterior": {
+    "healthy": 0.8057553956834531,
+    "degraded": 0.09712230215827337,
+    "down": 0.09712230215827337
+   },
+   "p_stale_A": 0.27013228127175676,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.8365525644000926,
+     "degraded": 0.08172371779995359,
+     "down": 0.08172371779995359
+    },
+    "query_V": {
+     "healthy": 0.6640287769784172,
+     "degraded": 0.16798561151079133,
+     "down": 0.16798561151079133
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.8380824505750124,
+      "degraded": 0.08095877471249383,
+      "down": 0.08095877471249383
+     },
+     "degraded": {
+      "healthy": 0.6402998743424274,
+      "degraded": 0.32014993717121376,
+      "down": 0.0395501884863587
+     },
+     "down": {
+      "healthy": 0.6402998743424274,
+      "degraded": 0.0395501884863587,
+      "down": 0.32014993717121376
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.970747562296858,
+      "degraded": 0.01462621885157096,
+      "down": 0.01462621885157096
+     },
+     "degraded": {
+      "healthy": 0.47965738758029974,
+      "degraded": 0.4625267665952892,
+      "down": 0.05781584582441113
+     },
+     "down": {
+      "healthy": 0.47965738758029974,
+      "degraded": 0.05781584582441113,
+      "down": 0.4625267665952892
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 5.827338129496402,
+    "declare_degraded": 9.028776978417266,
+    "declare_down": 9.028776978417266,
+    "escalate": 3.999999999999999,
+    "query_A": 4.660448741760268,
+    "query_V": 3.9266187050359704
+   },
+   "best_action": "query_V"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.85, and each of the two wrong states with probability 0.075.\n- Tool A's backend is stale with probability 0.15 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "moderate|retry2",
+  "regime": "moderate",
+  "pattern": "retry2",
+  "exact": {
+   "posterior": {
+    "healthy": 0.8380824505750124,
+    "degraded": 0.08095877471249383,
+    "down": 0.08095877471249383
+   },
+   "p_stale_A": 0.3132239670097831,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.8834750624530995,
+     "degraded": 0.05826246877345026,
+     "down": 0.05826246877345026
+    },
+    "query_V": {
+     "healthy": 0.6866577154025086,
+     "degraded": 0.15667114229874565,
+     "down": 0.15667114229874568
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.8275995012005927,
+      "degraded": 0.08620024939970374,
+      "down": 0.08620024939970374
+     },
+     "degraded": {
+      "healthy": 0.9175626420965103,
+      "degraded": 0.058862170871315775,
+      "down": 0.023575187032174056
+     },
+     "down": {
+      "healthy": 0.9175626420965103,
+      "degraded": 0.023575187032174056,
+      "down": 0.058862170871315775
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.976419466963963,
+      "degraded": 0.011790266518018658,
+      "down": 0.011790266518018658
+     },
+     "degraded": {
+      "healthy": 0.5349309632126948,
+      "degraded": 0.4133946993664933,
+      "down": 0.05167433742081165
+     },
+     "down": {
+      "healthy": 0.5349309632126948,
+      "degraded": 0.05167433742081165,
+      "down": 0.4133946993664933
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 4.85752648274963,
+    "declare_degraded": 9.190412252875062,
+    "declare_down": 9.190412252875062,
+    "escalate": 4.0,
+    "query_A": 4.645317354679509,
+    "query_V": 3.7391217866649282
+   },
+   "best_action": "query_V"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.85, and each of the two wrong states with probability 0.075.\n- Tool A's backend is stale with probability 0.15 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "moderate|retry3",
+  "regime": "moderate",
+  "pattern": "retry3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.8275995012005927,
+    "degraded": 0.08620024939970374,
+    "down": 0.08620024939970374
+   },
+   "p_stale_A": 0.343900196974285,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.890918963394909,
+     "degraded": 0.0545405183025456,
+     "down": 0.05454051830254561
+    },
+    "query_V": {
+     "healthy": 0.6793196508404148,
+     "degraded": 0.16034017457979263,
+     "down": 0.16034017457979263
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.8127491024321132,
+      "degraded": 0.09362544878394347,
+      "down": 0.09362544878394347
+     },
+     "degraded": {
+      "healthy": 0.9488900782668287,
+      "degraded": 0.027154965105952493,
+      "down": 0.023954956627218662
+     },
+     "down": {
+      "healthy": 0.9488900782668287,
+      "degraded": 0.023954956627218662,
+      "down": 0.027154965105952493
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9746215940336598,
+      "degraded": 0.012689202983170264,
+      "down": 0.012689202983170264
+     },
+     "degraded": {
+      "healthy": 0.5161523014238337,
+      "degraded": 0.4300868431788144,
+      "down": 0.05376085539735179
+     },
+     "down": {
+      "healthy": 0.5161523014238338,
+      "degraded": 0.053760855397351794,
+      "down": 0.43008684317881446
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 5.172014963982224,
+    "declare_degraded": 9.137997506002964,
+    "declare_down": 9.137997506002964,
+    "escalate": 4.000000000000001,
+    "query_A": 4.629413973034026,
+    "query_V": 3.7999228930365634
+   },
+   "best_action": "query_V"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.85, and each of the two wrong states with probability 0.075.\n- Tool A's backend is stale with probability 0.15 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n3. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "moderate|retry_mixed",
+  "regime": "moderate",
+  "pattern": "retry_mixed",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9175626420965103,
+    "degraded": 0.058862170871315775,
+    "down": 0.023575187032174056
+   },
+   "p_stale_A": 0.08064127051354458,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.8270364924104193,
+     "degraded": 0.1001554600324578,
+     "down": 0.07280804755712299
+    },
+    "query_V": {
+     "healthy": 0.7422938494675573,
+     "degraded": 0.14120351960992106,
+     "down": 0.11650263092252183
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.9488900782668289,
+      "degraded": 0.027154965105952493,
+      "down": 0.023954956627218665
+     },
+     "degraded": {
+      "healthy": 0.6629489797192691,
+      "degraded": 0.33147448985963457,
+      "down": 0.0055765304210961975
+     },
+     "down": {
+      "healthy": 0.9119590796572058,
+      "degraded": 0.04402046017139705,
+      "down": 0.04402046017139705
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9888942420898919,
+      "degraded": 0.007929766751204693,
+      "down": 0.003175991158903497
+     },
+     "degraded": {
+      "healthy": 0.6498157019253517,
+      "degraded": 0.3334884061469532,
+      "down": 0.01669589192769501
+     },
+     "down": {
+      "healthy": 0.7875896319515051,
+      "degraded": 0.05052432756686936,
+      "down": 0.16188604048162547
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 2.473120737104695,
+    "declare_degraded": 9.411378291286843,
+    "declare_down": 9.76424812967826,
+    "escalate": 4.0,
+    "query_A": 2.6742411643057227,
+    "query_V": 3.2781366758402406
+   },
+   "best_action": "declare_healthy"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.85, and each of the two wrong states with probability 0.075.\n- Tool A's backend is stale with probability 0.15 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n3. tool A reported \"degraded\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "moderate|shared3",
+  "regime": "moderate",
+  "pattern": "shared3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.8275995012005927,
+    "degraded": 0.08620024939970374,
+    "down": 0.08620024939970374
+   },
+   "p_stale_A": 0.343900196974285,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.890918963394909,
+     "degraded": 0.0545405183025456,
+     "down": 0.05454051830254561
+    },
+    "query_V": {
+     "healthy": 0.6793196508404148,
+     "degraded": 0.16034017457979263,
+     "down": 0.16034017457979263
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.8127491024321132,
+      "degraded": 0.09362544878394347,
+      "down": 0.09362544878394347
+     },
+     "degraded": {
+      "healthy": 0.9488900782668287,
+      "degraded": 0.027154965105952493,
+      "down": 0.023954956627218662
+     },
+     "down": {
+      "healthy": 0.9488900782668287,
+      "degraded": 0.023954956627218662,
+      "down": 0.027154965105952493
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9746215940336598,
+      "degraded": 0.012689202983170264,
+      "down": 0.012689202983170264
+     },
+     "degraded": {
+      "healthy": 0.5161523014238337,
+      "degraded": 0.4300868431788144,
+      "down": 0.05376085539735179
+     },
+     "down": {
+      "healthy": 0.5161523014238338,
+      "degraded": 0.053760855397351794,
+      "down": 0.43008684317881446
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 5.172014963982224,
+    "declare_degraded": 9.137997506002964,
+    "declare_down": 9.137997506002964,
+    "escalate": 4.000000000000001,
+    "query_A": 4.629413973034026,
+    "query_B": 4.629413973034026,
+    "query_C": 4.629413973034026,
+    "query_V": 3.7999228930365634
+   },
+   "best_action": "query_V"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tools A, B, C are three different interfaces that all read from the SAME metrics cache. If that cache is stale, all three are affected together for the whole incident.\n- When its backend is working, a tool reports the true state with probability 0.85, and each of the two wrong states with probability 0.075.\n- The shared cache is stale with probability 0.15 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A, B, C again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool B reported \"healthy\"\n3. tool C reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_B, query_C, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_B\": 0.0, \"query_C\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "moderate|indep3",
+  "regime": "moderate",
+  "pattern": "indep3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9861835967853683,
+    "degraded": 0.006908201607315964,
+    "down": 0.006908201607315964
+   },
+   "p_stale_A": 0.17491783438969788,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.8677279338121981,
+     "degraded": 0.06613603309390105,
+     "down": 0.06613603309390105
+    },
+    "query_V": {
+     "healthy": 0.790328517749758,
+     "degraded": 0.10483574112512116,
+     "down": 0.10483574112512116
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.9888967629002667,
+      "degraded": 0.005551618549866459,
+      "down": 0.005551618549866459
+     },
+     "degraded": {
+      "healthy": 0.968384751610999,
+      "degraded": 0.028139049901324077,
+      "down": 0.003476198487676877
+     },
+     "down": {
+      "healthy": 0.968384751610999,
+      "degraded": 0.003476198487676877,
+      "down": 0.028139049901324077
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9982518151750401,
+      "degraded": 0.0008740924124799594,
+      "down": 0.0008740924124799594
+     },
+     "degraded": {
+      "healthy": 0.9406940669292934,
+      "degraded": 0.052716384951739276,
+      "down": 0.006589548118967406
+     },
+     "down": {
+      "healthy": 0.9406940669292934,
+      "degraded": 0.006589548118967406,
+      "down": 0.052716384951739276
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 0.41449209643895785,
+    "declare_degraded": 9.930917983926843,
+    "declare_down": 9.930917983926843,
+    "escalate": 4.000000000000001,
+    "query_A": 1.4144920964389578,
+    "query_B": 1.4144920964389578,
+    "query_C": 1.4144920964389578,
+    "query_V": 2.414492096438958
+   },
+   "best_action": "declare_healthy"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tools A, B, C each read from their OWN independent backend. Each backend can be stale independently of the others.\n- When its backend is working, a tool reports the true state with probability 0.85, and each of the two wrong states with probability 0.075.\n- Each backend is stale with probability 0.15 for this incident, independently. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A, B, C again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool B reported \"healthy\"\n3. tool C reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_B, query_C, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_B\": 0.0, \"query_C\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "rare|single",
+  "regime": "rare",
+  "pattern": "single",
+  "exact": {
+   "posterior": {
+    "healthy": 0.8198222461621331,
+    "degraded": 0.0900888769189335,
+    "down": 0.0900888769189335
+   },
+   "p_stale_A": 0.1044977107460275,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.6930339348235928,
+     "degraded": 0.15348303258820364,
+     "down": 0.15348303258820362
+    },
+    "query_V": {
+     "healthy": 0.6738755723134932,
+     "degraded": 0.16306221384325342,
+     "down": 0.16306221384325345
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.9037961942846262,
+      "degraded": 0.04810190285768694,
+      "down": 0.04810190285768694
+     },
+     "degraded": {
+      "healthy": 0.6302351800590472,
+      "degraded": 0.3151175900295237,
+      "down": 0.054647229911429125
+     },
+     "down": {
+      "healthy": 0.6302351800590472,
+      "degraded": 0.054647229911429125,
+      "down": 0.3151175900295237
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9732624595339914,
+      "degraded": 0.013368770233004276,
+      "down": 0.013368770233004276
+     },
+     "degraded": {
+      "healthy": 0.5027665372863159,
+      "degraded": 0.44198530018994153,
+      "down": 0.05524816252374268
+     },
+     "down": {
+      "healthy": 0.5027665372863158,
+      "degraded": 0.055248162523742664,
+      "down": 0.4419853001899415
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 5.40533261513601,
+    "declare_degraded": 9.099111230810665,
+    "declare_down": 9.099111230810665,
+    "escalate": 4.0,
+    "query_A": 4.178192807961219,
+    "query_V": 3.8450309722596283
+   },
+   "best_action": "query_V"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.75, and each of the two wrong states with probability 0.125.\n- Tool A's backend is stale with probability 0.05 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "rare|retry2",
+  "regime": "rare",
+  "pattern": "retry2",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9037961942846262,
+    "degraded": 0.04810190285768694,
+    "down": 0.04810190285768694
+   },
+   "p_stale_A": 0.14625947494107616,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.7677557918340143,
+     "degraded": 0.11612210408299281,
+     "down": 0.11612210408299281
+    },
+    "query_V": {
+     "healthy": 0.7326573359992383,
+     "degraded": 0.13367133200038087,
+     "down": 0.13367133200038087
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.9038494991998889,
+      "degraded": 0.0480752504000556,
+      "down": 0.0480752504000556
+     },
+     "degraded": {
+      "healthy": 0.9036199782327844,
+      "degraded": 0.07923770151689893,
+      "down": 0.017142320250316707
+     },
+     "down": {
+      "healthy": 0.9036199782327844,
+      "degraded": 0.017142320250316707,
+      "down": 0.07923770151689893
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9868691950536241,
+      "degraded": 0.006565402473187947,
+      "down": 0.006565402473187947
+     },
+     "degraded": {
+      "healthy": 0.6761331549251345,
+      "degraded": 0.287881640066547,
+      "down": 0.035985205008318366
+     },
+     "down": {
+      "healthy": 0.6761331549251346,
+      "degraded": 0.03598520500831837,
+      "down": 0.28788164006654704
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 2.8861141714612164,
+    "declare_degraded": 9.518980971423131,
+    "declare_down": 9.518980971423131,
+    "escalate": 4.0,
+    "query_A": 3.8159951103524676,
+    "query_V": 3.3579820731491683
+   },
+   "best_action": "declare_healthy"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.75, and each of the two wrong states with probability 0.125.\n- Tool A's backend is stale with probability 0.05 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "rare|retry3",
+  "regime": "rare",
+  "pattern": "retry3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9038494991998889,
+    "degraded": 0.0480752504000556,
+    "down": 0.0480752504000556
+   },
+   "p_stale_A": 0.18478752254534075,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.7883052927553245,
+     "degraded": 0.1058473536223378,
+     "down": 0.10584735362233778
+    },
+    "query_V": {
+     "healthy": 0.7326946494399224,
+     "degraded": 0.1336526752800389,
+     "down": 0.1336526752800389
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.885714910576678,
+      "degraded": 0.05714254471166106,
+      "down": 0.05714254471166106
+     },
+     "degraded": {
+      "healthy": 0.9713787840822683,
+      "degraded": 0.01985624071277483,
+      "down": 0.008764975204956747
+     },
+     "down": {
+      "healthy": 0.9713787840822683,
+      "degraded": 0.008764975204956747,
+      "down": 0.01985624071277483
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9868771389454516,
+      "degraded": 0.006561430527274179,
+      "down": 0.006561430527274179
+     },
+     "degraded": {
+      "healthy": 0.6762674202413658,
+      "degraded": 0.287762293118786,
+      "down": 0.03597028663984824
+     },
+     "down": {
+      "healthy": 0.6762674202413659,
+      "degraded": 0.03597028663984825,
+      "down": 0.28776229311878604
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 2.884515024003336,
+    "declare_degraded": 9.519247495999444,
+    "declare_down": 9.519247495999444,
+    "escalate": 4.0,
+    "query_A": 3.8845150240033366,
+    "query_V": 3.357672904640645
+   },
+   "best_action": "declare_healthy"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.75, and each of the two wrong states with probability 0.125.\n- Tool A's backend is stale with probability 0.05 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n3. tool A reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "rare|retry_mixed",
+  "regime": "rare",
+  "pattern": "retry_mixed",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9036199782327844,
+    "degraded": 0.07923770151689893,
+    "down": 0.017142320250316707
+   },
+   "p_stale_A": 0.018892975988001055,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.6998229961091007,
+     "degraded": 0.16949330859125655,
+     "down": 0.13068369529964266
+    },
+    "query_V": {
+     "healthy": 0.7325339847629491,
+     "degraded": 0.15546639106182922,
+     "down": 0.11199962417522168
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.9713787840822685,
+      "degraded": 0.019856240712774836,
+      "down": 0.00876497520495675
+     },
+     "degraded": {
+      "healthy": 0.6602820166172102,
+      "degraded": 0.3301410083086052,
+      "down": 0.009576975074184702
+     },
+     "down": {
+      "healthy": 0.8563683735997325,
+      "degraded": 0.07181581320013378,
+      "down": 0.07181581320013378
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9868429282774637,
+      "degraded": 0.010816931796350794,
+      "down": 0.0023401399261856813
+     },
+     "degraded": {
+      "healthy": 0.5812317196412009,
+      "degraded": 0.4077418970143121,
+      "down": 0.011026383344487092
+     },
+     "down": {
+      "healthy": 0.8068062592951961,
+      "degraded": 0.07074818518402594,
+      "down": 0.12244555552077793
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 2.891400653016469,
+    "declare_degraded": 9.20762298483101,
+    "declare_down": 9.828576797496833,
+    "escalate": 4.0,
+    "query_A": 2.5783099829133986,
+    "query_V": 3.3501028100808554
+   },
+   "best_action": "query_A"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tool A may be called repeatedly; every call goes to the same backend.\n- When its backend is working, a tool reports the true state with probability 0.75, and each of the two wrong states with probability 0.125.\n- Tool A's backend is stale with probability 0.05 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool A reported \"healthy\"\n3. tool A reported \"degraded\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "rare|shared3",
+  "regime": "rare",
+  "pattern": "shared3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9038494991998889,
+    "degraded": 0.0480752504000556,
+    "down": 0.0480752504000556
+   },
+   "p_stale_A": 0.18478752254534075,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.7883052927553245,
+     "degraded": 0.1058473536223378,
+     "down": 0.10584735362233778
+    },
+    "query_V": {
+     "healthy": 0.7326946494399224,
+     "degraded": 0.1336526752800389,
+     "down": 0.1336526752800389
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.885714910576678,
+      "degraded": 0.05714254471166106,
+      "down": 0.05714254471166106
+     },
+     "degraded": {
+      "healthy": 0.9713787840822683,
+      "degraded": 0.01985624071277483,
+      "down": 0.008764975204956747
+     },
+     "down": {
+      "healthy": 0.9713787840822683,
+      "degraded": 0.008764975204956747,
+      "down": 0.01985624071277483
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.9868771389454516,
+      "degraded": 0.006561430527274179,
+      "down": 0.006561430527274179
+     },
+     "degraded": {
+      "healthy": 0.6762674202413658,
+      "degraded": 0.287762293118786,
+      "down": 0.03597028663984824
+     },
+     "down": {
+      "healthy": 0.6762674202413659,
+      "degraded": 0.03597028663984825,
+      "down": 0.28776229311878604
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 2.884515024003336,
+    "declare_degraded": 9.519247495999444,
+    "declare_down": 9.519247495999444,
+    "escalate": 4.0,
+    "query_A": 3.8845150240033366,
+    "query_B": 3.8845150240033366,
+    "query_C": 3.8845150240033366,
+    "query_V": 3.357672904640645
+   },
+   "best_action": "declare_healthy"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tools A, B, C are three different interfaces that all read from the SAME metrics cache. If that cache is stale, all three are affected together for the whole incident.\n- When its backend is working, a tool reports the true state with probability 0.75, and each of the two wrong states with probability 0.125.\n- The shared cache is stale with probability 0.05 for this incident. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A, B, C again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool B reported \"healthy\"\n3. tool C reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_B, query_C, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_B\": 0.0, \"query_C\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ },
+ {
+  "id": "rare|indep3",
+  "regime": "rare",
+  "pattern": "indep3",
+  "exact": {
+   "posterior": {
+    "healthy": 0.9894959105202589,
+    "degraded": 0.005252044739870478,
+    "down": 0.005252044739870478
+   },
+   "p_stale_A": 0.06610851469321438,
+   "predict_next": {
+    "query_A": {
+     "healthy": 0.7598825853934964,
+     "degraded": 0.1200587073032517,
+     "down": 0.12005870730325172
+    },
+    "query_V": {
+     "healthy": 0.7926471373641812,
+     "degraded": 0.10367643131790928,
+     "down": 0.10367643131790928
+    }
+   },
+   "posterior_after": {
+    "query_A": {
+     "healthy": {
+      "healthy": 0.9948848602248285,
+      "degraded": 0.002557569887585723,
+      "down": 0.002557569887585723
+     },
+     "degraded": {
+      "healthy": 0.9724418828447798,
+      "degraded": 0.023485326335509586,
+      "down": 0.004072790819710475
+     },
+     "down": {
+      "healthy": 0.9724418828447798,
+      "degraded": 0.004072790819710475,
+      "down": 0.023485326335509586
+     }
+    },
+    "query_V": {
+     "healthy": {
+      "healthy": 0.99867480887969,
+      "degraded": 0.0006625955601549629,
+      "down": 0.0006625955601549629
+     },
+     "degraded": {
+      "healthy": 0.9544077645632956,
+      "degraded": 0.040526431499292755,
+      "down": 0.005065803937411593
+     },
+     "down": {
+      "healthy": 0.9544077645632956,
+      "degraded": 0.005065803937411593,
+      "down": 0.040526431499292755
+     }
+    }
+   },
+   "expected_cost": {
+    "declare_healthy": 0.3151226843922287,
+    "declare_degraded": 9.947479552601292,
+    "declare_down": 9.947479552601292,
+    "escalate": 3.9999999999999996,
+    "query_A": 1.3151226843922288,
+    "query_B": 1.3151226843922288,
+    "query_C": 1.3151226843922288,
+    "query_V": 2.3151226843922283
+   },
+   "best_action": "declare_healthy"
+  },
+  "prompt": "You are an on-call agent deciding whether a production service is healthy.\n\nThe service is in exactly one of three states: healthy, degraded, down.\nPrior probabilities before any observation: healthy 0.50, degraded 0.25, down 0.25.\n\nMonitoring tools:\n- Tools A, B, C each read from their OWN independent backend. Each backend can be stale independently of the others.\n- When its backend is working, a tool reports the true state with probability 0.75, and each of the two wrong states with probability 0.125.\n- Each backend is stale with probability 0.05 for this incident, independently. A stale backend ignores the true state and reports \"healthy\" with probability 0.97 (each other state 0.015). Staleness, if present, persists for the whole incident.\n- Given the service state and whether each backend is stale, separate calls are otherwise independent.\n- Tool V is an independent verification tool on its own backend, never stale, accuracy 0.8 (each wrong state 0.1).\n\nCosts (in the same units):\n- Declaring \"healthy\" when the service is not healthy: 30.\n- Declaring \"degraded\" or \"down\" when that is wrong: 10.\n- A correct declaration: 0.\n- Escalating to a human: 4.\n- Calling one of tools A, B, C again: 1 per call. Calling tool V: 2. Remaining query budget: 4.\n\nObservations so far:\n1. tool A reported \"healthy\"\n2. tool B reported \"healthy\"\n3. tool C reported \"healthy\"\n\nPossible actions now: declare_healthy, declare_degraded, declare_down, escalate, query_A, query_B, query_C, query_V.\n\nBefore choosing, write out your calculation, then report every quantity below. Report what you actually compute; do not round to make the numbers agree with your chosen action.\n(a) posterior: your probability of each state given the observations so far.\n(b) p_stale_A: your probability that tool A's backend is stale, given the observations so far.\n(c) predict_next: for query_A and for query_V, the probability that the NEXT report from that tool is healthy / degraded / down.\n(d) posterior_after: for query_A and for query_V, and for each possible next report, your posterior over the three states after seeing that report.\n(e) expected_cost: for every action listed above, the expected total cost from now on if you take that action now and then act optimally within the remaining budget (include the query cost for queries).\n(f) action: the single next action you choose.\n\nEnd your answer with ONE line of JSON in exactly this shape (numbers are placeholders):\n{\"posterior\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"p_stale_A\": 0.0, \"predict_next\": {\"query_A\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"query_V\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"posterior_after\": {\"query_A\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}, \"query_V\": {\"healthy\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"degraded\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}, \"down\": {\"healthy\": 0.0, \"degraded\": 0.0, \"down\": 0.0}}}, \"expected_cost\": {\"declare_healthy\": 0.0, \"declare_degraded\": 0.0, \"declare_down\": 0.0, \"escalate\": 0.0, \"query_A\": 0.0, \"query_B\": 0.0, \"query_C\": 0.0, \"query_V\": 0.0}, \"action\": \"escalate\"}"
+ }
+]

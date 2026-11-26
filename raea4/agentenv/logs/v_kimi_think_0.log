@@ -1,0 +1,19 @@
+18 episode runs to do (1 already in logs/x_kimi_k31pro_think_s0_k2e.jsonl)
+XP10-001 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 16920, 'completion': 6400, 'reasoning': 6029, 'cache_hit': 0, 'cache_miss': 0} lat=231.9s
+XP10-002 K2e kimi-k3.1-pro: submitted verdict=1 calls=1 api=3 tok={'prompt': 7678, 'completion': 7407, 'reasoning': 7092, 'cache_hit': 0, 'cache_miss': 0} lat=247.6s
+XP10-003 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 16453, 'completion': 7210, 'reasoning': 6837, 'cache_hit': 0, 'cache_miss': 0} lat=297.1s
+XP10-004 K2e kimi-k3.1-pro: submitted verdict=0 calls=3 api=5 tok={'prompt': 18937, 'completion': 6063, 'reasoning': 5622, 'cache_hit': 0, 'cache_miss': 0} lat=220.0s
+XP10-005 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 14276, 'completion': 6904, 'reasoning': 6539, 'cache_hit': 0, 'cache_miss': 0} lat=251.5s
+XP10-006 K2e kimi-k3.1-pro: submitted verdict=0 calls=4 api=6 tok={'prompt': 29232, 'completion': 9994, 'reasoning': 9520, 'cache_hit': 0, 'cache_miss': 0} lat=378.4s
+XP10-007 K2e kimi-k3.1-pro: submitted verdict=1 calls=2 api=4 tok={'prompt': 14763, 'completion': 5999, 'reasoning': 5625, 'cache_hit': 0, 'cache_miss': 0} lat=234.6s
+XP10-008 K2e kimi-k3.1-pro: submitted verdict=2 calls=1 api=3 tok={'prompt': 7530, 'completion': 4848, 'reasoning': 4518, 'cache_hit': 0, 'cache_miss': 0} lat=201.9s
+XP10-009 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 14775, 'completion': 5179, 'reasoning': 4807, 'cache_hit': 0, 'cache_miss': 0} lat=178.7s
+XP10-010 K2e kimi-k3.1-pro: submitted verdict=1 calls=3 api=5 tok={'prompt': 18195, 'completion': 5565, 'reasoning': 5129, 'cache_hit': 0, 'cache_miss': 0} lat=193.4s
+XP10-011 K2e kimi-k3.1-pro: submitted verdict=2 calls=2 api=4 tok={'prompt': 19242, 'completion': 7118, 'reasoning': 6741, 'cache_hit': 0, 'cache_miss': 0} lat=244.3s
+XP10-012 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 14127, 'completion': 5454, 'reasoning': 5088, 'cache_hit': 0, 'cache_miss': 0} lat=202.7s
+XP10-013 K2e kimi-k3.1-pro: submitted verdict=0 calls=5 api=8 tok={'prompt': 63432, 'completion': 13151, 'reasoning': 12565, 'cache_hit': 0, 'cache_miss': 0} lat=434.9s
+XP10-014 K2e kimi-k3.1-pro: submitted verdict=0 calls=2 api=4 tok={'prompt': 10924, 'completion': 6727, 'reasoning': 6361, 'cache_hit': 0, 'cache_miss': 0} lat=225.8s
+XP10-015 K2e kimi-k3.1-pro: submitted verdict=1 calls=4 api=6 tok={'prompt': 29540, 'completion': 9205, 'reasoning': 8724, 'cache_hit': 0, 'cache_miss': 0} lat=329.2s
+XP10-016 K2e kimi-k3.1-pro: submitted verdict=2 calls=1 api=3 tok={'prompt': 9489, 'completion': 6815, 'reasoning': 6485, 'cache_hit': 0, 'cache_miss': 0} lat=274.4s
+XP10-017 K2e kimi-k3.1-pro: submitted verdict=1 calls=4 api=6 tok={'prompt': 48174, 'completion': 14891, 'reasoning': 14422, 'cache_hit': 0, 'cache_miss': 0} lat=547.9s
+XP10-018 K2e kimi-k3.1-pro: submitted verdict=0 calls=4 api=6 tok={'prompt': 37971, 'completion': 11014, 'reasoning': 10540, 'cache_hit': 0, 'cache_miss': 0} lat=411.9s

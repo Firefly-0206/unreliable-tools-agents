@@ -1,0 +1,126 @@
+
+== flash (non-thinking)   n=50 per condition  oracle first 100%  no submit {'K1': 0, 'KC': 0, 'KS1': 0, 'KS2': 0, 'KS2v': 0, 'KS3': 0}  invalid {'K1': 1, 'KC': 6, 'KS1': 1, 'KS2': 0, 'KS2v': 1, 'KS3': 0}
+cond    first  @.10  @.30  regret   under    over  verdict  calls   rep  opt steps
+K1        22%   24%   20%    3.53    1.31    0.05     0.76   3.58  1.00        42%
+KC        18%   20%   16%    2.58    1.42    0.04     0.16   3.74  0.90        41%
+KS1       30%   40%   20%    2.33    1.38    0.02     0.01   3.26  0.84        44%
+KS2        4%    4%    4%    2.50    1.59    0.01     0.18   3.46  0.72        39%
+KS2v      34%   48%   20%    1.03    0.75    0.00     0.04   2.54  0.92        57%
+KS3       40%   36%   44%    0.82    0.43    0.03     0.04   3.46  1.38        69%
+  G first model-oracle|K1      -78 [-91, -65]  (percentage points)
+  G under|K1                   +1.314 [+0.542, +2.326]
+  G first model-oracle|KC      -82 [-96, -64]  (percentage points)
+  G under|KC                   +1.422 [+0.714, +2.238]
+  G first model-oracle|KS1     -70 [-90, -52]  (percentage points)
+  G under|KS1                  +1.381 [+0.619, +2.238]
+  G first model-oracle|KS2     -96 [-100, -86]  (percentage points)
+  G under|KS2                  +1.585 [+1.000, +2.285]
+  G first model-oracle|KS2v    -66 [-87, -44]  (percentage points)
+  G under|KS2v                 +0.747 [+0.397, +1.120]
+  G first model-oracle|KS3     -60 [-81, -40]  (percentage points)
+  G under|KS3                  +0.432 [+0.189, +0.721]
+  L regret KC-K1               -0.959 [-2.648, -0.029]
+  L first KC-K1                -4 [-17, +8]  (percentage points)
+  L under KC-K1                +0.108 [-0.266, +0.469]
+  L regret KS1-KC              -0.246 [-1.131, +0.481]
+  L first KS1-KC               +12 [-2, +25]  (percentage points)
+  L under KS1-KC               -0.041 [-0.447, +0.430]
+  L regret KS2-KS1             +0.167 [-0.425, +0.978]
+  L first KS2-KS1              -26 [-43, -10]  (percentage points)
+  L under KS2-KS1              +0.205 [-0.234, +0.742]
+  L regret KS2v-KS2            -1.468 [-2.384, -0.718]
+  L first KS2v-KS2             +30 [+12, +48]  (percentage points)
+  L under KS2v-KS2             -0.838 [-1.446, -0.211]
+  L regret KS3-KS2v            -0.204 [-0.630, +0.196]
+  L first KS3-KS2v             +6 [-14, +28]  (percentage points)
+  L under KS3-KS2v             -0.315 [-0.734, +0.018]
+  L regret KS3-KS2             -1.672 [-2.489, -1.089]
+  L first KS3-KS2              +36 [+18, +54]  (percentage points)
+  L under KS3-KS2              -1.153 [-1.686, -0.700]
+  L regret KS3-K1              -2.710 [-4.883, -1.679]
+  L first KS3-K1               +18 [-4, +39]  (percentage points)
+  L under KS3-K1               -0.881 [-1.726, -0.261]
+
+== gpt-6.1-terra (medium)   n=50 per condition  oracle first 100%  no submit {'K1': 0, 'KC': 0, 'KS1': 0, 'KS2': 0, 'KS2v': 0, 'KS3': 0}  invalid {'K1': 0, 'KC': 0, 'KS1': 0, 'KS2': 0, 'KS2v': 0, 'KS3': 0}
+cond    first  @.10  @.30  regret   under    over  verdict  calls   rep  opt steps
+K1        64%   96%   32%    0.63    0.61    0.00     0.00   2.94  1.04        66%
+KC        74%   96%   52%    0.21    0.15    0.04     0.00   2.80  1.38        78%
+KS1       66%   92%   40%    0.32    0.30    0.00     0.00   2.64  1.20        71%
+KS2       74%   96%   52%    0.23    0.20    0.00     0.00   2.48  1.26        73%
+KS2v      80%  100%   60%    0.17    0.13    0.00     0.00   2.54  1.36        83%
+KS3      100%  100%  100%    0.00    0.00    0.00     0.00   3.00  1.60       100%
+  G first model-oracle|K1      -36 [-50, -21]  (percentage points)
+  G under|K1                   +0.606 [+0.186, +1.130]
+  G first model-oracle|KC      -26 [-40, -12]  (percentage points)
+  G under|KC                   +0.154 [+0.079, +0.249]
+  G first model-oracle|KS1     -34 [-46, -20]  (percentage points)
+  G under|KS1                  +0.295 [+0.121, +0.550]
+  G first model-oracle|KS2     -26 [-42, -10]  (percentage points)
+  G under|KS2                  +0.204 [+0.100, +0.350]
+  G first model-oracle|KS2v    -20 [-31, -10]  (percentage points)
+  G under|KS2v                 +0.130 [+0.031, +0.274]
+  G first model-oracle|KS3     +0 [+0, +0]  (percentage points)
+  G under|KS3                  +0.000 [+0.000, +0.000]
+  L regret KC-K1               -0.420 [-0.887, -0.042]
+  L first KC-K1                +10 [-6, +22]  (percentage points)
+  L under KC-K1                -0.452 [-0.930, -0.070]
+  L regret KS1-KC              +0.107 [-0.044, +0.315]
+  L first KS1-KC               -8 [-23, +8]  (percentage points)
+  L under KS1-KC               +0.141 [+0.015, +0.334]
+  L regret KS2-KS1             -0.091 [-0.310, +0.061]
+  L first KS2-KS1              +8 [-8, +25]  (percentage points)
+  L under KS2-KS1              -0.092 [-0.317, +0.059]
+  L regret KS2v-KS2            -0.056 [-0.236, +0.110]
+  L first KS2v-KS2             +6 [-10, +24]  (percentage points)
+  L under KS2v-KS2             -0.074 [-0.245, +0.092]
+  L regret KS3-KS2v            -0.172 [-0.313, -0.067]
+  L first KS3-KS2v             +20 [+10, +31]  (percentage points)
+  L under KS3-KS2v             -0.130 [-0.274, -0.031]
+  L regret KS3-KS2             -0.228 [-0.367, -0.129]
+  L first KS3-KS2              +26 [+10, +42]  (percentage points)
+  L under KS3-KS2              -0.204 [-0.350, -0.100]
+  L regret KS3-K1              -0.632 [-1.163, -0.207]
+  L first KS3-K1               +36 [+21, +50]  (percentage points)
+  L under KS3-K1               -0.606 [-1.130, -0.186]
+
+== Sonnet 5.5 (high)   n=50 per condition  oracle first 100%  no submit {'K1': 0, 'KC': 0, 'KS1': 0, 'KS2': 0, 'KS2v': 0, 'KS3': 0}  invalid {'K1': 0, 'KC': 0, 'KS1': 0, 'KS2': 0, 'KS2v': 0, 'KS3': 0}
+cond    first  @.10  @.30  regret   under    over  verdict  calls   rep  opt steps
+K1        20%   36%    4%    0.93    0.90    0.00     0.00   2.50  0.44        39%
+KC        50%   76%   24%    0.73    0.69    0.00     0.00   2.48  0.76        54%
+KS1       38%   64%   12%    0.98    0.91    0.00     0.00   2.42  0.48        42%
+KS2       24%   44%    4%    0.97    0.96    0.00     0.00   2.40  0.36        39%
+KS2v      72%   96%   48%    0.60    0.40    0.00     0.00   1.88  1.08        69%
+KS3      100%  100%  100%    0.00    0.00    0.00     0.00   3.00  1.60       100%
+  G first model-oracle|K1      -80 [-92, -67]  (percentage points)
+  G under|K1                   +0.904 [+0.551, +1.346]
+  G first model-oracle|KC      -50 [-67, -35]  (percentage points)
+  G under|KC                   +0.685 [+0.347, +1.110]
+  G first model-oracle|KS1     -62 [-79, -44]  (percentage points)
+  G under|KS1                  +0.908 [+0.533, +1.350]
+  G first model-oracle|KS2     -76 [-90, -62]  (percentage points)
+  G under|KS2                  +0.960 [+0.525, +1.451]
+  G first model-oracle|KS2v    -28 [-42, -15]  (percentage points)
+  G under|KS2v                 +0.395 [+0.154, +0.666]
+  G first model-oracle|KS3     +0 [+0, +0]  (percentage points)
+  G under|KS3                  +0.000 [+0.000, +0.000]
+  L regret KC-K1               -0.200 [-0.443, +0.050]
+  L first KC-K1                +30 [+12, +46]  (percentage points)
+  L under KC-K1                -0.219 [-0.496, +0.054]
+  L regret KS1-KC              +0.253 [-0.027, +0.540]
+  L first KS1-KC               -12 [-31, +8]  (percentage points)
+  L under KS1-KC               +0.222 [-0.085, +0.548]
+  L regret KS2-KS1             -0.011 [-0.326, +0.330]
+  L first KS2-KS1              -14 [-32, +4]  (percentage points)
+  L under KS2-KS1              +0.052 [-0.290, +0.436]
+  L regret KS2v-KS2            -0.368 [-0.841, +0.047]
+  L first KS2v-KS2             +48 [+29, +67]  (percentage points)
+  L under KS2v-KS2             -0.565 [-0.942, -0.262]
+  L regret KS3-KS2v            -0.604 [-0.815, -0.409]
+  L first KS3-KS2v             +28 [+15, +42]  (percentage points)
+  L under KS3-KS2v             -0.395 [-0.666, -0.154]
+  L regret KS3-KS2             -0.972 [-1.453, -0.539]
+  L first KS3-KS2              +76 [+62, +90]  (percentage points)
+  L under KS3-KS2              -0.960 [-1.451, -0.525]
+  L regret KS3-K1              -0.930 [-1.369, -0.579]
+  L first KS3-K1               +80 [+67, +92]  (percentage points)
+  L under KS3-K1               -0.904 [-1.346, -0.551]

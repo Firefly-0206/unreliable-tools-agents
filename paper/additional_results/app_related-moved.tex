@@ -1,0 +1,31 @@
+\section{Further related work and broader impact}\label{app:related-moved-archived}
+\paragraph{Uncertainty and selective prediction.}
+Verbalised confidence is often overconfident \citep{xiong2024can}, though sometimes better calibrated than token probabilities \citep{tian2023just}; semantic uncertainty and conformal methods improve single-decision estimates \citep{kuhn2023semantic,ren2023robots}, and position papers call for Bayes-consistent control of agents \citep{kirchhof2025position,papamarkou2026position}.
+Escalation is a reject option \citep{chow1970optimum,geifman2017selective}; post-hoc calibration includes Platt scaling, isotonic regression and temperature scaling \citep{platt1999probabilistic,zadrozny2002transforming,guo2017calibration}.
+
+\paragraph{Dependent evidence.}
+Covariance intersection fuses estimates conservatively under unknown cross-correlations \citep{julier1997nondivergent}, ``data incest'' names confidence inflation from reused information \citep{krishnamurthy2013misinformation}, and annotator and diagnosis models represent unreliable sources and faults latently \citep{dawid1979maximum,dekleer1987diagnosing}.
+
+\paragraph{Value of information, adaptive submodularity and POMDPs.}
+Value of information \citep{howard1966information} and rational metareasoning \citep{russell1991right} give the decision-theoretic basis; non-myopic VOI is tractable only for special structures \citep{krause2005optimal,krause2009optimal}.
+Adaptive submodularity and EC$^2$ give greedy guarantees for adaptive test selection, including with correlated noise \citep{golovin2011adaptive,golovin2010near}, and greedy information maximisation has been analysed under persistent noise with a known noise model \citep{chen2015sequential}.
+We do not introduce persistent noise into sequential diagnosis; we study a \emph{misspecified} dependence model, exact for one step, whose regret grows with planning depth on the instances that plan repeats.
+
+\paragraph{Tool-using agents and faulty tools.}
+ReAct, Toolformer and Reflexion interleave reasoning with tool calls \citep{yao2023react,schick2023toolformer,shinn2023reflexion}.
+LLMs often fail to notice silently wrong tool outputs, and in-context disclaimers help \citep{sun2024tools}; corrupted returns are adopted at high rates \citep{yang2026overreliance}, as are incorrect retrieved passages \citep{wu2024clasheval}.
+Benchmarks inject tool-side noise or faults \citep{wang2026agentnoisebench,zhu2026toolmaze}, emulate risky tool use \citep{ruan2024identifying}, measure consistency over trials \citep{yao2025taubench}, or test stateful tools with implicit dependencies between calls \citep{lu2025toolsandbox}, which is dependence through state preconditions, not shared observation errors.
+AIOpsLab and ITBench offer realistic fault injection \citep{chen2025aiopslab,jha2025itbench}, and tool \emph{over}use is the cost side of our trade-off \citep{qian2025smart}.
+Noise in most of these benchmarks is per call, though some faults are permanent \citep{zhu2026toolmaze}; we study persistent faults shared across tools, whose repeated reports are dependent evidence.
+
+\paragraph{Information seeking and decisions with LLMs.}
+Uncertainty of Thoughts (UoT) \citep{hu2024uncertainty} keeps a possibility set, has an LLM simulate yes/no answers that partition it deterministically, and scores questions by entropy-based reward over a depth-3 tree.
+Its answers are truthful and conditionally independent, so repeating a question is useless by construction, and it has no per-question cost or asymmetric terminal loss.
+DIVA \citep{lee2026diva} has the LLM specify a small decision model (the probability of a bad outcome and how each check would shift it) and values checks by their decision value net of cost, stopping when no check is worth it; MoBayes \citep{kesmen2026mobayes} lets the LLM only parse a clinical conversation into observations, while a Bayesian module updates the posterior, selects questions by expected information gain and decides when to stop. Both separate language from probabilistic decision making, as our H1 and K2r conditions do; our aim is diagnostic rather than architectural: on tasks with persistent faults shared across tools, the same-JSON replay compares the model's own decisions with those of an exact planner given the very model it wrote.
+BED-LLM picks queries by expected information gain from an LLM-derived belief \citep{choudhury2026bedllm}; clarifying questions have been cast as Bayesian experimental design with a cost term \citep{kobalczyk2025active}; and naive question-asking hurt accuracy in interactive clinical QA while confidence-based abstention helped \citep{li2024mediq}, a sign that decisions about further information can fail where knowledge is present.
+Expected-utility scaffolds target one choice \citep{liu2025dellma}, and uncertainty has been used to decide when to call tools \citep{han2024towards}.
+We add correlated unreliable observations, costs, escalation with asymmetric loss, and look-ahead that \emph{hurts} when the dependence model is wrong.
+
+\paragraph{Broader impact.}\label{app:impact-archived}
+Agents that declare systems healthy on dependent evidence cause false assurance; explicit dependence handling and escalation can reduce it, but a wrong LLM-proposed grouping can yield confident wrong decisions, and reasoning models are costly per decision (median $31{,}244$ output tokens for deepseek-reasoner in the pilot). Decision audits of the kind studied here can expose such false assurance before deployment; they add tool calls and tokens, and an exact planner acting on a wrong written model fails confidently.
+

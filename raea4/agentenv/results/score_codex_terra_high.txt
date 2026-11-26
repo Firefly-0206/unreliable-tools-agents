@@ -1,0 +1,64 @@
+model           prot family      cond    n   loss       regret [95% CI]  info/verd severe   esc   acc calls  useC  repC  repL noSub Probe1 d-Probe1
+codex:gpt-6.1-tetext MIXED       K1     25   3.12    0.07 [ 0.02, 0.13] 0.07/ 0.00   0.00  0.04  0.96  2.80  0.92  0.12  0.96  0.00   2.89    -2.82
+codex:gpt-6.1-tetext MIXED       K2e    25   2.84    0.18 [ 0.06, 0.34] 0.18/ 0.00   0.00  0.00  1.00  2.84  0.76  0.00  1.24  0.00   2.89    -2.71
+codex:gpt-6.1-tetext MIXED       K2r    25   3.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  2.96  0.96  0.16  1.08  0.00   2.89    -2.89
+codex:gpt-6.1-tetext PERSIST     K1     25   4.60    0.26 [ 0.12, 0.41] 0.26/ 0.00   0.00  0.12  0.84  2.76  0.80  0.20  0.88  0.00   2.07    -1.81
+codex:gpt-6.1-tetext PERSIST     K2e    25   4.92    0.47 [ 0.26, 0.68] 0.47/ 0.00   0.00  0.04  0.88  2.80  0.28  0.04  1.40  0.00   2.07    -1.60
+codex:gpt-6.1-tetext PERSIST     K2r    25   4.20    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.92  2.84  1.00  0.44  0.76  0.00   2.07    -2.07
+codex:gpt-6.1-tetext SHARED      K1     25   2.88    0.23 [ 0.08, 0.42] 0.23/ 0.00   0.00  0.04  0.96  1.92  1.00  0.60  0.04  0.00   2.03    -1.80
+codex:gpt-6.1-tetext SHARED      K2e    25   4.28    0.41 [ 0.16, 0.83] 0.41/ 0.00   0.00  0.04  0.88  1.64  0.96  0.36  0.00  0.00   2.03    -1.63
+codex:gpt-6.1-tetext SHARED      K2r    25   2.64    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  1.80  1.00  0.60  0.00  0.00   2.03    -2.03
+codex:gpt-6.1-tetext TRANSIENT   K1     25   1.84    0.02 [ 0.00, 0.08] 0.02/ 0.00   0.00  0.00  1.00  1.84  1.00  0.84  0.00  0.00   4.94    -4.92
+codex:gpt-6.1-tetext TRANSIENT   K2e    25   1.72    0.03 [ 0.00, 0.06] 0.03/ 0.00   0.00  0.00  1.00  1.72  1.00  0.72  0.00  0.00   4.94    -4.92
+codex:gpt-6.1-tetext TRANSIENT   K2r    25   1.84    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  1.84  1.00  0.84  0.00  0.00   4.94    -4.94
+codex:gpt-6.1-tetext TRANSIENT_P K1     25   2.96    0.02 [ 0.00, 0.07] 0.02/ 0.00   0.00  0.00  0.96  2.16  1.00  1.16  0.00  0.00   4.62    -4.60
+codex:gpt-6.1-tetext TRANSIENT_P K2e    25   2.24    0.21 [ 0.00, 0.49] 0.21/ 0.00   0.00  0.00  1.00  2.24  1.00  1.20  0.00  0.00   4.62    -4.41
+codex:gpt-6.1-tetext TRANSIENT_P K2r    25   2.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.28  1.00  1.28  0.00  0.00   4.62    -4.62
+
+Paired condition contrasts (A - B over common episodes) [95% nested CI]
+codex:gpt-6.1-tetext MIXED        K2r-K2e  n= 25  regret -0.18 [-0.34,-0.06]  info -0.18 [-0.34,-0.06]  severe +0.00 [+0.00,+0.00]  rep_cache +0.16 [+0.04,+0.35]
+codex:gpt-6.1-tetext MIXED        K2r-K1   n= 25  regret -0.07 [-0.13,-0.02]  info -0.07 [-0.13,-0.02]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [+0.00,+0.17]
+codex:gpt-6.1-tetext PERSIST      K2r-K2e  n= 25  regret -0.47 [-0.68,-0.26]  info -0.47 [-0.68,-0.26]  severe +0.00 [+0.00,+0.00]  rep_cache +0.40 [+0.12,+0.74]
+codex:gpt-6.1-tetext PERSIST      K2r-K1   n= 25  regret -0.26 [-0.41,-0.12]  info -0.26 [-0.41,-0.12]  severe +0.00 [+0.00,+0.00]  rep_cache +0.24 [+0.04,+0.54]
+codex:gpt-6.1-tetext SHARED       K2r-K2e  n= 25  regret -0.41 [-0.83,-0.16]  info -0.41 [-0.83,-0.16]  severe +0.00 [+0.00,+0.00]  rep_cache +0.24 [-0.17,+0.75]
+codex:gpt-6.1-tetext SHARED       K2r-K1   n= 25  regret -0.23 [-0.42,-0.08]  info -0.23 [-0.42,-0.08]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.31,+0.38]
+codex:gpt-6.1-tetext TRANSIENT    K2r-K2e  n= 25  regret -0.03 [-0.06,-0.00]  info -0.03 [-0.06,-0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [+0.00,+0.36]
+codex:gpt-6.1-tetext TRANSIENT    K2r-K1   n= 25  regret -0.02 [-0.08,+0.00]  info -0.02 [-0.08,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.15,+0.17]
+codex:gpt-6.1-tetext TRANSIENT_P  K2r-K2e  n= 25  regret -0.21 [-0.49,+0.00]  info -0.21 [-0.49,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [-0.21,+0.33]
+codex:gpt-6.1-tetext TRANSIENT_P  K2r-K1   n= 25  regret -0.02 [-0.07,+0.00]  info -0.02 [-0.07,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [+0.00,+0.50]
+codex:gpt-6.1-tetext CORE         K2r-K2e  n=100  regret -0.27 [-0.39,-0.17]  info -0.27 [-0.39,-0.17]  severe +0.00 [+0.00,+0.00]  rep_cache +0.23 [+0.05,+0.44]
+codex:gpt-6.1-tetext CORE         K2r-K1   n=100  regret -0.15 [-0.21,-0.09]  info -0.15 [-0.21,-0.09]  severe +0.00 [+0.00,+0.00]  rep_cache +0.07 [-0.04,+0.19]
+
+Recovery of the observation model (K1e / K2e / K2p); rates over episodes where defined, errors are means
+model           prot family      cond    n parse struct  pair single fault persist phiErr phantom  emTV accMAE dflt reg|exact reg|wrong
+codex:gpt-6.1-tetext MIXED       K2e    25  0.96   0.96  0.96   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.17      0.49
+codex:gpt-6.1-tetext MIXED       K2r    25  0.96   0.96  0.96   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00      0.00
+codex:gpt-6.1-tetext PERSIST     K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.47         -
+codex:gpt-6.1-tetext PERSIST     K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+codex:gpt-6.1-tetext SHARED      K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.41         -
+codex:gpt-6.1-tetext SHARED      K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+codex:gpt-6.1-tetext TRANSIENT   K2e    25  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.03         -
+codex:gpt-6.1-tetext TRANSIENT   K2r    25  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+codex:gpt-6.1-tetext TRANSIENT_P K2e    25  0.96   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.21         -
+codex:gpt-6.1-tetext TRANSIENT_P K2r    25  0.96   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+codex:gpt-6.1-tetext CORE        K2e   100  0.99   0.99  0.99   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.27      0.49
+codex:gpt-6.1-tetext CORE        K2r   100  0.99   0.99  0.99   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00      0.00
+
+Twin contrasts (fault family minus its phi=0 twin, same parameters) [95% nested CI]; conditions of runs that include a K2 decomposition condition
+codex:gpt-6.1-tetext Shared    K1 n= 25  regret +0.21 [+0.04,+0.41]  rep_cache -0.24 [-0.58,+0.04]
+codex:gpt-6.1-tetext Persist   K1 n= 25  regret +0.25 [+0.11,+0.40]  rep_cache -0.96 [-1.48,-0.52]
+codex:gpt-6.1-tetext Both      K1 n= 50  regret +0.23 [+0.12,+0.34]  rep_cache -0.60 [-0.94,-0.29]
+codex:gpt-6.1-tetext Shared   K2e n= 25  regret +0.38 [+0.13,+0.81]  rep_cache -0.36 [-0.92,+0.12]
+codex:gpt-6.1-tetext Persist  K2e n= 25  regret +0.26 [-0.10,+0.60]  rep_cache -1.16 [-1.71,-0.68]
+codex:gpt-6.1-tetext Both     K2e n= 50  regret +0.32 [+0.10,+0.56]  rep_cache -0.76 [-1.20,-0.35]
+codex:gpt-6.1-tetext Shared   K2r n= 25  regret +0.00 [+0.00,+0.00]  rep_cache -0.24 [-0.50,-0.04]
+codex:gpt-6.1-tetext Persist  K2r n= 25  regret +0.00 [+0.00,+0.00]  rep_cache -0.84 [-1.42,-0.38]
+codex:gpt-6.1-tetext Both     K2r n= 50  regret +0.00 [+0.00,+0.00]  rep_cache -0.54 [-0.85,-0.27]
+
+K2r vs K2e by completion of the JSON (fallback = no usable JSON; key_defaults = phi / shared_fault / persistent / emission / group membership filled; other_defaults = accuracy only; clean = nothing filled)
+codex:gpt-6.1-tetext MIXED       clean n=24 K2r=0.000 K2e=0.165  fallback n=1 K2r=0.000 K2e=0.494  ANY_DEFAULT_OR_FALLBACK n=1 K2r=0.000 K2e=0.494
+codex:gpt-6.1-tetext PERSIST     clean n=25 K2r=0.000 K2e=0.471
+codex:gpt-6.1-tetext SHARED      clean n=25 K2r=0.000 K2e=0.408
+codex:gpt-6.1-tetext TRANSIENT   clean n=25 K2r=0.000 K2e=0.028
+codex:gpt-6.1-tetext TRANSIENT_P clean n=24 K2r=0.000 K2e=0.216  fallback n=1 K2r=0.000 K2e=0.000  ANY_DEFAULT_OR_FALLBACK n=1 K2r=0.000 K2e=0.000
+codex:gpt-6.1-tetext CORE        clean n=99 K2r=0.000 K2e=0.269  fallback n=1 K2r=0.000 K2e=0.494  ANY_DEFAULT_OR_FALLBACK n=1 K2r=0.000 K2e=0.494

@@ -1,0 +1,11 @@
+% Moved out of main.pdf on 2026-11-18 (appendix trim); verbatim from sections/app_llm.tex. Inputs are relative to the manuscript root.
+\begin{table}[!htbp]
+\centering
+\caption{Benchmark reference policies: mean regret [95\% task-bootstrap CI]. The 140 tasks are stratified by the exact best action and are \emph{not} a population sample; the grid supplies the reference distribution. Pattern-cluster intervals are wider (see \texttt{reference\_policies.json}).}
+\label{tab:bench-ref}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{\input{tables/bench_reference}}
+\end{table}
+
+The reference policies distinguish one-step decisions from full trajectories. On the full grid, MMI has regret 0.47 for the first action and 0.87 in closed loop. Discarding repeated reports costs 0.57 [0.45, 0.70] more than forbidding future repeats (pattern-cluster interval [0.21, 1.12]). The MMI-versus-discard ranking is uncertain at the pattern level.

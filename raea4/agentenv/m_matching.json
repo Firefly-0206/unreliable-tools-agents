@@ -1,0 +1,1870 @@
+{
+ "summary": {
+  "n_pairs": 50,
+  "draws": 85,
+  "skipped": 35,
+  "margin_MF": 0.18281941250665149,
+  "margin_MZ": 0.1813653324330427,
+  "max_margin_diff": 0.019136664848305784,
+  "value_MF": 4.934561453083227,
+  "value_MZ": 4.920914616892362,
+  "myopic_ok": 0.54,
+  "second_is_log": 1.0,
+  "q_rep_MF": 0.8986,
+  "q_rep_MZ": 0.7389999999999999,
+  "q_log_MF": 0.7060000000000001,
+  "q_log_MZ": 0.7066
+ },
+ "pairs": [
+  {
+   "pair": "M-000",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.17371348198439662,
+    "value": 5.2660811042539,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.16945019423999952,
+    "value": 5.4714907432,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.86,
+    0.72
+   ],
+   "q_log": [
+    0.7,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-001",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14663564398348417,
+    "value": 4.889959475430084,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14784755291135987,
+    "value": 4.679395930111999,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.89,
+    0.76
+   ],
+   "q_log": [
+    0.72,
+    0.73
+   ]
+  },
+  {
+   "pair": "M-002",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.23355362168228222,
+    "value": 5.574883866634196,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2355514841219195,
+    "value": 5.405133060142081,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.87,
+    0.72
+   ],
+   "q_log": [
+    0.67,
+    0.67
+   ]
+  },
+  {
+   "pair": "M-003",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2166312280504039,
+    "value": 4.391782915291606,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.21558659554064352,
+    "value": 4.341864260362782,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.91,
+    0.77
+   ],
+   "q_log": [
+    0.73,
+    0.72
+   ]
+  },
+  {
+   "pair": "M-004",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2716765559713199,
+    "value": 4.1700199884806235,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2706680480870407,
+    "value": 4.338684736962559,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.89,
+    0.76
+   ],
+   "q_log": [
+    0.74,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-005",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.16420825575902498,
+    "value": 5.310061847203481,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1450715909107192,
+    "value": 5.412974770222081,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.88,
+    0.72
+   ],
+   "q_log": [
+    0.7,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-006",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14082882149146592,
+    "value": 5.048557706674629,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1312885240127999,
+    "value": 5.278801864179201,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.9,
+    0.72
+   ],
+   "q_log": [
+    0.71,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-007",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14201749759840165,
+    "value": 5.2583302485242855,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.13166927035809817,
+    "value": 5.389077075341395,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.92,
+    0.71
+   ],
+   "q_log": [
+    0.68,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-008",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.12440671679578852,
+    "value": 4.794391830372923,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.13880524105728043,
+    "value": 4.65408377716736,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.88,
+    0.76
+   ],
+   "q_log": [
+    0.74,
+    0.74
+   ]
+  },
+  {
+   "pair": "M-009",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15092124650348815,
+    "value": 5.3618699131221454,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1360822185999,
+    "value": 5.554908169101351,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.86,
+    0.71
+   ],
+   "q_log": [
+    0.7,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-010",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.16365845057444872,
+    "value": 4.726953453588751,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15897681274414133,
+    "value": 4.938018035888671,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.95,
+    0.75
+   ],
+   "q_log": [
+    0.72,
+    0.72
+   ]
+  },
+  {
+   "pair": "M-011",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.08074112821068713,
+    "value": 4.822480262674569,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.06503846610265995,
+    "value": 4.97941016089716,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.86,
+    0.74
+   ],
+   "q_log": [
+    0.74,
+    0.73
+   ]
+  },
+  {
+   "pair": "M-012",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1566187219584778,
+    "value": 5.321180366009508,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15560354084735994,
+    "value": 5.536781062653441,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.86,
+    0.72
+   ],
+   "q_log": [
+    0.71,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-013",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.10501721357601035,
+    "value": 4.164588306346581,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.10536501620736072,
+    "value": 4.2745481253683195,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.94,
+    0.76
+   ],
+   "q_log": [
+    0.74,
+    0.74
+   ]
+  },
+  {
+   "pair": "M-014",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15816783379196675,
+    "value": 5.322884744924035,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15213772577279983,
+    "value": 5.4973094241792015,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.86,
+    0.72
+   ],
+   "q_log": [
+    0.71,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-015",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.5264316796234914,
+    "value": 4.785114208912596,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.5241767235811299,
+    "value": 4.663458474380098,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.91,
+    0.73
+   ],
+   "q_log": [
+    0.65,
+    0.65
+   ]
+  },
+  {
+   "pair": "M-016",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.007048022047594138,
+    "value": 4.626985594721406,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.0,
+    "value": 4.706262969970703,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.88,
+    0.75
+   ],
+   "q_log": [
+    0.75,
+    0.75
+   ]
+  },
+  {
+   "pair": "M-017",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.36371104317900826,
+    "value": 4.498327623517234,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.35296635242376606,
+    "value": 4.664989304160894,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.93,
+    0.73
+   ],
+   "q_log": [
+    0.69,
+    0.68
+   ]
+  },
+  {
+   "pair": "M-018",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.16204019579705076,
+    "value": 4.97547809319303,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1767622474091599,
+    "value": 4.802566596974641,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.94,
+    0.74
+   ],
+   "q_log": [
+    0.7,
+    0.71
+   ]
+  },
+  {
+   "pair": "M-019",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2862095103194209,
+    "value": 5.506049702156512,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2814858813395471,
+    "value": 5.597478631548569,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.89,
+    0.71
+   ],
+   "q_log": [
+    0.65,
+    0.66
+   ]
+  },
+  {
+   "pair": "M-020",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1259194238432375,
+    "value": 4.706086051069717,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.12197301052226095,
+    "value": 4.507962861991551,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.89,
+    0.77
+   ],
+   "q_log": [
+    0.74,
+    0.75
+   ]
+  },
+  {
+   "pair": "M-021",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1345984885401439,
+    "value": 4.968674389138766,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1223158203125001,
+    "value": 4.71124267578125,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.93,
+    0.75
+   ],
+   "q_log": [
+    0.71,
+    0.73
+   ]
+  },
+  {
+   "pair": "M-022",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.074909594279025,
+    "value": 4.590372059779526,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.0615591166797147,
+    "value": 4.342543624982705,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.93,
+    0.77
+   ],
+   "q_log": [
+    0.74,
+    0.76
+   ]
+  },
+  {
+   "pair": "M-023",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2960823857161179,
+    "value": 4.583318090429658,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2992105102539062,
+    "value": 4.337455749511719,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.93,
+    0.75
+   ],
+   "q_log": [
+    0.69,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-024",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.19124856835368131,
+    "value": 5.71625945702419,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.19935241114622482,
+    "value": 5.608741194695517,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.89,
+    0.71
+   ],
+   "q_log": [
+    0.66,
+    0.68
+   ]
+  },
+  {
+   "pair": "M-025",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2047038613273644,
+    "value": 5.136456172604015,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2145557943681924,
+    "value": 5.016935927616237,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.86,
+    0.71
+   ],
+   "q_log": [
+    0.67,
+    0.68
+   ]
+  },
+  {
+   "pair": "M-026",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.17028250751018792,
+    "value": 5.348688987848607,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.18891696374838407,
+    "value": 5.157144892348517,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.87,
+    0.73
+   ],
+   "q_log": [
+    0.7,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-027",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.39182453948452967,
+    "value": 4.201596778015191,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.38809279873535907,
+    "value": 4.40001077067776,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.95,
+    0.76
+   ],
+   "q_log": [
+    0.71,
+    0.67
+   ]
+  },
+  {
+   "pair": "M-028",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15317390909574247,
+    "value": 5.314494306688755,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14150085102593923,
+    "value": 5.188017275436418,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.91,
+    0.73
+   ],
+   "q_log": [
+    0.69,
+    0.71
+   ]
+  },
+  {
+   "pair": "M-029",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.11388867473746878,
+    "value": 4.5292557448222865,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1273042545993608,
+    "value": 4.258378030089279,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.92,
+    0.78
+   ],
+   "q_log": [
+    0.75,
+    0.76
+   ]
+  },
+  {
+   "pair": "M-030",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1347453652042887,
+    "value": 5.110156387886504,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.13292444180095941,
+    "value": 5.409963724317441,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.93,
+    0.72
+   ],
+   "q_log": [
+    0.7,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-031",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.10928605869148367,
+    "value": 4.714925660395418,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.11700876365532054,
+    "value": 4.64458696704716,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.89,
+    0.74
+   ],
+   "q_log": [
+    0.72,
+    0.72
+   ]
+  },
+  {
+   "pair": "M-032",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2324449635372403,
+    "value": 4.521327558866458,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.23166865189888064,
+    "value": 4.4805730541568,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.88,
+    0.76
+   ],
+   "q_log": [
+    0.73,
+    0.71
+   ]
+  },
+  {
+   "pair": "M-033",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.28276636738670025,
+    "value": 4.263420132096628,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.28247657820731664,
+    "value": 4.004870124098435,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.91,
+    0.79
+   ],
+   "q_log": [
+    0.74,
+    0.72
+   ]
+  },
+  {
+   "pair": "M-034",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.11099393670243707,
+    "value": 4.871998635857709,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.10864948120117202,
+    "value": 4.9008056640625,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.85,
+    0.75
+   ],
+   "q_log": [
+    0.74,
+    0.73
+   ]
+  },
+  {
+   "pair": "M-035",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2931344587099618,
+    "value": 4.6624444921154655,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.30373069699583954,
+    "value": 4.6295442440192005,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.94,
+    0.76
+   ],
+   "q_log": [
+    0.71,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-036",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1822535572255246,
+    "value": 5.5559929136910045,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.18393035235903987,
+    "value": 5.278981765986561,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.87,
+    0.72
+   ],
+   "q_log": [
+    0.67,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-037",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14277325729520385,
+    "value": 4.899720407678432,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.13792207031250037,
+    "value": 4.793017578125,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.95,
+    0.75
+   ],
+   "q_log": [
+    0.71,
+    0.73
+   ]
+  },
+  {
+   "pair": "M-038",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14306007549730282,
+    "value": 5.049899096831347,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15485740356445188,
+    "value": 4.869481658935547,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.86,
+    0.75
+   ],
+   "q_log": [
+    0.72,
+    0.72
+   ]
+  },
+  {
+   "pair": "M-039",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1436607756783861,
+    "value": 4.87418252576649,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14286204970431982,
+    "value": 5.025416195207681,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.93,
+    0.72
+   ],
+   "q_log": [
+    0.67,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-040",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.20255627473257842,
+    "value": 5.0739111673638,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.21058193218783483,
+    "value": 5.186334411188281,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.9,
+    0.73
+   ],
+   "q_log": [
+    0.7,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-041",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14560130861966059,
+    "value": 5.081028399608534,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.14427629394531216,
+    "value": 4.912261962890625,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.91,
+    0.75
+   ],
+   "q_log": [
+    0.71,
+    0.73
+   ]
+  },
+  {
+   "pair": "M-042",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.12899510363896116,
+    "value": 5.192920009657917,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.12468477019921398,
+    "value": 4.948695990368159,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.87,
+    0.73
+   ],
+   "q_log": [
+    0.69,
+    0.71
+   ]
+  },
+  {
+   "pair": "M-043",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.11838256535384684,
+    "value": 4.886026751798112,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.11774515513755013,
+    "value": 4.843760603991041,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.86,
+    0.73
+   ],
+   "q_log": [
+    0.71,
+    0.71
+   ]
+  },
+  {
+   "pair": "M-044",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.15302348111189712,
+    "value": 5.321002765783469,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.16136696215647994,
+    "value": 5.385700082362881,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.88,
+    0.72
+   ],
+   "q_log": [
+    0.69,
+    0.69
+   ]
+  },
+  {
+   "pair": "M-045",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.2262997488028855,
+    "value": 5.67180909838073,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.22106884858879905,
+    "value": 5.510287636357121,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.88,
+    0.72
+   ],
+   "q_log": [
+    0.65,
+    0.68
+   ]
+  },
+  {
+   "pair": "M-046",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.10661564909925136,
+    "value": 4.710314343000626,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.10519919433593827,
+    "value": 4.925525665283203,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.86,
+    0.75
+   ],
+   "q_log": [
+    0.75,
+    0.73
+   ]
+  },
+  {
+   "pair": "M-047",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.1239793334390411,
+    "value": 4.574625533672533,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.11919088490635943,
+    "value": 4.763186910202121,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.92,
+    0.74
+   ],
+   "q_log": [
+    0.73,
+    0.72
+   ]
+  },
+  {
+   "pair": "M-048",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.13795188433088068,
+    "value": 5.041687377510275,
+    "myopic_ok": false
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.12260396451775968,
+    "value": 5.179149673667841,
+    "myopic_ok": false
+   },
+   "q_rep": [
+    0.94,
+    0.72
+   ],
+   "q_log": [
+    0.67,
+    0.7
+   ]
+  },
+  {
+   "pair": "M-049",
+   "MF": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.3915776384893297,
+    "value": 4.739496106747077,
+    "myopic_ok": true
+   },
+   "MZ": {
+    "best": [
+     "probe",
+     0
+    ],
+    "second": [
+     "probe",
+     2
+    ],
+    "margin": 0.38620310831756033,
+    "value": 4.63791675640704,
+    "myopic_ok": true
+   },
+   "q_rep": [
+    0.94,
+    0.74
+   ],
+   "q_log": [
+    0.68,
+    0.66
+   ]
+  }
+ ]
+}

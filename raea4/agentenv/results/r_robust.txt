@@ -1,0 +1,27 @@
+Ambiguity-averse planner (plans for phi + delta), fitted on the persistent arm of X (post hoc)
+(2) behaviour by delta, persistent arm: replica first-call % at phi 0.1/0.3/0.5/0.7 | calls | escalation % | regret (all 200)
+  delta=0.0    100  100   44    0   | 3.20 |   3 | 0.00
+  delta=0.05   100   92   28    0   | 3.15 |   3 | 0.02
+  delta=0.1    100   88    8    0   | 3.15 |   2 | 0.10
+  delta=0.15   100   76    0    0   | 3.13 |   2 | 0.22
+  delta=0.2    100   44    0    0   | 3.18 |   3 | 0.29
+  delta=0.25    92   28    0    0   | 3.16 |   3 | 0.39
+  delta=0.3     88    8    0    0   | 3.19 |   3 | 0.45
+  delta=0.4     44    0    0    0   | 3.18 |   4 | 0.62
+  delta=0.5      8    0    0    0   | 3.17 |   4 | 0.75
+  delta=0.6      0    0    0    0   | 3.16 |   4 | 0.85
+
+== flash (non-thinking): delta fitted on persistent arm = 0.6 (phi 0.1 -> 0.70, 0.3 -> 0.90); independent arm alone would pick 0.6
+  first-call agreement %: fit 92 (oracle 39), independent 91 (oracle 53), randomised 86, repeats 95
+  calls 3.16 (observed 3.71), escalation 4%, regret 0.85 (observed 3.65)
+  agreement by delta: 0.0: 39, 0.05: 45, 0.1: 51, 0.15: 56, 0.2: 64, 0.25: 70, 0.3: 76, 0.4: 87, 0.5: 90, 0.6: 92
+
+== gpt-6.1-terra (medium): delta fitted on persistent arm = 0.3 (phi 0.1 -> 0.40, 0.3 -> 0.60); independent arm alone would pick 0.2
+  first-call agreement %: fit 91 (oracle 64), independent 87 (oracle 75), randomised 68, repeats 90
+  calls 3.19 (observed 2.99), escalation 3%, regret 0.45 (observed 0.44)
+  agreement by delta: 0.0: 64, 0.05: 70, 0.1: 76, 0.15: 81, 0.2: 87, 0.25: 89, 0.3: 91, 0.4: 84, 0.5: 77, 0.6: 75
+
+== Sonnet 5.5 (high): delta fitted on persistent arm = 0.4 (phi 0.1 -> 0.50, 0.3 -> 0.70); independent arm alone would pick 0.15
+  first-call agreement %: fit 87 (oracle 57), independent 69 (oracle 77), randomised 58, repeats 80
+  calls 3.18 (observed 2.60), escalation 4%, regret 0.62 (observed 0.67)
+  agreement by delta: 0.0: 57, 0.05: 63, 0.1: 67, 0.15: 70, 0.2: 78, 0.25: 80, 0.3: 82, 0.4: 87, 0.5: 84, 0.6: 82

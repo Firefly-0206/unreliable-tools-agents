@@ -1,0 +1,19 @@
+
+== Sonnet 5.5 (high)   n=200  usable JSON 200  no submit 0
+cell     first out: model oracle planner    K2e   K2r  under  over verdict calls JSON ok   first action model | oracle (A/B/fig/src/agg/office/none %)
+DN                    0%    98%     98%   1.31  0.05   1.17  0.00    0.00  3.12     90%   0/0/71/29/0/0/0 | 50/48/0/1/1/0/0
+DX|0.10               0%   100%    100%   1.90  0.00   1.89  0.00    0.00  3.04     96%   0/0/80/20/0/0/0 | 60/40/0/0/0/0/0
+DX|0.30               0%    96%     96%   1.12  0.00   0.96  0.00    0.00  3.16     88%   0/0/76/24/0/0/0 | 60/36/0/0/0/4/0
+DX|0.50               0%    44%     44%   0.66  0.00   0.18  0.00    0.00  2.96     84%   0/0/80/20/0/0/0 | 28/16/12/0/16/28/0
+DX|0.70               0%     0%      0%   0.63  0.00   0.00  0.00    0.00  3.00     84%   0/0/80/20/0/0/0 | 0/0/16/4/28/52/0
+  R1 K2r-K2e|DN                                  -1.262 [-1.530, -1.006]
+  regret|DN                                      +1.313 [+1.114, +1.544]
+  R4 under|DN                                    +1.170 [+0.967, +1.414]
+  R4 verdict|DN                                  +0.000 [+0.000, +0.000]
+  first outlet model-oracle|DN                   -98 [-100, -94]  (pp)
+  R1 K2r-K2e|all                                 -1.169 [-1.407, -1.032]
+  R2 first outlet model-oracle|DX 0.10,0.30      -98 [-100, -92]  (pp)
+  R2 under|DX 0.10,0.30                          +1.426 [+1.133, +1.758]
+  R3 first outlet 0.10-0.70|DX                   +0 [+0, +0]  (pp)
+  R3 over at 0.70|DX                             +0.000 [+0.000, +0.000]
+  R4 share of DN regret: passed-over outlet 89%, passed-over sub-question tool 6%, verdict 0%

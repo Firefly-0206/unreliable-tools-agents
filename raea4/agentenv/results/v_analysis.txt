@@ -1,0 +1,114 @@
+
+== flash (non-thinking): cost and style   n=125  usable JSON 125  no submit 0  as-if g=24
+cell     first replica: model oracle planner  log other stop    K2e   K2r  under  over verdict calls
+VC2                        0%    60%     60% 100%    0%   0%   2.96  0.00   0.85  0.34    0.65  3.52
+VC3                        0%     8%      8% 100%    0%   0%   2.92  0.00   0.06  0.75    0.62  3.24
+VL3                       68%   100%    100%   0%   32%   0%   4.37  0.00   1.66  0.04    1.22  2.80
+VS10                       4%   100%    100%  96%    0%   0%   3.35  0.00   1.61  0.07    0.70  3.68
+VS30                       8%   100%    100%  88%    4%   0%   2.74  0.00   1.85  0.11    0.01  3.72
+XP10                      16%   100%    100%  84%    0%   0%   3.22  0.00   1.77  0.03    0.28  3.68
+XP30                       0%   100%    100% 100%    0%   0%   4.03  0.00   1.19  0.11    1.40  3.60
+  V1 first replica cost1-cost3|0.10                    +16 [+4, +33]  (pp)
+  V1 first replica cost1-cost2|0.10                    +16 [+4, +33]  (pp)
+  V1 first replica model-oracle|VC2                    -60 [-84, -35]  (pp)
+  V1 first replica model-oracle|VC3                    -8 [-25, +0]  (pp)
+  V2 first replica logcost3-logcost1|0.30              +68 [+40, +96]  (pp)
+  V2 first replica model-oracle|VL3                    -32 [-60, -4]  (pp)
+  V2 under|VL3                                         +1.664 [+0.674, +2.892]
+  V3 first replica model-oracle|spec                   -94 [-100, -83]  (pp)
+  V3 under|spec                                        +1.727 [+1.003, +2.527]
+  V3 K2r-K2e|spec                                      -3.042 [-4.065, -2.345]
+  V3 regret|spec                                       +3.042 [+2.345, +4.065]
+  V3 first replica spec-prose|0.10,0.30                -2 [-12, +10]  (pp)
+  V3 regret spec-prose|0.10,0.30                       -0.585 [-1.944, +0.339]
+  first replica model-oracle|prose (X run)             -92 [-98, -83]  (pp)
+  V4 K2r-K2e|cost                                      -3.415 [-4.601, -2.585]
+  regret|cost                                          +3.415 [+2.585, +4.601]
+  V4 first-action match, as-if|cost                    +64 [+52, +75]  (pp)
+  V4 first-action match, oracle|cost                   +64 [+53, +75]  (pp)
+  V4 first-action match, as-if minus oracle|cost       +0 [-11, +12]  (pp)
+
+== gpt-6.1-terra (medium): cost and style   n=125  usable JSON 124  no submit 0  as-if g=4
+cell     first replica: model oracle planner  log other stop    K2e   K2r  under  over verdict calls
+VC2                        4%    60%     60%  96%    0%   0%   0.54  0.00   0.35  0.00    0.00  2.76
+VC3                        0%     8%      8% 100%    0%   0%   0.21  0.00   0.04  0.00    0.00  3.20
+VL3                       56%   100%    100%   0%   44%   0%   0.97  0.00   0.90  0.04    0.00  1.96
+VS10                      88%   100%    100%  12%    0%   0%   0.97  0.00   0.94  0.00    0.00  2.72
+VS30                      32%   100%    100%  68%    0%   0%   0.68  0.00   0.63  0.00    0.00  3.00
+XP10                      88%   100%    100%  12%    0%   0%   1.15  0.00   0.95  0.00    0.00  2.60
+XP30                      12%   100%    100%  88%    0%   0%   0.73  0.00   0.68  0.04    0.00  3.20
+  V1 first replica cost1-cost3|0.10                    +88 [+68, +100]  (pp)
+  V1 first replica cost1-cost2|0.10                    +84 [+64, +100]  (pp)
+  V1 first replica model-oracle|VC2                    -56 [-84, -28]  (pp)
+  V1 first replica model-oracle|VC3                    -8 [-25, +0]  (pp)
+  V2 first replica logcost3-logcost1|0.30              +44 [+17, +70]  (pp)
+  V2 first replica model-oracle|VL3                    -44 [-67, -23]  (pp)
+  V2 under|VL3                                         +0.897 [+0.445, +1.439]
+  V3 first replica model-oracle|spec                   -40 [-54, -27]  (pp)
+  V3 under|spec                                        +0.787 [+0.337, +1.304]
+  V3 K2r-K2e|spec                                      -0.826 [-1.321, -0.393]
+  V3 regret|spec                                       +0.826 [+0.393, +1.321]
+  V3 first replica spec-prose|0.10,0.30                +10 [-4, +23]  (pp)
+  V3 regret spec-prose|0.10,0.30                       -0.116 [-0.435, +0.151]
+  first replica model-oracle|prose (X run)             -50 [-63, -38]  (pp)
+  V4 K2r-K2e|cost                                      -0.572 [-0.837, -0.337]
+  regret|cost                                          +0.572 [+0.337, +0.837]
+  V4 first-action match, as-if|cost                    +77 [+68, +87]  (pp)
+  V4 first-action match, oracle|cost                   +61 [+48, +75]  (pp)
+  V4 first-action match, as-if minus oracle|cost       +16 [+4, +28]  (pp)
+
+== Sonnet 5.5 (high): cost and style   n=125  usable JSON 125  no submit 0  as-if g=4
+cell     first replica: model oracle planner  log other stop    K2e   K2r  under  over verdict calls
+VC2                        4%    60%     60%  96%    0%   0%   0.72  0.00   0.40  0.00    0.00  2.40
+VC3                        0%     8%      8% 100%    0%   0%   0.28  0.00   0.04  0.00    0.00  2.92
+VL3                       80%   100%    100%   0%   20%   0%   0.74  0.00   0.39  0.00    0.35  1.72
+VS10                      64%   100%    100%  36%    0%   0%   0.97  0.00   0.90  0.00    0.00  2.00
+VS30                      24%   100%    100%  76%    0%   0%   0.74  0.00   0.73  0.00    0.00  2.56
+XP10                      48%   100%    100%  52%    0%   0%   1.26  0.00   1.22  0.00    0.00  2.36
+XP30                      16%   100%    100%  84%    0%   0%   0.69  0.00   0.64  0.00    0.00  2.56
+  V1 first replica cost1-cost3|0.10                    +48 [+23, +75]  (pp)
+  V1 first replica cost1-cost2|0.10                    +44 [+20, +71]  (pp)
+  V1 first replica model-oracle|VC2                    -56 [-80, -32]  (pp)
+  V1 first replica model-oracle|VC3                    -8 [-25, +0]  (pp)
+  V2 first replica logcost3-logcost1|0.30              +64 [+40, +85]  (pp)
+  V2 first replica model-oracle|VL3                    -20 [-42, -4]  (pp)
+  V2 under|VL3                                         +0.390 [+0.147, +0.696]
+  V3 first replica model-oracle|spec                   -56 [-73, -38]  (pp)
+  V3 under|spec                                        +0.819 [+0.394, +1.385]
+  V3 K2r-K2e|spec                                      -0.854 [-1.421, -0.422]
+  V3 regret|spec                                       +0.854 [+0.422, +1.421]
+  V3 first replica spec-prose|0.10,0.30                +12 [-6, +29]  (pp)
+  V3 regret spec-prose|0.10,0.30                       -0.121 [-0.418, +0.245]
+  first replica model-oracle|prose (X run)             -68 [-83, -50]  (pp)
+  V4 K2r-K2e|cost                                      -0.583 [-0.819, -0.394]
+  regret|cost                                          +0.583 [+0.394, +0.819]
+  V4 first-action match, as-if|cost                    +75 [+60, +88]  (pp)
+  V4 first-action match, oracle|cost                   +69 [+57, +81]  (pp)
+  V4 first-action match, as-if minus oracle|cost       +5 [-9, +21]  (pp)
+
+== Kimi K3.1 Pro (non-thinking): X persistent arm   complete cells ['XP10', 'XP30', 'XP50', 'XP70']  n=100 (logged 100)  usable JSON 100  no submit 0  passed-over share 0.3493569735388614
+cell     first replica: model oracle planner  log other stop    K2e   K2r  under  over verdict calls
+XP10                       8%   100%    100%  88%    4%   0%   4.05  0.00   2.34  0.00    0.95  3.72
+XP30                       4%   100%    100%  88%    8%   0%   3.48  0.00   1.51  0.06    1.01  4.00
+XP50                       0%    44%     44%  84%   16%   0%   2.94  0.00   0.53  0.11    0.97  3.56
+XP70                       0%     0%      0%  84%   16%   0%   2.13  0.00   0.03  0.23    0.38  3.44
+  K1 K2r-K2e|complete cells                            -3.153 [-4.040, -2.367]
+  regret|complete cells                                +3.153 [+2.367, +4.040]
+  K2r regret|complete cells                            +0.000 [+0.000, +0.000]
+  verdict|complete cells                               +0.827 [+0.318, +1.444]
+  K2 first replica model-oracle|0.10,0.30              -94 [-100, -80]  (pp)
+  K2 under|0.10,0.30                                   +1.922 [+1.376, +2.584]
+  K3 first replica 0.10-0.70                           +8 [+0, +25]  (pp)
+
+== Kimi K3.1 Pro (thinking): X persistent arm   complete cells ['XP10', 'XP30', 'XP70']  n=75 (logged 75)  usable JSON 75  no submit 0  passed-over share 0.830010526322095
+cell     first replica: model oracle planner  log other stop    K2e   K2r  under  over verdict calls
+XP10                      80%   100%    100%  16%    4%   0%   0.79  0.00   0.75  0.00    0.00  2.60
+XP30                      56%   100%    100%  40%    4%   0%   0.43  0.00   0.43  0.00    0.00  3.20
+XP70                      12%     0%      0%  68%   20%   0%   0.19  0.00   0.00  0.05    0.00  2.72
+  K1 K2r-K2e|complete cells                            -0.474 [-0.730, -0.238]
+  regret|complete cells                                +0.474 [+0.238, +0.730]
+  K2r regret|complete cells                            +0.000 [+0.000, +0.000]
+  verdict|complete cells                               +0.000 [+0.000, +0.000]
+  K2 first replica model-oracle|0.10,0.30              -32 [-54, -10]  (pp)
+  K2 under|0.10,0.30                                   +0.590 [+0.259, +0.966]
+  K3 first replica 0.10-0.70                           +68 [+42, +92]  (pp)

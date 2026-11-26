@@ -1,0 +1,46 @@
+Effective horizon, set m (post hoc): % of decisions agreeing with pi_k (ties agree)
+
+== flash (m_ds_chat_fc_k2e.jsonl, n=100)
+  arm           g     steps      k=1     k=2     k=3     k=4   k=inf   (first / later decisions)
+  all           1 first 100       18      30      32      29      29
+  all           1 later 352       38      43      43      43      43
+  all           4 first 100       35      64      71      72      74
+  all           4 later 352       36      38      38      37      37
+  MF            1  first 50        4       4       8       2       2
+  MF            1 later 178       40      46      47      47      47
+  MF            4  first 50       38      72      86      88      92
+  MF            4 later 178       35      37      35      35      35
+  MZ            1  first 50       32      56      56      56      56
+  MZ            1 later 174       36      39      40      39      39
+  MZ            4  first 50       32      56      56      56      56
+  MZ            4 later 174       36      39      40      39      39
+
+== terra (m_codex_terra_k2e.jsonl, n=100)
+  arm           g     steps      k=1     k=2     k=3     k=4   k=inf   (first / later decisions)
+  all           1 first 100       30      56      57      54      54
+  all           1 later 292       61      61      57      57      57
+  all           4 first 100       43      83      89      90      92
+  all           4 later 292       62      66      65      66      66
+  MF            1  first 50        6      16      16      10      10
+  MF            1 later 144       65      62      55      56      56
+  MF            4  first 50       32      70      80      82      86
+  MF            4 later 144       65      72      71      73      74
+  MZ            1  first 50       54      96      98      98      98
+  MZ            1 later 148       58      61      59      59      59
+  MZ            4  first 50       54      96      98      98      98
+  MZ            4 later 148       58      61      59      59      59
+
+== sonnet (m_claude_s55_k2e.jsonl, n=100)
+  arm           g     steps      k=1     k=2     k=3     k=4   k=inf   (first / later decisions)
+  all           1 first 100       36      62      63      60      60
+  all           1 later 246       60      50      47      46      47
+  all           4 first 100       38      75      81      81      82
+  all           4 later 246       63      61      59      61      61
+  MF            1  first 50       20      34      34      28      28
+  MF            1 later 119       61      47      40      40      41
+  MF            4  first 50       24      60      70      70      72
+  MF            4 later 119       68      70      66      70      71
+  MZ            1  first 50       52      90      92      92      92
+  MZ            1 later 127       59      54      53      52      52
+  MZ            4  first 50       52      90      92      92      92
+  MZ            4 later 127       59      54      53      52      52

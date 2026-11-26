@@ -1,0 +1,10 @@
+\subsection{Sensitivity of the attribution to near ties}\label{app:near-tie}
+% src: raea4/agentenv/near_tie_sensitivity.py -> results/near_tie_sensitivity.json|txt; scripts/make_review_outputs.py
+A step is labeled ``replica tool passed over'' when the oracle's best action is a replica probe and the model does something else. Where the best replica action and the best other action are nearly tied this label is fragile. For every labeled step we recompute the exact action values and the margin $\min_{a\notin\mathcal C}Q^*(b,a)-\min_{a\in\mathcal C}Q^*(b,a)\ge 0$, with $\mathcal C$ the replica probes, and recompute the share of K2e regret on labeled steps after moving those with margin below $\epsilon$ to the remainder (post hoc, no model call; \cref{tab:near-tie}). Margins are mostly large: their median is \revNtTerraMedian\ (terra) and \revNtSonnetMedian\ (Sonnet) on the held-out episodes, and \revNtTerraSmall\% and \revNtSonnetSmall\% of labeled steps have a margin below 0.05. Up to $\epsilon=0.05$ the held-out shares change by at most \revNtMaxDrop\ points and criterion C2 still holds; at $\epsilon=0.1$ it holds for Sonnet but not for terra, and at $\epsilon=0.2$, about 5\% of the oracle's expected loss, for neither run, as the share then counts only steps with large margins.
+\begin{table}[!htbp]
+\centering
+\caption{Share of K2e regret on passed-over replica steps whose oracle margin is at least $\epsilon$ (\%), and the C2 contrast (that regret minus all other regret; nested 95\% CI), on the held-out and original episodes.}
+\label{tab:near-tie}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{\input{tables/agent_neartie}}
+\end{table}

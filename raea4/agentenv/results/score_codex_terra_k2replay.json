@@ -1,0 +1,8550 @@
+{
+ "cells": {
+  "codex:gpt-6.1-terra@medium|text|MIXED|K1": {
+   "realised": 3.76,
+   "regret": 0.3330682217616017,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.05997680295800501,
+   "adv_stoptime": 0.027455763985746895,
+   "verdict": 0.24563565481784985,
+   "info": 0.08743256694375191,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 2.96,
+   "cost": 2.96,
+   "used_cache": 0.88,
+   "rep_cache": 0.16,
+   "rep_log": 1.04,
+   "first_agree": 0.6,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 68578.28,
+   "tok_out": 790.28,
+   "tok_reason": 714.32,
+   "n_api": 3.96,
+   "latency": 69.02434380531311,
+   "p_benign_at_stop": 0.624449,
+   "regret_lo": 0.0438010074564826,
+   "regret_hi": 1.082950974564666,
+   "realised_lo": 2.44,
+   "realised_hi": 6.708333333333333,
+   "info_lo": 0.03538825936867109,
+   "info_hi": 0.16856154858105535,
+   "verdict_lo": 0.0,
+   "verdict_hi": 1.0234818950743743,
+   "regret_if_used_cache": 0.3597330841095272,
+   "n_regret_if_used_cache": 22,
+   "regret_if_no_cache": 0.1375258978768151,
+   "n_regret_if_no_cache": 3,
+   "regret_submitted_only": 0.3330682217616017,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.6578629260279776,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670443,
+   "minus_probe_once": -2.5564209976714425,
+   "minus_probe_once_lo": -3.0183234920221644,
+   "minus_probe_once_hi": -1.8252748111336363,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K1e": {
+   "realised": 2.88,
+   "regret": 0.1930906397322938,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.12112974279178916,
+   "adv_stoptime": 0.07196089694050466,
+   "verdict": 0.0,
+   "info": 0.1930906397322938,
+   "stop_when_oracle_probes": 0.24,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.88,
+   "cost": 2.88,
+   "used_cache": 0.96,
+   "rep_cache": 0.04,
+   "rep_log": 1.04,
+   "first_agree": 0.72,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 87836.12,
+   "tok_out": 842.6,
+   "tok_reason": 627.72,
+   "n_api": 4.88,
+   "latency": 62.39022582054138,
+   "p_benign_at_stop": 0.64048944,
+   "regret_lo": 0.08480241641955516,
+   "regret_hi": 0.34192315198386175,
+   "realised_lo": 2.2916666666666665,
+   "realised_hi": 3.480499999999997,
+   "info_lo": 0.08480241641955516,
+   "info_hi": 0.34192315198386175,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.2011360830544727,
+   "n_regret_if_used_cache": 24,
+   "regret_if_no_cache": 0.0,
+   "n_regret_if_no_cache": 1,
+   "regret_submitted_only": 0.1930906397322938,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.6578629260279776,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670443,
+   "minus_probe_once": -2.69639857970075,
+   "minus_probe_once_lo": -3.0054120308756125,
+   "minus_probe_once_hi": -2.38437820629181,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3877787807814457e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.0,
+    "n_n_defaults": 25,
+    "fallback": 0.0,
+    "n_fallback": 25,
+    "parse_ok": 1.0,
+    "attempts": 1.0,
+    "regret_if_struct_exact": 0.1930906397322938,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2": {
+   "realised": 3.48,
+   "regret": 0.4066505891766317,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.2795926064422315,
+   "adv_stoptime": 0.12705798273440025,
+   "verdict": 0.0,
+   "info": 0.4066505891766317,
+   "stop_when_oracle_probes": 0.24,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 3.16,
+   "cost": 3.16,
+   "used_cache": 0.48,
+   "rep_cache": 0.04,
+   "rep_log": 1.68,
+   "first_agree": 0.4,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 71179.28,
+   "tok_out": 657.4,
+   "tok_reason": 576.92,
+   "n_api": 4.16,
+   "latency": 76.86235117912292,
+   "p_benign_at_stop": 0.62896996,
+   "regret_lo": 0.19953944661315715,
+   "regret_hi": 0.6608434076857934,
+   "realised_lo": 2.5767857142857147,
+   "realised_hi": 4.958333333333333,
+   "info_lo": 0.19953944661315715,
+   "info_hi": 0.6608434076857934,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.25930862640695773,
+   "n_regret_if_used_cache": 12,
+   "regret_if_no_cache": 0.542658554810177,
+   "n_regret_if_no_cache": 13,
+   "regret_submitted_only": 0.4066505891766317,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.657862926027978,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670443,
+   "minus_probe_once": -2.4828386302564125,
+   "minus_probe_once_lo": -2.770438664929864,
+   "minus_probe_once_hi": -2.2102744794669276,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2a": {
+   "realised": 3.36,
+   "regret": 0.2516936120962867,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.21310677821566856,
+   "adv_stoptime": 0.038586833880618114,
+   "verdict": 0.0,
+   "info": 0.2516936120962867,
+   "stop_when_oracle_probes": 0.12,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 3.04,
+   "cost": 3.04,
+   "used_cache": 0.88,
+   "rep_cache": 0.12,
+   "rep_log": 1.16,
+   "first_agree": 0.56,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 71436.32,
+   "tok_out": 819.04,
+   "tok_reason": 743.88,
+   "n_api": 4.04,
+   "latency": 55.0529287815094,
+   "p_benign_at_stop": 0.63177624,
+   "regret_lo": 0.0720596992192537,
+   "regret_hi": 0.549407556571699,
+   "realised_lo": 2.375,
+   "realised_hi": 4.769791666666664,
+   "info_lo": 0.0720596992192537,
+   "info_hi": 0.549407556571699,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.2737022638674098,
+   "n_regret_if_used_cache": 22,
+   "regret_if_no_cache": 0.09029683244138376,
+   "n_regret_if_no_cache": 3,
+   "regret_submitted_only": 0.2516936120962867,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.6578629260279776,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670443,
+   "minus_probe_once": -2.637795607336757,
+   "minus_probe_once_lo": -3.0074936208704144,
+   "minus_probe_once_hi": -2.21250119395929,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2e": {
+   "realised": 3.4,
+   "regret": 0.22279683527635158,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.20571304866886664,
+   "adv_stoptime": 0.017083786607484937,
+   "verdict": 0.0,
+   "info": 0.22279683527635158,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 3.08,
+   "cost": 3.08,
+   "used_cache": 0.84,
+   "rep_cache": 0.04,
+   "rep_log": 1.32,
+   "first_agree": 0.44,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 90984.4,
+   "tok_out": 737.44,
+   "tok_reason": 512.8,
+   "n_api": 5.12,
+   "latency": 57.98381939888,
+   "p_benign_at_stop": 0.62576124,
+   "regret_lo": 0.10175989409791855,
+   "regret_hi": 0.4149456369927898,
+   "realised_lo": 2.4443333333333337,
+   "realised_hi": 4.840874999999995,
+   "info_lo": 0.10175989409791855,
+   "info_hi": 0.4149456369927898,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.24223905953171437,
+   "n_regret_if_used_cache": 21,
+   "regret_if_no_cache": 0.12072515793569716,
+   "n_regret_if_no_cache": 4,
+   "regret_submitted_only": 0.22279683527635158,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.6578629260279776,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670443,
+   "minus_probe_once": -2.666692384156692,
+   "minus_probe_once_lo": -2.981981603212861,
+   "minus_probe_once_hi": -2.3355172174638588,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 0.96,
+    "n_struct_exact": 24,
+    "pair_ok": 0.96,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 0.996,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.22161613153794324,
+    "regret_if_struct_wrong": 0.25113372499815245,
+    "n_struct_wrong": 1
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2p": {
+   "realised": 3.28,
+   "regret": 0.0,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 2.96,
+   "cost": 2.96,
+   "used_cache": 0.96,
+   "rep_cache": 0.16,
+   "rep_log": 1.08,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 18831.4,
+   "tok_out": 171.6,
+   "tok_reason": 8.88,
+   "n_api": 1.08,
+   "latency": 11.376405353546142,
+   "p_benign_at_stop": 0.62678108,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 2.439576923076923,
+   "realised_hi": 4.666999999999998,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 24,
+   "regret_if_no_cache": 0.0,
+   "n_regret_if_no_cache": 1,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870329,
+   "ref_MMI-DP": 3.657862926027978,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670442,
+   "minus_probe_once": -2.8894892194330435,
+   "minus_probe_once_lo": -3.156693228091681,
+   "minus_probe_once_hi": -2.6208212238529445,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 0.96,
+    "n_struct_exact": 24,
+    "pair_ok": 0.96,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 0.996,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.08,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": 0.0,
+    "n_struct_wrong": 1
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2r": {
+   "realised": 3.24,
+   "regret": 0.05851173563338394,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.04226661510944265,
+   "adv_stoptime": 0.01624512052394129,
+   "verdict": 0.0,
+   "info": 0.05851173563338394,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 2.92,
+   "cost": 2.92,
+   "used_cache": 0.96,
+   "rep_cache": 0.2,
+   "rep_log": 1.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 0.0,
+   "tok_out": 0.0,
+   "tok_reason": 0.0,
+   "n_api": 0.0,
+   "latency": 0.0,
+   "p_benign_at_stop": 0.62637096,
+   "regret_lo": 0.0,
+   "regret_hi": 0.2250451370514767,
+   "realised_lo": 2.3846153846153846,
+   "realised_hi": 4.64,
+   "info_lo": 0.0,
+   "info_hi": 0.2250451370514767,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.06094972461810827,
+   "n_regret_if_used_cache": 24,
+   "regret_if_no_cache": 0.0,
+   "n_regret_if_no_cache": 1,
+   "regret_submitted_only": 0.05851173563338394,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870329,
+   "ref_MMI-DP": 3.657862926027978,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670442,
+   "minus_probe_once": -2.8309774837996597,
+   "minus_probe_once_lo": -3.149364682080153,
+   "minus_probe_once_hi": -2.4163140165874464,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 0.96,
+    "n_struct_exact": 24,
+    "pair_ok": 0.96,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 0.996,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": 1.4627933908345985,
+    "n_struct_wrong": 1
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K3": {
+   "realised": 3.4,
+   "regret": 0.2507660703633889,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.21945943324944991,
+   "adv_stoptime": 0.03130663711393893,
+   "verdict": 0.0,
+   "info": 0.2507660703633889,
+   "stop_when_oracle_probes": 0.12,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 3.08,
+   "cost": 3.08,
+   "used_cache": 0.92,
+   "rep_cache": 0.16,
+   "rep_log": 1.12,
+   "first_agree": 0.68,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 71981.2,
+   "tok_out": 918.88,
+   "tok_reason": 840.32,
+   "n_api": 4.08,
+   "latency": 69.3747995853424,
+   "p_benign_at_stop": 0.63330888,
+   "regret_lo": 0.0728982761845903,
+   "regret_hi": 0.5525620010150776,
+   "realised_lo": 2.4583333333333335,
+   "realised_hi": 4.791874999999999,
+   "info_lo": 0.0728982761845903,
+   "info_hi": 0.5525620010150776,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.26760207724185053,
+   "n_regret_if_used_cache": 23,
+   "regret_if_no_cache": 0.057151991261080504,
+   "n_regret_if_no_cache": 2,
+   "regret_submitted_only": 0.2507660703633889,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.6578629260279776,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670443,
+   "minus_probe_once": -2.6387231490696554,
+   "minus_probe_once_lo": -3.016933828598695,
+   "minus_probe_once_hi": -2.186540234994237,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K4": {
+   "realised": 3.32,
+   "regret": 0.15029794686818845,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.12366150997625962,
+   "adv_stoptime": 0.026636436891928846,
+   "verdict": 0.0,
+   "info": 0.15029794686818845,
+   "stop_when_oracle_probes": 0.12,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 3.0,
+   "cost": 3.0,
+   "used_cache": 0.88,
+   "rep_cache": 0.12,
+   "rep_log": 1.2,
+   "first_agree": 0.64,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 70623.96,
+   "tok_out": 753.4,
+   "tok_reason": 675.32,
+   "n_api": 4.0,
+   "latency": 94.0814556980133,
+   "p_benign_at_stop": 0.63337308,
+   "regret_lo": 0.02831708861598417,
+   "regret_hi": 0.40563422979294356,
+   "realised_lo": 2.3333333333333335,
+   "realised_hi": 4.72,
+   "info_lo": 0.02831708861598417,
+   "info_hi": 0.40563422979294356,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.15094084646314865,
+   "n_regret_if_used_cache": 22,
+   "regret_if_no_cache": 0.14558334983848034,
+   "n_regret_if_no_cache": 3,
+   "regret_submitted_only": 0.15029794686818845,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.6578629260279776,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670443,
+   "minus_probe_once": -2.739191272564855,
+   "minus_probe_once_lo": -3.075735822685756,
+   "minus_probe_once_hi": -2.3272636470992585,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K4c": {
+   "realised": 3.48,
+   "regret": 0.18902362110318088,
+   "V0": 4.398638780566956,
+   "adv_probe": 0.1602796684122677,
+   "adv_stoptime": 0.028743952690913198,
+   "verdict": 0.0,
+   "info": 0.18902362110318088,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 3.04,
+   "cost": 3.16,
+   "used_cache": 0.8,
+   "rep_cache": 0.12,
+   "rep_log": 1.28,
+   "first_agree": 0.6,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 71410.56,
+   "tok_out": 775.0,
+   "tok_reason": 697.72,
+   "n_api": 4.04,
+   "latency": 96.17058075904846,
+   "p_benign_at_stop": 0.62559228,
+   "regret_lo": 0.04277546412428185,
+   "regret_hi": 0.46475431099976067,
+   "realised_lo": 2.44,
+   "realised_hi": 4.880115384615384,
+   "info_lo": 0.04277546412428185,
+   "info_hi": 0.46475431099976067,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.11014242359349273,
+   "n_regret_if_used_cache": 20,
+   "regret_if_no_cache": 0.5045484111419335,
+   "n_regret_if_no_cache": 5,
+   "regret_submitted_only": 0.18902362110318088,
+   "ref_Probe-once": 2.8894892194330435,
+   "ref_Oracle-VOI1": 0.6638611869870327,
+   "ref_MMI-DP": 3.6578629260279776,
+   "ref_Oracle+ForbidAny-DP": 0.9677795750670442,
+   "minus_probe_once": -2.700465598329863,
+   "minus_probe_once_lo": -3.049563541092935,
+   "minus_probe_once_hi": -2.2855054553355387,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K1": {
+   "realised": 5.0,
+   "regret": 0.3278969335957235,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.24615593755149903,
+   "adv_stoptime": 0.08174099604422447,
+   "verdict": 0.0,
+   "info": 0.3278969335957235,
+   "stop_when_oracle_probes": 0.36,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 0.88,
+   "no_submit": 0.0,
+   "calls": 2.6,
+   "cost": 2.6,
+   "used_cache": 0.64,
+   "rep_cache": 0.08,
+   "rep_log": 1.0,
+   "first_agree": 0.4,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 62292.92,
+   "tok_out": 788.56,
+   "tok_reason": 721.28,
+   "n_api": 3.6,
+   "latency": 70.92692416191102,
+   "p_benign_at_stop": 0.45894591999999995,
+   "regret_lo": 0.217214156143386,
+   "regret_hi": 0.44738915123975576,
+   "realised_lo": 2.2916666666666665,
+   "realised_hi": 8.44,
+   "info_lo": 0.217214156143386,
+   "info_hi": 0.44738915123975576,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.24058755465199397,
+   "n_regret_if_used_cache": 16,
+   "regret_if_no_cache": 0.48311360727346486,
+   "n_regret_if_no_cache": 9,
+   "regret_submitted_only": 0.3278969335957235,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.03700834682313,
+   "ref_MMI-DP": 6.082710928404411,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.7413819744379289,
+   "minus_probe_once_lo": -2.1030671552898066,
+   "minus_probe_once_hi": -1.3828610049230612,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K1e": {
+   "realised": 4.84,
+   "regret": 0.4865405080736725,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.3709039414884648,
+   "adv_stoptime": 0.11563656658520774,
+   "verdict": 0.0,
+   "info": 0.4865405080736725,
+   "stop_when_oracle_probes": 0.36,
+   "severe": 0.0,
+   "esc": 0.12,
+   "correct": 0.84,
+   "no_submit": 0.0,
+   "calls": 3.08,
+   "cost": 3.08,
+   "used_cache": 0.64,
+   "rep_cache": 0.12,
+   "rep_log": 1.44,
+   "first_agree": 0.28,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 91968.88,
+   "tok_out": 858.4,
+   "tok_reason": 609.96,
+   "n_api": 5.12,
+   "latency": 63.721741352081295,
+   "p_benign_at_stop": 0.50504324,
+   "regret_lo": 0.2870513492908555,
+   "regret_hi": 0.7305202626915951,
+   "realised_lo": 2.75975,
+   "realised_hi": 7.792708333333328,
+   "info_lo": 0.2870513492908555,
+   "info_hi": 0.7305202626915951,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.4806407330898893,
+   "n_regret_if_used_cache": 16,
+   "regret_if_no_cache": 0.4970289969337315,
+   "n_regret_if_no_cache": 9,
+   "regret_submitted_only": 0.4865405080736725,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.58273839995998,
+   "minus_probe_once_lo": -2.031615111836654,
+   "minus_probe_once_hi": -1.0974699033497683,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.4865405080736725,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2": {
+   "realised": 4.92,
+   "regret": 0.69323875010498,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.509599454446955,
+   "adv_stoptime": 0.1836392956580251,
+   "verdict": 0.0,
+   "info": 0.69323875010498,
+   "stop_when_oracle_probes": 0.4,
+   "severe": 0.0,
+   "esc": 0.12,
+   "correct": 0.84,
+   "no_submit": 0.0,
+   "calls": 2.92,
+   "cost": 3.16,
+   "used_cache": 0.16,
+   "rep_cache": 0.0,
+   "rep_log": 1.72,
+   "first_agree": 0.16,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 67048.6,
+   "tok_out": 696.84,
+   "tok_reason": 622.08,
+   "n_api": 3.92,
+   "latency": 66.76804440498353,
+   "p_benign_at_stop": 0.5032930800000001,
+   "regret_lo": 0.35578172762340116,
+   "regret_hi": 1.1284265385033174,
+   "realised_lo": 2.4794583333333335,
+   "realised_hi": 8.166666666666666,
+   "info_lo": 0.35578172762340116,
+   "info_hi": 1.1284265385033174,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.830773536630599,
+   "n_regret_if_used_cache": 4,
+   "regret_if_no_cache": 0.6670416479096241,
+   "n_regret_if_no_cache": 21,
+   "regret_submitted_only": 0.69323875010498,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.3760401579286725,
+   "minus_probe_once_lo": -1.9044788161048902,
+   "minus_probe_once_hi": -0.8520260249695694,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2a": {
+   "realised": 4.6,
+   "regret": 0.31180634227255777,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.2787712109563723,
+   "adv_stoptime": 0.03303513131618551,
+   "verdict": 0.0,
+   "info": 0.31180634227255777,
+   "stop_when_oracle_probes": 0.16,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 0.92,
+   "no_submit": 0.0,
+   "calls": 2.88,
+   "cost": 3.0,
+   "used_cache": 0.64,
+   "rep_cache": 0.04,
+   "rep_log": 1.28,
+   "first_agree": 0.28,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 68148.72,
+   "tok_out": 885.64,
+   "tok_reason": 813.56,
+   "n_api": 3.88,
+   "latency": 49.3123697757721,
+   "p_benign_at_stop": 0.49441164,
+   "regret_lo": 0.18972117219064982,
+   "regret_hi": 0.46016898676004986,
+   "realised_lo": 2.4166666666666665,
+   "realised_hi": 8.040041666666665,
+   "info_lo": 0.18972117219064982,
+   "info_hi": 0.46016898676004986,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.23273868461624014,
+   "n_regret_if_used_cache": 16,
+   "regret_if_no_cache": 0.4523710669949003,
+   "n_regret_if_no_cache": 9,
+   "regret_submitted_only": 0.31180634227255777,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.7574725657610946,
+   "minus_probe_once_lo": -2.119718573762311,
+   "minus_probe_once_hi": -1.3610521661900177,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2e": {
+   "realised": 5.16,
+   "regret": 0.5198439619019188,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.46031552752760546,
+   "adv_stoptime": 0.059528434374313335,
+   "verdict": 0.0,
+   "info": 0.5198439619019188,
+   "stop_when_oracle_probes": 0.24,
+   "severe": 0.0,
+   "esc": 0.12,
+   "correct": 0.84,
+   "no_submit": 0.0,
+   "calls": 3.32,
+   "cost": 3.4,
+   "used_cache": 0.4,
+   "rep_cache": 0.08,
+   "rep_log": 1.8,
+   "first_agree": 0.12,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 95503.84,
+   "tok_out": 763.72,
+   "tok_reason": 503.84,
+   "n_api": 5.4,
+   "latency": 62.99594737052917,
+   "p_benign_at_stop": 0.4999226400000001,
+   "regret_lo": 0.32814793812874654,
+   "regret_hi": 0.7532695185442235,
+   "realised_lo": 3.0,
+   "realised_hi": 8.0,
+   "info_lo": 0.32814793812874654,
+   "info_hi": 0.7532695185442235,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.4354175034426932,
+   "n_regret_if_used_cache": 10,
+   "regret_if_no_cache": 0.5761282675414026,
+   "n_regret_if_no_cache": 15,
+   "regret_submitted_only": 0.5198439619019188,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.5494349461317336,
+   "minus_probe_once_lo": -1.9578819041297624,
+   "minus_probe_once_hi": -1.1424201200428337,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.08,
+    "regret_if_struct_exact": 0.5198439619019188,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2p": {
+   "realised": 4.2,
+   "regret": 0.0,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.92,
+   "no_submit": 0.0,
+   "calls": 2.84,
+   "cost": 3.08,
+   "used_cache": 1.0,
+   "rep_cache": 0.44,
+   "rep_log": 0.76,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 18284.84,
+   "tok_out": 187.16,
+   "tok_reason": 6.32,
+   "n_api": 1.04,
+   "latency": 10.976805839538574,
+   "p_benign_at_stop": 0.49755963999999997,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 2.25,
+   "realised_hi": 7.192499999999999,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -2.0692789080336524,
+   "minus_probe_once_lo": -2.4052983665913232,
+   "minus_probe_once_hi": -1.707414807211102,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2r": {
+   "realised": 4.2,
+   "regret": 0.0,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.92,
+   "no_submit": 0.0,
+   "calls": 2.84,
+   "cost": 3.08,
+   "used_cache": 1.0,
+   "rep_cache": 0.44,
+   "rep_log": 0.76,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 0.0,
+   "tok_out": 0.0,
+   "tok_reason": 0.0,
+   "n_api": 0.0,
+   "latency": 0.0,
+   "p_benign_at_stop": 0.49755963999999997,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 2.25,
+   "realised_hi": 7.192499999999999,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -2.0692789080336524,
+   "minus_probe_once_lo": -2.4052983665913232,
+   "minus_probe_once_hi": -1.707414807211102,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.08,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K3": {
+   "realised": 5.48,
+   "regret": 0.3201889059609395,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.28554320937625505,
+   "adv_stoptime": 0.034645696584684485,
+   "verdict": 0.0,
+   "info": 0.3201889059609395,
+   "stop_when_oracle_probes": 0.2,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.84,
+   "no_submit": 0.0,
+   "calls": 2.76,
+   "cost": 2.76,
+   "used_cache": 0.68,
+   "rep_cache": 0.04,
+   "rep_log": 1.16,
+   "first_agree": 0.36,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 66531.88,
+   "tok_out": 875.68,
+   "tok_reason": 802.56,
+   "n_api": 3.76,
+   "latency": 76.83635383605957,
+   "p_benign_at_stop": 0.4499478,
+   "regret_lo": 0.1850404108798424,
+   "regret_hi": 0.4674119828006989,
+   "realised_lo": 2.3333333333333335,
+   "realised_hi": 9.21012499999999,
+   "info_lo": 0.1850404108798424,
+   "info_hi": 0.4674119828006989,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.26286266981714435,
+   "n_regret_if_used_cache": 17,
+   "regret_if_no_cache": 0.4420071577665043,
+   "n_regret_if_no_cache": 8,
+   "regret_submitted_only": 0.3201889059609395,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.7490900020727127,
+   "minus_probe_once_lo": -2.1453572410797674,
+   "minus_probe_once_hi": -1.3546973410049314,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K4": {
+   "realised": 5.12,
+   "regret": 0.3639676203978954,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.21116609832896263,
+   "adv_stoptime": 0.15280152206893272,
+   "verdict": 0.0,
+   "info": 0.3639676203978954,
+   "stop_when_oracle_probes": 0.44,
+   "severe": 0.0,
+   "esc": 0.08,
+   "correct": 0.84,
+   "no_submit": 0.0,
+   "calls": 2.84,
+   "cost": 2.88,
+   "used_cache": 0.64,
+   "rep_cache": 0.12,
+   "rep_log": 1.16,
+   "first_agree": 0.4,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 67834.56,
+   "tok_out": 962.4,
+   "tok_reason": 888.36,
+   "n_api": 3.84,
+   "latency": 66.16513747215271,
+   "p_benign_at_stop": 0.4745056,
+   "regret_lo": 0.19639203190233553,
+   "regret_hi": 0.5471940861173159,
+   "realised_lo": 2.2916666666666665,
+   "realised_hi": 8.800192307692308,
+   "info_lo": 0.19639203190233553,
+   "info_hi": 0.5471940861173159,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.2899027135409794,
+   "n_regret_if_used_cache": 16,
+   "regret_if_no_cache": 0.4956385659213014,
+   "n_regret_if_no_cache": 9,
+   "regret_submitted_only": 0.3639676203978954,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.0370083468231297,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.705311287635757,
+   "minus_probe_once_lo": -2.131646194746266,
+   "minus_probe_once_hi": -1.3041878496078152,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K4c": {
+   "realised": 4.92,
+   "regret": 0.3682891706760432,
+   "V0": 5.246953091966348,
+   "adv_probe": 0.2866430516743155,
+   "adv_stoptime": 0.0816461190017277,
+   "verdict": 0.0,
+   "info": 0.3682891706760432,
+   "stop_when_oracle_probes": 0.28,
+   "severe": 0.0,
+   "esc": 0.08,
+   "correct": 0.84,
+   "no_submit": 0.0,
+   "calls": 2.68,
+   "cost": 2.68,
+   "used_cache": 0.64,
+   "rep_cache": 0.08,
+   "rep_log": 1.12,
+   "first_agree": 0.4,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 64621.24,
+   "tok_out": 779.52,
+   "tok_reason": 708.8,
+   "n_api": 3.68,
+   "latency": 95.87207290649414,
+   "p_benign_at_stop": 0.46918676000000004,
+   "regret_lo": 0.2299802686353503,
+   "regret_hi": 0.5165062621631803,
+   "realised_lo": 2.28,
+   "realised_hi": 8.400185185185185,
+   "info_lo": 0.2299802686353503,
+   "info_hi": 0.5165062621631803,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.3077337990899428,
+   "n_regret_if_used_cache": 16,
+   "regret_if_no_cache": 0.4759431646068884,
+   "n_regret_if_no_cache": 9,
+   "regret_submitted_only": 0.3682891706760432,
+   "ref_Probe-once": 2.0692789080336524,
+   "ref_Oracle-VOI1": 1.03700834682313,
+   "ref_MMI-DP": 6.082710928404409,
+   "ref_Oracle+ForbidAny-DP": 0.7800431654616529,
+   "minus_probe_once": -1.7009897373576093,
+   "minus_probe_once_lo": -2.101707638545129,
+   "minus_probe_once_hi": -1.3102071427917283,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K1": {
+   "realised": 2.52,
+   "regret": 0.16793798964582562,
+   "V0": 5.418845975998624,
+   "adv_probe": 0.026787115743493076,
+   "adv_stoptime": 0.14115087390233255,
+   "verdict": 0.0,
+   "info": 0.16793798964582562,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.76,
+   "cost": 2.52,
+   "used_cache": 1.0,
+   "rep_cache": 0.48,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 47396.28,
+   "tok_out": 635.2,
+   "tok_reason": 583.68,
+   "n_api": 2.76,
+   "latency": 55.31543713569641,
+   "p_benign_at_stop": 0.19475224000000002,
+   "regret_lo": 0.0,
+   "regret_hi": 0.5929626540727652,
+   "realised_lo": 1.740491452991453,
+   "realised_hi": 3.375,
+   "info_lo": 0.0,
+   "info_hi": 0.5929626540727652,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.16793798964582562,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.16793798964582562,
+   "ref_Probe-once": 2.0346820240013743,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -1.866744034355549,
+   "minus_probe_once_lo": -2.2108313555332186,
+   "minus_probe_once_hi": -1.3809680343358754,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K1e": {
+   "realised": 3.6,
+   "regret": 0.45262431636700745,
+   "V0": 5.418845975998624,
+   "adv_probe": 0.443983609552501,
+   "adv_stoptime": 0.008640706814506486,
+   "verdict": 0.0,
+   "info": 0.45262431636700745,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.92,
+   "no_submit": 0.0,
+   "calls": 1.84,
+   "cost": 2.48,
+   "used_cache": 1.0,
+   "rep_cache": 0.44,
+   "rep_log": 0.08,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 69793.16,
+   "tok_out": 640.6,
+   "tok_reason": 437.84,
+   "n_api": 3.88,
+   "latency": 47.61045743942261,
+   "p_benign_at_stop": 0.21635411999999998,
+   "regret_lo": 0.11964571953651884,
+   "regret_hi": 0.9696933384795768,
+   "realised_lo": 1.8076923076923077,
+   "realised_hi": 6.68,
+   "info_lo": 0.11964571953651884,
+   "info_hi": 0.9696933384795768,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.45262431636700745,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.45262431636700745,
+   "ref_Probe-once": 2.034682024001375,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823612,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -1.582057707634367,
+   "minus_probe_once_lo": -2.0010960567753453,
+   "minus_probe_once_hi": -1.101031935551319,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 0.96,
+    "n_struct_exact": 24,
+    "pair_ok": 0.96,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 0.996,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.41628320085077597,
+    "regret_if_struct_wrong": 1.3248110887565634,
+    "n_struct_wrong": 1
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2": {
+   "realised": 4.72,
+   "regret": 1.0719261406605738,
+   "V0": 5.418845975998625,
+   "adv_probe": 0.893252405251738,
+   "adv_stoptime": 0.178673735408836,
+   "verdict": 0.0,
+   "info": 1.0719261406605738,
+   "stop_when_oracle_probes": 0.24,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.88,
+   "no_submit": 0.0,
+   "calls": 1.76,
+   "cost": 2.8,
+   "used_cache": 0.8,
+   "rep_cache": 0.16,
+   "rep_log": 0.2,
+   "first_agree": 0.72,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 47293.36,
+   "tok_out": 648.52,
+   "tok_reason": 598.84,
+   "n_api": 2.76,
+   "latency": 50.96769819259644,
+   "p_benign_at_stop": 0.19121812,
+   "regret_lo": 0.6523716258524969,
+   "regret_hi": 1.5268180107831877,
+   "realised_lo": 2.374884259259259,
+   "realised_hi": 8.160166666666665,
+   "info_lo": 0.6523716258524969,
+   "info_hi": 1.5268180107831877,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.9245348858950159,
+   "n_regret_if_used_cache": 20,
+   "regret_if_no_cache": 1.6614911597228061,
+   "n_regret_if_no_cache": 5,
+   "regret_submitted_only": 1.0719261406605738,
+   "ref_Probe-once": 2.034682024001375,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -0.9627558833408006,
+   "minus_probe_once_lo": -1.5606558519315787,
+   "minus_probe_once_hi": -0.3993993406953249,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2a": {
+   "realised": 3.12,
+   "regret": 0.6479936365915582,
+   "V0": 5.418845975998625,
+   "adv_probe": 0.3183139464567157,
+   "adv_stoptime": 0.045623365169726815,
+   "verdict": 0.2840563249651156,
+   "info": 0.3639373116264425,
+   "stop_when_oracle_probes": 0.12,
+   "severe": 0.0,
+   "esc": 0.08,
+   "correct": 0.92,
+   "no_submit": 0.0,
+   "calls": 1.76,
+   "cost": 2.48,
+   "used_cache": 0.96,
+   "rep_cache": 0.4,
+   "rep_log": 0.08,
+   "first_agree": 0.92,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 48331.96,
+   "tok_out": 599.16,
+   "tok_reason": 547.4,
+   "n_api": 2.76,
+   "latency": 36.615163745880125,
+   "p_benign_at_stop": 0.21436460000000002,
+   "regret_lo": 0.09251373265531283,
+   "regret_hi": 1.9377907441908147,
+   "realised_lo": 1.7307692307692308,
+   "realised_hi": 5.208333333333333,
+   "info_lo": 0.09251373265531283,
+   "info_hi": 0.7953466198881608,
+   "verdict_lo": 0.0,
+   "verdict_hi": 1.183568020687982,
+   "regret_if_used_cache": 0.6292256151238338,
+   "n_regret_if_used_cache": 24,
+   "regret_if_no_cache": 1.0984261518169425,
+   "n_regret_if_no_cache": 1,
+   "regret_submitted_only": 0.6479936365915582,
+   "ref_Probe-once": 2.0346820240013743,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -1.3866883874098164,
+   "minus_probe_once_lo": -2.0621574666697104,
+   "minus_probe_once_hi": 0.02352499524090493,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2e": {
+   "realised": 4.52,
+   "regret": 0.6573959983719795,
+   "V0": 5.418845975998624,
+   "adv_probe": 0.3585934107420006,
+   "adv_stoptime": 0.29880258762997874,
+   "verdict": 0.0,
+   "info": 0.6573959983719795,
+   "stop_when_oracle_probes": 0.24,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.88,
+   "no_submit": 0.0,
+   "calls": 1.64,
+   "cost": 2.6,
+   "used_cache": 1.0,
+   "rep_cache": 0.16,
+   "rep_log": 0.04,
+   "first_agree": 0.88,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 64424.96,
+   "tok_out": 596.76,
+   "tok_reason": 402.52,
+   "n_api": 3.64,
+   "latency": 46.45989207267761,
+   "p_benign_at_stop": 0.22086652,
+   "regret_lo": 0.2143290534598044,
+   "regret_hi": 1.3214856777996071,
+   "realised_lo": 1.9629273504273506,
+   "realised_hi": 8.542124999999997,
+   "info_lo": 0.2143290534598044,
+   "info_hi": 1.3214856777996071,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.6573959983719795,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.6573959983719795,
+   "ref_Probe-once": 2.034682024001375,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -1.3772860256293955,
+   "minus_probe_once_lo": -1.8326651301244148,
+   "minus_probe_once_hi": -0.7925189837991381,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3877787807814457e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.0,
+    "n_n_defaults": 25,
+    "fallback": 0.0,
+    "n_fallback": 25,
+    "parse_ok": 1.0,
+    "attempts": 1.0,
+    "regret_if_struct_exact": 0.6573959983719795,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2p": {
+   "realised": 2.64,
+   "regret": 0.0,
+   "V0": 5.418845975998624,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 1.8,
+   "cost": 2.32,
+   "used_cache": 1.0,
+   "rep_cache": 0.6,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 18916.96,
+   "tok_out": 168.28,
+   "tok_reason": 5.56,
+   "n_api": 1.08,
+   "latency": 11.64366810798645,
+   "p_benign_at_stop": 0.20375556,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 1.7994444444444446,
+   "realised_hi": 3.625,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 2.0346820240013743,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -2.034682024001375,
+   "minus_probe_once_lo": -2.2671070945903353,
+   "minus_probe_once_hi": -1.8376419539563167,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 0.96,
+    "n_struct_exact": 24,
+    "pair_ok": 0.96,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 0.996,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3322676295501878e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.08,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": 0.0,
+    "n_struct_wrong": 1
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2r": {
+   "realised": 2.64,
+   "regret": 0.0,
+   "V0": 5.418845975998625,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 1.8,
+   "cost": 2.32,
+   "used_cache": 1.0,
+   "rep_cache": 0.6,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 0.0,
+   "tok_out": 0.0,
+   "tok_reason": 0.0,
+   "n_api": 0.0,
+   "latency": 0.0,
+   "p_benign_at_stop": 0.20375556,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 1.7994444444444446,
+   "realised_hi": 3.625,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 2.034682024001375,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -2.034682024001375,
+   "minus_probe_once_lo": -2.2671070945903353,
+   "minus_probe_once_hi": -1.8376419539563167,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": 1.0,
+    "n_persistent_ok": 25,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": 1.3877787807814457e-17,
+    "n_emission_tv": 25,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.0,
+    "n_n_defaults": 25,
+    "fallback": 0.0,
+    "n_fallback": 25,
+    "parse_ok": 1.0,
+    "attempts": 1.0,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K3": {
+   "realised": 2.68,
+   "regret": 0.21097960902052385,
+   "V0": 5.418845975998625,
+   "adv_probe": 0.17052597509979697,
+   "adv_stoptime": 0.04045363392072685,
+   "verdict": 0.0,
+   "info": 0.21097960902052385,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 1.76,
+   "cost": 2.36,
+   "used_cache": 1.0,
+   "rep_cache": 0.48,
+   "rep_log": 0.04,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 48534.64,
+   "tok_out": 709.52,
+   "tok_reason": 658.64,
+   "n_api": 2.76,
+   "latency": 46.51597938537598,
+   "p_benign_at_stop": 0.21479248,
+   "regret_lo": 0.02897984992000399,
+   "regret_hi": 0.5682146406713302,
+   "realised_lo": 1.7497685185185186,
+   "realised_hi": 3.72,
+   "info_lo": 0.02897984992000399,
+   "info_hi": 0.5682146406713302,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.21097960902052385,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.21097960902052385,
+   "ref_Probe-once": 2.0346820240013743,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -1.8237024149808507,
+   "minus_probe_once_lo": -2.1821901894033724,
+   "minus_probe_once_hi": -1.3602879722814225,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K4": {
+   "realised": 2.6,
+   "regret": 0.21293782123129396,
+   "V0": 5.418845975998625,
+   "adv_probe": 0.18275648034580158,
+   "adv_stoptime": 0.03018134088549237,
+   "verdict": 0.0,
+   "info": 0.21293782123129396,
+   "stop_when_oracle_probes": 0.12,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.68,
+   "cost": 2.6,
+   "used_cache": 0.96,
+   "rep_cache": 0.36,
+   "rep_log": 0.0,
+   "first_agree": 0.96,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 47167.28,
+   "tok_out": 566.28,
+   "tok_reason": 514.68,
+   "n_api": 2.68,
+   "latency": 44.276868171691895,
+   "p_benign_at_stop": 0.19904439999999998,
+   "regret_lo": 0.006828318137445661,
+   "regret_hi": 0.5749992435352946,
+   "realised_lo": 1.8,
+   "realised_hi": 3.5,
+   "info_lo": 0.006828318137445661,
+   "info_hi": 0.5749992435352946,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.17604247412355858,
+   "n_regret_if_used_cache": 24,
+   "regret_if_no_cache": 1.0984261518169425,
+   "n_regret_if_no_cache": 1,
+   "regret_submitted_only": 0.21293782123129396,
+   "ref_Probe-once": 2.0346820240013743,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -1.821744202770081,
+   "minus_probe_once_lo": -2.170808881533748,
+   "minus_probe_once_hi": -1.4008532123197253,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K4c": {
+   "realised": 2.92,
+   "regret": 0.13589260472535178,
+   "V0": 5.418845975998625,
+   "adv_probe": 0.13247515965175047,
+   "adv_stoptime": 0.003417445073601293,
+   "verdict": 0.0,
+   "info": 0.13589260472535178,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 1.88,
+   "cost": 2.6,
+   "used_cache": 1.0,
+   "rep_cache": 0.56,
+   "rep_log": 0.04,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 50719.6,
+   "tok_out": 580.04,
+   "tok_reason": 525.64,
+   "n_api": 2.88,
+   "latency": 88.36235095977783,
+   "p_benign_at_stop": 0.21563067999999996,
+   "regret_lo": 0.0299353076067407,
+   "regret_hi": 0.2768892866042549,
+   "realised_lo": 1.9159722222222224,
+   "realised_hi": 4.458333333333333,
+   "info_lo": 0.0299353076067407,
+   "info_hi": 0.2768892866042549,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.13589260472535178,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.13589260472535178,
+   "ref_Probe-once": 2.0346820240013743,
+   "ref_Oracle-VOI1": 0.13332304589350139,
+   "ref_MMI-DP": 6.509129136823613,
+   "ref_Oracle+ForbidAny-DP": 0.3251986500013749,
+   "minus_probe_once": -1.8987894192760228,
+   "minus_probe_once_lo": -2.1498761460465166,
+   "minus_probe_once_hi": -1.6735509045557906,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K1": {
+   "realised": 1.88,
+   "regret": 0.030645338124320957,
+   "V0": 2.510118655350939,
+   "adv_probe": 0.021591221050388326,
+   "adv_stoptime": 0.009054117073932631,
+   "verdict": 0.0,
+   "info": 0.030645338124320957,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.88,
+   "cost": 1.88,
+   "used_cache": 1.0,
+   "rep_cache": 0.88,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 49213.04,
+   "tok_out": 258.96,
+   "tok_reason": 204.72,
+   "n_api": 2.88,
+   "latency": 43.67166961669922,
+   "p_benign_at_stop": 0.1759894,
+   "regret_lo": 0.0,
+   "regret_hi": 0.06874792114972025,
+   "realised_lo": 1.56,
+   "realised_hi": 2.2916666666666665,
+   "info_lo": 0.0,
+   "info_hi": 0.06874792114972025,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.030645338124320957,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.030645338124320957,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.912764006524739,
+   "minus_probe_once_lo": -5.181428142623903,
+   "minus_probe_once_hi": -4.641780839995749,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K1e": {
+   "realised": 1.84,
+   "regret": 0.025148246164765773,
+   "V0": 2.5101186553509396,
+   "adv_probe": 0.007839881704295344,
+   "adv_stoptime": 0.01730836446047043,
+   "verdict": 0.0,
+   "info": 0.025148246164765773,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.84,
+   "cost": 1.84,
+   "used_cache": 1.0,
+   "rep_cache": 0.84,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 68238.96,
+   "tok_out": 366.96,
+   "tok_reason": 192.36,
+   "n_api": 3.84,
+   "latency": 54.22000214576721,
+   "p_benign_at_stop": 0.17682356,
+   "regret_lo": 0.0,
+   "regret_hi": 0.08329650396601349,
+   "realised_lo": 1.375,
+   "realised_hi": 2.375,
+   "info_lo": 0.0,
+   "info_hi": 0.08329650396601349,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.025148246164765773,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.025148246164765773,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.1623429653308261,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490602,
+   "minus_probe_once": -4.918261098484294,
+   "minus_probe_once_lo": -5.1656452079033555,
+   "minus_probe_once_hi": -4.666952102114153,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.0,
+    "n_n_defaults": 25,
+    "fallback": 0.0,
+    "n_fallback": 25,
+    "parse_ok": 1.0,
+    "attempts": 1.0,
+    "regret_if_struct_exact": 0.025148246164765773,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2": {
+   "realised": 6.0,
+   "regret": 1.2690451590390721,
+   "V0": 2.5101186553509396,
+   "adv_probe": 0.49976602576612555,
+   "adv_stoptime": 0.7692791332729465,
+   "verdict": 0.0,
+   "info": 1.2690451590390721,
+   "stop_when_oracle_probes": 0.36,
+   "severe": 0.04,
+   "esc": 0.04,
+   "correct": 0.84,
+   "no_submit": 0.0,
+   "calls": 1.36,
+   "cost": 1.68,
+   "used_cache": 1.0,
+   "rep_cache": 0.12,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 40532.16,
+   "tok_out": 353.0,
+   "tok_reason": 309.88,
+   "n_api": 2.36,
+   "latency": 34.53328249931335,
+   "p_benign_at_stop": 0.25505764,
+   "regret_lo": 0.5155316022523738,
+   "regret_hi": 2.206184573379269,
+   "realised_lo": 1.28,
+   "realised_hi": 15.336458333333317,
+   "info_lo": 0.5155316022523738,
+   "info_hi": 2.206184573379269,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 1.2690451590390721,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 1.2690451590390721,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -3.6743641856099885,
+   "minus_probe_once_lo": -4.431733418415844,
+   "minus_probe_once_hi": -2.7440549034567305,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2a": {
+   "realised": 1.88,
+   "regret": 0.03154876559079428,
+   "V0": 2.5101186553509396,
+   "adv_probe": 0.024555186771536085,
+   "adv_stoptime": 0.0069935788192581946,
+   "verdict": 0.0,
+   "info": 0.03154876559079428,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.88,
+   "cost": 1.88,
+   "used_cache": 1.0,
+   "rep_cache": 0.88,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 50408.8,
+   "tok_out": 283.04,
+   "tok_reason": 230.28,
+   "n_api": 2.88,
+   "latency": 31.495284643173218,
+   "p_benign_at_stop": 0.17956876000000002,
+   "regret_lo": 0.0,
+   "regret_hi": 0.09615713195566311,
+   "realised_lo": 1.4074074074074074,
+   "realised_hi": 2.4,
+   "info_lo": 0.0,
+   "info_hi": 0.09615713195566311,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.03154876559079428,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.03154876559079428,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.911860579058266,
+   "minus_probe_once_lo": -5.162440421812462,
+   "minus_probe_once_hi": -4.659020443275967,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2e": {
+   "realised": 1.84,
+   "regret": 0.04515900525612275,
+   "V0": 2.5101186553509396,
+   "adv_probe": 0.020857061976394125,
+   "adv_stoptime": 0.024301943279728625,
+   "verdict": 0.0,
+   "info": 0.04515900525612275,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.84,
+   "cost": 1.84,
+   "used_cache": 1.0,
+   "rep_cache": 0.84,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 68517.92,
+   "tok_out": 357.16,
+   "tok_reason": 175.68,
+   "n_api": 3.88,
+   "latency": 40.65300024032593,
+   "p_benign_at_stop": 0.17598459999999996,
+   "regret_lo": 0.009969198545616849,
+   "regret_hi": 0.10050656017861252,
+   "realised_lo": 1.4074074074074074,
+   "realised_hi": 2.375,
+   "info_lo": 0.009969198545616849,
+   "info_hi": 0.10050656017861252,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.04515900525612275,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.04515900525612275,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.898250339392938,
+   "minus_probe_once_lo": -5.149517955407578,
+   "minus_probe_once_hi": -4.647604555628066,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.04515900525612275,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2p": {
+   "realised": 1.84,
+   "regret": 0.0,
+   "V0": 2.5101186553509396,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.84,
+   "cost": 1.84,
+   "used_cache": 1.0,
+   "rep_cache": 0.84,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 17386.28,
+   "tok_out": 169.2,
+   "tok_reason": 38.32,
+   "n_api": 1.0,
+   "latency": 11.055829029083252,
+   "p_benign_at_stop": 0.17931528,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 1.3701111111111113,
+   "realised_hi": 2.375,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.94340934464906,
+   "minus_probe_once_lo": -5.2005297988321235,
+   "minus_probe_once_hi": -4.685237713773919,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.0,
+    "n_n_defaults": 25,
+    "fallback": 0.0,
+    "n_fallback": 25,
+    "parse_ok": 1.0,
+    "attempts": 1.0,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2r": {
+   "realised": 1.84,
+   "regret": 0.0,
+   "V0": 2.5101186553509396,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.84,
+   "cost": 1.84,
+   "used_cache": 1.0,
+   "rep_cache": 0.84,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 0.0,
+   "tok_out": 0.0,
+   "tok_reason": 0.0,
+   "n_api": 0.0,
+   "latency": 0.0,
+   "p_benign_at_stop": 0.17931528,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 1.3701111111111113,
+   "realised_hi": 2.375,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.94340934464906,
+   "minus_probe_once_lo": -5.2005297988321235,
+   "minus_probe_once_hi": -4.685237713773919,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K3": {
+   "realised": 1.88,
+   "regret": 0.014598321355686722,
+   "V0": 2.51011865535094,
+   "adv_probe": 0.007604742536428528,
+   "adv_stoptime": 0.0069935788192581946,
+   "verdict": 0.0,
+   "info": 0.014598321355686722,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.88,
+   "cost": 1.88,
+   "used_cache": 1.0,
+   "rep_cache": 0.88,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 50479.04,
+   "tok_out": 270.2,
+   "tok_reason": 215.52,
+   "n_api": 2.88,
+   "latency": 42.261258821487424,
+   "p_benign_at_stop": 0.17765628,
+   "regret_lo": 0.0,
+   "regret_hi": 0.04151763756858878,
+   "realised_lo": 1.4230769230769231,
+   "realised_hi": 2.4004166666666644,
+   "info_lo": 0.0,
+   "info_hi": 0.04151763756858878,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.014598321355686722,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.014598321355686722,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.928811023293373,
+   "minus_probe_once_lo": -5.1854909590266,
+   "minus_probe_once_hi": -4.676498730078516,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K4": {
+   "realised": 1.84,
+   "regret": 0.036254351136356056,
+   "V0": 2.5101186553509396,
+   "adv_probe": 0.027200234062423424,
+   "adv_stoptime": 0.009054117073932631,
+   "verdict": 0.0,
+   "info": 0.036254351136356056,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.84,
+   "cost": 1.84,
+   "used_cache": 1.0,
+   "rep_cache": 0.84,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 49716.0,
+   "tok_out": 256.0,
+   "tok_reason": 202.68,
+   "n_api": 2.84,
+   "latency": 74.26805786132813,
+   "p_benign_at_stop": 0.17920760000000002,
+   "regret_lo": 0.0,
+   "regret_hi": 0.1012867726562426,
+   "realised_lo": 1.5,
+   "realised_hi": 2.2916666666666665,
+   "info_lo": 0.0,
+   "info_hi": 0.1012867726562426,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.036254351136356056,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.036254351136356056,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.907154993512704,
+   "minus_probe_once_lo": -5.181428142623903,
+   "minus_probe_once_hi": -4.6304561875784405,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K4c": {
+   "realised": 1.92,
+   "regret": 0.008604572008632792,
+   "V0": 2.510118655350939,
+   "adv_probe": 0.008604572008632792,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.008604572008632792,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 1.92,
+   "cost": 1.92,
+   "used_cache": 1.0,
+   "rep_cache": 0.92,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 51366.08,
+   "tok_out": 237.2,
+   "tok_reason": 182.28,
+   "n_api": 2.92,
+   "latency": 81.6373359298706,
+   "p_benign_at_stop": 0.17583036,
+   "regret_lo": 0.0,
+   "regret_hi": 0.028708003579308687,
+   "realised_lo": 1.48,
+   "realised_hi": 2.4166666666666665,
+   "info_lo": 0.0,
+   "info_hi": 0.028708003579308687,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.008604572008632792,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.008604572008632792,
+   "ref_Probe-once": 4.94340934464906,
+   "ref_Oracle-VOI1": 0.16234296533082612,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.4011323446490598,
+   "minus_probe_once": -4.934804772640428,
+   "minus_probe_once_lo": -5.1957796682114,
+   "minus_probe_once_hi": -4.673565974623744,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K1": {
+   "realised": 2.32,
+   "regret": 0.030421189600120743,
+   "V0": 2.701007213402704,
+   "adv_probe": 0.021608491251133278,
+   "adv_stoptime": 0.008812698348987463,
+   "verdict": 0.0,
+   "info": 0.030421189600120743,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.32,
+   "cost": 2.32,
+   "used_cache": 1.0,
+   "rep_cache": 1.32,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 56865.32,
+   "tok_out": 284.96,
+   "tok_reason": 223.08,
+   "n_api": 3.32,
+   "latency": 49.2121941947937,
+   "p_benign_at_stop": 0.4836797199999999,
+   "regret_lo": 0.0,
+   "regret_hi": 0.1080424562556664,
+   "realised_lo": 1.9166666666666667,
+   "realised_hi": 2.8333333333333335,
+   "info_lo": 0.0,
+   "info_hi": 0.1080424562556664,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.030421189600120743,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.030421189600120743,
+   "ref_Probe-once": 4.615224786597295,
+   "ref_Oracle-VOI1": 0.20069822724453,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.584803596997174,
+   "minus_probe_once_lo": -5.001606582721682,
+   "minus_probe_once_hi": -4.144215929316133,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K1e": {
+   "realised": 2.36,
+   "regret": 0.007600044185023247,
+   "V0": 2.7010072134027046,
+   "adv_probe": 0.007600044185023247,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.007600044185023247,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.36,
+   "cost": 2.36,
+   "used_cache": 1.0,
+   "rep_cache": 1.36,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 78372.92,
+   "tok_out": 361.76,
+   "tok_reason": 150.32,
+   "n_api": 4.4,
+   "latency": 58.42547058105469,
+   "p_benign_at_stop": 0.48258316,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0314234475985106,
+   "realised_lo": 1.9166666666666667,
+   "realised_hi": 2.8752403846153833,
+   "info_lo": 0.0,
+   "info_hi": 0.0314234475985106,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.007600044185023247,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.007600044185023247,
+   "ref_Probe-once": 4.615224786597295,
+   "ref_Oracle-VOI1": 0.20069822724453001,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.6076247424122725,
+   "minus_probe_once_lo": -4.9955725177714765,
+   "minus_probe_once_hi": -4.191849535478045,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.04,
+    "n_n_defaults": 25,
+    "fallback": 0.04,
+    "n_fallback": 25,
+    "parse_ok": 0.96,
+    "attempts": 1.04,
+    "regret_if_struct_exact": 0.007600044185023247,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2": {
+   "realised": 3.44,
+   "regret": 0.9744087375471505,
+   "V0": 2.7010072134027046,
+   "adv_probe": 0.60813259396561,
+   "adv_stoptime": 0.36627614358154065,
+   "verdict": 0.0,
+   "info": 0.9744087375471505,
+   "stop_when_oracle_probes": 0.48,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 0.92,
+   "no_submit": 0.0,
+   "calls": 1.84,
+   "cost": 1.84,
+   "used_cache": 1.0,
+   "rep_cache": 0.0,
+   "rep_log": 0.32,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 48840.68,
+   "tok_out": 381.68,
+   "tok_reason": 328.6,
+   "n_api": 2.84,
+   "latency": 40.82712040901184,
+   "p_benign_at_stop": 0.45143728000000005,
+   "regret_lo": 0.5357962833974921,
+   "regret_hi": 1.581517297029604,
+   "realised_lo": 1.68,
+   "realised_hi": 6.384615384615385,
+   "info_lo": 0.5357962833974921,
+   "info_hi": 1.581517297029604,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.9744087375471505,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.9744087375471505,
+   "ref_Probe-once": 4.615224786597295,
+   "ref_Oracle-VOI1": 0.20069822724453,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -3.640816049050144,
+   "minus_probe_once_lo": -4.237154192145004,
+   "minus_probe_once_hi": -2.9680273978907117,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2a": {
+   "realised": 2.24,
+   "regret": 0.008997113593344057,
+   "V0": 2.7010072134027054,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.008997113593344057,
+   "verdict": 0.0,
+   "info": 0.008997113593344057,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.24,
+   "cost": 2.24,
+   "used_cache": 1.0,
+   "rep_cache": 1.24,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 56586.92,
+   "tok_out": 300.64,
+   "tok_reason": 241.44,
+   "n_api": 3.24,
+   "latency": 34.55988916397095,
+   "p_benign_at_stop": 0.48273196000000007,
+   "regret_lo": 0.0,
+   "regret_hi": 0.03748797330560024,
+   "realised_lo": 1.76,
+   "realised_hi": 2.8,
+   "info_lo": 0.0,
+   "info_hi": 0.03748797330560024,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.008997113593344057,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.008997113593344057,
+   "ref_Probe-once": 4.615224786597294,
+   "ref_Oracle-VOI1": 0.20069822724453001,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.606227673003952,
+   "minus_probe_once_lo": -5.002630376160432,
+   "minus_probe_once_hi": -4.190430436462586,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2e": {
+   "realised": 2.16,
+   "regret": 0.12454958319428502,
+   "V0": 2.7010072134027054,
+   "adv_probe": 0.06945873909439906,
+   "adv_stoptime": 0.05509084409988599,
+   "verdict": 0.0,
+   "info": 0.12454958319428502,
+   "stop_when_oracle_probes": 0.16,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.16,
+   "cost": 2.16,
+   "used_cache": 1.0,
+   "rep_cache": 1.08,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 73391.08,
+   "tok_out": 420.44,
+   "tok_reason": 216.76,
+   "n_api": 4.16,
+   "latency": 44.37336750984192,
+   "p_benign_at_stop": 0.48159508,
+   "regret_lo": 0.008997113593344057,
+   "regret_hi": 0.2818090549316389,
+   "realised_lo": 1.72,
+   "realised_hi": 2.7038194444444437,
+   "info_lo": 0.008997113593344057,
+   "info_hi": 0.2818090549316389,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.12454958319428502,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.12454958319428502,
+   "ref_Probe-once": 4.615224786597294,
+   "ref_Oracle-VOI1": 0.20069822724453001,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.49067520340301,
+   "minus_probe_once_lo": -4.856990401075847,
+   "minus_probe_once_hi": -4.112037402492622,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.0,
+    "n_n_defaults": 25,
+    "fallback": 0.0,
+    "n_fallback": 25,
+    "parse_ok": 1.0,
+    "attempts": 1.0,
+    "regret_if_struct_exact": 0.12454958319428502,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2p": {
+   "realised": 2.28,
+   "regret": 0.0,
+   "V0": 2.7010072134027046,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.28,
+   "cost": 2.28,
+   "used_cache": 1.0,
+   "rep_cache": 1.28,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 18872.36,
+   "tok_out": 168.16,
+   "tok_reason": 3.96,
+   "n_api": 1.08,
+   "latency": 11.654370107650756,
+   "p_benign_at_stop": 0.48377472000000005,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 1.8075,
+   "realised_hi": 2.8078703703703694,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 4.615224786597295,
+   "ref_Oracle-VOI1": 0.20069822724453001,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.615224786597295,
+   "minus_probe_once_lo": -5.014489225827095,
+   "minus_probe_once_hi": -4.192992946970305,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.08,
+    "n_n_defaults": 25,
+    "fallback": 0.08,
+    "n_fallback": 25,
+    "parse_ok": 0.92,
+    "attempts": 1.08,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2r": {
+   "realised": 2.28,
+   "regret": 0.0,
+   "V0": 2.701007213402704,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.0,
+   "verdict": 0.0,
+   "info": 0.0,
+   "stop_when_oracle_probes": 0.0,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.28,
+   "cost": 2.28,
+   "used_cache": 1.0,
+   "rep_cache": 1.28,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 0.0,
+   "tok_out": 0.0,
+   "tok_reason": 0.0,
+   "n_api": 0.0,
+   "latency": 0.0,
+   "p_benign_at_stop": 0.48377472,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0,
+   "realised_lo": 1.8075,
+   "realised_hi": 2.8078703703703694,
+   "info_lo": 0.0,
+   "info_hi": 0.0,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.0,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.0,
+   "ref_Probe-once": 4.615224786597294,
+   "ref_Oracle-VOI1": 0.20069822724453,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.615224786597295,
+   "minus_probe_once_lo": -5.014489225827095,
+   "minus_probe_once_hi": -4.192992946970305,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0,
+   "recovery": {
+    "struct_exact": 1.0,
+    "n_struct_exact": 25,
+    "pair_ok": 1.0,
+    "n_pair_ok": 25,
+    "single_ok": 1.0,
+    "n_single_ok": 25,
+    "bits_correct": 1.0,
+    "n_bits_correct": 25,
+    "fault_present_ok": 1.0,
+    "n_fault_present_ok": 25,
+    "persistent_ok": null,
+    "n_persistent_ok": 0,
+    "phi_abs_err": 0.0,
+    "n_phi_abs_err": 25,
+    "phantom_fault": 0.0,
+    "n_phantom_fault": 25,
+    "emission_tv": null,
+    "n_emission_tv": 0,
+    "acc_mae": 0.0,
+    "n_acc_mae": 25,
+    "n_defaults": 0.0,
+    "n_n_defaults": 25,
+    "fallback": 0.0,
+    "n_fallback": 25,
+    "parse_ok": 1.0,
+    "attempts": 1.0,
+    "regret_if_struct_exact": 0.0,
+    "regret_if_struct_wrong": null,
+    "n_struct_wrong": 0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K3": {
+   "realised": 2.4,
+   "regret": 0.037568638831474634,
+   "V0": 2.7010072134027054,
+   "adv_probe": 0.02875594048248717,
+   "adv_stoptime": 0.008812698348987463,
+   "verdict": 0.0,
+   "info": 0.037568638831474634,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.4,
+   "cost": 2.4,
+   "used_cache": 1.0,
+   "rep_cache": 1.4,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 58743.2,
+   "tok_out": 279.56,
+   "tok_reason": 216.08,
+   "n_api": 3.4,
+   "latency": 56.72644167900086,
+   "p_benign_at_stop": 0.48059056,
+   "regret_lo": 0.0,
+   "regret_hi": 0.11964123549250245,
+   "realised_lo": 2.0,
+   "realised_hi": 2.88,
+   "info_lo": 0.0,
+   "info_hi": 0.11964123549250245,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.037568638831474634,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.037568638831474634,
+   "ref_Probe-once": 4.615224786597295,
+   "ref_Oracle-VOI1": 0.20069822724453001,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.57765614776582,
+   "minus_probe_once_lo": -4.997478313936273,
+   "minus_probe_once_hi": -4.1308245749424835,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K4": {
+   "realised": 2.24,
+   "regret": 0.025351439365974063,
+   "V0": 2.7010072134027046,
+   "adv_probe": 0.007541627423642545,
+   "adv_stoptime": 0.01780981194233152,
+   "verdict": 0.0,
+   "info": 0.025351439365974063,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 1.0,
+   "no_submit": 0.0,
+   "calls": 2.24,
+   "cost": 2.24,
+   "used_cache": 1.0,
+   "rep_cache": 1.24,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 56626.72,
+   "tok_out": 275.32,
+   "tok_reason": 216.12,
+   "n_api": 3.24,
+   "latency": 64.36784319877624,
+   "p_benign_at_stop": 0.48355048000000006,
+   "regret_lo": 0.0,
+   "regret_hi": 0.0709831876932984,
+   "realised_lo": 1.7916666666666667,
+   "realised_hi": 2.76,
+   "info_lo": 0.0,
+   "info_hi": 0.0709831876932984,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.025351439365974063,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.025351439365974063,
+   "ref_Probe-once": 4.615224786597294,
+   "ref_Oracle-VOI1": 0.20069822724453001,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.589873347231321,
+   "minus_probe_once_lo": -4.972052435419576,
+   "minus_probe_once_hi": -4.183612764976297,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K4c": {
+   "realised": 2.96,
+   "regret": 0.016398264118275635,
+   "V0": 2.7010072134027046,
+   "adv_probe": 0.0,
+   "adv_stoptime": 0.016398264118275635,
+   "verdict": 0.0,
+   "info": 0.016398264118275635,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.0,
+   "correct": 0.96,
+   "no_submit": 0.0,
+   "calls": 2.16,
+   "cost": 2.16,
+   "used_cache": 1.0,
+   "rep_cache": 1.16,
+   "rep_log": 0.0,
+   "first_agree": 1.0,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 55277.64,
+   "tok_out": 292.52,
+   "tok_reason": 234.32,
+   "n_api": 3.16,
+   "latency": 85.29388758659363,
+   "p_benign_at_stop": 0.48571576,
+   "regret_lo": 0.0,
+   "regret_hi": 0.06832610049281514,
+   "realised_lo": 1.84,
+   "realised_hi": 5.459374999999994,
+   "info_lo": 0.0,
+   "info_hi": 0.06832610049281514,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.016398264118275635,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.016398264118275635,
+   "ref_Probe-once": 4.615224786597294,
+   "ref_Oracle-VOI1": 0.20069822724453001,
+   "ref_MMI-DP": 0.0,
+   "ref_Oracle+ForbidAny-DP": 1.323064190597295,
+   "minus_probe_once": -4.598826522479019,
+   "minus_probe_once_lo": -4.988336276119856,
+   "minus_probe_once_hi": -4.18025418395255,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K1": {
+   "realised": 6.96,
+   "regret": 0.39355070857827795,
+   "V0": 5.844855905640328,
+   "adv_probe": 0.2879414973197164,
+   "adv_stoptime": 0.03366512398242413,
+   "verdict": 0.07194408727613734,
+   "info": 0.32160662130214057,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.04,
+   "correct": 0.8,
+   "no_submit": 0.0,
+   "calls": 2.0,
+   "cost": 3.44,
+   "used_cache": 1.0,
+   "rep_cache": 0.28,
+   "rep_log": 0.12,
+   "first_agree": 0.92,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 51859.24,
+   "tok_out": 780.24,
+   "tok_reason": 726.36,
+   "n_api": 3.0,
+   "latency": 60.79422738075257,
+   "p_benign_at_stop": 0.52721156,
+   "regret_lo": 0.11679655886696466,
+   "regret_hi": 0.736373208997759,
+   "realised_lo": 3.7997916666666667,
+   "realised_hi": 10.384999999999998,
+   "info_lo": 0.10340016490763958,
+   "info_hi": 0.5570165517695642,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.2997670303172389,
+   "regret_if_used_cache": 0.39355070857827795,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.39355070857827795,
+   "ref_Probe-once": 1.4685440943596717,
+   "ref_Oracle-VOI1": 0.20464984893180507,
+   "ref_MMI-DP": 3.8853998531171796,
+   "ref_Oracle+ForbidAny-DP": 0.25851348551967174,
+   "minus_probe_once": -1.074993385781394,
+   "minus_probe_once_lo": -1.498155028412663,
+   "minus_probe_once_hi": -0.5512499001829517,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K2": {
+   "realised": 6.76,
+   "regret": 0.753714427817226,
+   "V0": 5.844855905640328,
+   "adv_probe": 0.6984570558142199,
+   "adv_stoptime": 0.05525737200300595,
+   "verdict": 0.0,
+   "info": 0.753714427817226,
+   "stop_when_oracle_probes": 0.12,
+   "severe": 0.0,
+   "esc": 0.16,
+   "correct": 0.76,
+   "no_submit": 0.0,
+   "calls": 1.92,
+   "cost": 3.88,
+   "used_cache": 0.76,
+   "rep_cache": 0.16,
+   "rep_log": 0.12,
+   "first_agree": 0.68,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 50430.88,
+   "tok_out": 658.76,
+   "tok_reason": 605.32,
+   "n_api": 2.92,
+   "latency": 66.01219512939453,
+   "p_benign_at_stop": 0.52899844,
+   "regret_lo": 0.3769457584693852,
+   "regret_hi": 1.2163037130257173,
+   "realised_lo": 4.041666666666667,
+   "realised_hi": 10.154166666666665,
+   "info_lo": 0.3769457584693852,
+   "info_hi": 1.2163037130257173,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.4264371181906188,
+   "n_regret_if_used_cache": 19,
+   "regret_if_no_cache": 1.7900925749681484,
+   "n_regret_if_no_cache": 6,
+   "regret_submitted_only": 0.753714427817226,
+   "ref_Probe-once": 1.468544094359672,
+   "ref_Oracle-VOI1": 0.20464984893180507,
+   "ref_MMI-DP": 3.8853998531171787,
+   "ref_Oracle+ForbidAny-DP": 0.25851348551967174,
+   "minus_probe_once": -0.714829666542446,
+   "minus_probe_once_lo": -1.3275312211279773,
+   "minus_probe_once_hi": -0.038239771734732295,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 1
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K3": {
+   "realised": 7.6,
+   "regret": 0.27917125546633853,
+   "V0": 5.844855905640327,
+   "adv_probe": 0.2757989378186213,
+   "adv_stoptime": 0.0033723176477172246,
+   "verdict": 0.0,
+   "info": 0.27917125546633853,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.08,
+   "correct": 0.76,
+   "no_submit": 0.0,
+   "calls": 1.96,
+   "cost": 3.76,
+   "used_cache": 0.92,
+   "rep_cache": 0.2,
+   "rep_log": 0.12,
+   "first_agree": 0.88,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 52406.56,
+   "tok_out": 800.12,
+   "tok_reason": 747.04,
+   "n_api": 2.96,
+   "latency": 51.68427099227905,
+   "p_benign_at_stop": 0.51857272,
+   "regret_lo": 0.02250269685792,
+   "regret_hi": 0.7049119858583593,
+   "realised_lo": 4.458333333333333,
+   "realised_hi": 11.154166666666665,
+   "info_lo": 0.02250269685792,
+   "info_hi": 0.7049119858583593,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.24059642172513004,
+   "n_regret_if_used_cache": 23,
+   "regret_if_no_cache": 0.7227818434902353,
+   "n_regret_if_no_cache": 2,
+   "regret_submitted_only": 0.27917125546633853,
+   "ref_Probe-once": 1.468544094359672,
+   "ref_Oracle-VOI1": 0.20464984893180507,
+   "ref_MMI-DP": 3.8853998531171787,
+   "ref_Oracle+ForbidAny-DP": 0.25851348551967174,
+   "minus_probe_once": -1.1893728388933333,
+   "minus_probe_once_lo": -1.684243231729128,
+   "minus_probe_once_hi": -0.5928672751527504,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K4": {
+   "realised": 8.6,
+   "regret": 0.49672747508057385,
+   "V0": 5.844855905640327,
+   "adv_probe": 0.4630623510981497,
+   "adv_stoptime": 0.03366512398242413,
+   "verdict": 0.0,
+   "info": 0.49672747508057385,
+   "stop_when_oracle_probes": 0.08,
+   "severe": 0.0,
+   "esc": 0.12,
+   "correct": 0.68,
+   "no_submit": 0.0,
+   "calls": 2.12,
+   "cost": 3.64,
+   "used_cache": 1.0,
+   "rep_cache": 0.24,
+   "rep_log": 0.12,
+   "first_agree": 0.96,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 54939.24,
+   "tok_out": 805.8,
+   "tok_reason": 747.32,
+   "n_api": 3.12,
+   "latency": 89.9346684551239,
+   "p_benign_at_stop": 0.49162748,
+   "regret_lo": 0.21755748499345073,
+   "regret_hi": 0.8552161166086067,
+   "realised_lo": 4.790625,
+   "realised_hi": 12.69259259259259,
+   "info_lo": 0.21755748499345073,
+   "info_hi": 0.8552161166086067,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.49672747508057385,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.49672747508057385,
+   "ref_Probe-once": 1.468544094359672,
+   "ref_Oracle-VOI1": 0.20464984893180507,
+   "ref_MMI-DP": 3.8853998531171787,
+   "ref_Oracle+ForbidAny-DP": 0.25851348551967174,
+   "minus_probe_once": -0.971816619279098,
+   "minus_probe_once_lo": -1.40520058419121,
+   "minus_probe_once_hi": -0.5195222726690409,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K4c": {
+   "realised": 6.92,
+   "regret": 0.3964856703943937,
+   "V0": 5.844855905640328,
+   "adv_probe": 0.3746346895974176,
+   "adv_stoptime": 0.021850980796976102,
+   "verdict": 0.0,
+   "info": 0.3964856703943937,
+   "stop_when_oracle_probes": 0.04,
+   "severe": 0.0,
+   "esc": 0.16,
+   "correct": 0.76,
+   "no_submit": 0.0,
+   "calls": 2.2,
+   "cost": 4.04,
+   "used_cache": 1.0,
+   "rep_cache": 0.32,
+   "rep_log": 0.16,
+   "first_agree": 0.96,
+   "invalid": 0.0,
+   "insufficient_budget": 0.0,
+   "truncated": 0.0,
+   "tok_in": 56685.6,
+   "tok_out": 814.32,
+   "tok_reason": 755.52,
+   "n_api": 3.2,
+   "latency": 90.06380249977111,
+   "p_benign_at_stop": 0.5713678,
+   "regret_lo": 0.06386942360530985,
+   "regret_hi": 0.8923146764448694,
+   "realised_lo": 4.079041666666667,
+   "realised_hi": 10.423499999999997,
+   "info_lo": 0.06386942360530985,
+   "info_hi": 0.8923146764448694,
+   "verdict_lo": 0.0,
+   "verdict_hi": 0.0,
+   "regret_if_used_cache": 0.3964856703943937,
+   "n_regret_if_used_cache": 25,
+   "regret_if_no_cache": null,
+   "n_regret_if_no_cache": 0,
+   "regret_submitted_only": 0.3964856703943937,
+   "ref_Probe-once": 1.468544094359672,
+   "ref_Oracle-VOI1": 0.20464984893180507,
+   "ref_MMI-DP": 3.8853998531171787,
+   "ref_Oracle+ForbidAny-DP": 0.25851348551967174,
+   "minus_probe_once": -1.072058423965278,
+   "minus_probe_once_lo": -1.5853190041608662,
+   "minus_probe_once_hi": -0.4383790508539904,
+   "n": 25,
+   "n_episodes": 25,
+   "n_scenarios": 6,
+   "api_errors_excluded": 0
+  }
+ },
+ "contrasts": {
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2-K1": {
+   "regret": {
+    "diff": 0.07358236741502998,
+    "lo": -0.77112608657649,
+    "hi": 0.5735716195040589,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.3192180222328798,
+    "lo": 0.0906263357882763,
+    "hi": 0.5943955640903995,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.12,
+    "lo": -0.2916666666666667,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.28,
+    "lo": -1.7916666666666667,
+    "hi": 0.6296296296296297,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K3-K1": {
+   "regret": {
+    "diff": -0.08230215139821288,
+    "lo": -0.9486829746551623,
+    "hi": 0.4280068062962855,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.16333350341963698,
+    "lo": -0.0404693055245118,
+    "hi": 0.46938483272628473,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.20833333333333334,
+    "hi": 0.20833333333333334,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.36,
+    "lo": -2.0400416666666668,
+    "hi": 0.5384615384615384,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K4-K1": {
+   "regret": {
+    "diff": -0.1827702748934133,
+    "lo": -1.0124784499995634,
+    "hi": 0.2837314900872883,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.06286537992443655,
+    "lo": -0.11565238763589587,
+    "hi": 0.33417775673842115,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.24,
+    "hi": 0.15384615384615385,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.44,
+    "lo": -2.16,
+    "hi": 0.6,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K4c-K1": {
+   "regret": {
+    "diff": -0.14404460065842084,
+    "lo": -1.0130254445155735,
+    "hi": 0.34430598825046604,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.10159105415942898,
+    "lo": -0.08000926856124888,
+    "hi": 0.39366928417532177,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.24,
+    "hi": 0.125,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.28,
+    "lo": -2.0400416666666668,
+    "hi": 0.7502499999999986,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K4-K4c": {
+   "regret": {
+    "diff": -0.03872567423499243,
+    "lo": -0.12582299265992714,
+    "hi": 0.04042410155883925,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.03872567423499243,
+    "lo": -0.12582299265992714,
+    "hi": 0.04042410155883925,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.16,
+    "hi": 0.16,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.16,
+    "lo": -0.5005,
+    "hi": 0.12,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2a-K1": {
+   "regret": {
+    "diff": -0.08137460966531507,
+    "lo": -0.9528236383194949,
+    "hi": 0.4434613838509929,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.16426104515253478,
+    "lo": -0.03829996167866645,
+    "hi": 0.4742226495297193,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.24,
+    "hi": 0.15384615384615385,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.4,
+    "lo": -2.0416666666666665,
+    "hi": 0.52,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2a-K2": {
+   "regret": {
+    "diff": -0.15495697708034506,
+    "lo": -0.4835358508567796,
+    "hi": 0.2011068586844693,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.15495697708034506,
+    "lo": -0.4835358508567796,
+    "hi": 0.2011068586844693,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.08,
+    "lo": 0.0,
+    "hi": 0.28,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.12,
+    "lo": -0.625,
+    "hi": 0.3849999999999979,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2e-K2": {
+   "regret": {
+    "diff": -0.18385375390028014,
+    "lo": -0.49633348212380435,
+    "hi": 0.10581014128258312,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.18385375390028014,
+    "lo": -0.49633348212380435,
+    "hi": 0.10581014128258312,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.08,
+    "lo": -0.5,
+    "hi": 0.3333333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2p-K2": {
+   "regret": {
+    "diff": -0.4066505891766317,
+    "lo": -0.6608434076857934,
+    "hi": -0.19953944661315717,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.4066505891766317,
+    "lo": -0.6608434076857934,
+    "hi": -0.19953944661315717,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.12,
+    "lo": 0.0,
+    "hi": 0.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.2,
+    "lo": -0.72,
+    "hi": 0.28,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2p-K1": {
+   "regret": {
+    "diff": -0.3330682217616017,
+    "lo": -1.082950974564666,
+    "hi": -0.0438010074564826,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.08743256694375191,
+    "lo": -0.16856154858105554,
+    "hi": -0.035388259368671134,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.16,
+    "hi": 0.16,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.48,
+    "lo": -2.0833333333333335,
+    "hi": 0.28,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K1e-K1": {
+   "regret": {
+    "diff": -0.13997758202930796,
+    "lo": -0.874401333225594,
+    "hi": 0.21902716716974577,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.1056580727885419,
+    "lo": -0.02928934154508933,
+    "hi": 0.27523527969925216,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.12,
+    "lo": -0.2917824074074074,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.88,
+    "lo": -3.6,
+    "hi": 0.37048611111111046,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2e-K1e": {
+   "regret": {
+    "diff": 0.029706195544057793,
+    "lo": -0.09126022623173631,
+    "hi": 0.156337102277234,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.029706195544057793,
+    "lo": -0.09126022623173631,
+    "hi": 0.156337102277234,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.16016666666666665,
+    "hi": 0.15384615384615385,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.52,
+    "lo": -0.12,
+    "hi": 1.791874999999999,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2p-K2e": {
+   "regret": {
+    "diff": -0.22279683527635158,
+    "lo": -0.41494563699278997,
+    "hi": -0.10175989409791855,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.22279683527635158,
+    "lo": -0.41494563699278997,
+    "hi": -0.10175989409791855,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.12,
+    "lo": 0.0,
+    "hi": 0.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.12,
+    "lo": -0.48,
+    "hi": 0.16,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2r-K2e": {
+   "regret": {
+    "diff": -0.16428509964296764,
+    "lo": -0.39378934413990174,
+    "hi": 0.07763793166792418,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.16428509964296764,
+    "lo": -0.39378934413990174,
+    "hi": 0.07763793166792418,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.16,
+    "lo": 0.0,
+    "hi": 0.34615384615384615,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.16,
+    "lo": -0.5384615384615384,
+    "hi": 0.15384615384615385,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2r-K1": {
+   "regret": {
+    "diff": -0.2745564861282178,
+    "lo": -1.077709541484262,
+    "hi": 0.06896340665076404,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.02892083131036797,
+    "lo": -0.104068534969473,
+    "hi": 0.08350611472072186,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.24563565481784985,
+    "lo": -1.0234818950743743,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": -0.16,
+    "hi": 0.2222222222222222,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.52,
+    "lo": -2.0833333333333335,
+    "hi": 0.1669642857142841,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2r-K2p": {
+   "regret": {
+    "diff": 0.05851173563338394,
+    "lo": 0.0,
+    "hi": 0.2250451370514767,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.05851173563338394,
+    "lo": 0.0,
+    "hi": 0.2250451370514767,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": 0.0,
+    "hi": 0.15384615384615385,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -0.15384615384615385,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2r-K2": {
+   "regret": {
+    "diff": -0.3481388535432478,
+    "lo": -0.6583237666493261,
+    "hi": -0.034290729143800665,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.3481388535432478,
+    "lo": -0.6583237666493261,
+    "hi": -0.034290729143800665,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.16,
+    "lo": 0.0,
+    "hi": 0.34615384615384615,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.24,
+    "lo": -0.7692307692307693,
+    "hi": 0.28,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|MIXED|K2r-K1e": {
+   "regret": {
+    "diff": -0.13457890409890985,
+    "lo": -0.3152410603631944,
+    "hi": 0.06260409168580415,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.13457890409890985,
+    "lo": -0.3152410603631944,
+    "hi": 0.06260409168580415,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.16,
+    "lo": -0.08333333333333333,
+    "hi": 0.4,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.36,
+    "lo": -0.32,
+    "hi": 1.6,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2-K1": {
+   "regret": {
+    "diff": 0.36534181650925646,
+    "lo": 0.019384402300219653,
+    "hi": 0.8422195561486161,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.36534181650925646,
+    "lo": 0.019384402300219653,
+    "hi": 0.8422195561486161,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.24,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.08,
+    "lo": -2.5388888888888888,
+    "hi": 2.0770833333333325,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K3-K1": {
+   "regret": {
+    "diff": -0.0077080276347839495,
+    "lo": -0.1687643428524922,
+    "hi": 0.15854654669756146,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.0077080276347839495,
+    "lo": -0.1687643428524922,
+    "hi": 0.15854654669756146,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.48,
+    "lo": -0.25,
+    "hi": 1.4615384615384615,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K4-K1": {
+   "regret": {
+    "diff": 0.036070686802171854,
+    "lo": -0.12006355366817241,
+    "hi": 0.2051995789865236,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.036070686802171854,
+    "lo": -0.12006355366817241,
+    "hi": 0.2051995789865236,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": 0.0,
+    "hi": 0.15384615384615385,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.12,
+    "lo": -1.1666666666666667,
+    "hi": 1.5384615384615385,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K4c-K1": {
+   "regret": {
+    "diff": 0.040392237080319734,
+    "lo": -0.12366123530133148,
+    "hi": 0.2030767170581498,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.040392237080319734,
+    "lo": -0.12366123530133148,
+    "hi": 0.2030767170581498,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.16,
+    "hi": 0.16,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.08,
+    "lo": -1.28,
+    "hi": 1.0384615384615385,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K4-K4c": {
+   "regret": {
+    "diff": -0.004321550278147877,
+    "lo": -0.14013711211724844,
+    "hi": 0.16878267682003945,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.004321550278147877,
+    "lo": -0.14013711211724844,
+    "hi": 0.16878267682003945,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": -0.125,
+    "hi": 0.2222222222222222,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.2,
+    "lo": -0.88,
+    "hi": 1.52,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2a-K1": {
+   "regret": {
+    "diff": -0.016090591323165714,
+    "lo": -0.17297935740952797,
+    "hi": 0.14199875364894002,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.016090591323165714,
+    "lo": -0.17297935740952797,
+    "hi": 0.14199875364894002,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.4,
+    "lo": -2.576923076923077,
+    "hi": 0.875,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2a-K2": {
+   "regret": {
+    "diff": -0.38143240783242227,
+    "lo": -0.8615251646038392,
+    "hi": 0.030638900704825316,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.38143240783242227,
+    "lo": -0.8615251646038392,
+    "hi": 0.030638900704825316,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": 0.0,
+    "hi": 0.16,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.32,
+    "lo": -2.269230769230769,
+    "hi": 1.375,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2e-K2": {
+   "regret": {
+    "diff": -0.1733947882030612,
+    "lo": -0.6197720108264437,
+    "hi": 0.1434782602261,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.1733947882030612,
+    "lo": -0.6197720108264437,
+    "hi": 0.1434782602261,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.08,
+    "lo": 0.0,
+    "hi": 0.24,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.24,
+    "lo": -0.84,
+    "hi": 1.1208461538461494,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2p-K2": {
+   "regret": {
+    "diff": -0.69323875010498,
+    "lo": -1.1284265385033179,
+    "hi": -0.3557817276234012,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.69323875010498,
+    "lo": -1.1284265385033179,
+    "hi": -0.3557817276234012,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.44,
+    "lo": 0.125,
+    "hi": 0.7918749999999988,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.72,
+    "lo": -2.4,
+    "hi": 0.4166666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2p-K1": {
+   "regret": {
+    "diff": -0.3278969335957235,
+    "lo": -0.4473891512397558,
+    "hi": -0.21721415614338616,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.3278969335957235,
+    "lo": -0.4473891512397558,
+    "hi": -0.21721415614338616,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.36,
+    "lo": 0.08333333333333333,
+    "hi": 0.68,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.8,
+    "lo": -2.923076923076923,
+    "hi": 0.4583333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K1e-K1": {
+   "regret": {
+    "diff": 0.15864357447794902,
+    "lo": -0.06405979544729935,
+    "hi": 0.41056110065681484,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.15864357447794902,
+    "lo": -0.06405979544729935,
+    "hi": 0.41056110065681484,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": 0.0,
+    "hi": 0.16666666666666666,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.16,
+    "lo": -2.840153846153846,
+    "hi": 1.9624999999999946,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2e-K1e": {
+   "regret": {
+    "diff": 0.033303453828246316,
+    "lo": -0.29563915247599554,
+    "hi": 0.33346412108591106,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.033303453828246316,
+    "lo": -0.29563915247599554,
+    "hi": 0.33346412108591106,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.32,
+    "lo": -0.7412222222222221,
+    "hi": 1.52,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2p-K2e": {
+   "regret": {
+    "diff": -0.5198439619019188,
+    "lo": -0.7532695185442235,
+    "hi": -0.32814793812874654,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.5198439619019188,
+    "lo": -0.7532695185442235,
+    "hi": -0.32814793812874654,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.36,
+    "lo": 0.08333333333333333,
+    "hi": 0.68,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.96,
+    "lo": -2.64,
+    "hi": 0.12,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2r-K2e": {
+   "regret": {
+    "diff": -0.5198439619019188,
+    "lo": -0.7532695185442235,
+    "hi": -0.32814793812874654,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.5198439619019188,
+    "lo": -0.7532695185442235,
+    "hi": -0.32814793812874654,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.36,
+    "lo": 0.08333333333333333,
+    "hi": 0.68,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.96,
+    "lo": -2.64,
+    "hi": 0.12,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2r-K1": {
+   "regret": {
+    "diff": -0.3278969335957235,
+    "lo": -0.4473891512397558,
+    "hi": -0.21721415614338616,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.3278969335957235,
+    "lo": -0.4473891512397558,
+    "hi": -0.21721415614338616,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.36,
+    "lo": 0.08333333333333333,
+    "hi": 0.68,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.8,
+    "lo": -2.923076923076923,
+    "hi": 0.4583333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2r-K2p": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2r-K2": {
+   "regret": {
+    "diff": -0.69323875010498,
+    "lo": -1.1284265385033179,
+    "hi": -0.3557817276234012,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.69323875010498,
+    "lo": -1.1284265385033179,
+    "hi": -0.3557817276234012,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.44,
+    "lo": 0.125,
+    "hi": 0.7918749999999988,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.72,
+    "lo": -2.4,
+    "hi": 0.4166666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST|K2r-K1e": {
+   "regret": {
+    "diff": -0.4865405080736725,
+    "lo": -0.7305202626915951,
+    "hi": -0.2870513492908555,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.4865405080736725,
+    "lo": -0.7305202626915951,
+    "hi": -0.2870513492908555,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.32,
+    "lo": 0.041666666666666664,
+    "hi": 0.6538461538461539,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.64,
+    "lo": -2.334,
+    "hi": 0.6541666666666649,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2-K1": {
+   "regret": {
+    "diff": 0.9039881510147484,
+    "lo": 0.2246247538571983,
+    "hi": 1.475627161032872,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.9039881510147484,
+    "lo": 0.2246247538571983,
+    "hi": 1.475627161032872,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.32,
+    "lo": -0.6541666666666667,
+    "hi": -0.07407407407407407,
+    "n": 25
+   },
+   "realised": {
+    "diff": 2.2,
+    "lo": 0.34615384615384615,
+    "hi": 5.041666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K3-K1": {
+   "regret": {
+    "diff": 0.04304161937469821,
+    "lo": -0.4499629708493981,
+    "hi": 0.5067259257744308,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.04304161937469821,
+    "lo": -0.4499629708493981,
+    "hi": 0.5067259257744308,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.20833333333333334,
+    "hi": 0.2144841269841259,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.16,
+    "lo": -0.16666666666666666,
+    "hi": 0.6666666666666666,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K4-K1": {
+   "regret": {
+    "diff": 0.04499983158546833,
+    "lo": -0.4584256296149001,
+    "hi": 0.4953474581428543,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.04499983158546833,
+    "lo": -0.4584256296149001,
+    "hi": 0.4953474581428543,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.12,
+    "lo": -0.2916666666666667,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.08,
+    "lo": -0.2,
+    "hi": 0.5,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K4c-K1": {
+   "regret": {
+    "diff": -0.032045384920473874,
+    "lo": -0.4677116447501753,
+    "hi": 0.19364472200100127,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.032045384920473874,
+    "lo": -0.4677116447501753,
+    "hi": 0.19364472200100127,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.08,
+    "lo": -0.12,
+    "hi": 0.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.4,
+    "lo": -0.038461538461538464,
+    "hi": 1.4166666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K4-K4c": {
+   "regret": {
+    "diff": 0.0770452165059422,
+    "lo": -0.15303502114336165,
+    "hi": 0.4426033189238663,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.0770452165059422,
+    "lo": -0.15303502114336165,
+    "hi": 0.4426033189238663,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.2,
+    "lo": -0.4166666666666667,
+    "hi": -0.038461538461538464,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.32,
+    "lo": -1.4,
+    "hi": 0.3333333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2a-K1": {
+   "regret": {
+    "diff": 0.48005564694573244,
+    "lo": -0.2719695599549862,
+    "hi": 1.8098244820483231,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.19599932198061687,
+    "lo": -0.3317181764206697,
+    "hi": 0.682826259034387,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.2840563249651156,
+    "lo": 0.0,
+    "hi": 1.183568020687982,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.24,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.6,
+    "lo": -0.125,
+    "hi": 1.92,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2a-K2": {
+   "regret": {
+    "diff": -0.42393250406901595,
+    "lo": -1.1763425781026446,
+    "hi": 0.8031663972738942,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.7079888290341316,
+    "lo": -1.2064569079365945,
+    "hi": -0.20440399124545997,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.2840563249651156,
+    "lo": 0.0,
+    "hi": 1.183568020687982,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.24,
+    "lo": 0.0,
+    "hi": 0.5416666666666666,
+    "n": 25
+   },
+   "realised": {
+    "diff": -1.6,
+    "lo": -3.96,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2e-K2": {
+   "regret": {
+    "diff": -0.41453014228859464,
+    "lo": -1.1212750559004372,
+    "hi": 0.47931398968671945,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.41453014228859464,
+    "lo": -1.1212750559004372,
+    "hi": 0.47931398968671945,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.24,
+    "hi": 0.20833333333333334,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.2,
+    "lo": -1.6403461538461537,
+    "hi": 1.280291666666665,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2p-K2": {
+   "regret": {
+    "diff": -1.071926140660574,
+    "lo": -1.5268180107831877,
+    "hi": -0.6523716258524975,
+    "n": 25
+   },
+   "info": {
+    "diff": -1.071926140660574,
+    "lo": -1.5268180107831877,
+    "hi": -0.6523716258524975,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.44,
+    "lo": 0.08,
+    "hi": 0.92,
+    "n": 25
+   },
+   "realised": {
+    "diff": -2.08,
+    "lo": -5.0800833333333335,
+    "hi": 0.125,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2p-K1": {
+   "regret": {
+    "diff": -0.16793798964582562,
+    "lo": -0.5929626540727652,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.16793798964582562,
+    "lo": -0.5929626540727652,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.12,
+    "lo": 0.0,
+    "hi": 0.3752403846153833,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.12,
+    "lo": -0.2916666666666667,
+    "hi": 0.64,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K1e-K1": {
+   "regret": {
+    "diff": 0.2846863267211818,
+    "lo": -0.19351590075806954,
+    "hi": 0.7834776808626942,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.2846863267211818,
+    "lo": -0.19351590075806954,
+    "hi": 0.7834776808626942,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.2920673076923077,
+    "hi": 0.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": 1.08,
+    "lo": -0.20833333333333334,
+    "hi": 3.4166666666666665,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2e-K1e": {
+   "regret": {
+    "diff": 0.2047716820049719,
+    "lo": -0.2513195866095299,
+    "hi": 0.6934380662141821,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.2047716820049719,
+    "lo": -0.2513195866095299,
+    "hi": 0.6934380662141821,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.28,
+    "lo": -0.5416666666666666,
+    "hi": -0.07692307692307693,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.92,
+    "lo": -0.25,
+    "hi": 3.3343749999999943,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2p-K2e": {
+   "regret": {
+    "diff": -0.6573959983719795,
+    "lo": -1.3214856777996074,
+    "hi": -0.21432905345980477,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.6573959983719795,
+    "lo": -1.3214856777996074,
+    "hi": -0.21432905345980477,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.44,
+    "lo": 0.1111111111111111,
+    "hi": 0.92,
+    "n": 25
+   },
+   "realised": {
+    "diff": -1.88,
+    "lo": -5.501041666666667,
+    "hi": 0.3464285714285699,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2r-K2e": {
+   "regret": {
+    "diff": -0.6573959983719795,
+    "lo": -1.3214856777996074,
+    "hi": -0.21432905345980477,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.6573959983719795,
+    "lo": -1.3214856777996074,
+    "hi": -0.21432905345980477,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.44,
+    "lo": 0.1111111111111111,
+    "hi": 0.92,
+    "n": 25
+   },
+   "realised": {
+    "diff": -1.88,
+    "lo": -5.501041666666667,
+    "hi": 0.3464285714285699,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2r-K1": {
+   "regret": {
+    "diff": -0.16793798964582562,
+    "lo": -0.5929626540727652,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.16793798964582562,
+    "lo": -0.5929626540727652,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.12,
+    "lo": 0.0,
+    "hi": 0.3752403846153833,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.12,
+    "lo": -0.2916666666666667,
+    "hi": 0.64,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2r-K2p": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2r-K2": {
+   "regret": {
+    "diff": -1.071926140660574,
+    "lo": -1.5268180107831877,
+    "hi": -0.6523716258524975,
+    "n": 25
+   },
+   "info": {
+    "diff": -1.071926140660574,
+    "lo": -1.5268180107831877,
+    "hi": -0.6523716258524975,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.44,
+    "lo": 0.08,
+    "hi": 0.92,
+    "n": 25
+   },
+   "realised": {
+    "diff": -2.08,
+    "lo": -5.0800833333333335,
+    "hi": 0.125,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED|K2r-K1e": {
+   "regret": {
+    "diff": -0.45262431636700745,
+    "lo": -0.9696933384795775,
+    "hi": -0.11964571953651888,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.45262431636700745,
+    "lo": -0.9696933384795775,
+    "hi": -0.11964571953651888,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.16,
+    "lo": -0.25,
+    "hi": 0.64,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.96,
+    "lo": -3.5416666666666665,
+    "hi": 0.72,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2-K1": {
+   "regret": {
+    "diff": 1.2383998209147513,
+    "lo": 0.46795765096831055,
+    "hi": 2.185018645188024,
+    "n": 25
+   },
+   "info": {
+    "diff": 1.2383998209147513,
+    "lo": 0.46795765096831055,
+    "hi": 2.185018645188024,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.04,
+    "lo": 0.0,
+    "hi": 0.16666666666666666,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.76,
+    "lo": -1.1673076923076924,
+    "hi": -0.4397142857142873,
+    "n": 25
+   },
+   "realised": {
+    "diff": 4.12,
+    "lo": -0.36,
+    "hi": 13.209124999999997,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K3-K1": {
+   "regret": {
+    "diff": -0.016047016768634233,
+    "lo": -0.06000121337302221,
+    "hi": 0.02555945049399089,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.016047016768634233,
+    "lo": -0.06000121337302221,
+    "hi": 0.02555945049399089,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.2692307692307692,
+    "hi": 0.3333333333333333,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": -0.2692307692307692,
+    "hi": 0.3333333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K4-K1": {
+   "regret": {
+    "diff": 0.0056090130120350955,
+    "lo": -0.03477645791638815,
+    "hi": 0.06849849428662978,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.0056090130120350955,
+    "lo": -0.03477645791638815,
+    "hi": 0.06849849428662978,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.20035714285714284,
+    "hi": 0.08,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -0.20035714285714284,
+    "hi": 0.08,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K4c-K1": {
+   "regret": {
+    "diff": -0.022040766115688167,
+    "lo": -0.05729110695381507,
+    "hi": 0.004561964312050133,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.022040766115688167,
+    "lo": -0.05729110695381507,
+    "hi": 0.004561964312050133,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": -0.2,
+    "hi": 0.3333333333333333,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.04,
+    "lo": -0.2,
+    "hi": 0.3333333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K4-K4c": {
+   "regret": {
+    "diff": 0.027649779127723262,
+    "lo": -0.010499307607664914,
+    "hi": 0.09112597898948449,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.027649779127723262,
+    "lo": -0.010499307607664914,
+    "hi": 0.09112597898948449,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.36,
+    "hi": 0.15384615384615385,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.08,
+    "lo": -0.36,
+    "hi": 0.15384615384615385,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2a-K1": {
+   "regret": {
+    "diff": 0.0009034274664733211,
+    "lo": -0.05740122361708425,
+    "hi": 0.08013094329638593,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.0009034274664733211,
+    "lo": -0.05740122361708425,
+    "hi": 0.08013094329638593,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.28,
+    "hi": 0.3333333333333333,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": -0.28,
+    "hi": 0.3333333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2a-K2": {
+   "regret": {
+    "diff": -1.2374963934482779,
+    "lo": -2.1930061306749793,
+    "hi": -0.48237847349084245,
+    "n": 25
+   },
+   "info": {
+    "diff": -1.2374963934482779,
+    "lo": -2.1930061306749793,
+    "hi": -0.48237847349084245,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": -0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.76,
+    "lo": 0.29618055555555556,
+    "hi": 1.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": -4.12,
+    "lo": -13.167708333333334,
+    "hi": 0.16666666666666666,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2e-K2": {
+   "regret": {
+    "diff": -1.2238861537829493,
+    "lo": -2.1458246327752786,
+    "hi": -0.4734346872635642,
+    "n": 25
+   },
+   "info": {
+    "diff": -1.2238861537829493,
+    "lo": -2.1458246327752786,
+    "hi": -0.4734346872635642,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": -0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.72,
+    "lo": 0.2797307692307693,
+    "hi": 1.25,
+    "n": 25
+   },
+   "realised": {
+    "diff": -4.16,
+    "lo": -13.200208333333332,
+    "hi": 0.19249999999999895,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2p-K2": {
+   "regret": {
+    "diff": -1.2690451590390721,
+    "lo": -2.2061845733792698,
+    "hi": -0.5155316022523738,
+    "n": 25
+   },
+   "info": {
+    "diff": -1.2690451590390721,
+    "lo": -2.2061845733792698,
+    "hi": -0.5155316022523738,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": -0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.72,
+    "lo": 0.2692307692307692,
+    "hi": 1.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": -4.16,
+    "lo": -13.209125,
+    "hi": 0.16,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2p-K1": {
+   "regret": {
+    "diff": -0.030645338124320957,
+    "lo": -0.06874792114972034,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.030645338124320957,
+    "lo": -0.06874792114972034,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.2962962962962963,
+    "hi": 0.28,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -0.2962962962962963,
+    "hi": 0.28,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K1e-K1": {
+   "regret": {
+    "diff": -0.005497091959555184,
+    "lo": -0.06337779900617048,
+    "hi": 0.07046502840204308,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.005497091959555184,
+    "lo": -0.06337779900617048,
+    "hi": 0.07046502840204308,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.32,
+    "hi": 0.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -0.32,
+    "hi": 0.2916666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2e-K1e": {
+   "regret": {
+    "diff": 0.020010759091356977,
+    "lo": -0.015190360865040716,
+    "hi": 0.05363854836452681,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.020010759091356977,
+    "lo": -0.015190360865040716,
+    "hi": 0.05363854836452681,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.2,
+    "hi": 0.18536324786324687,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": -0.2,
+    "hi": 0.18536324786324687,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2p-K2e": {
+   "regret": {
+    "diff": -0.04515900525612275,
+    "lo": -0.1005065601786126,
+    "hi": -0.009969198545616861,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.04515900525612275,
+    "lo": -0.1005065601786126,
+    "hi": -0.009969198545616861,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.2,
+    "hi": 0.20833333333333334,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": -0.2,
+    "hi": 0.20833333333333334,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2r-K2e": {
+   "regret": {
+    "diff": -0.04515900525612275,
+    "lo": -0.1005065601786126,
+    "hi": -0.009969198545616861,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.04515900525612275,
+    "lo": -0.1005065601786126,
+    "hi": -0.009969198545616861,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.2,
+    "hi": 0.20833333333333334,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": -0.2,
+    "hi": 0.20833333333333334,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2r-K1": {
+   "regret": {
+    "diff": -0.030645338124320957,
+    "lo": -0.06874792114972034,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.030645338124320957,
+    "lo": -0.06874792114972034,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.2962962962962963,
+    "hi": 0.28,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -0.2962962962962963,
+    "hi": 0.28,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2r-K2p": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2r-K2": {
+   "regret": {
+    "diff": -1.2690451590390721,
+    "lo": -2.2061845733792698,
+    "hi": -0.5155316022523738,
+    "n": 25
+   },
+   "info": {
+    "diff": -1.2690451590390721,
+    "lo": -2.2061845733792698,
+    "hi": -0.5155316022523738,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": -0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.72,
+    "lo": 0.2692307692307692,
+    "hi": 1.2916666666666667,
+    "n": 25
+   },
+   "realised": {
+    "diff": -4.16,
+    "lo": -13.209125,
+    "hi": 0.16,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT|K2r-K1e": {
+   "regret": {
+    "diff": -0.025148246164765773,
+    "lo": -0.08329650396601393,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.025148246164765773,
+    "lo": -0.08329650396601393,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": -0.16666666666666666,
+    "hi": 0.16,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": -0.16666666666666666,
+    "hi": 0.16,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2-K1": {
+   "regret": {
+    "diff": 0.94398754794703,
+    "lo": 0.47229458436505245,
+    "hi": 1.5651861801052227,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.94398754794703,
+    "lo": 0.47229458436505245,
+    "hi": 1.5651861801052227,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.32,
+    "lo": -1.8333333333333333,
+    "hi": -0.9166666666666666,
+    "n": 25
+   },
+   "realised": {
+    "diff": 1.12,
+    "lo": -0.58375,
+    "hi": 3.88,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K3-K1": {
+   "regret": {
+    "diff": 0.007147449231353891,
+    "lo": 0.0,
+    "hi": 0.029600007354487465,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.007147449231353891,
+    "lo": 0.0,
+    "hi": 0.029600007354487465,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.08,
+    "lo": 0.0,
+    "hi": 0.25,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.08,
+    "lo": 0.0,
+    "hi": 0.25,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K4-K1": {
+   "regret": {
+    "diff": -0.005069750234146677,
+    "lo": -0.08313089438712573,
+    "hi": 0.05216962813650839,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.005069750234146677,
+    "lo": -0.08313089438712573,
+    "hi": 0.05216962813650839,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.36,
+    "hi": 0.11538461538461539,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.08,
+    "lo": -0.36,
+    "hi": 0.11538461538461539,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K4c-K1": {
+   "regret": {
+    "diff": -0.014022925481845108,
+    "lo": -0.09003538021305534,
+    "hi": 0.03034226307715269,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.014022925481845108,
+    "lo": -0.09003538021305534,
+    "hi": 0.03034226307715269,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.16,
+    "lo": -0.5,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.64,
+    "lo": -0.32,
+    "hi": 3.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K4-K4c": {
+   "regret": {
+    "diff": 0.00895317524769843,
+    "lo": -0.028115588714868037,
+    "hi": 0.05252719539036283,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.00895317524769843,
+    "lo": -0.028115588714868037,
+    "hi": 0.05252719539036283,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.08,
+    "lo": -0.08333333333333333,
+    "hi": 0.36,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.72,
+    "lo": -3.0,
+    "hi": 0.08333333333333333,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2a-K1": {
+   "regret": {
+    "diff": -0.021424076006776684,
+    "lo": -0.09921527432658393,
+    "hi": 0.027175756024388768,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.021424076006776684,
+    "lo": -0.09921527432658393,
+    "hi": 0.027175756024388768,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.375,
+    "hi": 0.125,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.08,
+    "lo": -0.375,
+    "hi": 0.125,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2a-K2": {
+   "regret": {
+    "diff": -0.9654116239538066,
+    "lo": -1.5697879994807482,
+    "hi": -0.5180854135415297,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.9654116239538066,
+    "lo": -1.5697879994807482,
+    "hi": -0.5180854135415297,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 1.24,
+    "lo": 0.76,
+    "hi": 1.8,
+    "n": 25
+   },
+   "realised": {
+    "diff": -1.2,
+    "lo": -3.8009999999999997,
+    "hi": 0.4166666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2e-K2": {
+   "regret": {
+    "diff": -0.8498591543528655,
+    "lo": -1.4470780824612446,
+    "hi": -0.4186016413542586,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.8498591543528655,
+    "lo": -1.4470780824612446,
+    "hi": -0.4186016413542586,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 1.08,
+    "lo": 0.6153846153846154,
+    "hi": 1.6538461538461537,
+    "n": 25
+   },
+   "realised": {
+    "diff": -1.28,
+    "lo": -4.000925925925926,
+    "hi": 0.4166666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2p-K2": {
+   "regret": {
+    "diff": -0.9744087375471505,
+    "lo": -1.581517297029604,
+    "hi": -0.5357962833974923,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.9744087375471505,
+    "lo": -1.581517297029604,
+    "hi": -0.5357962833974923,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 1.28,
+    "lo": 0.8075,
+    "hi": 1.8078703703703694,
+    "n": 25
+   },
+   "realised": {
+    "diff": -1.16,
+    "lo": -3.7860714285714283,
+    "hi": 0.48,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2p-K1": {
+   "regret": {
+    "diff": -0.030421189600120743,
+    "lo": -0.1080424562556664,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.030421189600120743,
+    "lo": -0.1080424562556664,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.32,
+    "hi": 0.16,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -0.32,
+    "hi": 0.16,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K1e-K1": {
+   "regret": {
+    "diff": -0.022821145415097496,
+    "lo": -0.09974007824234576,
+    "hi": 0.022624882270927637,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.022821145415097496,
+    "lo": -0.09974007824234576,
+    "hi": 0.022624882270927637,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": -0.28,
+    "hi": 0.32,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.04,
+    "lo": -0.28,
+    "hi": 0.32,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2e-K1e": {
+   "regret": {
+    "diff": 0.1169495390092618,
+    "lo": 0.0,
+    "hi": 0.2810871130400213,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.1169495390092618,
+    "lo": 0.0,
+    "hi": 0.2810871130400213,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.28,
+    "lo": -0.5416666666666666,
+    "hi": -0.04,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.2,
+    "lo": -0.4230769230769231,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2p-K2e": {
+   "regret": {
+    "diff": -0.12454958319428507,
+    "lo": -0.28180905493163894,
+    "hi": -0.008997113593344057,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.12454958319428507,
+    "lo": -0.28180905493163894,
+    "hi": -0.008997113593344057,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.2,
+    "lo": 0.038461538461538464,
+    "hi": 0.4,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.12,
+    "lo": 0.0,
+    "hi": 0.2916666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2r-K2e": {
+   "regret": {
+    "diff": -0.12454958319428507,
+    "lo": -0.28180905493163894,
+    "hi": -0.008997113593344057,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.12454958319428507,
+    "lo": -0.28180905493163894,
+    "hi": -0.008997113593344057,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.2,
+    "lo": 0.038461538461538464,
+    "hi": 0.4,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.12,
+    "lo": 0.0,
+    "hi": 0.2916666666666667,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2r-K1": {
+   "regret": {
+    "diff": -0.030421189600120743,
+    "lo": -0.1080424562556664,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.030421189600120743,
+    "lo": -0.1080424562556664,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.32,
+    "hi": 0.16,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -0.32,
+    "hi": 0.16,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2r-K2p": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2r-K2": {
+   "regret": {
+    "diff": -0.9744087375471505,
+    "lo": -1.581517297029604,
+    "hi": -0.5357962833974923,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.9744087375471505,
+    "lo": -1.581517297029604,
+    "hi": -0.5357962833974923,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 1.28,
+    "lo": 0.8075,
+    "hi": 1.8078703703703694,
+    "n": 25
+   },
+   "realised": {
+    "diff": -1.16,
+    "lo": -3.7860714285714283,
+    "hi": 0.48,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P|K2r-K1e": {
+   "regret": {
+    "diff": -0.007600044185023247,
+    "lo": -0.0314234475985106,
+    "hi": 0.0,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.007600044185023247,
+    "lo": -0.0314234475985106,
+    "hi": 0.0,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.24,
+    "hi": 0.0,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.08,
+    "lo": -0.24,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K2-K1": {
+   "regret": {
+    "diff": 0.3601637192389481,
+    "lo": -0.06266781255906584,
+    "hi": 0.8565877826020998,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.4321078065150854,
+    "lo": 0.02720794541516271,
+    "hi": 0.9132914893567042,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.07194408727613734,
+    "lo": -0.2997670303172389,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.12,
+    "lo": -0.34615384615384615,
+    "hi": 0.12,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.2,
+    "lo": -2.042708333333333,
+    "hi": 1.3752403846153833,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K3-K1": {
+   "regret": {
+    "diff": -0.11437945311193941,
+    "lo": -0.5342895568158149,
+    "hi": 0.3743467980999114,
+    "n": 25
+   },
+   "info": {
+    "diff": -0.04243536583580207,
+    "lo": -0.41086422005523354,
+    "hi": 0.4625935846592538,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.07194408727613734,
+    "lo": -0.2997670303172389,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.3076923076923077,
+    "hi": 0.125,
+    "n": 25
+   },
+   "realised": {
+    "diff": 0.64,
+    "lo": -0.16,
+    "hi": 1.9200769230769226,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K4-K1": {
+   "regret": {
+    "diff": 0.10317676650229593,
+    "lo": -0.32871115503338344,
+    "hi": 0.5362695443103727,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.17512085377843328,
+    "lo": -0.16746613469949145,
+    "hi": 0.6148085300452835,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.07194408727613734,
+    "lo": -0.2997670303172389,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.2962962962962963,
+    "hi": 0.32,
+    "n": 25
+   },
+   "realised": {
+    "diff": 1.64,
+    "lo": -0.12,
+    "hi": 4.593777777777771,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K4c-K1": {
+   "regret": {
+    "diff": 0.002934961816115784,
+    "lo": -0.35777437134830115,
+    "hi": 0.45123216498301977,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.07487904909225312,
+    "lo": -0.290286551488313,
+    "hi": 0.5581595791330318,
+    "n": 25
+   },
+   "verdict": {
+    "diff": -0.07194408727613734,
+    "lo": -0.2997670303172389,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": -0.16,
+    "hi": 0.25,
+    "n": 25
+   },
+   "realised": {
+    "diff": -0.04,
+    "lo": -1.9600384615384614,
+    "hi": 1.72,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|VALUE|K4-K4c": {
+   "regret": {
+    "diff": 0.10024180468618014,
+    "lo": -0.2526958964627363,
+    "hi": 0.5030645080850512,
+    "n": 25
+   },
+   "info": {
+    "diff": 0.10024180468618014,
+    "lo": -0.2526958964627363,
+    "hi": 0.5030645080850512,
+    "n": 25
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.3602592592592592,
+    "hi": 0.28,
+    "n": 25
+   },
+   "realised": {
+    "diff": 1.68,
+    "lo": 0.07407407407407407,
+    "hi": 3.840874999999995,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2-K1": {
+   "regret": {
+    "diff": 0.6453280389634465,
+    "lo": 0.24402269332876791,
+    "hi": 1.0583085761473356,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.7067369526679088,
+    "lo": 0.40495685855060237,
+    "hi": 1.0623119794273486,
+    "n": 100
+   },
+   "verdict": {
+    "diff": -0.06140891370446246,
+    "lo": -0.25587047376859356,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.01,
+    "lo": 0.0,
+    "hi": 0.041666666666666664,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": -0.32,
+    "lo": -0.49,
+    "hi": -0.17708333333333334,
+    "n": 100
+   },
+   "realised": {
+    "diff": 1.49,
+    "lo": -0.33359374999999997,
+    "hi": 4.270249999999998,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K3-K1": {
+   "regret": {
+    "diff": -0.0157538941067332,
+    "lo": -0.28419738051785093,
+    "hi": 0.17973150470333452,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.04565501959772926,
+    "lo": -0.11306805443024459,
+    "hi": 0.18782854174143382,
+    "n": 100
+   },
+   "verdict": {
+    "diff": -0.06140891370446246,
+    "lo": -0.25587047376859356,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": -0.01,
+    "lo": -0.1,
+    "hi": 0.09262152777777762,
+    "n": 100
+   },
+   "realised": {
+    "diff": 0.07,
+    "lo": -0.41354166666666664,
+    "hi": 0.45219907407407256,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K4-K1": {
+   "regret": {
+    "diff": -0.024022685873434507,
+    "lo": -0.2913695987206256,
+    "hi": 0.18666435092495737,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.03738622783102796,
+    "lo": -0.12704147608466165,
+    "hi": 0.19897769869209636,
+    "n": 100
+   },
+   "verdict": {
+    "diff": -0.06140891370446246,
+    "lo": -0.25587047376859356,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.125,
+    "hi": 0.04,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.07,
+    "lo": -0.6924479166666666,
+    "hi": 0.42602777777777723,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K4c-K1": {
+   "regret": {
+    "diff": -0.0394346286535658,
+    "lo": -0.2962206262127899,
+    "hi": 0.1367953559032019,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.021974285050896672,
+    "lo": -0.1166618689399179,
+    "hi": 0.1459156888797939,
+    "n": 100
+   },
+   "verdict": {
+    "diff": -0.06140891370446246,
+    "lo": -0.25587047376859356,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.02,
+    "lo": -0.0625,
+    "hi": 0.125,
+    "n": 100
+   },
+   "realised": {
+    "diff": 0.02,
+    "lo": -0.6504166666666666,
+    "hi": 0.53,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K4-K4c": {
+   "regret": {
+    "diff": 0.015411942780131289,
+    "lo": -0.05976967610483325,
+    "hi": 0.11201615468295925,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.015411942780131289,
+    "lo": -0.05976967610483325,
+    "hi": 0.11201615468295925,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": -0.06,
+    "lo": -0.16666666666666666,
+    "hi": 0.04,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.09,
+    "lo": -0.5400416666666668,
+    "hi": 0.32699999999999957,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2a-K1": {
+   "regret": {
+    "diff": 0.09587346835593126,
+    "lo": -0.21787440531254174,
+    "hi": 0.4427951586202859,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.08626830081911482,
+    "lo": -0.06613025682497715,
+    "hi": 0.22420316140974703,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.009605167536816452,
+    "lo": -0.2458650909177431,
+    "hi": 0.2840563249651156,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.13,
+    "hi": 0.07,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.05,
+    "lo": -0.75,
+    "hi": 0.5210336538461527,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2a-K2": {
+   "regret": {
+    "diff": -0.5494545706075152,
+    "lo": -0.8947769449343934,
+    "hi": -0.2532536256880556,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.6204686518487941,
+    "lo": -0.9462313543917011,
+    "hi": -0.3645415075994525,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0710140812412789,
+    "lo": 0.0,
+    "hi": 0.2958920051719955,
+    "n": 100
+   },
+   "severe": {
+    "diff": -0.01,
+    "lo": -0.041666666666666664,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.28,
+    "lo": 0.1388888888888889,
+    "hi": 0.45837499999999975,
+    "n": 100
+   },
+   "realised": {
+    "diff": -1.54,
+    "lo": -4.01953125,
+    "hi": -0.02,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2e-K2": {
+   "regret": {
+    "diff": -0.49891620954372135,
+    "lo": -0.8508406584648952,
+    "hi": -0.18487975080209038,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.49891620954372135,
+    "lo": -0.8508406584648952,
+    "hi": -0.18487975080209038,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": -0.01,
+    "lo": -0.041666666666666664,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.2,
+    "lo": 0.06,
+    "hi": 0.3854166666666667,
+    "n": 100
+   },
+   "realised": {
+    "diff": -1.05,
+    "lo": -3.1981770833333334,
+    "hi": 0.030175925925924964,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2p-K2": {
+   "regret": {
+    "diff": -0.8602151597453144,
+    "lo": -1.2012100464300766,
+    "hi": -0.5810925681328524,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.8602151597453144,
+    "lo": -1.2012100464300766,
+    "hi": -0.5810925681328524,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": -0.01,
+    "lo": -0.041666666666666664,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.43,
+    "lo": 0.23,
+    "hi": 0.68,
+    "n": 100
+   },
+   "realised": {
+    "diff": -1.79,
+    "lo": -4.36546875,
+    "hi": -0.21863839285714345,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2p-K1": {
+   "regret": {
+    "diff": -0.21488712078186797,
+    "lo": -0.44342219664490357,
+    "hi": -0.0930346674228866,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.1534782070774055,
+    "lo": -0.28141514401859014,
+    "hi": -0.08341588441205064,
+    "n": 100
+   },
+   "verdict": {
+    "diff": -0.06140891370446246,
+    "lo": -0.25587047376859356,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.11,
+    "lo": -0.02,
+    "hi": 0.2604166666666667,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.3,
+    "lo": -0.9355555555555556,
+    "hi": 0.16674999999999954,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K1e-K1": {
+   "regret": {
+    "diff": 0.07446380680256695,
+    "lo": -0.19687820997620814,
+    "hi": 0.27493540495598434,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.13587272050702942,
+    "lo": -0.02312862167653361,
+    "hi": 0.28531114433109533,
+    "n": 100
+   },
+   "verdict": {
+    "diff": -0.06140891370446246,
+    "lo": -0.25587047376859356,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": -0.04,
+    "lo": -0.1346153846153846,
+    "hi": 0.08333333333333333,
+    "n": 100
+   },
+   "realised": {
+    "diff": 0.0,
+    "lo": -1.15634375,
+    "hi": 1.1042067307692307,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2e-K1e": {
+   "regret": {
+    "diff": 0.07194802261715824,
+    "lo": -0.09760774309689543,
+    "hi": 0.25057632480846853,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.07194802261715824,
+    "lo": -0.09760774309689543,
+    "hi": 0.25057632480846853,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": -0.08,
+    "lo": -0.1828125,
+    "hi": 0.017857142857142856,
+    "n": 100
+   },
+   "realised": {
+    "diff": 0.44,
+    "lo": -0.11538461538461539,
+    "hi": 1.1563437499999996,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2p-K2e": {
+   "regret": {
+    "diff": -0.3612989502015932,
+    "lo": -0.5483368898142436,
+    "hi": -0.22036563929838698,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.3612989502015932,
+    "lo": -0.5483368898142436,
+    "hi": -0.22036563929838698,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.23,
+    "lo": 0.09375,
+    "hi": 0.3855312499999994,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.74,
+    "lo": -1.8002500000000001,
+    "hi": 0.009624999999999948,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2r-K2e": {
+   "regret": {
+    "diff": -0.34667101629324715,
+    "lo": -0.5428177139534817,
+    "hi": -0.18749352753040577,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.34667101629324715,
+    "lo": -0.5428177139534817,
+    "hi": -0.18749352753040577,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.24,
+    "lo": 0.10416666666666667,
+    "hi": 0.3958333333333333,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.75,
+    "lo": -1.8100625000000001,
+    "hi": 0.0,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2r-K1": {
+   "regret": {
+    "diff": -0.20025918687352198,
+    "lo": -0.43564138585440054,
+    "hi": -0.06801330462449297,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.13885027316905954,
+    "lo": -0.2743002848344322,
+    "hi": -0.060294727150644885,
+    "n": 100
+   },
+   "verdict": {
+    "diff": -0.06140891370446246,
+    "lo": -0.25587047376859356,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.12,
+    "lo": -0.009625,
+    "hi": 0.2604166666666667,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.31,
+    "lo": -0.9600740740740741,
+    "hi": 0.16666666666666666,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2r-K2p": {
+   "regret": {
+    "diff": 0.014627933908345984,
+    "lo": 0.0,
+    "hi": 0.06530327637654457,
+    "n": 100
+   },
+   "info": {
+    "diff": 0.014627933908345984,
+    "lo": 0.0,
+    "hi": 0.06530327637654457,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.01,
+    "lo": 0.0,
+    "hi": 0.044642857142857144,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.01,
+    "lo": -0.044642857142857144,
+    "hi": 0.0,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2r-K2": {
+   "regret": {
+    "diff": -0.8455872258369684,
+    "lo": -1.1978346539708542,
+    "hi": -0.5580712580929997,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.8455872258369684,
+    "lo": -1.1978346539708542,
+    "hi": -0.5580712580929997,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": -0.01,
+    "lo": -0.041666666666666664,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.44,
+    "lo": 0.2399895833333333,
+    "hi": 0.6875624999999996,
+    "n": 100
+   },
+   "realised": {
+    "diff": -1.8,
+    "lo": -4.371,
+    "hi": -0.2403846153846154,
+    "n": 100
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE|K2r-K1e": {
+   "regret": {
+    "diff": -0.2747229936760889,
+    "lo": -0.4293563277517991,
+    "hi": -0.15423810289326453,
+    "n": 100
+   },
+   "info": {
+    "diff": -0.2747229936760889,
+    "lo": -0.4293563277517991,
+    "hi": -0.15423810289326453,
+    "n": 100
+   },
+   "verdict": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "severe": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 100
+   },
+   "rep_cache": {
+    "diff": 0.16,
+    "lo": 0.01040625,
+    "hi": 0.3148771367521364,
+    "n": 100
+   },
+   "realised": {
+    "diff": -0.31,
+    "lo": -1.28125,
+    "hi": 0.42317708333333276,
+    "n": 100
+   }
+  }
+ },
+ "api_errors_excluded": {
+  "codex:gpt-6.1-terra@medium|text|VALUE|K2": 1
+ },
+ "recovery_core_pooled": {
+  "codex:gpt-6.1-terra@medium|text|K1e": {
+   "struct_exact": 0.99,
+   "n_struct_exact": 99,
+   "pair_ok": 0.99,
+   "n_pair_ok": 100,
+   "single_ok": 1.0,
+   "n_single_ok": 100,
+   "bits_correct": 0.9990000000000001,
+   "n_bits_correct": 100,
+   "fault_present_ok": 1.0,
+   "n_fault_present_ok": 100,
+   "persistent_ok": 1.0,
+   "n_persistent_ok": 75,
+   "phi_abs_err": 0.0,
+   "n_phi_abs_err": 100,
+   "phantom_fault": 0.0,
+   "n_phantom_fault": 100,
+   "emission_tv": 1.3507713466272739e-17,
+   "n_emission_tv": 75,
+   "acc_mae": 0.0,
+   "n_acc_mae": 100,
+   "n_defaults": 0.02,
+   "n_n_defaults": 100,
+   "fallback": 0.02,
+   "n_fallback": 100,
+   "parse_ok": 0.98,
+   "attempts": 1.02,
+   "regret_if_struct_exact": 0.2788917340372417,
+   "regret_if_struct_wrong": 1.3248110887565634,
+   "n_struct_wrong": 1
+  },
+  "codex:gpt-6.1-terra@medium|text|K2e": {
+   "struct_exact": 0.99,
+   "n_struct_exact": 99,
+   "pair_ok": 0.99,
+   "n_pair_ok": 100,
+   "single_ok": 1.0,
+   "n_single_ok": 100,
+   "bits_correct": 0.9990000000000001,
+   "n_bits_correct": 100,
+   "fault_present_ok": 1.0,
+   "n_fault_present_ok": 100,
+   "persistent_ok": 1.0,
+   "n_persistent_ok": 75,
+   "phi_abs_err": 0.0,
+   "n_phi_abs_err": 100,
+   "phantom_fault": 0.0,
+   "n_phantom_fault": 100,
+   "emission_tv": 1.3507713466272739e-17,
+   "n_emission_tv": 75,
+   "acc_mae": 0.0,
+   "n_acc_mae": 100,
+   "n_defaults": 0.03,
+   "n_n_defaults": 100,
+   "fallback": 0.03,
+   "n_fallback": 100,
+   "parse_ok": 0.97,
+   "attempts": 1.04,
+   "regret_if_struct_exact": 0.3624117302541531,
+   "regret_if_struct_wrong": 0.25113372499815245,
+   "n_struct_wrong": 1
+  },
+  "codex:gpt-6.1-terra@medium|text|K2p": {
+   "struct_exact": 0.98,
+   "n_struct_exact": 98,
+   "pair_ok": 0.98,
+   "n_pair_ok": 100,
+   "single_ok": 1.0,
+   "n_single_ok": 100,
+   "bits_correct": 0.998,
+   "n_bits_correct": 100,
+   "fault_present_ok": 1.0,
+   "n_fault_present_ok": 100,
+   "persistent_ok": 1.0,
+   "n_persistent_ok": 75,
+   "phi_abs_err": 0.0,
+   "n_phi_abs_err": 100,
+   "phantom_fault": 0.0,
+   "n_phantom_fault": 100,
+   "emission_tv": 1.3322676295501878e-17,
+   "n_emission_tv": 75,
+   "acc_mae": 0.0,
+   "n_acc_mae": 100,
+   "n_defaults": 0.03,
+   "n_n_defaults": 100,
+   "fallback": 0.03,
+   "n_fallback": 100,
+   "parse_ok": 0.97,
+   "attempts": 1.05,
+   "regret_if_struct_exact": 0.0,
+   "regret_if_struct_wrong": 0.0,
+   "n_struct_wrong": 2
+  },
+  "codex:gpt-6.1-terra@medium|text|K2r": {
+   "struct_exact": 0.99,
+   "n_struct_exact": 99,
+   "pair_ok": 0.99,
+   "n_pair_ok": 100,
+   "single_ok": 1.0,
+   "n_single_ok": 100,
+   "bits_correct": 0.9990000000000001,
+   "n_bits_correct": 100,
+   "fault_present_ok": 1.0,
+   "n_fault_present_ok": 100,
+   "persistent_ok": 1.0,
+   "n_persistent_ok": 75,
+   "phi_abs_err": 0.0,
+   "n_phi_abs_err": 100,
+   "phantom_fault": 0.0,
+   "n_phantom_fault": 100,
+   "emission_tv": 1.3507713466272739e-17,
+   "n_emission_tv": 75,
+   "acc_mae": 0.0,
+   "n_acc_mae": 100,
+   "n_defaults": 0.03,
+   "n_n_defaults": 100,
+   "fallback": 0.03,
+   "n_fallback": 100,
+   "parse_ok": 0.97,
+   "attempts": 1.04,
+   "regret_if_struct_exact": 0.0,
+   "regret_if_struct_wrong": 1.4627933908345985,
+   "n_struct_wrong": 1
+  }
+ },
+ "twin_contrasts_k2decomp": {
+  "codex:gpt-6.1-terra@medium|text|Shared|K1": {
+   "regret": {
+    "diff": 0.1372926515215047,
+    "lo": -0.04650989443107298,
+    "hi": 0.5504031534516663,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.4,
+    "lo": -0.7083333333333334,
+    "hi": -0.11538461538461539,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K1": {
+   "regret": {
+    "diff": 0.2974757439956027,
+    "lo": 0.1677686285035671,
+    "hi": 0.4324293758670327,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.24,
+    "lo": -1.72,
+    "hi": -0.8333333333333334,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K1": {
+   "regret": {
+    "diff": 0.2173841977585537,
+    "lo": 0.07589059691769065,
+    "hi": 0.4312086030834913,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.82,
+    "lo": -1.12,
+    "hi": -0.5416666666666666,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K1e": {
+   "regret": {
+    "diff": 0.4274760702022417,
+    "lo": 0.07592397759625232,
+    "hi": 0.9518876920500695,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.4,
+    "lo": -0.9583333333333334,
+    "hi": 0.07699999999999958,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K1e": {
+   "regret": {
+    "diff": 0.4789404638886493,
+    "lo": 0.2833544622273361,
+    "hi": 0.7203632447458858,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.24,
+    "lo": -1.7307692307692308,
+    "hi": -0.8,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K1e": {
+   "regret": {
+    "diff": 0.45320826704544553,
+    "lo": 0.24336112312565594,
+    "hi": 0.722054010475086,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.82,
+    "lo": -1.2086249999999998,
+    "hi": -0.42,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K2": {
+   "regret": {
+    "diff": -0.19711901837849802,
+    "lo": -1.0765743845911597,
+    "hi": 0.5693136293654332,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.04,
+    "lo": -0.16666666666666666,
+    "hi": 0.25,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K2": {
+   "regret": {
+    "diff": -0.2811699874421707,
+    "lo": -1.0619234603756256,
+    "hi": 0.3278954555410207,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K2": {
+   "regret": {
+    "diff": -0.23914450291033432,
+    "lo": -0.8249879499124889,
+    "hi": 0.26889163724074744,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": 0.02,
+    "lo": -0.1,
+    "hi": 0.125,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K2a": {
+   "regret": {
+    "diff": 0.6164448710007638,
+    "lo": 0.06580111120930421,
+    "hi": 1.9008123180048724,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.48,
+    "lo": -0.9166666666666666,
+    "hi": -0.119884615384616,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K2a": {
+   "regret": {
+    "diff": 0.3028092286792137,
+    "lo": 0.17721189361118192,
+    "hi": 0.4540815663262752,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.2,
+    "lo": -1.7692307692307692,
+    "hi": -0.7404914529914544,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K2a": {
+   "regret": {
+    "diff": 0.4596270498399888,
+    "lo": 0.16278463802613452,
+    "hi": 1.1009818145661816,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.84,
+    "lo": -1.2083333333333333,
+    "hi": -0.5384259259259261,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K2e": {
+   "regret": {
+    "diff": 0.6122369931158567,
+    "lo": 0.16397020201222798,
+    "hi": 1.2834672661384945,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.68,
+    "lo": -1.1666666666666667,
+    "hi": -0.28,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K2e": {
+   "regret": {
+    "diff": 0.39529437870763373,
+    "lo": 0.13764389321873294,
+    "hi": 0.6692312123501493,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.0,
+    "lo": -1.5416666666666667,
+    "hi": -0.56,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K2e": {
+   "regret": {
+    "diff": 0.5037656859117452,
+    "lo": 0.1972482368822881,
+    "hi": 0.9029787508755568,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.84,
+    "lo": -1.2400185185185184,
+    "hi": -0.48,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K2p": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.24,
+    "lo": -0.5005,
+    "hi": -0.038461538461538464,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K2p": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.84,
+    "lo": -1.4166666666666667,
+    "hi": -0.38461538461538464,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K2p": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.54,
+    "lo": -0.8541666666666666,
+    "hi": -0.2692307692307692,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K2r": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.24,
+    "lo": -0.5005,
+    "hi": -0.038461538461538464,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K2r": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.84,
+    "lo": -1.4166666666666667,
+    "hi": -0.38461538461538464,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K2r": {
+   "regret": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.54,
+    "lo": -0.8541666666666666,
+    "hi": -0.2692307692307692,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K3": {
+   "regret": {
+    "diff": 0.19638128766483715,
+    "lo": 0.004376897823204339,
+    "hi": 0.5638916155515851,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.4,
+    "lo": -0.8333333333333334,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K3": {
+   "regret": {
+    "diff": 0.2826202671294649,
+    "lo": 0.10348042952169582,
+    "hi": 0.4518995959890513,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.36,
+    "lo": -1.84,
+    "hi": -0.96,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K3": {
+   "regret": {
+    "diff": 0.23950077739715098,
+    "lo": 0.09895003944890517,
+    "hi": 0.4434063103527064,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.88,
+    "lo": -1.24,
+    "hi": -0.5625,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K4": {
+   "regret": {
+    "diff": 0.17668347009493793,
+    "lo": -0.050206406598349344,
+    "hi": 0.5598191712399684,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.48,
+    "lo": -0.8333333333333334,
+    "hi": -0.2,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K4": {
+   "regret": {
+    "diff": 0.33861618103192126,
+    "lo": 0.18130571661473022,
+    "hi": 0.5177514688145785,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.12,
+    "lo": -1.625,
+    "hi": -0.7083333333333334,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K4": {
+   "regret": {
+    "diff": 0.25764982556342964,
+    "lo": 0.08873981837176982,
+    "hi": 0.5000472982869397,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.8,
+    "lo": -1.1112179487179488,
+    "hi": -0.52,
+    "n": 50
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Shared|K4c": {
+   "regret": {
+    "diff": 0.12728803271671896,
+    "lo": 0.016094133153413123,
+    "hi": 0.2723614394123122,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -0.36,
+    "lo": -0.7697916666666667,
+    "hi": 0.0,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Persist|K4c": {
+   "regret": {
+    "diff": 0.3518909065577676,
+    "lo": 0.2196660934349131,
+    "hi": 0.5008617408425312,
+    "n": 25
+   },
+   "rep_cache": {
+    "diff": -1.08,
+    "lo": -1.6538461538461537,
+    "hi": -0.5833333333333334,
+    "n": 25
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|Both|K4c": {
+   "regret": {
+    "diff": 0.23958946963724329,
+    "lo": 0.14565204640479626,
+    "hi": 0.3584508269085239,
+    "n": 50
+   },
+   "rep_cache": {
+    "diff": -0.72,
+    "lo": -1.14,
+    "hi": -0.34,
+    "n": 50
+   }
+  }
+ },
+ "k2r_split": {
+  "codex:gpt-6.1-terra@medium|text|MIXED": {
+   "clean": {
+    "n": 24,
+    "k2r": 0.0,
+    "k2e": 0.22161613153794324
+   },
+   "other_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "key_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "fallback": {
+    "n": 1,
+    "k2r": 1.4627933908345985,
+    "k2e": 0.25113372499815245
+   },
+   "ANY_DEFAULT_OR_FALLBACK": {
+    "n": 1,
+    "k2r": 1.4627933908345985,
+    "k2e": 0.25113372499815245
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|PERSIST": {
+   "clean": {
+    "n": 24,
+    "k2r": 0.0,
+    "k2e": 0.5318812156624732
+   },
+   "other_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "key_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "fallback": {
+    "n": 1,
+    "k2r": 0.0,
+    "k2e": 0.23094987164861447
+   },
+   "ANY_DEFAULT_OR_FALLBACK": {
+    "n": 1,
+    "k2r": 0.0,
+    "k2e": 0.23094987164861447
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|SHARED": {
+   "clean": {
+    "n": 25,
+    "k2r": 0.0,
+    "k2e": 0.6573959983719795
+   },
+   "other_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "key_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "fallback": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "ANY_DEFAULT_OR_FALLBACK": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT": {
+   "clean": {
+    "n": 24,
+    "k2r": 0.0,
+    "k2e": 0.04704063047512786
+   },
+   "other_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "key_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "fallback": {
+    "n": 1,
+    "k2r": 0.0,
+    "k2e": 0.0
+   },
+   "ANY_DEFAULT_OR_FALLBACK": {
+    "n": 1,
+    "k2r": 0.0,
+    "k2e": 0.0
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|TRANSIENT_P": {
+   "clean": {
+    "n": 25,
+    "k2r": 0.0,
+    "k2e": 0.12454958319428507
+   },
+   "other_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "key_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "fallback": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "ANY_DEFAULT_OR_FALLBACK": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   }
+  },
+  "codex:gpt-6.1-terra@medium|text|CORE": {
+   "clean": {
+    "n": 97,
+    "k2r": 0.0,
+    "k2e": 0.3675032105516758
+   },
+   "other_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "key_defaults": {
+    "n": 0,
+    "k2r": null,
+    "k2e": null
+   },
+   "fallback": {
+    "n": 3,
+    "k2r": 0.48759779694486616,
+    "k2e": 0.16069453221558896
+   },
+   "ANY_DEFAULT_OR_FALLBACK": {
+    "n": 3,
+    "k2r": 0.48759779694486616,
+    "k2e": 0.16069453221558896
+   }
+  }
+ }
+}

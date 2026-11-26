@@ -1,0 +1,174 @@
+{
+ "sonnet": {
+  "conditions": {
+   "P0": {
+    "n_answers": 134,
+    "parsed": 1.0,
+    "regret": {
+     "mean": 0.3839150131480765,
+     "task_ci": [
+      0.09848712841062356,
+      0.7883255031688512
+     ],
+     "cluster_ci": [
+      0.07759837289947931,
+      0.9044636468399434
+     ]
+    },
+    "optimal": {
+     "mean": 0.8507462686567164,
+     "task_ci": [
+      0.7908582089552239,
+      0.9104477611940298
+     ]
+    },
+    "statuses": {
+     "ok": 134
+    }
+   },
+   "L2": {
+    "n_answers": 134,
+    "parsed": 1.0,
+    "regret": {
+     "mean": 0.02785802677545473,
+     "task_ci": [
+      0.006415546403690597,
+      0.05439495570538576
+     ],
+     "cluster_ci": [
+      0.0,
+      0.06879331603577368
+     ]
+    },
+    "optimal": {
+     "mean": 0.9552238805970149,
+     "task_ci": [
+      0.917910447761194,
+      0.9850746268656716
+     ]
+    },
+    "statuses": {
+     "ok": 134
+    }
+   },
+   "H1": {
+    "n_answers": 134,
+    "parsed": 1.0,
+    "regret": {
+     "mean": 0.0,
+     "task_ci": [
+      0.0,
+      0.0
+     ],
+     "cluster_ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "optimal": {
+     "mean": 1.0,
+     "task_ci": [
+      1.0,
+      1.0
+     ]
+    },
+    "statuses": {
+     "ok": 134
+    }
+   }
+  },
+  "primary": {
+   "Ha": {
+    "contrast": "L2-P0",
+    "mean": -0.3560569863726218,
+    "task_ci": [
+     -0.7531491038567101,
+     -0.07203691636469219
+    ],
+    "cluster_ci": [
+     -0.883070564217438,
+     -0.04136263811662983
+    ],
+    "conservative": [
+     -0.883070564217438,
+     -0.04136263811662983
+    ],
+    "n_tasks": 134,
+    "predicted_sign": "negative",
+    "criterion_met": true
+   },
+   "Hb": {
+    "contrast": "H1-P0",
+    "mean": -0.3839150131480765,
+    "task_ci": [
+     -0.785233661443625,
+     -0.10318929185601318
+    ],
+    "cluster_ci": [
+     -0.9044636468399435,
+     -0.07759837289947942
+    ],
+    "conservative": [
+     -0.9044636468399435,
+     -0.07759837289947942
+    ],
+    "n_tasks": 134,
+    "predicted_sign": "negative",
+    "criterion_met": true
+   }
+  },
+  "secondary": {
+   "S3": {
+    "contrast": "H1-L2",
+    "mean": -0.027858026775454726,
+    "task_ci": [
+     -0.053591935075929346,
+     -0.006591021401098555
+    ],
+    "cluster_ci": [
+     -0.06879331603577371,
+     0.0
+    ],
+    "conservative": [
+     -0.06879331603577371,
+     0.0
+    ],
+    "n_tasks": 134
+   }
+  },
+  "H1_audit": {
+   "n": 134,
+   "ok": 134,
+   "incomplete_model": 0,
+   "other_failures": {},
+   "answers_with_any_default_or_clip": 0,
+   "regret_if_planner_action_used_despite_defaults": {
+    "mean": NaN,
+    "task_ci": [
+     NaN,
+     NaN
+    ],
+    "n": 0
+   }
+  },
+  "Hc": {
+   "share_task_mean": 0.08955223880597014,
+   "task_ci": [
+    0.04477611940298507,
+    0.1417910447761194
+   ],
+   "cluster_ci": [
+    0.023804836895388076,
+    0.15672007609013752
+   ],
+   "conservative": [
+    0.023804836895388076,
+    0.15672007609013752
+   ],
+   "n_answers_with_marginal_accurate_and_action_nonoptimal": 12,
+   "n_parsed": 134,
+   "criterion_met": true,
+   "note": "reports only the benign-state marginal; says nothing about the joint posterior"
+  }
+ }
+}

@@ -1,0 +1,12 @@
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+ & Reading & PERSIST & SHARED & MIXED & TRANS. & TRANS.\,P & CORE \\
+\midrule
+R0 & true model (name equality = sharing) & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+R1 & each tool has its own stale flag & 0.00 & 1.32 & 0.76 & 0.00 & 0.00 & 0.52 \\
+R2 & incidence per call, no persistence (MMI-DP) & 5.40 & 6.12 & 3.88 & 0.00 & 0.00 & 3.85 \\
+R3 & leftover stale mass on one other status & 0.05 & 0.04 & 0.05 & 0.00 & 0.00 & 0.04 \\
+R4 & incidence ignored (fault-unaware DP) & 7.39 & 5.10 & 6.39 & 0.00 & 0.00 & 4.72 \\
+R5 & true model, never repeat a cache call & 0.28 & 0.34 & 0.19 & 1.32 & 1.03 & 0.53 \\
+\bottomrule
+\end{tabular}

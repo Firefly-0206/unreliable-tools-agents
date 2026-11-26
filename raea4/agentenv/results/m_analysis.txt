@@ -1,0 +1,36 @@
+
+== flash (non-thinking)   n=100 (50 pairs; 25 with both JSONs within tolerance)  usable JSON 100  no submit 0
+arm   first tool 0: model  oracle  planner  subopt first  loss1  other/stop    K2e    K2r  under  verdict  calls  JSON tol
+MF                     2%    100%     100%           98%   0.18      98/0%   2.69   0.00   0.70     0.64   3.56      100%
+MZ                    54%    100%      76%           44%   0.11      46/0%   2.81   0.12   1.29     0.33   3.48       50%
+  M1 subopt first MF-MZ                          +54 [+33, +76]  (percentage points)
+  M1 first-step loss MF-MZ                       +0.076 [+0.008, +0.126]
+  M2 regret MF-MZ                                -0.122 [-1.325, +1.186]
+  M2 under MF-MZ                                 -0.586 [-1.009, -0.144]
+  M3 K2r-K2e|MF                                  -2.690 [-3.763, -1.867]
+  M3 K2r-K2e|MZ                                  -2.691 [-3.673, -2.070]
+  M4 subopt first MF-MZ|both within tolerance    +64 [+42, +86]  (percentage points)
+
+== gpt-6.1-terra (medium)   n=100 (50 pairs; 48 with both JSONs within tolerance)  usable JSON 98  no submit 0
+arm   first tool 0: model  oracle  planner  subopt first  loss1  other/stop    K2e    K2r  under  verdict  calls  JSON tol
+MF                    10%    100%     100%           90%   0.16      90/0%   0.52   0.00   0.46     0.00   2.88       98%
+MZ                    96%    100%     100%            2%   0.00       4/0%   0.32   0.00   0.28     0.00   2.96       98%
+  M1 subopt first MF-MZ                          +88 [+75, +100]  (percentage points)
+  M1 first-step loss MF-MZ                       +0.153 [+0.123, +0.187]
+  M2 regret MF-MZ                                +0.200 [-0.007, +0.421]
+  M2 under MF-MZ                                 +0.178 [-0.016, +0.381]
+  M3 K2r-K2e|MF                                  -0.518 [-0.750, -0.323]
+  M3 K2r-K2e|MZ                                  -0.319 [-0.469, -0.197]
+  M4 subopt first MF-MZ|both within tolerance    +90 [+78, +100]  (percentage points)
+
+== Sonnet 5.5 (high)   n=100 (50 pairs; 48 with both JSONs within tolerance)  usable JSON 100  no submit 0
+arm   first tool 0: model  oracle  planner  subopt first  loss1  other/stop    K2e    K2r  under  verdict  calls  JSON tol
+MF                    28%    100%     100%           72%   0.12      72/0%   0.65   0.00   0.53     0.00   2.38      100%
+MZ                    90%    100%      96%            8%   0.01      10/0%   0.50   0.01   0.48     0.00   2.54       96%
+  M1 subopt first MF-MZ                          +64 [+46, +82]  (percentage points)
+  M1 first-step loss MF-MZ                       +0.107 [+0.076, +0.142]
+  M2 regret MF-MZ                                +0.156 [-0.077, +0.380]
+  M2 under MF-MZ                                 +0.045 [-0.203, +0.276]
+  M3 K2r-K2e|MF                                  -0.652 [-0.848, -0.477]
+  M3 K2r-K2e|MZ                                  -0.484 [-0.663, -0.341]
+  M4 subopt first MF-MZ|both within tolerance    +65 [+46, +82]  (percentage points)

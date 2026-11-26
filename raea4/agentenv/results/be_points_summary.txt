@@ -1,0 +1,4 @@
+Decision points (be_points.py)
+flash   episodes 100  points 364  U 103  O 157  R 104  in run subset 364 (U 103, O 157)
+terra   episodes 100  points 347  U 105  O 227  R 15  in run subset 347 (U 105, O 227)
+sonnet  episodes 100  points 309  U 113  O 180  R 16  in run subset 150 (U 75, O 75)

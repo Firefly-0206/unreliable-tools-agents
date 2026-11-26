@@ -1,0 +1,1046 @@
+1041 forks to run (0 already in <root>\raea4\agentenv\logs\be_codex_terra.jsonl)
+MIXED-000#0 A: ok action=['probe', 2] belief=False
+MIXED-000#0 B: ok action=None belief=True
+MIXED-000#0 C: ok action=['probe', 2] belief=True
+MIXED-000#1 A: ok action=['probe', 2] belief=False
+MIXED-000#1 B: ok action=None belief=True
+MIXED-000#1 C: ok action=['probe', 2] belief=True
+MIXED-000#2 A: ok action=['stop', 0] belief=False
+MIXED-000#2 B: ok action=None belief=True
+MIXED-000#2 C: ok action=['stop', 0] belief=True
+MIXED-001#0 A: ok action=['probe', 0] belief=False
+MIXED-001#0 B: ok action=None belief=True
+MIXED-001#0 C: ok action=['probe', 0] belief=True
+MIXED-001#1 A: ok action=['stop', 1] belief=False
+MIXED-001#1 B: ok action=None belief=True
+MIXED-001#1 C: ok action=['stop', 1] belief=True
+MIXED-002#0 A: ok action=['probe', 2] belief=False
+MIXED-002#0 B: ok action=None belief=True
+MIXED-002#0 C: ok action=['probe', 0] belief=True
+MIXED-002#1 A: ok action=['stop', 1] belief=False
+MIXED-002#1 B: ok action=None belief=True
+MIXED-002#1 C: ok action=['stop', 1] belief=True
+MIXED-003#0 A: ok action=['probe', 2] belief=False
+MIXED-003#0 B: ok action=None belief=True
+MIXED-003#0 C: ok action=['probe', 2] belief=True
+MIXED-003#1 A: ok action=['probe', 2] belief=False
+MIXED-003#1 B: ok action=None belief=True
+MIXED-003#1 C: ok action=['probe', 0] belief=True
+MIXED-003#2 A: ok action=['probe', 2] belief=False
+MIXED-003#2 B: ok action=None belief=True
+MIXED-003#2 C: ok action=['probe', 2] belief=True
+MIXED-003#3 A: ok action=['probe', 2] belief=False
+MIXED-003#3 B: ok action=None belief=True
+MIXED-003#3 C: ok action=['probe', 0] belief=True
+MIXED-003#4 A: ok action=['probe', 2] belief=False
+MIXED-003#4 B: ok action=None belief=True
+MIXED-003#4 C: ok action=['probe', 0] belief=True
+MIXED-003#5 A: ok action=['stop', 0] belief=False
+MIXED-003#5 B: ok action=None belief=True
+MIXED-003#5 C: ok action=['stop', 0] belief=True
+MIXED-004#0 A: ok action=['probe', 2] belief=False
+MIXED-004#0 B: ok action=None belief=True
+MIXED-004#0 C: ok action=['probe', 2] belief=True
+MIXED-004#1 A: ok action=['probe', 2] belief=False
+MIXED-004#1 B: ok action=None belief=True
+MIXED-004#1 C: ok action=['probe', 0] belief=True
+MIXED-004#2 A: ok action=['stop', 0] belief=False
+MIXED-004#2 B: ok action=None belief=True
+MIXED-004#2 C: ok action=['stop', 0] belief=True
+MIXED-005#0 A: ok action=['probe', 2] belief=False
+MIXED-005#0 B: ok action=None belief=True
+MIXED-005#0 C: ok action=['probe', 0] belief=True
+MIXED-005#1 A: ok action=['probe', 0] belief=False
+MIXED-005#1 B: ok action=None belief=True
+MIXED-005#1 C: ok action=['probe', 2] belief=True
+MIXED-005#2 A: ok action=['stop', 1] belief=False
+MIXED-005#2 B: ok action=None belief=True
+MIXED-005#2 C: ok action=['stop', 1] belief=True
+MIXED-006#0 A: ok action=['probe', 2] belief=False
+MIXED-006#0 B: ok action=None belief=True
+MIXED-006#0 C: ok action=['probe', 2] belief=True
+MIXED-006#1 A: ok action=['probe', 2] belief=False
+MIXED-006#1 B: ok action=None belief=True
+MIXED-006#1 C: ok action=['probe', 2] belief=True
+MIXED-006#2 A: ok action=['probe', 3] belief=False
+MIXED-006#2 B: ok action=None belief=True
+MIXED-006#2 C: ok action=['probe', 2] belief=True
+MIXED-006#3 A: ok action=['probe', 2] belief=False
+MIXED-006#3 B: ok action=None belief=True
+MIXED-006#3 C: ok action=['probe', 2] belief=True
+MIXED-006#4 A: ok action=['probe', 0] belief=False
+MIXED-006#4 B: ok action=None belief=True
+MIXED-006#4 C: ok action=['probe', 2] belief=True
+MIXED-006#5 A: ok action=['stop', 0] belief=False
+MIXED-006#5 B: ok action=None belief=True
+MIXED-006#5 C: ok action=['stop', 0] belief=True
+MIXED-007#0 A: ok action=['probe', 2] belief=False
+MIXED-007#0 B: ok action=None belief=True
+MIXED-007#0 C: ok action=['probe', 2] belief=True
+MIXED-007#1 A: ok action=['probe', 2] belief=False
+MIXED-007#1 B: ok action=None belief=True
+MIXED-007#1 C: ok action=['probe', 2] belief=True
+MIXED-007#2 A: ok action=['probe', 2] belief=False
+MIXED-007#2 B: ok action=None belief=True
+MIXED-007#2 C: ok action=['probe', 2] belief=True
+MIXED-007#3 A: ok action=['probe', 2] belief=False
+MIXED-007#3 B: ok action=None belief=True
+MIXED-007#3 C: ok action=['probe', 2] belief=True
+MIXED-007#4 A: ok action=['probe', 2] belief=False
+MIXED-007#4 B: ok action=None belief=True
+MIXED-007#4 C: ok action=['probe', 2] belief=True
+MIXED-007#5 A: ok action=['stop', 2] belief=False
+MIXED-007#5 B: ok action=None belief=True
+MIXED-007#5 C: ok action=['stop', 2] belief=True
+MIXED-008#0 A: ok action=['probe', 2] belief=False
+MIXED-008#0 B: ok action=None belief=True
+MIXED-008#0 C: ok action=['probe', 2] belief=True
+MIXED-008#1 A: ok action=['probe', 2] belief=False
+MIXED-008#1 B: ok action=None belief=True
+MIXED-008#1 C: ok action=['probe', 2] belief=True
+MIXED-008#2 A: ok action=['probe', 2] belief=False
+MIXED-008#2 B: ok action=None belief=True
+MIXED-008#2 C: ok action=['probe', 3] belief=True
+MIXED-008#3 A: ok action=['probe', 2] belief=False
+MIXED-008#3 B: ok action=None belief=True
+MIXED-008#3 C: ok action=['probe', 2] belief=True
+MIXED-008#4 A: ok action=['stop', 0] belief=False
+MIXED-008#4 B: ok action=None belief=True
+MIXED-008#4 C: ok action=['stop', 0] belief=True
+MIXED-009#0 A: ok action=['probe', 2] belief=False
+MIXED-009#0 B: ok action=None belief=True
+MIXED-009#0 C: ok action=['probe', 2] belief=True
+MIXED-009#1 A: ok action=['probe', 2] belief=False
+MIXED-009#1 B: ok action=None belief=True
+MIXED-009#1 C: ok action=['probe', 2] belief=True
+MIXED-009#2 A: ok action=['probe', 2] belief=False
+MIXED-009#2 B: ok action=None belief=True
+MIXED-009#2 C: ok action=['probe', 3] belief=True
+MIXED-009#3 A: ok action=['probe', 0] belief=False
+MIXED-009#3 B: ok action=None belief=True
+MIXED-009#3 C: ok action=['probe', 2] belief=True
+MIXED-009#4 A: ok action=['stop', 0] belief=False
+MIXED-009#4 B: ok action=None belief=True
+MIXED-009#4 C: ok action=['probe', 2] belief=True
+MIXED-010#0 A: ok action=['probe', 2] belief=False
+MIXED-010#0 B: ok action=None belief=True
+MIXED-010#0 C: ok action=['probe', 2] belief=True
+MIXED-010#1 A: ok action=['probe', 2] belief=False
+MIXED-010#1 B: ok action=None belief=True
+MIXED-010#1 C: ok action=['probe', 2] belief=True
+MIXED-010#2 A: ok action=['probe', 2] belief=False
+MIXED-010#2 B: ok action=None belief=True
+MIXED-010#2 C: ok action=['probe', 2] belief=True
+MIXED-010#3 A: ok action=['stop', 0] belief=False
+MIXED-010#3 B: ok action=None belief=True
+MIXED-010#3 C: ok action=['stop', 0] belief=True
+MIXED-011#0 A: ok action=['probe', 0] belief=False
+MIXED-011#0 B: ok action=None belief=True
+MIXED-011#0 C: ok action=['probe', 0] belief=True
+MIXED-011#1 A: ok action=['probe', 2] belief=False
+MIXED-011#1 B: ok action=None belief=True
+MIXED-011#1 C: ok action=['probe', 2] belief=True
+MIXED-011#2 A: ok action=['probe', 2] belief=False
+MIXED-011#2 B: ok action=None belief=True
+MIXED-011#2 C: ok action=['probe', 2] belief=True
+MIXED-011#3 A: ok action=['stop', 2] belief=False
+MIXED-011#3 B: ok action=None belief=True
+MIXED-011#3 C: ok action=['probe', 2] belief=True
+MIXED-011#4 A: ok action=['stop', 2] belief=False
+MIXED-011#4 B: ok action=None belief=True
+MIXED-011#4 C: ok action=['stop', 2] belief=True
+MIXED-012#0 A: ok action=['probe', 0] belief=False
+MIXED-012#0 B: ok action=None belief=True
+MIXED-012#0 C: ok action=['probe', 0] belief=True
+MIXED-012#1 A: ok action=['probe', 2] belief=False
+MIXED-012#1 B: ok action=None belief=True
+MIXED-012#1 C: ok action=['probe', 2] belief=True
+MIXED-012#2 A: ok action=['stop', 0] belief=False
+MIXED-012#2 B: ok action=None belief=True
+MIXED-012#2 C: ok action=['probe', 2] belief=True
+MIXED-013#0 A: ok action=['probe', 2] belief=False
+MIXED-013#0 B: ok action=None belief=True
+MIXED-013#0 C: ok action=['probe', 2] belief=True
+MIXED-013#1 A: ok action=['probe', 2] belief=False
+MIXED-013#1 B: ok action=None belief=True
+MIXED-013#1 C: ok action=['probe', 2] belief=True
+MIXED-013#2 A: ok action=['stop', 2] belief=False
+MIXED-013#2 B: ok action=None belief=True
+MIXED-013#2 C: ok action=['stop', 2] belief=True
+MIXED-014#0 A: ok action=['probe', 2] belief=False
+MIXED-014#0 B: ok action=None belief=True
+MIXED-014#0 C: ok action=['probe', 2] belief=True
+MIXED-014#1 A: ok action=['probe', 2] belief=False
+MIXED-014#1 B: ok action=None belief=True
+MIXED-014#1 C: ok action=['probe', 2] belief=True
+MIXED-014#2 A: ok action=['stop', 0] belief=False
+MIXED-014#2 B: ok action=None belief=True
+MIXED-014#2 C: ok action=['stop', 0] belief=True
+MIXED-014#3 A: ok action=['stop', 0] belief=False
+MIXED-014#3 B: ok action=None belief=True
+MIXED-014#3 C: ok action=['stop', 0] belief=True
+MIXED-015#0 A: ok action=['probe', 0] belief=False
+MIXED-015#0 B: ok action=None belief=True
+MIXED-015#0 C: ok action=['probe', 0] belief=True
+MIXED-015#1 A: ok action=['probe', 2] belief=False
+MIXED-015#1 B: ok action=None belief=True
+MIXED-015#1 C: ok action=['probe', 2] belief=True
+MIXED-015#2 A: ok action=['probe', 2] belief=False
+MIXED-015#2 B: ok action=None belief=True
+MIXED-015#2 C: ok action=['probe', 2] belief=True
+MIXED-015#3 A: ok action=['probe', 2] belief=False
+MIXED-015#3 B: ok action=None belief=True
+MIXED-015#3 C: ok action=['probe', 2] belief=True
+MIXED-015#4 A: ok action=['stop', 0] belief=False
+MIXED-015#4 B: ok action=None belief=True
+MIXED-015#4 C: ok action=['stop', 0] belief=True
+MIXED-016#0 A: ok action=['probe', 2] belief=False
+MIXED-016#0 B: ok action=None belief=True
+MIXED-016#0 C: ok action=['probe', 2] belief=True
+MIXED-016#1 A: ok action=['probe', 0] belief=False
+MIXED-016#1 B: ok action=None belief=True
+MIXED-016#1 C: ok action=['probe', 2] belief=True
+MIXED-016#2 A: ok action=['stop', 0] belief=False
+MIXED-016#2 B: ok action=None belief=True
+MIXED-016#2 C: ok action=['stop', 0] belief=True
+MIXED-016#3 A: ok action=['probe', 2] belief=False
+MIXED-016#3 B: ok action=None belief=True
+MIXED-016#3 C: ok action=['probe', 2] belief=True
+MIXED-016#4 A: ok action=['stop', 0] belief=False
+MIXED-016#4 B: ok action=None belief=True
+MIXED-016#4 C: ok action=['stop', 0] belief=True
+MIXED-017#0 A: ok action=['probe', 2] belief=False
+MIXED-017#0 B: ok action=None belief=True
+MIXED-017#0 C: ok action=['probe', 2] belief=True
+MIXED-017#1 A: ok action=['probe', 0] belief=False
+MIXED-017#1 B: ok action=None belief=True
+MIXED-017#1 C: ok action=['probe', 2] belief=True
+MIXED-017#2 A: ok action=['probe', 2] belief=False
+MIXED-017#2 B: ok action=None belief=True
+MIXED-017#2 C: ok action=['probe', 2] belief=True
+MIXED-017#3 A: ok action=['stop', 0] belief=False
+MIXED-017#3 B: ok action=None belief=True
+MIXED-017#3 C: ok action=['probe', 0] belief=True
+MIXED-017#4 A: ok action=['stop', 0] belief=False
+MIXED-017#4 B: ok action=None belief=True
+MIXED-017#4 C: ok action=['stop', 0] belief=True
+MIXED-018#0 A: ok action=['probe', 0] belief=False
+MIXED-018#0 B: ok action=None belief=True
+MIXED-018#0 C: ok action=['probe', 0] belief=True
+MIXED-018#1 A: ok action=['probe', 0] belief=False
+MIXED-018#1 B: ok action=None belief=True
+MIXED-018#1 C: ok action=['stop', 2] belief=True
+MIXED-018#2 A: ok action=['stop', 2] belief=False
+MIXED-018#2 B: ok action=None belief=True
+MIXED-018#2 C: ok action=['stop', 2] belief=True
+MIXED-019#0 A: ok action=['probe', 0] belief=False
+MIXED-019#0 B: ok action=None belief=True
+MIXED-019#0 C: ok action=['probe', 0] belief=True
+MIXED-019#1 A: ok action=['probe', 1] belief=False
+MIXED-019#1 B: ok action=None belief=True
+MIXED-019#1 C: ok action=['stop', 2] belief=True
+MIXED-019#2 A: ok action=['stop', 2] belief=False
+MIXED-019#2 B: ok action=None belief=True
+MIXED-019#2 C: ok action=['stop', 2] belief=True
+MIXED-020#0 A: ok action=['probe', 0] belief=False
+MIXED-020#0 B: ok action=None belief=True
+MIXED-020#0 C: ok action=['probe', 0] belief=True
+MIXED-020#1 A: ok action=['probe', 2] belief=False
+MIXED-020#1 B: ok action=None belief=True
+MIXED-020#1 C: ok action=['probe', 3] belief=True
+MIXED-020#2 A: ok action=['probe', 2] belief=False
+MIXED-020#2 B: ok action=None belief=True
+MIXED-020#2 C: ok action=['probe', 2] belief=True
+MIXED-020#3 A: ok action=['stop', 0] belief=False
+MIXED-020#3 B: ok action=None belief=True
+MIXED-020#3 C: ok action=['stop', 0] belief=True
+MIXED-021#0 A: ok action=['probe', 2] belief=False
+MIXED-021#0 B: ok action=None belief=True
+MIXED-021#0 C: ok action=['probe', 2] belief=True
+MIXED-021#1 A: ok action=['stop', 1] belief=False
+MIXED-021#1 B: ok action=None belief=True
+MIXED-021#1 C: ok action=['stop', 1] belief=True
+MIXED-022#0 A: ok action=['probe', 0] belief=False
+MIXED-022#0 B: ok action=None belief=True
+MIXED-022#0 C: ok action=['probe', 2] belief=True
+MIXED-022#1 A: ok action=['probe', 0] belief=False
+MIXED-022#1 B: ok action=None belief=True
+MIXED-022#1 C: ok action=['probe', 2] belief=True
+MIXED-022#2 A: ok action=['probe', 2] belief=False
+MIXED-022#2 B: ok action=None belief=True
+MIXED-022#2 C: ok action=['probe', 2] belief=True
+MIXED-022#3 A: ok action=['probe', 2] belief=False
+MIXED-022#3 B: ok action=None belief=True
+MIXED-022#3 C: ok action=['probe', 2] belief=True
+MIXED-022#4 A: ok action=['probe', 2] belief=False
+MIXED-022#4 B: ok action=None belief=True
+MIXED-022#4 C: ok action=['probe', 2] belief=True
+MIXED-022#5 A: ok action=['probe', 2] belief=False
+MIXED-022#5 B: ok action=None belief=True
+MIXED-022#5 C: ok action=['probe', 2] belief=True
+MIXED-022#6 A: ok action=['stop', 3] belief=False
+MIXED-022#6 B: ok action=None belief=True
+MIXED-022#6 C: ok action=['stop', 3] belief=True
+MIXED-023#0 A: ok action=['probe', 0] belief=False
+MIXED-023#0 B: ok action=None belief=True
+MIXED-023#0 C: ok action=['probe', 0] belief=True
+MIXED-023#1 A: ok action=['probe', 2] belief=False
+MIXED-023#1 B: ok action=None belief=True
+MIXED-023#1 C: ok action=['probe', 0] belief=True
+MIXED-023#2 A: ok action=['probe', 2] belief=False
+MIXED-023#2 B: ok action=None belief=True
+MIXED-023#2 C: ok action=['probe', 2] belief=True
+MIXED-023#3 A: ok action=['probe', 2] belief=False
+MIXED-023#3 B: ok action=None belief=True
+MIXED-023#3 C: ok action=['probe', 2] belief=True
+MIXED-023#4 A: ok action=['stop', 0] belief=False
+MIXED-023#4 B: ok action=None belief=True
+MIXED-023#4 C: ok action=['stop', 0] belief=True
+MIXED-024#0 A: ok action=['probe', 2] belief=False
+MIXED-024#0 B: ok action=None belief=True
+MIXED-024#0 C: ok action=['probe', 0] belief=True
+MIXED-024#1 A: ok action=['probe', 2] belief=False
+MIXED-024#1 B: ok action=None belief=True
+MIXED-024#1 C: ok action=['probe', 2] belief=True
+MIXED-024#2 A: ok action=['probe', 2] belief=False
+MIXED-024#2 B: ok action=None belief=True
+MIXED-024#2 C: ok action=['stop', 0] belief=True
+PERSIST-000#0 A: ok action=['probe', 2] belief=False
+PERSIST-000#0 B: ok action=None belief=True
+PERSIST-000#0 C: ok action=['probe', 2] belief=True
+PERSIST-000#1 A: ok action=['probe', 2] belief=False
+PERSIST-000#1 B: ok action=None belief=True
+PERSIST-000#1 C: ok action=['probe', 2] belief=True
+PERSIST-000#2 A: ok action=['probe', 2] belief=False
+PERSIST-000#2 B: ok action=None belief=True
+PERSIST-000#2 C: ok action=['probe', 3] belief=True
+PERSIST-000#3 A: ok action=['probe', 2] belief=False
+PERSIST-000#3 B: ok action=None belief=True
+PERSIST-000#3 C: ok action=['probe', 2] belief=True
+PERSIST-000#4 A: ok action=['stop', 0] belief=False
+PERSIST-000#4 B: ok action=None belief=True
+PERSIST-000#4 C: ok action=['stop', 0] belief=True
+PERSIST-001#0 A: ok action=['probe', 2] belief=False
+PERSIST-001#0 B: ok action=None belief=True
+PERSIST-001#0 C: ok action=['probe', 2] belief=True
+PERSIST-001#1 A: ok action=['probe', 2] belief=False
+PERSIST-001#1 B: ok action=None belief=True
+PERSIST-001#1 C: ok action=['probe', 2] belief=True
+PERSIST-001#2 A: ok action=['probe', 0] belief=False
+PERSIST-001#2 B: ok action=None belief=True
+PERSIST-001#2 C: ok action=['probe', 2] belief=True
+PERSIST-001#3 A: ok action=['probe', 2] belief=False
+PERSIST-001#3 B: ok action=None belief=True
+PERSIST-001#3 C: ok action=['probe', 2] belief=True
+PERSIST-001#4 A: ok action=['stop', 0] belief=False
+PERSIST-001#4 B: ok action=None belief=True
+PERSIST-001#4 C: ok action=['probe', 0] belief=True
+PERSIST-001#5 A: ok action=['stop', 3] belief=False
+PERSIST-001#5 B: ok action=None belief=True
+PERSIST-001#5 C: ok action=['stop', 3] belief=True
+PERSIST-002#0 A: ok action=['probe', 2] belief=False
+PERSIST-002#0 B: ok action=None belief=True
+PERSIST-002#0 C: ok action=['probe', 2] belief=True
+PERSIST-002#1 A: ok action=['probe', 2] belief=False
+PERSIST-002#1 B: ok action=None belief=True
+PERSIST-002#1 C: ok action=['probe', 2] belief=True
+PERSIST-002#2 A: ok action=['stop', 0] belief=False
+PERSIST-002#2 B: ok action=None belief=True
+PERSIST-002#2 C: ok action=['stop', 0] belief=True
+PERSIST-003#0 A: ok action=['probe', 2] belief=False
+PERSIST-003#0 B: ok action=None belief=True
+PERSIST-003#0 C: ok action=['probe', 2] belief=True
+PERSIST-003#1 A: ok action=['probe', 0] belief=False
+PERSIST-003#1 B: ok action=None belief=True
+PERSIST-003#1 C: ok action=['probe', 2] belief=True
+PERSIST-003#2 A: ok action=['stop', 1] belief=False
+PERSIST-003#2 B: ok action=None belief=True
+PERSIST-003#2 C: ok action=['probe', 0] belief=True
+PERSIST-004#0 A: ok action=['probe', 0] belief=False
+PERSIST-004#0 B: ok action=None belief=True
+PERSIST-004#0 C: ok action=['probe', 2] belief=True
+PERSIST-004#1 A: ok action=['probe', 2] belief=False
+PERSIST-004#1 B: ok action=None belief=True
+PERSIST-004#1 C: ok action=['probe', 2] belief=True
+PERSIST-004#2 A: ok action=['probe', 2] belief=False
+PERSIST-004#2 B: ok action=None belief=True
+PERSIST-004#2 C: ok action=['probe', 2] belief=True
+PERSIST-004#3 A: ok action=['probe', 2] belief=False
+PERSIST-004#3 B: ok action=None belief=True
+PERSIST-004#3 C: ok action=['probe', 2] belief=True
+PERSIST-004#4 A: ok action=['stop', 1] belief=False
+PERSIST-004#4 B: ok action=None belief=True
+PERSIST-004#4 C: ok action=['stop', 1] belief=True
+PERSIST-005#0 A: ok action=['probe', 2] belief=False
+PERSIST-005#0 B: ok action=None belief=True
+PERSIST-005#0 C: ok action=['probe', 2] belief=True
+PERSIST-005#1 A: ok action=['probe', 2] belief=False
+PERSIST-005#1 B: ok action=None belief=True
+PERSIST-005#1 C: ok action=['probe', 2] belief=True
+PERSIST-005#2 A: ok action=['probe', 2] belief=False
+PERSIST-005#2 B: ok action=None belief=True
+PERSIST-005#2 C: ok action=['stop', 2] belief=True
+PERSIST-006#0 A: ok action=['probe', 2] belief=False
+PERSIST-006#0 B: ok action=None belief=True
+PERSIST-006#0 C: ok action=['probe', 2] belief=True
+PERSIST-006#1 A: ok action=['probe', 2] belief=False
+PERSIST-006#1 B: ok action=None belief=True
+PERSIST-006#1 C: ok action=['probe', 2] belief=True
+PERSIST-006#2 A: ok action=['stop', 1] belief=False
+PERSIST-006#2 B: ok action=None belief=True
+PERSIST-006#2 C: ok action=['stop', 1] belief=True
+PERSIST-007#0 A: ok action=['probe', 2] belief=False
+PERSIST-007#0 B: ok action=None belief=True
+PERSIST-007#0 C: ok action=['probe', 2] belief=True
+PERSIST-007#1 A: ok action=['probe', 2] belief=False
+PERSIST-007#1 B: ok action=None belief=True
+PERSIST-007#1 C: ok action=['probe', 2] belief=True
+PERSIST-007#2 A: ok action=['probe', 2] belief=False
+PERSIST-007#2 B: ok action=None belief=True
+PERSIST-007#2 C: ok action=['probe', 2] belief=True
+PERSIST-007#3 A: ok action=['stop', 0] belief=False
+PERSIST-007#3 B: ok action=None belief=True
+PERSIST-007#3 C: ok action=['probe', 0] belief=True
+PERSIST-008#0 A: ok action=['probe', 3] belief=False
+PERSIST-008#0 B: ok action=None belief=True
+PERSIST-008#0 C: ok action=['probe', 2] belief=True
+PERSIST-008#1 A: ok action=['probe', 2] belief=False
+PERSIST-008#1 B: ok action=None belief=True
+PERSIST-008#1 C: ok action=['probe', 2] belief=True
+PERSIST-008#2 A: ok action=['probe', 2] belief=False
+PERSIST-008#2 B: ok action=None belief=True
+PERSIST-008#2 C: ok action=['probe', 3] belief=True
+PERSIST-008#3 A: ok action=['stop', 1] belief=False
+PERSIST-008#3 B: ok action=None belief=True
+PERSIST-008#3 C: ok action=['probe', 2] belief=True
+PERSIST-008#4 A: ok action=['stop', 1] belief=False
+PERSIST-008#4 B: ok action=None belief=True
+PERSIST-008#4 C: ok action=['stop', 1] belief=True
+PERSIST-009#0 A: ok action=['probe', 2] belief=False
+PERSIST-009#0 B: ok action=None belief=True
+PERSIST-009#0 C: ok action=['probe', 2] belief=True
+PERSIST-009#1 A: ok action=['probe', 2] belief=False
+PERSIST-009#1 B: ok action=None belief=True
+PERSIST-009#1 C: ok action=['probe', 2] belief=True
+PERSIST-009#2 A: ok action=['stop', 1] belief=False
+PERSIST-009#2 B: ok action=None belief=True
+PERSIST-009#2 C: ok action=['stop', 1] belief=True
+PERSIST-010#0 A: ok action=['probe', 2] belief=False
+PERSIST-010#0 B: ok action=None belief=True
+PERSIST-010#0 C: ok action=['probe', 2] belief=True
+PERSIST-010#1 A: ok action=['probe', 2] belief=False
+PERSIST-010#1 B: ok action=None belief=True
+PERSIST-010#1 C: ok action=['probe', 2] belief=True
+PERSIST-010#2 A: ok action=['stop', 2] belief=False
+PERSIST-010#2 B: ok action=None belief=True
+PERSIST-010#2 C: ok action=['probe', 2] belief=True
+PERSIST-010#3 A: ok action=['probe', 2] belief=False
+PERSIST-010#3 B: ok action=None belief=True
+PERSIST-010#3 C: ok action=['probe', 2] belief=True
+PERSIST-010#4 A: ok action=['probe', 2] belief=False
+PERSIST-010#4 B: ok action=None belief=True
+PERSIST-010#4 C: ok action=['probe', 0] belief=True
+PERSIST-010#5 A: ok action=['probe', 2] belief=False
+PERSIST-010#5 B: ok action=None belief=True
+PERSIST-010#5 C: ok action=['probe', 0] belief=True
+PERSIST-010#6 A: ok action=['stop', 3] belief=False
+PERSIST-010#6 B: ok action=None belief=True
+PERSIST-010#6 C: ok action=['stop', 3] belief=True
+PERSIST-011#0 A: ok action=['probe', 2] belief=False
+PERSIST-011#0 B: ok action=None belief=True
+PERSIST-011#0 C: ok action=['probe', 2] belief=True
+PERSIST-011#1 A: ok action=['probe', 2] belief=False
+PERSIST-011#1 B: ok action=None belief=True
+PERSIST-011#1 C: ok action=['probe', 2] belief=True
+PERSIST-011#2 A: ok action=['stop', 0] belief=False
+PERSIST-011#2 B: ok action=None belief=True
+PERSIST-011#2 C: ok action=['stop', 0] belief=True
+PERSIST-012#0 A: ok action=['probe', 2] belief=False
+PERSIST-012#0 B: ok action=None belief=True
+PERSIST-012#0 C: ok action=['probe', 2] belief=True
+PERSIST-012#1 A: ok action=['probe', 2] belief=False
+PERSIST-012#1 B: ok action=None belief=True
+PERSIST-012#1 C: ok action=['probe', 2] belief=True
+PERSIST-012#2 A: ok action=['probe', 2] belief=False
+PERSIST-012#2 B: ok action=None belief=True
+PERSIST-012#2 C: ok action=['probe', 3] belief=True
+PERSIST-012#3 A: ok action=['probe', 2] belief=False
+PERSIST-012#3 B: ok action=None belief=True
+PERSIST-012#3 C: ok action=['probe', 2] belief=True
+PERSIST-012#4 A: ok action=['probe', 0] belief=False
+PERSIST-012#4 B: ok action=None belief=True
+PERSIST-012#4 C: ok action=['probe', 0] belief=True
+PERSIST-012#5 A: ok action=['stop', 3] belief=False
+PERSIST-012#5 B: ok action=None belief=True
+PERSIST-012#5 C: ok action=['stop', 3] belief=True
+PERSIST-013#0 A: ok action=['probe', 2] belief=False
+PERSIST-013#0 B: ok action=None belief=True
+PERSIST-013#0 C: ok action=['probe', 2] belief=True
+PERSIST-013#1 A: ok action=['probe', 2] belief=False
+PERSIST-013#1 B: ok action=None belief=True
+PERSIST-013#1 C: ok action=['probe', 2] belief=True
+PERSIST-013#2 A: ok action=['probe', 2] belief=False
+PERSIST-013#2 B: ok action=None belief=True
+PERSIST-013#2 C: ok action=['probe', 0] belief=True
+PERSIST-013#3 A: ok action=['stop', 0] belief=False
+PERSIST-013#3 B: ok action=None belief=True
+PERSIST-013#3 C: ok action=['stop', 0] belief=True
+PERSIST-014#0 A: ok action=['probe', 2] belief=False
+PERSIST-014#0 B: ok action=None belief=True
+PERSIST-014#0 C: ok action=['probe', 2] belief=True
+PERSIST-014#1 A: ok action=['probe', 2] belief=False
+PERSIST-014#1 B: ok action=None belief=True
+PERSIST-014#1 C: ok action=['probe', 2] belief=True
+PERSIST-014#2 A: ok action=['probe', 0] belief=False
+PERSIST-014#2 B: ok action=None belief=True
+PERSIST-014#2 C: ok action=['probe', 0] belief=True
+PERSIST-014#3 A: ok action=['stop', 0] belief=False
+PERSIST-014#3 B: ok action=None belief=True
+PERSIST-014#3 C: ok action=['stop', 0] belief=True
+PERSIST-015#0 A: ok action=['probe', 0] belief=False
+PERSIST-015#0 B: ok action=None belief=True
+PERSIST-015#0 C: ok action=['probe', 2] belief=True
+PERSIST-015#1 A: ok action=['probe', 2] belief=False
+PERSIST-015#1 B: ok action=None belief=True
+PERSIST-015#1 C: ok action=['probe', 2] belief=True
+PERSIST-015#2 A: ok action=['stop', 1] belief=False
+PERSIST-015#2 B: ok action=None belief=True
+PERSIST-015#2 C: ok action=['probe', 2] belief=True
+PERSIST-016#0 A: ok action=['probe', 2] belief=False
+PERSIST-016#0 B: ok action=None belief=True
+PERSIST-016#0 C: ok action=['probe', 2] belief=True
+PERSIST-016#1 A: ok action=['probe', 2] belief=False
+PERSIST-016#1 B: ok action=None belief=True
+PERSIST-016#1 C: ok action=['probe', 2] belief=True
+PERSIST-016#2 A: ok action=['stop', 1] belief=False
+PERSIST-016#2 B: ok action=None belief=True
+PERSIST-016#2 C: ok action=['stop', 1] belief=True
+PERSIST-017#0 A: ok action=['probe', 2] belief=False
+PERSIST-017#0 B: ok action=None belief=True
+PERSIST-017#0 C: ok action=['probe', 2] belief=True
+PERSIST-017#1 A: ok action=['probe', 2] belief=False
+PERSIST-017#1 B: ok action=None belief=True
+PERSIST-017#1 C: ok action=['probe', 0] belief=True
+PERSIST-017#2 A: ok action=['stop', 0] belief=False
+PERSIST-017#2 B: ok action=None belief=True
+PERSIST-017#2 C: ok action=['stop', 0] belief=True
+PERSIST-017#3 A: ok action=['stop', 0] belief=False
+PERSIST-017#3 B: ok action=None belief=True
+PERSIST-017#3 C: ok action=['stop', 0] belief=True
+PERSIST-018#0 A: ok action=['probe', 0] belief=False
+PERSIST-018#0 B: ok action=None belief=True
+PERSIST-018#0 C: ok action=['probe', 0] belief=True
+PERSIST-018#1 A: ok action=['probe', 2] belief=False
+PERSIST-018#1 B: ok action=None belief=True
+PERSIST-018#1 C: ok action=['probe', 0] belief=True
+PERSIST-018#2 A: ok action=['stop', 1] belief=False
+PERSIST-018#2 B: ok action=None belief=True
+PERSIST-018#2 C: ok action=['stop', 1] belief=True
+PERSIST-019#0 A: ok action=['probe', 2] belief=False
+PERSIST-019#0 B: ok action=None belief=True
+PERSIST-019#0 C: ok action=['probe', 2] belief=True
+PERSIST-019#1 A: ok action=['probe', 2] belief=False
+PERSIST-019#1 B: ok action=None belief=True
+PERSIST-019#1 C: ok action=['probe', 2] belief=True
+PERSIST-019#2 A: ok action=['stop', 1] belief=False
+PERSIST-019#2 B: ok action=None belief=True
+PERSIST-019#2 C: ok action=['stop', 1] belief=False
+PERSIST-019#3 A: ok action=['probe', 1] belief=False
+PERSIST-019#3 B: ok action=None belief=True
+PERSIST-019#3 C: ok action=['probe', 1] belief=True
+PERSIST-019#4 A: ok action=['stop', 1] belief=False
+PERSIST-019#4 B: ok action=None belief=True
+PERSIST-019#4 C: ok action=['stop', 1] belief=True
+PERSIST-020#0 A: ok action=['probe', 2] belief=False
+PERSIST-020#0 B: ok action=None belief=True
+PERSIST-020#0 C: ok action=['probe', 2] belief=True
+PERSIST-020#1 A: ok action=['probe', 2] belief=False
+PERSIST-020#1 B: ok action=None belief=True
+PERSIST-020#1 C: ok action=['probe', 2] belief=True
+PERSIST-020#2 A: ok action=['probe', 2] belief=False
+PERSIST-020#2 B: ok action=None belief=True
+PERSIST-020#2 C: ok action=['probe', 3] belief=True
+PERSIST-020#3 A: ok action=['stop', 2] belief=False
+PERSIST-020#3 B: ok action=None belief=True
+PERSIST-020#3 C: ok action=['stop', 2] belief=True
+PERSIST-021#0 A: ok action=['probe', 2] belief=False
+PERSIST-021#0 B: ok action=None belief=True
+PERSIST-021#0 C: ok action=['probe', 2] belief=True
+PERSIST-021#1 A: ok action=['probe', 2] belief=False
+PERSIST-021#1 B: ok action=None belief=True
+PERSIST-021#1 C: ok action=['stop', 2] belief=True
+PERSIST-021#2 A: ok action=['stop', 2] belief=False
+PERSIST-021#2 B: ok action=None belief=True
+PERSIST-021#2 C: ok action=['stop', 2] belief=True
+PERSIST-022#0 A: ok action=['probe', 2] belief=False
+PERSIST-022#0 B: ok action=None belief=True
+PERSIST-022#0 C: ok action=['probe', 2] belief=True
+PERSIST-022#1 A: ok action=['probe', 2] belief=False
+PERSIST-022#1 B: ok action=None belief=True
+PERSIST-022#1 C: ok action=['probe', 2] belief=True
+PERSIST-022#2 A: ok action=['probe', 2] belief=False
+PERSIST-022#2 B: ok action=None belief=True
+PERSIST-022#2 C: ok action=['probe', 2] belief=True
+PERSIST-022#3 A: ok action=['probe', 0] belief=False
+PERSIST-022#3 B: ok action=None belief=True
+PERSIST-022#3 C: ok action=['probe', 2] belief=True
+PERSIST-022#4 A: ok action=['probe', 2] belief=False
+PERSIST-022#4 B: ok action=None belief=True
+PERSIST-022#4 C: ok action=['probe', 2] belief=True
+PERSIST-022#5 A: ok action=['probe', 2] belief=False
+PERSIST-022#5 B: ok action=None belief=True
+PERSIST-022#5 C: ok action=['probe', 2] belief=True
+PERSIST-022#6 A: ok action=['stop', 0] belief=False
+PERSIST-022#6 B: ok action=None belief=True
+PERSIST-022#6 C: ok action=['stop', 0] belief=True
+PERSIST-023#0 A: ok action=['probe', 2] belief=False
+PERSIST-023#0 B: ok action=None belief=True
+PERSIST-023#0 C: ok action=['probe', 2] belief=True
+PERSIST-023#1 A: ok action=['probe', 2] belief=False
+PERSIST-023#1 B: ok action=None belief=True
+PERSIST-023#1 C: ok action=['probe', 2] belief=True
+PERSIST-023#2 A: ok action=['probe', 2] belief=False
+PERSIST-023#2 B: ok action=None belief=True
+PERSIST-023#2 C: ok action=['probe', 2] belief=True
+PERSIST-023#3 A: ok action=['probe', 2] belief=False
+PERSIST-023#3 B: ok action=None belief=True
+PERSIST-023#3 C: ok action=['probe', 2] belief=True
+PERSIST-023#4 A: ok action=['stop', 0] belief=False
+PERSIST-023#4 B: ok action=None belief=True
+PERSIST-023#4 C: ok action=['stop', 0] belief=True
+PERSIST-024#0 A: ok action=['probe', 2] belief=False
+PERSIST-024#0 B: ok action=None belief=True
+PERSIST-024#0 C: ok action=['probe', 2] belief=True
+PERSIST-024#1 A: ok action=['probe', 2] belief=False
+PERSIST-024#1 B: ok action=None belief=True
+PERSIST-024#1 C: ok action=['probe', 2] belief=True
+PERSIST-024#2 A: ok action=['probe', 2] belief=False
+PERSIST-024#2 B: ok action=None belief=True
+PERSIST-024#2 C: ok action=['probe', 2] belief=True
+PERSIST-024#3 A: ok action=['probe', 2] belief=False
+PERSIST-024#3 B: ok action=None belief=True
+PERSIST-024#3 C: ok action=['probe', 2] belief=True
+PERSIST-024#4 A: ok action=['probe', 2] belief=False
+PERSIST-024#4 B: ok action=None belief=True
+PERSIST-024#4 C: ok action=['probe', 0] belief=True
+PERSIST-024#5 A: ok action=['probe', 0] belief=False
+PERSIST-024#5 B: ok action=None belief=True
+PERSIST-024#5 C: ok action=['probe', 0] belief=True
+PERSIST-024#6 A: ok action=['stop', 0] belief=False
+PERSIST-024#6 B: ok action=None belief=True
+PERSIST-024#6 C: ok action=['stop', 0] belief=True
+SHARED-000#0 A: ok action=['probe', 0] belief=False
+SHARED-000#0 B: ok action=None belief=True
+SHARED-000#0 C: ok action=['probe', 0] belief=True
+SHARED-000#1 A: ok action=['probe', 1] belief=False
+SHARED-000#1 B: ok action=None belief=True
+SHARED-000#1 C: ok action=['probe', 0] belief=True
+SHARED-001#0 A: ok action=['probe', 0] belief=False
+SHARED-001#0 B: ok action=None belief=False
+SHARED-001#0 C: ok action=['probe', 0] belief=True
+SHARED-001#1 A: ok action=['probe', 3] belief=False
+SHARED-001#1 B: ok action=None belief=True
+SHARED-001#1 C: ok action=['probe', 3] belief=True
+SHARED-001#2 A: ok action=['stop', 0] belief=False
+SHARED-001#2 B: ok action=None belief=True
+SHARED-001#2 C: ok action=['stop', 0] belief=True
+SHARED-002#0 A: ok action=['probe', 0] belief=False
+SHARED-002#0 B: ok action=None belief=True
+SHARED-002#0 C: ok action=['probe', 0] belief=True
+SHARED-002#1 A: ok action=['probe', 1] belief=False
+SHARED-002#1 B: ok action=None belief=True
+SHARED-002#1 C: ok action=['probe', 1] belief=True
+SHARED-002#2 A: ok action=['stop', 2] belief=False
+SHARED-002#2 B: ok action=None belief=True
+SHARED-002#2 C: ok action=['stop', 2] belief=True
+SHARED-003#0 A: ok action=['probe', 1] belief=False
+SHARED-003#0 B: ok action=None belief=True
+SHARED-003#0 C: ok action=['probe', 2] belief=True
+SHARED-003#1 A: ok action=['probe', 3] belief=False
+SHARED-003#1 B: ok action=None belief=True
+SHARED-003#1 C: ok action=['probe', 2] belief=True
+SHARED-003#2 A: ok action=['stop', 0] belief=False
+SHARED-003#2 B: ok action=None belief=True
+SHARED-003#2 C: ok action=['stop', 0] belief=True
+SHARED-004#0 A: ok action=['probe', 0] belief=False
+SHARED-004#0 B: ok action=None belief=True
+SHARED-004#0 C: ok action=['probe', 3] belief=True
+SHARED-004#1 A: ok action=['probe', 3] belief=False
+SHARED-004#1 B: ok action=None belief=True
+SHARED-004#1 C: ok action=['stop', 1] belief=True
+SHARED-005#0 A: ok action=['probe', 0] belief=False
+SHARED-005#0 B: ok action=None belief=True
+SHARED-005#0 C: ok action=['probe', 2] belief=True
+SHARED-005#1 A: ok action=['probe', 3] belief=False
+SHARED-005#1 B: ok action=None belief=True
+SHARED-005#1 C: ok action=['probe', 2] belief=True
+SHARED-005#2 A: ok action=['probe', 2] belief=False
+SHARED-005#2 B: ok action=None belief=True
+SHARED-005#2 C: ok action=['probe', 2] belief=True
+SHARED-005#3 A: ok action=['stop', 3] belief=False
+SHARED-005#3 B: ok action=None belief=True
+SHARED-005#3 C: ok action=['stop', 3] belief=True
+SHARED-006#0 A: ok action=['probe', 0] belief=False
+SHARED-006#0 B: ok action=None belief=True
+SHARED-006#0 C: ok action=['probe', 2] belief=True
+SHARED-006#1 A: ok action=['stop', 1] belief=False
+SHARED-006#1 B: ok action=None belief=True
+SHARED-006#1 C: ok action=['stop', 1] belief=True
+SHARED-007#0 A: ok action=['probe', 0] belief=False
+SHARED-007#0 B: ok action=None belief=True
+SHARED-007#0 C: ok action=['probe', 0] belief=True
+SHARED-007#1 A: ok action=['probe', 1] belief=False
+SHARED-007#1 B: ok action=None belief=True
+SHARED-007#1 C: ok action=['probe', 3] belief=True
+SHARED-007#2 A: ok action=['stop', 1] belief=False
+SHARED-007#2 B: ok action=None belief=True
+SHARED-007#2 C: ok action=['stop', 1] belief=True
+SHARED-008#0 A: ok action=['probe', 0] belief=False
+SHARED-008#0 B: ok action=None belief=True
+SHARED-008#0 C: ok action=['probe', 0] belief=True
+SHARED-008#1 A: ok action=['probe', 0] belief=False
+SHARED-008#1 B: ok action=None belief=True
+SHARED-008#1 C: ok action=['probe', 0] belief=True
+SHARED-008#2 A: ok action=['stop', 2] belief=False
+SHARED-008#2 B: ok action=None belief=True
+SHARED-008#2 C: ok action=['stop', 2] belief=True
+SHARED-009#0 A: ok action=['probe', 0] belief=False
+SHARED-009#0 B: ok action=None belief=True
+SHARED-009#0 C: ok action=['probe', 0] belief=True
+SHARED-009#1 A: ok action=['probe', 2] belief=False
+SHARED-009#1 B: ok action=None belief=True
+SHARED-009#1 C: ok action=['probe', 2] belief=True
+SHARED-009#2 A: ok action=['stop', 1] belief=False
+SHARED-009#2 B: ok action=None belief=True
+SHARED-009#2 C: ok action=['stop', 1] belief=True
+SHARED-010#0 A: ok action=['probe', 2] belief=False
+SHARED-010#0 B: ok action=None belief=True
+SHARED-010#0 C: ok action=['probe', 2] belief=True
+SHARED-010#1 A: ok action=['probe', 3] belief=False
+SHARED-010#1 B: ok action=None belief=True
+SHARED-010#1 C: ok action=['probe', 0] belief=True
+SHARED-010#2 A: ok action=['stop', 1] belief=False
+SHARED-010#2 B: ok action=None belief=False
+SHARED-010#2 C: ok action=['probe', 0] belief=True
+SHARED-011#0 A: ok action=['probe', 0] belief=False
+SHARED-011#0 B: ok action=None belief=True
+SHARED-011#0 C: ok action=['probe', 0] belief=True
+SHARED-011#1 A: ok action=['stop', 2] belief=False
+SHARED-011#1 B: ok action=None belief=True
+SHARED-011#1 C: ok action=['stop', 2] belief=True
+SHARED-012#0 A: ok action=['probe', 0] belief=False
+SHARED-012#0 B: ok action=None belief=True
+SHARED-012#0 C: ok action=['probe', 3] belief=True
+SHARED-012#1 A: ok action=['stop', 2] belief=False
+SHARED-012#1 B: ok action=None belief=True
+SHARED-012#1 C: ok action=['stop', 2] belief=True
+SHARED-013#0 A: ok action=['probe', 0] belief=False
+SHARED-013#0 B: ok action=None belief=True
+SHARED-013#0 C: ok action=['probe', 0] belief=True
+SHARED-013#1 A: ok action=['stop', 1] belief=False
+SHARED-013#1 B: ok action=None belief=True
+SHARED-013#1 C: ok action=['stop', 1] belief=True
+SHARED-014#0 A: ok action=['probe', 0] belief=False
+SHARED-014#0 B: ok action=None belief=True
+SHARED-014#0 C: ok action=['probe', 0] belief=True
+SHARED-014#1 A: ok action=['stop', 2] belief=False
+SHARED-014#1 B: ok action=None belief=True
+SHARED-014#1 C: ok action=['stop', 2] belief=True
+SHARED-015#0 A: ok action=['probe', 1] belief=False
+SHARED-015#0 B: ok action=None belief=True
+SHARED-015#0 C: ok action=['probe', 1] belief=True
+SHARED-015#1 A: ok action=['probe', 2] belief=False
+SHARED-015#1 B: ok action=None belief=True
+SHARED-015#1 C: ok action=['stop', 0] belief=True
+SHARED-016#0 A: ok action=['probe', 0] belief=False
+SHARED-016#0 B: ok action=None belief=True
+SHARED-016#0 C: ok action=['probe', 0] belief=True
+SHARED-016#1 A: ok action=['stop', 1] belief=False
+SHARED-016#1 B: ok action=None belief=True
+SHARED-016#1 C: ok action=['stop', 1] belief=True
+SHARED-017#0 A: ok action=['probe', 0] belief=False
+SHARED-017#0 B: ok action=None belief=True
+SHARED-017#0 C: ok action=['probe', 2] belief=True
+SHARED-017#1 A: ok action=['stop', 2] belief=False
+SHARED-017#1 B: ok action=None belief=True
+SHARED-017#1 C: ok action=['stop', 2] belief=True
+SHARED-017#2 A: ok action=['probe', 2] belief=False
+SHARED-017#2 B: ok action=None belief=True
+SHARED-017#2 C: ok action=['probe', 0] belief=True
+SHARED-017#3 A: ok action=['stop', 2] belief=False
+SHARED-017#3 B: ok action=None belief=True
+SHARED-017#3 C: ok action=['probe', 0] belief=True
+SHARED-018#0 A: ok action=['probe', 0] belief=False
+SHARED-018#0 B: ok action=None belief=True
+SHARED-018#0 C: ok action=['probe', 0] belief=True
+SHARED-018#1 A: ok action=['probe', 1] belief=False
+SHARED-018#1 B: ok action=None belief=True
+SHARED-018#1 C: ok action=['probe', 2] belief=True
+SHARED-018#2 A: ok action=['stop', 1] belief=False
+SHARED-018#2 B: ok action=None belief=True
+SHARED-018#2 C: ok action=['stop', 1] belief=True
+SHARED-019#0 A: ok action=['probe', 0] belief=False
+SHARED-019#0 B: ok action=None belief=True
+SHARED-019#0 C: ok action=['probe', 3] belief=True
+SHARED-019#1 A: ok action=['probe', 3] belief=False
+SHARED-019#1 B: ok action=None belief=True
+SHARED-019#1 C: ok action=['probe', 0] belief=True
+SHARED-019#2 A: ok action=['stop', 1] belief=False
+SHARED-019#2 B: ok action=None belief=True
+SHARED-019#2 C: ok action=['stop', 1] belief=True
+SHARED-020#0 A: ok action=['probe', 0] belief=False
+SHARED-020#0 B: ok action=None belief=True
+SHARED-020#0 C: ok action=None belief=True
+SHARED-020#1 A: ok action=['probe', 3] belief=False
+SHARED-020#1 B: ok action=None belief=True
+codex usage limit: sleeping 205 min
+SHARED-020#1 C: ok action=['probe', 0] belief=True
+SHARED-020#2 A: ok action=['stop', 1] belief=False
+codex usage limit: sleeping 205 min
+SHARED-020#2 B: ok action=None belief=True
+codex usage limit: sleeping 205 min
+codex usage limit: sleeping 205 min
+SHARED-020#2 C: ok action=['stop', 1] belief=True
+SHARED-021#0 A: ok action=['probe', 0] belief=False
+SHARED-021#0 B: ok action=None belief=True
+SHARED-021#0 C: ok action=['probe', 0] belief=True
+SHARED-021#1 A: ok action=['probe', 2] belief=False
+SHARED-021#1 B: ok action=None belief=True
+SHARED-021#1 C: ok action=['probe', 2] belief=True
+SHARED-021#2 A: ok action=['stop', 0] belief=False
+SHARED-021#2 B: ok action=None belief=True
+SHARED-021#2 C: ok action=['stop', 0] belief=True
+SHARED-022#0 A: ok action=['probe', 0] belief=False
+SHARED-022#0 B: ok action=None belief=True
+SHARED-022#0 C: ok action=['probe', 0] belief=True
+SHARED-022#1 A: ok action=['stop', 2] belief=False
+SHARED-022#1 B: ok action=None belief=True
+SHARED-022#1 C: ok action=['stop', 2] belief=True
+SHARED-023#0 A: ok action=['probe', 0] belief=False
+SHARED-023#0 B: ok action=None belief=True
+SHARED-023#0 C: ok action=['probe', 3] belief=True
+SHARED-023#1 A: ok action=['probe', 1] belief=False
+SHARED-023#1 B: ok action=None belief=True
+SHARED-023#1 C: ok action=['probe', 2] belief=True
+SHARED-023#2 A: ok action=['stop', 1] belief=False
+SHARED-023#2 B: ok action=None belief=True
+SHARED-023#2 C: ok action=['stop', 1] belief=True
+SHARED-024#0 A: ok action=['probe', 0] belief=False
+SHARED-024#0 B: ok action=None belief=True
+SHARED-024#0 C: ok action=['probe', 0] belief=True
+SHARED-024#1 A: ok action=['stop', 1] belief=False
+SHARED-024#1 B: ok action=None belief=True
+SHARED-024#1 C: ok action=['stop', 1] belief=True
+TRANSIENT-000#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-000#0 B: ok action=None belief=True
+TRANSIENT-000#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-000#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-000#1 B: ok action=None belief=True
+TRANSIENT-000#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-000#2 A: ok action=['stop', 2] belief=False
+TRANSIENT-000#2 B: ok action=None belief=True
+TRANSIENT-000#2 C: ok action=['stop', 2] belief=True
+TRANSIENT-001#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-001#0 B: ok action=None belief=True
+TRANSIENT-001#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-001#1 A: ok action=['probe', 1] belief=False
+TRANSIENT-001#1 B: ok action=None belief=True
+TRANSIENT-001#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-001#2 A: ok action=['stop', 0] belief=False
+TRANSIENT-001#2 B: ok action=None belief=True
+TRANSIENT-001#2 C: ok action=['stop', 0] belief=True
+TRANSIENT-002#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-002#0 B: ok action=None belief=True
+TRANSIENT-002#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-002#1 A: ok action=['probe', 1] belief=False
+TRANSIENT-002#1 B: ok action=None belief=True
+TRANSIENT-002#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-002#2 A: ok action=['stop', 2] belief=False
+TRANSIENT-002#2 B: ok action=None belief=True
+TRANSIENT-002#2 C: ok action=['stop', 2] belief=True
+TRANSIENT-003#0 A: ok action=['probe', 1] belief=False
+TRANSIENT-003#0 B: ok action=None belief=True
+TRANSIENT-003#0 C: ok action=['probe', 1] belief=True
+TRANSIENT-003#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-003#1 B: ok action=None belief=True
+TRANSIENT-003#1 C: ok action=['probe', 1] belief=True
+TRANSIENT-003#2 A: ok action=['stop', 0] belief=False
+TRANSIENT-003#2 B: ok action=None belief=True
+TRANSIENT-003#2 C: ok action=['stop', 0] belief=True
+TRANSIENT-004#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-004#0 B: ok action=None belief=True
+TRANSIENT-004#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-004#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-004#1 B: ok action=None belief=True
+TRANSIENT-004#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-004#2 A: ok action=['stop', 1] belief=False
+TRANSIENT-004#2 B: ok action=None belief=True
+TRANSIENT-004#2 C: ok action=['stop', 1] belief=True
+TRANSIENT-005#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-005#0 B: ok action=None belief=True
+TRANSIENT-005#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-005#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-005#1 B: ok action=None belief=True
+TRANSIENT-005#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-005#2 A: ok action=['probe', 0] belief=False
+TRANSIENT-005#2 B: ok action=None belief=True
+TRANSIENT-005#2 C: ok action=['probe', 0] belief=True
+TRANSIENT-005#3 A: ok action=['stop', 1] belief=False
+TRANSIENT-005#3 B: ok action=None belief=True
+TRANSIENT-005#3 C: ok action=['stop', 1] belief=True
+TRANSIENT-006#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-006#0 B: ok action=None belief=True
+TRANSIENT-006#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-006#1 A: ok action=['stop', 1] belief=False
+TRANSIENT-006#1 B: ok action=None belief=True
+TRANSIENT-006#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-006#2 A: ok action=['stop', 1] belief=False
+TRANSIENT-006#2 B: ok action=None belief=True
+TRANSIENT-006#2 C: ok action=['stop', 1] belief=True
+TRANSIENT-007#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-007#0 B: ok action=None belief=True
+TRANSIENT-007#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-007#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-007#1 B: ok action=None belief=True
+TRANSIENT-007#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-007#2 A: ok action=['stop', 1] belief=False
+TRANSIENT-007#2 B: ok action=None belief=True
+TRANSIENT-007#2 C: ok action=['stop', 1] belief=True
+TRANSIENT-008#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-008#0 B: ok action=None belief=True
+TRANSIENT-008#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-008#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-008#1 B: ok action=None belief=True
+TRANSIENT-008#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-008#2 A: ok action=['stop', 2] belief=False
+TRANSIENT-008#2 B: ok action=None belief=True
+TRANSIENT-008#2 C: ok action=['stop', 2] belief=True
+TRANSIENT-009#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-009#0 B: ok action=None belief=True
+TRANSIENT-009#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-009#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-009#1 B: ok action=None belief=True
+TRANSIENT-009#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-009#2 A: ok action=['stop', 1] belief=False
+TRANSIENT-009#2 B: ok action=None belief=True
+TRANSIENT-009#2 C: ok action=['stop', 1] belief=True
+TRANSIENT-010#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-010#0 B: ok action=None belief=True
+TRANSIENT-010#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-010#1 A: ok action=['stop', 1] belief=False
+TRANSIENT-010#1 B: ok action=None belief=True
+TRANSIENT-010#1 C: ok action=['stop', 1] belief=True
+TRANSIENT-010#2 A: ok action=['stop', 1] belief=False
+TRANSIENT-010#2 B: ok action=None belief=True
+TRANSIENT-010#2 C: ok action=['stop', 1] belief=True
+TRANSIENT-011#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-011#0 B: ok action=None belief=True
+TRANSIENT-011#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-011#1 A: ok action=['stop', 2] belief=False
+TRANSIENT-011#1 B: ok action=None belief=True
+TRANSIENT-011#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-011#2 A: ok action=['probe', 0] belief=False
+TRANSIENT-011#2 B: ok action=None belief=True
+TRANSIENT-011#2 C: ok action=['probe', 0] belief=True
+TRANSIENT-011#3 A: ok action=['stop', 2] belief=False
+TRANSIENT-011#3 B: ok action=None belief=True
+TRANSIENT-011#3 C: ok action=['stop', 2] belief=True
+TRANSIENT-012#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-012#0 B: ok action=None belief=True
+TRANSIENT-012#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-012#1 A: ok action=['stop', 2] belief=False
+TRANSIENT-012#1 B: ok action=None belief=True
+TRANSIENT-012#1 C: ok action=['stop', 2] belief=True
+TRANSIENT-013#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-013#0 B: ok action=None belief=True
+TRANSIENT-013#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-013#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-013#1 B: ok action=None belief=True
+TRANSIENT-013#1 C: ok action=None belief=True
+TRANSIENT-013#2 A: ok action=['stop', 1] belief=False
+TRANSIENT-013#2 B: ok action=None belief=True
+TRANSIENT-013#2 C: ok action=['stop', 1] belief=True
+TRANSIENT-014#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-014#0 B: ok action=None belief=True
+TRANSIENT-014#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-014#1 A: ok action=['stop', 2] belief=False
+TRANSIENT-014#1 B: ok action=None belief=True
+TRANSIENT-014#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-015#0 A: ok action=['probe', 1] belief=False
+TRANSIENT-015#0 B: ok action=None belief=True
+TRANSIENT-015#0 C: ok action=['probe', 1] belief=True
+TRANSIENT-015#1 A: ok action=['stop', 0] belief=False
+TRANSIENT-015#1 B: ok action=None belief=True
+TRANSIENT-015#1 C: ok action=['stop', 0] belief=True
+TRANSIENT-016#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-016#0 B: ok action=None belief=True
+TRANSIENT-016#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-016#1 A: ok action=['stop', 1] belief=False
+TRANSIENT-016#1 B: ok action=None belief=True
+TRANSIENT-016#1 C: ok action=['stop', 1] belief=True
+TRANSIENT-017#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-017#0 B: ok action=None belief=True
+TRANSIENT-017#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-017#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-017#1 B: ok action=None belief=True
+TRANSIENT-017#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-017#2 A: ok action=['probe', 0] belief=False
+TRANSIENT-017#2 B: ok action=None belief=True
+TRANSIENT-017#2 C: ok action=['probe', 0] belief=True
+TRANSIENT-017#3 A: ok action=['stop', 1] belief=False
+TRANSIENT-017#3 B: ok action=None belief=True
+TRANSIENT-017#3 C: ok action=['stop', 1] belief=True
+TRANSIENT-018#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-018#0 B: ok action=None belief=True
+TRANSIENT-018#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-018#1 A: ok action=['stop', 1] belief=False
+TRANSIENT-018#1 B: ok action=None belief=True
+TRANSIENT-018#1 C: ok action=['stop', 1] belief=True
+TRANSIENT-019#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-019#0 B: ok action=None belief=True
+TRANSIENT-019#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-019#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-019#1 B: ok action=None belief=True
+TRANSIENT-019#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-019#2 A: ok action=['probe', 0] belief=False
+TRANSIENT-019#2 B: ok action=None belief=True
+TRANSIENT-019#2 C: ok action=['probe', 0] belief=True
+TRANSIENT-019#3 A: ok action=['probe', 0] belief=False
+TRANSIENT-019#3 B: ok action=None belief=True
+TRANSIENT-019#3 C: ok action=['probe', 0] belief=True
+TRANSIENT-019#4 A: ok action=['stop', 2] belief=False
+TRANSIENT-019#4 B: ok action=None belief=True
+TRANSIENT-019#4 C: ok action=['stop', 2] belief=True
+TRANSIENT-020#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-020#0 B: ok action=None belief=True
+TRANSIENT-020#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-020#1 A: ok action=['stop', 1] belief=False
+TRANSIENT-020#1 B: ok action=None belief=True
+TRANSIENT-020#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-021#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-021#0 B: ok action=None belief=True
+TRANSIENT-021#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-021#1 A: ok action=['stop', 0] belief=False
+TRANSIENT-021#1 B: ok action=None belief=True
+TRANSIENT-021#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-022#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-022#0 B: ok action=None belief=True
+TRANSIENT-022#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-022#1 A: ok action=['stop', 2] belief=False
+TRANSIENT-022#1 B: ok action=None belief=True
+TRANSIENT-022#1 C: ok action=['stop', 2] belief=True
+TRANSIENT-023#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-023#0 B: ok action=None belief=False
+TRANSIENT-023#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-023#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-023#1 B: ok action=None belief=True
+TRANSIENT-023#1 C: ok action=['probe', 0] belief=True
+TRANSIENT-023#2 A: ok action=['stop', 1] belief=False
+TRANSIENT-023#2 B: ok action=None belief=True
+TRANSIENT-023#2 C: ok action=['stop', 1] belief=True
+TRANSIENT-024#0 A: ok action=['probe', 0] belief=False
+TRANSIENT-024#0 B: ok action=None belief=True
+TRANSIENT-024#0 C: ok action=['probe', 0] belief=True
+TRANSIENT-024#1 A: ok action=['probe', 0] belief=False
+TRANSIENT-024#1 B: ok action=None belief=True
+TRANSIENT-024#1 C: ok action=['stop', 1] belief=True

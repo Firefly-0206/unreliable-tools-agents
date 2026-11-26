@@ -1,0 +1,73 @@
+run                        n  regret     over    wrong    early  verdict  over%  rep/over  calls K2r calls    V0  zero% severe%
+flash (non-thinking)     100   3.486    1.074    1.297    0.378    0.738     31   44/79     3.35      2.34  4.39      0       2
+    MIXED                      3.068    0.666    0.921    0.362    1.119                    3.92
+    PERSIST                    3.661    0.753    1.139    0.910    0.858                    3.44
+    SHARED                     3.939    1.356    1.437    0.205    0.942                    3.00
+    TRANSIENT                  3.276    1.519    1.691    0.034    0.031                    3.04
+gpt-6.1-terra (medium)   100   0.361    0.012    0.250    0.100    0.000      3    4/5      2.47      2.35  4.39     42       0
+    MIXED                      0.223    0.031    0.175    0.017    0.000                    3.08
+    PERSIST                    0.520    0.000    0.460    0.060    0.000                    3.32
+    SHARED                     0.657    0.005    0.354    0.299    0.000                    1.64
+    TRANSIENT                  0.045    0.012    0.009    0.024    0.000                    1.84
+gpt-6.1-terra (high)     100   0.271    0.009    0.177    0.085    0.000      3    2/2      2.25      2.36  4.39     49       0
+    MIXED                      0.179    0.000    0.066    0.113    0.000                    2.84
+    PERSIST                    0.471    0.000    0.370    0.100    0.000                    2.80
+    SHARED                     0.408    0.037    0.261    0.110    0.000                    1.64
+    TRANSIENT                  0.028    0.000    0.012    0.016    0.000                    1.72
+Sonnet 5.5 (high)        100   0.481    0.005    0.266    0.210    0.000      1    1/1      2.09      2.36  4.39     31       0
+    MIXED                      0.524    0.000    0.382    0.142    0.000                    2.92
+    PERSIST                    0.556    0.000    0.387    0.170    0.000                    2.44
+    SHARED                     0.429    0.020    0.245    0.165    0.000                    1.56
+    TRANSIENT                  0.416    0.000    0.051    0.365    0.000                    1.44
+
+run                      cond|subset   n  regret     pass_cache [95% CI]  = other  + stop    rest  share%
+flash (non-thinking)        K2e|CORE 100   3.486   1.117 [0.58, 1.78]    0.902   0.215   2.369      32
+flash (non-thinking)       K2e|FAULT  75   3.556   0.960 [0.54, 1.47]    0.685   0.275   2.597      27
+flash (non-thinking)        K2e|TWIN  25   3.276   1.589 [0.41, 3.09]    1.555   0.034   1.687      48
+flash (non-thinking)         K1|CORE 100   3.019   0.797 [0.46, 1.19]    0.643   0.154   2.221      26
+flash (non-thinking)        K1|FAULT  75   3.010   0.726 [0.43, 1.08]    0.619   0.107   2.284      24
+flash (non-thinking)         K1|TWIN  25   3.046   1.013 [0.22, 2.08]    0.716   0.297   2.033      33
+gpt-6.1-terra (medium)      K2e|CORE 100   0.361   0.328 [0.18, 0.51]    0.235   0.093   0.034      91
+gpt-6.1-terra (medium)     K2e|FAULT  75   0.467   0.429 [0.25, 0.67]    0.313   0.116   0.038      92
+gpt-6.1-terra (medium)      K2e|TWIN  25   0.045   0.024 [0.00, 0.09]    0.000   0.024   0.021      54
+gpt-6.1-terra (medium)       K1|CORE 100   0.215   0.125 [0.05, 0.26]    0.074   0.051   0.090      58
+gpt-6.1-terra (medium)      K1|FAULT  75   0.276   0.164 [0.07, 0.33]    0.098   0.066   0.112      59
+gpt-6.1-terra (medium)       K1|TWIN  25   0.031   0.009 [0.00, 0.04]    0.000   0.009   0.022      30
+gpt-6.1-terra (high)        K2e|CORE 100   0.271   0.234 [0.13, 0.35]    0.164   0.070   0.037      86
+gpt-6.1-terra (high)       K2e|FAULT  75   0.353   0.306 [0.17, 0.46]    0.219   0.087   0.046      87
+gpt-6.1-terra (high)        K2e|TWIN  25   0.028   0.016 [0.00, 0.05]    0.000   0.016   0.012      58
+gpt-6.1-terra (high)         K1|CORE 100   0.148   0.093 [0.04, 0.16]    0.057   0.036   0.055      63
+gpt-6.1-terra (high)        K1|FAULT  75   0.190   0.118 [0.05, 0.21]    0.076   0.042   0.072      62
+gpt-6.1-terra (high)         K1|TWIN  25   0.024   0.017 [0.00, 0.07]    0.000   0.017   0.006      73
+Sonnet 5.5 (high)           K2e|CORE 100   0.481   0.443 [0.29, 0.61]    0.239   0.204   0.039      92
+Sonnet 5.5 (high)          K2e|FAULT  75   0.503   0.469 [0.28, 0.68]    0.319   0.150   0.034      93
+Sonnet 5.5 (high)           K2e|TWIN  25   0.416   0.365 [0.07, 0.77]    0.000   0.365   0.051      88
+Sonnet 5.5 (high)            K1|CORE 100   0.562   0.449 [0.33, 0.58]    0.191   0.258   0.113      80
+Sonnet 5.5 (high)           K1|FAULT  75   0.640   0.497 [0.33, 0.68]    0.254   0.242   0.144      78
+Sonnet 5.5 (high)            K1|TWIN  25   0.328   0.307 [0.04, 0.65]    0.000   0.307   0.021      94
+
+run                      cond|subset   n   any replica call % [95% CI]  first call replica %  replica calls  other calls
+flash (non-thinking)       K2e|FAULT  75            91 [80, 99]                    31           1.41         2.04
+flash (non-thinking)        K2e|TWIN  25            88 [67, 100]                    76           1.88         1.16
+flash (non-thinking)       K2r|FAULT  75            99 [94, 100]                    99           1.39         1.15
+flash (non-thinking)        K2r|TWIN  25           100 [100, 100]                   100           1.76         0.00
+flash (non-thinking)        K1|FAULT  75            91 [79, 99]                    35           1.43         2.24
+flash (non-thinking)         K1|TWIN  25           100 [100, 100]                   100           2.08         1.08
+gpt-6.1-terra (medium)     K2e|FAULT  75            75 [61, 86]                    47           0.84         1.84
+gpt-6.1-terra (medium)      K2e|TWIN  25           100 [100, 100]                   100           1.84         0.00
+gpt-6.1-terra (medium)     K2r|FAULT  75            99 [94, 100]                    99           1.40         1.12
+gpt-6.1-terra (medium)      K2r|TWIN  25           100 [100, 100]                   100           1.84         0.00
+gpt-6.1-terra (medium)      K1|FAULT  75            84 [72, 94]                    65           1.08         1.36
+gpt-6.1-terra (medium)       K1|TWIN  25           100 [100, 100]                   100           1.88         0.00
+gpt-6.1-terra (high)       K2e|FAULT  75            67 [52, 80]                    55           0.80         1.63
+gpt-6.1-terra (high)        K2e|TWIN  25           100 [100, 100]                   100           1.72         0.00
+gpt-6.1-terra (high)       K2r|FAULT  75            99 [94, 100]                    99           1.39         1.15
+gpt-6.1-terra (high)        K2r|TWIN  25           100 [100, 100]                   100           1.84         0.00
+gpt-6.1-terra (high)        K1|FAULT  75            91 [81, 99]                    73           1.21         1.28
+gpt-6.1-terra (high)         K1|TWIN  25           100 [100, 100]                   100           1.84         0.00
+Sonnet 5.5 (high)          K2e|FAULT  75            65 [53, 76]                    47           0.72         1.59
+Sonnet 5.5 (high)           K2e|TWIN  25           100 [100, 100]                   100           1.44         0.00
+Sonnet 5.5 (high)          K2r|FAULT  75            99 [94, 100]                    99           1.39         1.15
+Sonnet 5.5 (high)           K2r|TWIN  25           100 [100, 100]                   100           1.84         0.00
+Sonnet 5.5 (high)           K1|FAULT  75            53 [38, 67]                    36           0.60         1.65
+Sonnet 5.5 (high)            K1|TWIN  25           100 [100, 100]                   100           1.32         0.00

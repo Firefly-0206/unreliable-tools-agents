@@ -1,0 +1,90 @@
+model           prot family      cond    n   loss       regret [95% CI]  info/verd severe   esc   acc calls  useC  repC  repL noSub Probe1 d-Probe1
+claude:claude-sotext MIXED       K1     25   4.08    0.49 [ 0.27, 0.79] 0.45/ 0.05   0.00  0.12  0.88  3.00  0.60  0.04  1.40  0.00   2.89    -2.39
+claude:claude-sotext MIXED       K2     25   3.72    0.68 [ 0.47, 0.88] 0.68/ 0.00   0.00  0.08  0.92  2.96  0.32  0.00  1.60  0.00   2.89    -2.21
+claude:claude-sotext MIXED       K2e    25   4.28    0.52 [ 0.30, 0.79] 0.52/ 0.00   0.00  0.04  0.92  2.92  0.52  0.00  1.40  0.00   2.89    -2.37
+claude:claude-sotext MIXED       K2r    25   3.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  2.96  0.96  0.16  1.08  0.00   2.89    -2.89
+claude:claude-sotext PERSIST     K1     25   6.80    0.81 [ 0.52, 1.13] 0.81/ 0.00   0.04  0.12  0.80  2.40  0.16  0.00  1.12  0.00   2.07    -1.26
+claude:claude-sotext PERSIST     K2     25   4.80    0.68 [ 0.45, 0.92] 0.68/ 0.00   0.00  0.04  0.88  2.48  0.08  0.00  1.32  0.00   2.07    -1.39
+claude:claude-sotext PERSIST     K2e    25   5.20    0.56 [ 0.29, 0.85] 0.56/ 0.00   0.00  0.00  0.88  2.44  0.44  0.00  0.88  0.00   2.07    -1.51
+claude:claude-sotext PERSIST     K2r    25   4.20    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.92  2.84  1.00  0.44  0.76  0.00   2.07    -2.07
+claude:claude-sotext SHARED      K1     25   4.36    0.61 [ 0.26, 1.09] 0.61/ 0.00   0.00  0.08  0.84  1.36  0.84  0.16  0.04  0.00   2.03    -1.42
+claude:claude-sotext SHARED      K2     25   3.64    0.62 [ 0.28, 1.04] 0.62/ 0.00   0.00  0.04  0.92  1.52  0.92  0.16  0.04  0.00   2.03    -1.42
+claude:claude-sotext SHARED      K2e    25   4.24    0.43 [ 0.10, 0.87] 0.43/ 0.00   0.00  0.04  0.88  1.56  1.00  0.20  0.00  0.00   2.03    -1.61
+claude:claude-sotext SHARED      K2r    25   2.64    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  1.80  1.00  0.60  0.00  0.00   2.03    -2.03
+claude:claude-sotext TRANSIENT   K1     25   2.92    0.33 [ 0.06, 0.67] 0.33/ 0.00   0.00  0.00  0.92  1.32  1.00  0.32  0.00  0.00   4.94    -4.62
+claude:claude-sotext TRANSIENT   K2     25   3.20    0.80 [ 0.30, 1.50] 0.80/ 0.00   0.00  0.00  0.92  1.36  1.00  0.28  0.00  0.00   4.94    -4.15
+claude:claude-sotext TRANSIENT   K2e    25   2.24    0.42 [ 0.09, 0.83] 0.42/ 0.00   0.00  0.00  0.96  1.44  1.00  0.44  0.00  0.00   4.94    -4.53
+claude:claude-sotext TRANSIENT   K2r    25   1.84    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  1.84  1.00  0.84  0.00  0.00   4.94    -4.94
+claude:claude-sotext TRANSIENT_P K1     25   3.04    0.66 [ 0.26, 1.15] 0.66/ 0.00   0.00  0.00  0.92  1.44  1.00  0.36  0.00  0.00   4.62    -3.96
+claude:claude-sotext TRANSIENT_P K2     25   3.04    0.92 [ 0.60, 1.23] 0.92/ 0.00   0.00  0.00  0.92  1.40  1.00  0.04  0.08  0.00   4.62    -3.69
+claude:claude-sotext TRANSIENT_P K2e    25   3.16    0.52 [ 0.16, 1.03] 0.52/ 0.00   0.00  0.00  0.92  1.56  1.00  0.52  0.00  0.00   4.62    -4.10
+claude:claude-sotext TRANSIENT_P K2r    25   2.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.28  1.00  1.28  0.00  0.00   4.62    -4.62
+
+Paired condition contrasts (A - B over common episodes) [95% nested CI]
+claude:claude-sotext MIXED         K2-K1   n= 25  regret +0.18 [-0.08,+0.48]  info +0.23 [-0.00,+0.50]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.17,+0.00]
+claude:claude-sotext MIXED        K2e-K2   n= 25  regret -0.16 [-0.47,+0.17]  info -0.16 [-0.47,+0.17]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+claude:claude-sotext MIXED        K2r-K2e  n= 25  regret -0.52 [-0.79,-0.30]  info -0.52 [-0.79,-0.30]  severe +0.00 [+0.00,+0.00]  rep_cache +0.16 [+0.04,+0.35]
+claude:claude-sotext MIXED        K2r-K1   n= 25  regret -0.49 [-0.79,-0.27]  info -0.45 [-0.67,-0.26]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [-0.08,+0.33]
+claude:claude-sotext MIXED        K2r-K2   n= 25  regret -0.68 [-0.88,-0.47]  info -0.68 [-0.88,-0.47]  severe +0.00 [+0.00,+0.00]  rep_cache +0.16 [+0.04,+0.35]
+claude:claude-sotext PERSIST       K2-K1   n= 25  regret -0.13 [-0.39,+0.06]  info -0.13 [-0.39,+0.06]  severe -0.04 [-0.17,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+claude:claude-sotext PERSIST      K2e-K2   n= 25  regret -0.12 [-0.43,+0.14]  info -0.12 [-0.43,+0.14]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+claude:claude-sotext PERSIST      K2r-K2e  n= 25  regret -0.56 [-0.85,-0.29]  info -0.56 [-0.85,-0.29]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+claude:claude-sotext PERSIST      K2r-K1   n= 25  regret -0.81 [-1.13,-0.52]  info -0.81 [-1.13,-0.52]  severe -0.04 [-0.17,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+claude:claude-sotext PERSIST      K2r-K2   n= 25  regret -0.68 [-0.92,-0.45]  info -0.68 [-0.92,-0.45]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+claude:claude-sotext SHARED        K2-K1   n= 25  regret +0.00 [-0.49,+0.43]  info +0.00 [-0.49,+0.43]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.27,+0.29]
+claude:claude-sotext SHARED       K2e-K2   n= 25  regret -0.19 [-0.63,+0.26]  info -0.19 [-0.63,+0.26]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [-0.29,+0.32]
+claude:claude-sotext SHARED       K2r-K2e  n= 25  regret -0.43 [-0.87,-0.10]  info -0.43 [-0.87,-0.10]  severe +0.00 [+0.00,+0.00]  rep_cache +0.40 [+0.00,+0.92]
+claude:claude-sotext SHARED       K2r-K1   n= 25  regret -0.61 [-1.09,-0.26]  info -0.61 [-1.09,-0.26]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.04,+0.96]
+claude:claude-sotext SHARED       K2r-K2   n= 25  regret -0.62 [-1.04,-0.28]  info -0.62 [-1.04,-0.28]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.12,+0.84]
+claude:claude-sotext TRANSIENT     K2-K1   n= 25  regret +0.47 [+0.08,+1.09]  info +0.47 [+0.08,+1.09]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.24,+0.17]
+claude:claude-sotext TRANSIENT    K2e-K2   n= 25  regret -0.38 [-0.97,+0.16]  info -0.38 [-0.97,+0.16]  severe +0.00 [+0.00,+0.00]  rep_cache +0.16 [-0.21,+0.71]
+claude:claude-sotext TRANSIENT    K2r-K2e  n= 25  regret -0.42 [-0.83,-0.09]  info -0.42 [-0.83,-0.09]  severe +0.00 [+0.00,+0.00]  rep_cache +0.40 [+0.08,+0.84]
+claude:claude-sotext TRANSIENT    K2r-K1   n= 25  regret -0.33 [-0.67,-0.06]  info -0.33 [-0.67,-0.06]  severe +0.00 [+0.00,+0.00]  rep_cache +0.52 [+0.12,+1.04]
+claude:claude-sotext TRANSIENT    K2r-K2   n= 25  regret -0.80 [-1.50,-0.30]  info -0.80 [-1.50,-0.30]  severe +0.00 [+0.00,+0.00]  rep_cache +0.56 [+0.12,+1.08]
+claude:claude-sotext TRANSIENT_P   K2-K1   n= 25  regret +0.26 [-0.17,+0.63]  info +0.26 [-0.17,+0.63]  severe +0.00 [+0.00,+0.00]  rep_cache -0.32 [-0.58,-0.11]
+claude:claude-sotext TRANSIENT_P  K2e-K2   n= 25  regret -0.41 [-0.86,+0.02]  info -0.41 [-0.86,+0.02]  severe +0.00 [+0.00,+0.00]  rep_cache +0.48 [+0.12,+1.07]
+claude:claude-sotext TRANSIENT_P  K2r-K2e  n= 25  regret -0.52 [-1.03,-0.16]  info -0.52 [-1.03,-0.16]  severe +0.00 [+0.00,+0.00]  rep_cache +0.76 [+0.28,+1.42]
+claude:claude-sotext TRANSIENT_P  K2r-K1   n= 25  regret -0.66 [-1.15,-0.26]  info -0.66 [-1.15,-0.26]  severe +0.00 [+0.00,+0.00]  rep_cache +0.92 [+0.44,+1.50]
+claude:claude-sotext TRANSIENT_P  K2r-K2   n= 25  regret -0.92 [-1.23,-0.60]  info -0.92 [-1.23,-0.60]  severe +0.00 [+0.00,+0.00]  rep_cache +1.24 [+0.75,+1.81]
+claude:claude-sotext CORE          K2-K1   n=100  regret +0.13 [-0.07,+0.36]  info +0.14 [-0.05,+0.36]  severe -0.01 [-0.05,+0.00]  rep_cache -0.02 [-0.13,+0.08]
+claude:claude-sotext CORE         K2e-K2   n=100  regret -0.21 [-0.42,-0.00]  info -0.21 [-0.42,-0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.05 [-0.06,+0.17]
+claude:claude-sotext CORE         K2r-K2e  n=100  regret -0.48 [-0.65,-0.34]  info -0.48 [-0.65,-0.34]  severe +0.00 [+0.00,+0.00]  rep_cache +0.35 [+0.16,+0.58]
+claude:claude-sotext CORE         K2r-K1   n=100  regret -0.56 [-0.74,-0.40]  info -0.55 [-0.71,-0.40]  severe -0.01 [-0.05,+0.00]  rep_cache +0.38 [+0.17,+0.63]
+claude:claude-sotext CORE         K2r-K2   n=100  regret -0.69 [-0.89,-0.53]  info -0.69 [-0.89,-0.53]  severe +0.00 [+0.00,+0.00]  rep_cache +0.40 [+0.19,+0.66]
+
+Recovery of the observation model (K1e / K2e / K2p); rates over episodes where defined, errors are means
+model           prot family      cond    n parse struct  pair single fault persist phiErr phantom  emTV accMAE dflt reg|exact reg|wrong
+claude:claude-sotext MIXED       K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.52         -
+claude:claude-sotext MIXED       K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+claude:claude-sotext PERSIST     K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.56         -
+claude:claude-sotext PERSIST     K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+claude:claude-sotext SHARED      K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.43         -
+claude:claude-sotext SHARED      K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+claude:claude-sotext TRANSIENT   K2e    25  1.00   0.64  0.64   0.64  0.64       -   0.03    0.00     -  0.000  0.0      0.45      0.36
+claude:claude-sotext TRANSIENT   K2r    25  1.00   0.64  0.64   0.64  0.64       -   0.03    0.00     -  0.000  0.0      0.00      0.00
+claude:claude-sotext TRANSIENT_P K2e    25  1.00   0.92  1.00   0.92  0.92       -   0.01    0.00     -  0.000  0.0      0.47      1.07
+claude:claude-sotext TRANSIENT_P K2r    25  1.00   0.92  1.00   0.92  0.92       -   0.01    0.00     -  0.000  0.0      0.00      0.00
+claude:claude-sotext CORE        K2e   100  1.00   0.91  0.91   0.91  0.91    1.00   0.01    0.00  0.00  0.000  0.0      0.49      0.36
+claude:claude-sotext CORE        K2r   100  1.00   0.91  0.91   0.91  0.91    1.00   0.01    0.00  0.00  0.000  0.0      0.00      0.00
+
+Twin contrasts (fault family minus its phi=0 twin, same parameters) [95% nested CI]; conditions of runs that include a K2 decomposition condition
+claude:claude-sotext Shared    K1 n= 25  regret +0.29 [-0.12,+0.80]  rep_cache -0.16 [-0.50,+0.12]
+claude:claude-sotext Persist   K1 n= 25  regret +0.15 [-0.36,+0.64]  rep_cache -0.36 [-0.67,-0.12]
+claude:claude-sotext Both      K1 n= 50  regret +0.22 [-0.20,+0.67]  rep_cache -0.26 [-0.52,-0.06]
+claude:claude-sotext Shared    K2 n= 25  regret -0.18 [-0.95,+0.36]  rep_cache -0.12 [-0.40,+0.17]
+claude:claude-sotext Persist   K2 n= 25  regret -0.25 [-0.64,+0.14]  rep_cache -0.04 [-0.17,+0.00]
+claude:claude-sotext Both      K2 n= 50  regret -0.21 [-0.67,+0.16]  rep_cache -0.08 [-0.25,+0.10]
+claude:claude-sotext Shared   K2e n= 25  regret +0.01 [-0.62,+0.57]  rep_cache -0.24 [-0.84,+0.16]
+claude:claude-sotext Persist  K2e n= 25  regret +0.04 [-0.64,+0.58]  rep_cache -0.52 [-1.11,-0.12]
+claude:claude-sotext Both     K2e n= 50  regret +0.03 [-0.54,+0.50]  rep_cache -0.38 [-0.73,-0.10]
+claude:claude-sotext Shared   K2r n= 25  regret +0.00 [+0.00,+0.00]  rep_cache -0.24 [-0.50,-0.04]
+claude:claude-sotext Persist  K2r n= 25  regret +0.00 [+0.00,+0.00]  rep_cache -0.84 [-1.42,-0.38]
+claude:claude-sotext Both     K2r n= 50  regret +0.00 [+0.00,+0.00]  rep_cache -0.54 [-0.85,-0.27]
+
+K2r vs K2e by completion of the JSON (fallback = no usable JSON; key_defaults = phi / shared_fault / persistent / emission / group membership filled; other_defaults = accuracy only; clean = nothing filled)
+claude:claude-sotext MIXED       clean n=25 K2r=0.000 K2e=0.524
+claude:claude-sotext PERSIST     clean n=25 K2r=0.000 K2e=0.556
+claude:claude-sotext SHARED      clean n=25 K2r=0.000 K2e=0.429
+claude:claude-sotext TRANSIENT   clean n=25 K2r=0.000 K2e=0.416
+claude:claude-sotext TRANSIENT_P clean n=25 K2r=0.000 K2e=0.516
+claude:claude-sotext CORE        clean n=100 K2r=0.000 K2e=0.481

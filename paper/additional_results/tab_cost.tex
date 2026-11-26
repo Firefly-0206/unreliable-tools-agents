@@ -1,0 +1,20 @@
+\begin{table}[!htbp]
+\centering
+\caption{Closed-loop run records and cost (30 cells of \agTerraPerCell\ episodes per model). Tokens are summed over all model calls of an episode; for terra they include Codex's own system prompt. Sonnet 5.5 and terra at effort high: \cref{app:newmodels,app:agent-env}.}
+\label{tab:cost}
+\scriptsize
+\begin{tabular}{@{}lrr@{}}
+\toprule
+ & gpt-6.1-terra & flash (non-thinking) \\
+\midrule
+Protocol & text (Codex CLI) & function calling \\
+Rows in log / episodes scored & \agTerraRows\ / \agTerraEpisodes & \agFlashRows\ / \agFlashEpisodes \\
+Model calls & \agTerraApiCalls & \agFlashApiCalls \\
+Mean tool calls per episode & \agTerraCallsMean & \agFlashCallsMean \\
+Input tokens (cache hits), millions & \agTerraPromptTokM\ (\agTerraCacheTokM) & \agFlashPromptTokM\ (\agFlashCacheTokM) \\
+Output tokens (reasoning), millions & \agTerraCompTokM\ (\agTerraReasonTokM) & \agFlashCompTokM\ (\agFlashReasonTokM) \\
+Median latency per episode, s & \agTerraLatMedian & \agFlashLatMedian \\
+Cost & subscription plan & USD \agFlashCostUsd\ list, off-peak \\
+\bottomrule
+\end{tabular}
+\end{table}

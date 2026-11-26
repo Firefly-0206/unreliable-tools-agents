@@ -1,0 +1,100 @@
+{
+ "deltas": [
+  0.0,
+  0.05,
+  0.1,
+  0.15,
+  0.2,
+  0.25,
+  0.3,
+  0.4,
+  0.5,
+  0.6
+ ],
+ "runs": {
+  "flash": {
+   "label": "flash (non-thinking)",
+   "delta": 0.6,
+   "fit_persistent": 0.92,
+   "independent": 0.91,
+   "randomised": 0.86,
+   "repeats_majority": 0.95,
+   "oracle_fit": 0.39,
+   "oracle_indep": 0.53,
+   "delta_indep": 0.6,
+   "calls": 3.16,
+   "esc": 0.04,
+   "regret": 0.846604618314876,
+   "regret_obs": 3.645985677768802,
+   "calls_obs": 3.71,
+   "profile": {
+    "0.0": 0.39,
+    "0.05": 0.45,
+    "0.1": 0.51,
+    "0.15": 0.56,
+    "0.2": 0.64,
+    "0.25": 0.7,
+    "0.3": 0.76,
+    "0.4": 0.87,
+    "0.5": 0.9,
+    "0.6": 0.92
+   }
+  },
+  "terra": {
+   "label": "gpt-6.1-terra (medium)",
+   "delta": 0.3,
+   "fit_persistent": 0.91,
+   "independent": 0.87,
+   "randomised": 0.68,
+   "repeats_majority": 0.9,
+   "oracle_fit": 0.64,
+   "oracle_indep": 0.75,
+   "delta_indep": 0.2,
+   "calls": 3.19,
+   "esc": 0.03,
+   "regret": 0.4527585392600963,
+   "regret_obs": 0.44410743524160223,
+   "calls_obs": 2.99,
+   "profile": {
+    "0.0": 0.64,
+    "0.05": 0.7,
+    "0.1": 0.76,
+    "0.15": 0.81,
+    "0.2": 0.87,
+    "0.25": 0.89,
+    "0.3": 0.91,
+    "0.4": 0.84,
+    "0.5": 0.77,
+    "0.6": 0.75
+   }
+  },
+  "sonnet": {
+   "label": "Sonnet 5.5 (high)",
+   "delta": 0.4,
+   "fit_persistent": 0.87,
+   "independent": 0.69,
+   "randomised": 0.58,
+   "repeats_majority": 0.8,
+   "oracle_fit": 0.57,
+   "oracle_indep": 0.77,
+   "delta_indep": 0.15,
+   "calls": 3.18,
+   "esc": 0.04,
+   "regret": 0.6248015961190865,
+   "regret_obs": 0.6733856009271244,
+   "calls_obs": 2.6,
+   "profile": {
+    "0.0": 0.57,
+    "0.05": 0.63,
+    "0.1": 0.67,
+    "0.15": 0.7,
+    "0.2": 0.78,
+    "0.25": 0.8,
+    "0.3": 0.82,
+    "0.4": 0.87,
+    "0.5": 0.84,
+    "0.6": 0.82
+   }
+  }
+ }
+}

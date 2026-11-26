@@ -1,0 +1,17 @@
+\subsection{Sensitivity to scenarios and to multiplicity}\label{app:sens}
+% src: tables/agent_sens.tex, nums_posthoc.tex (scripts/make_posthoc_outputs.py; raea4/agentenv/results/scenario_sensitivity.json, scenario_sensitivity.py). Post hoc; no model call.
+Every closed-loop interval resamples scenarios first, and there are six; each task was generated once except in the repeated-generation experiment (\cref{app:y}).
+This post hoc analysis, which needs no model call, asks how far the main comparisons depend on a single scenario and on the number of comparisons made.
+It covers \seN\ comparisons that carry the claims of \cref{sec:agent}: the executor gap K2r$-$K2e on the CORE and the held-out episodes and in the second and third domains, and the model-minus-oracle first-call share of the fault-capable tool (the replica tool; in the third domain, either outlet) at fault rates 0.1 and 0.3 in both arms of the sweep and in the second and third domains (\cref{tab:sens}); the third-domain rows were added after its runs.
+For each we report the estimate within every scenario, the estimate and nested interval with each scenario left out in turn, and a nested interval at level $1-0.05/\seN$ (\seBonfLevel\%; 20\,000 draws), the Bonferroni level for this family.
+In \seSameSign\ of the \seN\ comparisons the estimate has the same sign in all six scenarios; in \seLosoOk\ all six leave-one-out intervals exclude zero; and \seBonfOk\ of the Bonferroni intervals exclude zero. The exception to the first count is terra's first-call shortfall in the second domain, which is absent in one scenario and whose Bonferroni interval comes closest to zero among the first-call comparisons. The second- and third-domain gaps are taken over all 200 episodes here, so their estimates differ from the planned contrasts of \cref{app:d2,app:d3}.
+Two limits remain. With six scenarios an exact sign-flip test on scenario means cannot give a two-sided $p$ below $2/64=0.031$, so no correction for multiplicity is attainable at the scenario level alone; the Bonferroni intervals rely on the variation of episodes within scenarios as well.
+And the family is the set of comparisons above, chosen after the results were known; the secondary contrasts of the individual experiments (between arms, between surfaces, between layers of supplied aids) are not corrected, and those whose intervals include or approach zero should be read as not detected.
+
+\begin{table}[!htbp]
+\centering
+\caption{Sensitivity of the main comparisons (post hoc). Estimate with a nested 95\% interval from this analysis's bootstrap (it can differ slightly from the planned-contrast tables); number of scenarios in which the estimate has the pooled sign; range of the estimate when one scenario is left out, and whether all six leave-one-out 95\% intervals exclude zero; nested interval at the Bonferroni level for the \seN\ comparisons. Regret in regret units, first-call shares in points.}
+\label{tab:sens}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{\input{tables/agent_sens}}
+\end{table}

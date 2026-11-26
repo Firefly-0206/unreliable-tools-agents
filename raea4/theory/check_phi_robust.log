@@ -1,0 +1,20 @@
+﻿[RETRY] exclusion condition holds (true parameters) in 79.0% of 300 instances; majority-class baseline ('always holds') agreement 79.0%
+   n=   25: agreement 81.7% (baseline 79.0%, gain +2.7%), balanced accuracy 72.7%; false exclusions 27/63, missed 28/237; error < margin (guarantee applies) in 54%
+   n=   50: agreement 85.7% (baseline 79.0%, gain +6.7%), balanced accuracy 75.2%; false exclusions 27/63, missed 16/237; error < margin (guarantee applies) in 68%
+   n=  100: agreement 89.0% (baseline 79.0%, gain +10.0%), balanced accuracy 79.1%; false exclusions 24/63, missed 9/237; error < margin (guarantee applies) in 74%
+   n=  400: agreement 91.3% (baseline 79.0%, gain +12.3%), balanced accuracy 84.6%; false exclusions 17/63, missed 9/237; error < margin (guarantee applies) in 84%
+   n= 1000: agreement 97.3% (baseline 79.0%, gain +18.3%), balanced accuracy 96.0%; false exclusions 4/63, missed 4/237; error < margin (guarantee applies) in 92%
+   certificate n=100, alpha=0.05, 1000 resamples: certified 170/300; false certification among false-condition instances 3/63 = 4.8% [Wilson 95% 1.6%, 13.1%]; power 167/237 = 70.5%
+   certificate n=100, alpha=0.025, 1000 resamples: certified 157/300; false certification among false-condition instances 2/63 = 3.2% [Wilson 95% 0.9%, 10.9%]; power 155/237 = 65.4%
+   certificate n=400, alpha=0.05, 1000 resamples: certified 212/300; false certification among false-condition instances 1/63 = 1.6% [Wilson 95% 0.3%, 8.5%]; power 211/237 = 89.0%
+   certificate n=400, alpha=0.025, 1000 resamples: certified 204/300; false certification among false-condition instances 0/63 = 0.0% [Wilson 95% -0.0%, 5.7%]; power 204/237 = 86.1%
+[SHARED] exclusion condition holds (true parameters) in 72.7% of 300 instances; majority-class baseline ('always holds') agreement 72.7%
+   n=   25: agreement 76.7% (baseline 72.7%, gain +4.0%), balanced accuracy 69.1%; false exclusions 39/82, missed 31/218; error < margin (guarantee applies) in 46%
+   n=   50: agreement 81.7% (baseline 72.7%, gain +9.0%), balanced accuracy 74.1%; false exclusions 35/82, missed 20/218; error < margin (guarantee applies) in 57%
+   n=  100: agreement 87.7% (baseline 72.7%, gain +15.0%), balanced accuracy 83.9%; false exclusions 20/82, missed 17/218; error < margin (guarantee applies) in 68%
+   n=  400: agreement 95.7% (baseline 72.7%, gain +23.0%), balanced accuracy 94.0%; false exclusions 8/82, missed 5/218; error < margin (guarantee applies) in 87%
+   n= 1000: agreement 98.0% (baseline 72.7%, gain +25.3%), balanced accuracy 97.5%; false exclusions 3/82, missed 3/218; error < margin (guarantee applies) in 92%
+   certificate n=100, alpha=0.05, 1000 resamples: certified 141/300; false certification among false-condition instances 1/82 = 1.2% [Wilson 95% 0.2%, 6.6%]; power 140/218 = 64.2%
+   certificate n=100, alpha=0.025, 1000 resamples: certified 122/300; false certification among false-condition instances 1/82 = 1.2% [Wilson 95% 0.2%, 6.6%]; power 121/218 = 55.5%
+   certificate n=400, alpha=0.05, 1000 resamples: certified 183/300; false certification among false-condition instances 0/82 = 0.0% [Wilson 95% 0.0%, 4.5%]; power 183/218 = 83.9%
+   certificate n=400, alpha=0.025, 1000 resamples: certified 173/300; false certification among false-condition instances 0/82 = 0.0% [Wilson 95% 0.0%, 4.5%]; power 173/218 = 79.4%

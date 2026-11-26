@@ -1,0 +1,78 @@
+{
+ "base_prompt_tokens": {
+  "K1": 1656,
+  "K2": 1404,
+  "K3": 1686,
+  "K4": 1679,
+  "K4c": 1680
+ },
+ "episodes_per_model": 1000,
+ "models": {
+  "deepseek-chat": [
+   {
+    "turns": 4,
+    "out_per_turn": 300,
+    "in_per_episode": 8805,
+    "out_per_episode": 1200,
+    "total_in_M": 8.81,
+    "total_out_M": 1.2,
+    "cost": 2.04,
+    "cost_peak": 4.08
+   },
+   {
+    "turns": 6,
+    "out_per_turn": 2800,
+    "in_per_episode": 53030,
+    "out_per_episode": 16800,
+    "total_in_M": 53.03,
+    "total_out_M": 16.8,
+    "cost": 18.03,
+    "cost_peak": 36.07
+   }
+  ],
+  "deepseek-reasoner": [
+   {
+    "turns": 4,
+    "out_per_turn": 5000,
+    "in_per_episode": 37005,
+    "out_per_episode": 20000,
+    "total_in_M": 37.01,
+    "total_out_M": 20.0,
+    "cost": 17.55,
+    "cost_peak": 35.1
+   },
+   {
+    "turns": 6,
+    "out_per_turn": 31000,
+    "in_per_episode": 476030,
+    "out_per_episode": 186000,
+    "total_in_M": 476.03,
+    "total_out_M": 186.0,
+    "cost": 183.0,
+    "cost_peak": 366.01
+   }
+  ],
+  "deepseek-v4-pro": [
+   {
+    "turns": 4,
+    "out_per_turn": 5000,
+    "in_per_episode": 37005,
+    "out_per_episode": 20000,
+    "total_in_M": 37.01,
+    "total_out_M": 20.0,
+    "cost": 64.02,
+    "cost_peak": 128.05
+   },
+   {
+    "turns": 6,
+    "out_per_turn": 31000,
+    "in_per_episode": 476030,
+    "out_per_episode": 186000,
+    "total_in_M": 476.03,
+    "total_out_M": 186.0,
+    "cost": 682.46,
+    "cost_peak": 1364.92
+   }
+  ]
+ }
+}

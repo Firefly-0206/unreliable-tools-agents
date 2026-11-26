@@ -1,0 +1,188 @@
+﻿model           prot family      cond    n   loss       regret [95% CI]  info/verd severe   esc   acc calls  useC  repC  repL noSub Probe1 d-Probe1
+codex:gpt-6.1-tetext MIXED       K1     25   3.76    0.33 [ 0.04, 1.08] 0.09/ 0.25   0.00  0.00  0.96  2.96  0.88  0.16  1.04  0.00   2.89    -2.56
+codex:gpt-6.1-tetext MIXED       K1e    25   2.88    0.19 [ 0.08, 0.34] 0.19/ 0.00   0.00  0.00  1.00  2.88  0.96  0.04  1.04  0.00   2.89    -2.70
+codex:gpt-6.1-tetext MIXED       K2     25   3.48    0.41 [ 0.20, 0.66] 0.41/ 0.00   0.00  0.04  0.96  3.16  0.48  0.04  1.68  0.00   2.89    -2.48
+codex:gpt-6.1-tetext MIXED       K2a    25   3.36    0.25 [ 0.07, 0.55] 0.25/ 0.00   0.00  0.04  0.96  3.04  0.88  0.12  1.16  0.00   2.89    -2.64
+codex:gpt-6.1-tetext MIXED       K2e    25   3.40    0.22 [ 0.10, 0.41] 0.22/ 0.00   0.00  0.04  0.96  3.08  0.84  0.04  1.32  0.00   2.89    -2.67
+codex:gpt-6.1-tetext MIXED       K2p    25   3.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  2.96  0.96  0.16  1.08  0.00   2.89    -2.89
+codex:gpt-6.1-tetext MIXED       K3     25   3.40    0.25 [ 0.07, 0.55] 0.25/ 0.00   0.00  0.04  0.96  3.08  0.92  0.16  1.12  0.00   2.89    -2.64
+codex:gpt-6.1-tetext MIXED       K4     25   3.32    0.15 [ 0.03, 0.41] 0.15/ 0.00   0.00  0.04  0.96  3.00  0.88  0.12  1.20  0.00   2.89    -2.74
+codex:gpt-6.1-tetext MIXED       K4c    25   3.48    0.19 [ 0.04, 0.46] 0.19/ 0.00   0.00  0.04  0.96  3.04  0.80  0.12  1.28  0.00   2.89    -2.70
+codex:gpt-6.1-tetext PERSIST     K1     25   5.00    0.33 [ 0.22, 0.45] 0.33/ 0.00   0.00  0.00  0.88  2.60  0.64  0.08  1.00  0.00   2.07    -1.74
+codex:gpt-6.1-tetext PERSIST     K1e    25   4.84    0.49 [ 0.29, 0.73] 0.49/ 0.00   0.00  0.12  0.84  3.08  0.64  0.12  1.44  0.00   2.07    -1.58
+codex:gpt-6.1-tetext PERSIST     K2     25   4.92    0.69 [ 0.36, 1.13] 0.69/ 0.00   0.00  0.12  0.84  2.92  0.16  0.00  1.72  0.00   2.07    -1.38
+codex:gpt-6.1-tetext PERSIST     K2a    25   4.60    0.31 [ 0.19, 0.46] 0.31/ 0.00   0.00  0.00  0.92  2.88  0.64  0.04  1.28  0.00   2.07    -1.76
+codex:gpt-6.1-tetext PERSIST     K2e    25   5.16    0.52 [ 0.33, 0.75] 0.52/ 0.00   0.00  0.12  0.84  3.32  0.40  0.08  1.80  0.00   2.07    -1.55
+codex:gpt-6.1-tetext PERSIST     K2p    25   4.20    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.92  2.84  1.00  0.44  0.76  0.00   2.07    -2.07
+codex:gpt-6.1-tetext PERSIST     K3     25   5.48    0.32 [ 0.19, 0.47] 0.32/ 0.00   0.00  0.04  0.84  2.76  0.68  0.04  1.16  0.00   2.07    -1.75
+codex:gpt-6.1-tetext PERSIST     K4     25   5.12    0.36 [ 0.20, 0.55] 0.36/ 0.00   0.00  0.08  0.84  2.84  0.64  0.12  1.16  0.00   2.07    -1.71
+codex:gpt-6.1-tetext PERSIST     K4c    25   4.92    0.37 [ 0.23, 0.52] 0.37/ 0.00   0.00  0.08  0.84  2.68  0.64  0.08  1.12  0.00   2.07    -1.70
+codex:gpt-6.1-tetext SHARED      K1     25   2.52    0.17 [ 0.00, 0.59] 0.17/ 0.00   0.00  0.00  1.00  1.76  1.00  0.48  0.00  0.00   2.03    -1.87
+codex:gpt-6.1-tetext SHARED      K1e    25   3.60    0.45 [ 0.12, 0.97] 0.45/ 0.00   0.00  0.04  0.92  1.84  1.00  0.44  0.08  0.00   2.03    -1.58
+codex:gpt-6.1-tetext SHARED      K2     25   4.72    1.07 [ 0.65, 1.53] 1.07/ 0.00   0.00  0.04  0.88  1.76  0.80  0.16  0.20  0.00   2.03    -0.96
+codex:gpt-6.1-tetext SHARED      K2a    25   3.12    0.65 [ 0.09, 1.94] 0.36/ 0.28   0.00  0.08  0.92  1.76  0.96  0.40  0.08  0.00   2.03    -1.39
+codex:gpt-6.1-tetext SHARED      K2e    25   4.52    0.66 [ 0.21, 1.32] 0.66/ 0.00   0.00  0.04  0.88  1.64  1.00  0.16  0.04  0.00   2.03    -1.38
+codex:gpt-6.1-tetext SHARED      K2p    25   2.64    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  1.80  1.00  0.60  0.00  0.00   2.03    -2.03
+codex:gpt-6.1-tetext SHARED      K3     25   2.68    0.21 [ 0.03, 0.57] 0.21/ 0.00   0.00  0.04  0.96  1.76  1.00  0.48  0.04  0.00   2.03    -1.82
+codex:gpt-6.1-tetext SHARED      K4     25   2.60    0.21 [ 0.01, 0.57] 0.21/ 0.00   0.00  0.00  1.00  1.68  0.96  0.36  0.00  0.00   2.03    -1.82
+codex:gpt-6.1-tetext SHARED      K4c    25   2.92    0.14 [ 0.03, 0.28] 0.14/ 0.00   0.00  0.04  0.96  1.88  1.00  0.56  0.04  0.00   2.03    -1.90
+codex:gpt-6.1-tetext TRANSIENT   K1     25   1.88    0.03 [ 0.00, 0.07] 0.03/ 0.00   0.00  0.00  1.00  1.88  1.00  0.88  0.00  0.00   4.94    -4.91
+codex:gpt-6.1-tetext TRANSIENT   K1e    25   1.84    0.03 [ 0.00, 0.08] 0.03/ 0.00   0.00  0.00  1.00  1.84  1.00  0.84  0.00  0.00   4.94    -4.92
+codex:gpt-6.1-tetext TRANSIENT   K2     25   6.00    1.27 [ 0.52, 2.21] 1.27/ 0.00   0.04  0.04  0.84  1.36  1.00  0.12  0.00  0.00   4.94    -3.67
+codex:gpt-6.1-tetext TRANSIENT   K2a    25   1.88    0.03 [ 0.00, 0.10] 0.03/ 0.00   0.00  0.00  1.00  1.88  1.00  0.88  0.00  0.00   4.94    -4.91
+codex:gpt-6.1-tetext TRANSIENT   K2e    25   1.84    0.05 [ 0.01, 0.10] 0.05/ 0.00   0.00  0.00  1.00  1.84  1.00  0.84  0.00  0.00   4.94    -4.90
+codex:gpt-6.1-tetext TRANSIENT   K2p    25   1.84    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  1.84  1.00  0.84  0.00  0.00   4.94    -4.94
+codex:gpt-6.1-tetext TRANSIENT   K3     25   1.88    0.01 [ 0.00, 0.04] 0.01/ 0.00   0.00  0.00  1.00  1.88  1.00  0.88  0.00  0.00   4.94    -4.93
+codex:gpt-6.1-tetext TRANSIENT   K4     25   1.84    0.04 [ 0.00, 0.10] 0.04/ 0.00   0.00  0.00  1.00  1.84  1.00  0.84  0.00  0.00   4.94    -4.91
+codex:gpt-6.1-tetext TRANSIENT   K4c    25   1.92    0.01 [ 0.00, 0.03] 0.01/ 0.00   0.00  0.00  1.00  1.92  1.00  0.92  0.00  0.00   4.94    -4.93
+codex:gpt-6.1-tetext TRANSIENT_P K1     25   2.32    0.03 [ 0.00, 0.11] 0.03/ 0.00   0.00  0.00  1.00  2.32  1.00  1.32  0.00  0.00   4.62    -4.58
+codex:gpt-6.1-tetext TRANSIENT_P K1e    25   2.36    0.01 [ 0.00, 0.03] 0.01/ 0.00   0.00  0.00  1.00  2.36  1.00  1.36  0.00  0.00   4.62    -4.61
+codex:gpt-6.1-tetext TRANSIENT_P K2     25   3.44    0.97 [ 0.54, 1.58] 0.97/ 0.00   0.00  0.00  0.92  1.84  1.00  0.00  0.32  0.00   4.62    -3.64
+codex:gpt-6.1-tetext TRANSIENT_P K2a    25   2.24    0.01 [ 0.00, 0.04] 0.01/ 0.00   0.00  0.00  1.00  2.24  1.00  1.24  0.00  0.00   4.62    -4.61
+codex:gpt-6.1-tetext TRANSIENT_P K2e    25   2.16    0.12 [ 0.01, 0.28] 0.12/ 0.00   0.00  0.00  1.00  2.16  1.00  1.08  0.00  0.00   4.62    -4.49
+codex:gpt-6.1-tetext TRANSIENT_P K2p    25   2.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.00  1.00  2.28  1.00  1.28  0.00  0.00   4.62    -4.62
+codex:gpt-6.1-tetext TRANSIENT_P K3     25   2.40    0.04 [ 0.00, 0.12] 0.04/ 0.00   0.00  0.00  1.00  2.40  1.00  1.40  0.00  0.00   4.62    -4.58
+codex:gpt-6.1-tetext TRANSIENT_P K4     25   2.24    0.03 [ 0.00, 0.07] 0.03/ 0.00   0.00  0.00  1.00  2.24  1.00  1.24  0.00  0.00   4.62    -4.59
+codex:gpt-6.1-tetext TRANSIENT_P K4c    25   2.96    0.02 [ 0.00, 0.07] 0.02/ 0.00   0.00  0.00  0.96  2.16  1.00  1.16  0.00  0.00   4.62    -4.60
+codex:gpt-6.1-tetext VALUE       K1     25   6.96    0.39 [ 0.12, 0.74] 0.32/ 0.07   0.00  0.04  0.80  2.00  1.00  0.28  0.12  0.00   1.47    -1.07
+codex:gpt-6.1-tetext VALUE       K2     25   6.76    0.75 [ 0.38, 1.22] 0.75/ 0.00   0.00  0.16  0.76  1.92  0.76  0.16  0.12  0.00   1.47    -0.71
+codex:gpt-6.1-tetext VALUE       K3     25   7.60    0.28 [ 0.02, 0.70] 0.28/ 0.00   0.00  0.08  0.76  1.96  0.92  0.20  0.12  0.00   1.47    -1.19
+codex:gpt-6.1-tetext VALUE       K4     25   8.60    0.50 [ 0.22, 0.86] 0.50/ 0.00   0.00  0.12  0.68  2.12  1.00  0.24  0.12  0.00   1.47    -0.97
+codex:gpt-6.1-tetext VALUE       K4c    25   6.92    0.40 [ 0.06, 0.89] 0.40/ 0.00   0.00  0.16  0.76  2.20  1.00  0.32  0.16  0.00   1.47    -1.07
+
+Paired condition contrasts (A - B over common episodes) [95% nested CI]
+codex:gpt-6.1-tetext MIXED         K2-K1   n= 25  regret +0.07 [-0.77,+0.57]  info +0.32 [+0.09,+0.59]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.29,+0.00]
+codex:gpt-6.1-tetext MIXED         K3-K1   n= 25  regret -0.08 [-0.95,+0.43]  info +0.16 [-0.04,+0.47]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.21,+0.21]
+codex:gpt-6.1-tetext MIXED         K4-K1   n= 25  regret -0.18 [-1.01,+0.28]  info +0.06 [-0.12,+0.33]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.24,+0.15]
+codex:gpt-6.1-tetext MIXED        K4c-K1   n= 25  regret -0.14 [-1.01,+0.34]  info +0.10 [-0.08,+0.39]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.24,+0.12]
+codex:gpt-6.1-tetext MIXED         K4-K4c  n= 25  regret -0.04 [-0.13,+0.04]  info -0.04 [-0.13,+0.04]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.16,+0.16]
+codex:gpt-6.1-tetext MIXED        K2a-K1   n= 25  regret -0.08 [-0.95,+0.44]  info +0.16 [-0.04,+0.47]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.24,+0.15]
+codex:gpt-6.1-tetext MIXED        K2a-K2   n= 25  regret -0.15 [-0.48,+0.20]  info -0.15 [-0.48,+0.20]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [+0.00,+0.28]
+codex:gpt-6.1-tetext MIXED        K2e-K2   n= 25  regret -0.18 [-0.50,+0.11]  info -0.18 [-0.50,+0.11]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+codex:gpt-6.1-tetext MIXED        K2p-K2   n= 25  regret -0.41 [-0.66,-0.20]  info -0.41 [-0.66,-0.20]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [+0.00,+0.29]
+codex:gpt-6.1-tetext MIXED        K2p-K1   n= 25  regret -0.33 [-1.08,-0.04]  info -0.09 [-0.17,-0.04]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.16,+0.16]
+codex:gpt-6.1-tetext MIXED        K1e-K1   n= 25  regret -0.14 [-0.87,+0.22]  info +0.11 [-0.03,+0.28]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.29,+0.00]
+codex:gpt-6.1-tetext MIXED        K2e-K1e  n= 25  regret +0.03 [-0.09,+0.16]  info +0.03 [-0.09,+0.16]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.16,+0.15]
+codex:gpt-6.1-tetext MIXED        K2p-K2e  n= 25  regret -0.22 [-0.41,-0.10]  info -0.22 [-0.41,-0.10]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [+0.00,+0.29]
+codex:gpt-6.1-tetext PERSIST       K2-K1   n= 25  regret +0.37 [+0.02,+0.84]  info +0.37 [+0.02,+0.84]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.24,+0.00]
+codex:gpt-6.1-tetext PERSIST       K3-K1   n= 25  regret -0.01 [-0.17,+0.16]  info -0.01 [-0.17,+0.16]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.17,+0.00]
+codex:gpt-6.1-tetext PERSIST       K4-K1   n= 25  regret +0.04 [-0.12,+0.21]  info +0.04 [-0.12,+0.21]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [+0.00,+0.15]
+codex:gpt-6.1-tetext PERSIST      K4c-K1   n= 25  regret +0.04 [-0.12,+0.20]  info +0.04 [-0.12,+0.20]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.16,+0.16]
+codex:gpt-6.1-tetext PERSIST       K4-K4c  n= 25  regret -0.00 [-0.14,+0.17]  info -0.00 [-0.14,+0.17]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [-0.12,+0.22]
+codex:gpt-6.1-tetext PERSIST      K2a-K1   n= 25  regret -0.02 [-0.17,+0.14]  info -0.02 [-0.17,+0.14]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.17,+0.00]
+codex:gpt-6.1-tetext PERSIST      K2a-K2   n= 25  regret -0.38 [-0.86,+0.03]  info -0.38 [-0.86,+0.03]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [+0.00,+0.16]
+codex:gpt-6.1-tetext PERSIST      K2e-K2   n= 25  regret -0.17 [-0.62,+0.14]  info -0.17 [-0.62,+0.14]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [+0.00,+0.24]
+codex:gpt-6.1-tetext PERSIST      K2p-K2   n= 25  regret -0.69 [-1.13,-0.36]  info -0.69 [-1.13,-0.36]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+codex:gpt-6.1-tetext PERSIST      K2p-K1   n= 25  regret -0.33 [-0.45,-0.22]  info -0.33 [-0.45,-0.22]  severe +0.00 [+0.00,+0.00]  rep_cache +0.36 [+0.08,+0.68]
+codex:gpt-6.1-tetext PERSIST      K1e-K1   n= 25  regret +0.16 [-0.06,+0.41]  info +0.16 [-0.06,+0.41]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [+0.00,+0.17]
+codex:gpt-6.1-tetext PERSIST      K2e-K1e  n= 25  regret +0.03 [-0.30,+0.33]  info +0.03 [-0.30,+0.33]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.17,+0.00]
+codex:gpt-6.1-tetext PERSIST      K2p-K2e  n= 25  regret -0.52 [-0.75,-0.33]  info -0.52 [-0.75,-0.33]  severe +0.00 [+0.00,+0.00]  rep_cache +0.36 [+0.08,+0.68]
+codex:gpt-6.1-tetext SHARED        K2-K1   n= 25  regret +0.90 [+0.22,+1.48]  info +0.90 [+0.22,+1.48]  severe +0.00 [+0.00,+0.00]  rep_cache -0.32 [-0.65,-0.07]
+codex:gpt-6.1-tetext SHARED        K3-K1   n= 25  regret +0.04 [-0.45,+0.51]  info +0.04 [-0.45,+0.51]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.21,+0.21]
+codex:gpt-6.1-tetext SHARED        K4-K1   n= 25  regret +0.04 [-0.46,+0.50]  info +0.04 [-0.46,+0.50]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.29,+0.00]
+codex:gpt-6.1-tetext SHARED       K4c-K1   n= 25  regret -0.03 [-0.47,+0.19]  info -0.03 [-0.47,+0.19]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [-0.12,+0.29]
+codex:gpt-6.1-tetext SHARED        K4-K4c  n= 25  regret +0.08 [-0.15,+0.44]  info +0.08 [-0.15,+0.44]  severe +0.00 [+0.00,+0.00]  rep_cache -0.20 [-0.42,-0.04]
+codex:gpt-6.1-tetext SHARED       K2a-K1   n= 25  regret +0.48 [-0.27,+1.81]  info +0.20 [-0.33,+0.68]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.24,+0.00]
+codex:gpt-6.1-tetext SHARED       K2a-K2   n= 25  regret -0.42 [-1.18,+0.80]  info -0.71 [-1.21,-0.20]  severe +0.00 [+0.00,+0.00]  rep_cache +0.24 [+0.00,+0.54]
+codex:gpt-6.1-tetext SHARED       K2e-K2   n= 25  regret -0.41 [-1.12,+0.48]  info -0.41 [-1.12,+0.48]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.24,+0.21]
+codex:gpt-6.1-tetext SHARED       K2p-K2   n= 25  regret -1.07 [-1.53,-0.65]  info -1.07 [-1.53,-0.65]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.08,+0.92]
+codex:gpt-6.1-tetext SHARED       K2p-K1   n= 25  regret -0.17 [-0.59,+0.00]  info -0.17 [-0.59,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [+0.00,+0.38]
+codex:gpt-6.1-tetext SHARED       K1e-K1   n= 25  regret +0.28 [-0.19,+0.78]  info +0.28 [-0.19,+0.78]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.29,+0.29]
+codex:gpt-6.1-tetext SHARED       K2e-K1e  n= 25  regret +0.20 [-0.25,+0.69]  info +0.20 [-0.25,+0.69]  severe +0.00 [+0.00,+0.00]  rep_cache -0.28 [-0.54,-0.08]
+codex:gpt-6.1-tetext SHARED       K2p-K2e  n= 25  regret -0.66 [-1.32,-0.21]  info -0.66 [-1.32,-0.21]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.11,+0.92]
+codex:gpt-6.1-tetext TRANSIENT     K2-K1   n= 25  regret +1.24 [+0.47,+2.19]  info +1.24 [+0.47,+2.19]  severe +0.04 [+0.00,+0.17]  rep_cache -0.76 [-1.17,-0.44]
+codex:gpt-6.1-tetext TRANSIENT     K3-K1   n= 25  regret -0.02 [-0.06,+0.03]  info -0.02 [-0.06,+0.03]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.27,+0.33]
+codex:gpt-6.1-tetext TRANSIENT     K4-K1   n= 25  regret +0.01 [-0.03,+0.07]  info +0.01 [-0.03,+0.07]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.20,+0.08]
+codex:gpt-6.1-tetext TRANSIENT    K4c-K1   n= 25  regret -0.02 [-0.06,+0.00]  info -0.02 [-0.06,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [-0.20,+0.33]
+codex:gpt-6.1-tetext TRANSIENT     K4-K4c  n= 25  regret +0.03 [-0.01,+0.09]  info +0.03 [-0.01,+0.09]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.36,+0.15]
+codex:gpt-6.1-tetext TRANSIENT    K2a-K1   n= 25  regret +0.00 [-0.06,+0.08]  info +0.00 [-0.06,+0.08]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.28,+0.33]
+codex:gpt-6.1-tetext TRANSIENT    K2a-K2   n= 25  regret -1.24 [-2.19,-0.48]  info -1.24 [-2.19,-0.48]  severe -0.04 [-0.17,+0.00]  rep_cache +0.76 [+0.30,+1.29]
+codex:gpt-6.1-tetext TRANSIENT    K2e-K2   n= 25  regret -1.22 [-2.15,-0.47]  info -1.22 [-2.15,-0.47]  severe -0.04 [-0.17,+0.00]  rep_cache +0.72 [+0.28,+1.25]
+codex:gpt-6.1-tetext TRANSIENT    K2p-K2   n= 25  regret -1.27 [-2.21,-0.52]  info -1.27 [-2.21,-0.52]  severe -0.04 [-0.17,+0.00]  rep_cache +0.72 [+0.27,+1.29]
+codex:gpt-6.1-tetext TRANSIENT    K2p-K1   n= 25  regret -0.03 [-0.07,+0.00]  info -0.03 [-0.07,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.30,+0.28]
+codex:gpt-6.1-tetext TRANSIENT    K1e-K1   n= 25  regret -0.01 [-0.06,+0.07]  info -0.01 [-0.06,+0.07]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.32,+0.29]
+codex:gpt-6.1-tetext TRANSIENT    K2e-K1e  n= 25  regret +0.02 [-0.02,+0.05]  info +0.02 [-0.02,+0.05]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.20,+0.19]
+codex:gpt-6.1-tetext TRANSIENT    K2p-K2e  n= 25  regret -0.05 [-0.10,-0.01]  info -0.05 [-0.10,-0.01]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.20,+0.21]
+codex:gpt-6.1-tetext TRANSIENT_P   K2-K1   n= 25  regret +0.94 [+0.47,+1.57]  info +0.94 [+0.47,+1.57]  severe +0.00 [+0.00,+0.00]  rep_cache -1.32 [-1.83,-0.92]
+codex:gpt-6.1-tetext TRANSIENT_P   K3-K1   n= 25  regret +0.01 [+0.00,+0.03]  info +0.01 [+0.00,+0.03]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [+0.00,+0.25]
+codex:gpt-6.1-tetext TRANSIENT_P   K4-K1   n= 25  regret -0.01 [-0.08,+0.05]  info -0.01 [-0.08,+0.05]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.36,+0.12]
+codex:gpt-6.1-tetext TRANSIENT_P  K4c-K1   n= 25  regret -0.01 [-0.09,+0.03]  info -0.01 [-0.09,+0.03]  severe +0.00 [+0.00,+0.00]  rep_cache -0.16 [-0.50,+0.00]
+codex:gpt-6.1-tetext TRANSIENT_P   K4-K4c  n= 25  regret +0.01 [-0.03,+0.05]  info +0.01 [-0.03,+0.05]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [-0.08,+0.36]
+codex:gpt-6.1-tetext TRANSIENT_P  K2a-K1   n= 25  regret -0.02 [-0.10,+0.03]  info -0.02 [-0.10,+0.03]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.38,+0.12]
+codex:gpt-6.1-tetext TRANSIENT_P  K2a-K2   n= 25  regret -0.97 [-1.57,-0.52]  info -0.97 [-1.57,-0.52]  severe +0.00 [+0.00,+0.00]  rep_cache +1.24 [+0.76,+1.80]
+codex:gpt-6.1-tetext TRANSIENT_P  K2e-K2   n= 25  regret -0.85 [-1.45,-0.42]  info -0.85 [-1.45,-0.42]  severe +0.00 [+0.00,+0.00]  rep_cache +1.08 [+0.62,+1.65]
+codex:gpt-6.1-tetext TRANSIENT_P  K2p-K2   n= 25  regret -0.97 [-1.58,-0.54]  info -0.97 [-1.58,-0.54]  severe +0.00 [+0.00,+0.00]  rep_cache +1.28 [+0.81,+1.81]
+codex:gpt-6.1-tetext TRANSIENT_P  K2p-K1   n= 25  regret -0.03 [-0.11,+0.00]  info -0.03 [-0.11,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.32,+0.16]
+codex:gpt-6.1-tetext TRANSIENT_P  K1e-K1   n= 25  regret -0.02 [-0.10,+0.02]  info -0.02 [-0.10,+0.02]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [-0.28,+0.32]
+codex:gpt-6.1-tetext TRANSIENT_P  K2e-K1e  n= 25  regret +0.12 [+0.00,+0.28]  info +0.12 [+0.00,+0.28]  severe +0.00 [+0.00,+0.00]  rep_cache -0.28 [-0.54,-0.04]
+codex:gpt-6.1-tetext TRANSIENT_P  K2p-K2e  n= 25  regret -0.12 [-0.28,-0.01]  info -0.12 [-0.28,-0.01]  severe +0.00 [+0.00,+0.00]  rep_cache +0.20 [+0.04,+0.40]
+codex:gpt-6.1-tetext VALUE         K2-K1   n= 25  regret +0.36 [-0.06,+0.86]  info +0.43 [+0.03,+0.91]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.35,+0.12]
+codex:gpt-6.1-tetext VALUE         K3-K1   n= 25  regret -0.11 [-0.53,+0.37]  info -0.04 [-0.41,+0.46]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.31,+0.12]
+codex:gpt-6.1-tetext VALUE         K4-K1   n= 25  regret +0.10 [-0.33,+0.54]  info +0.18 [-0.17,+0.61]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.30,+0.32]
+codex:gpt-6.1-tetext VALUE        K4c-K1   n= 25  regret +0.00 [-0.36,+0.45]  info +0.07 [-0.29,+0.56]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [-0.16,+0.25]
+codex:gpt-6.1-tetext VALUE         K4-K4c  n= 25  regret +0.10 [-0.25,+0.50]  info +0.10 [-0.25,+0.50]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.36,+0.28]
+codex:gpt-6.1-tetext CORE          K2-K1   n=100  regret +0.65 [+0.24,+1.06]  info +0.71 [+0.40,+1.06]  severe +0.01 [+0.00,+0.04]  rep_cache -0.32 [-0.49,-0.18]
+codex:gpt-6.1-tetext CORE          K3-K1   n=100  regret -0.02 [-0.28,+0.18]  info +0.05 [-0.11,+0.19]  severe +0.00 [+0.00,+0.00]  rep_cache -0.01 [-0.10,+0.09]
+codex:gpt-6.1-tetext CORE          K4-K1   n=100  regret -0.02 [-0.29,+0.19]  info +0.04 [-0.13,+0.20]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.12,+0.04]
+codex:gpt-6.1-tetext CORE         K4c-K1   n=100  regret -0.04 [-0.30,+0.14]  info +0.02 [-0.12,+0.15]  severe +0.00 [+0.00,+0.00]  rep_cache +0.02 [-0.06,+0.12]
+codex:gpt-6.1-tetext CORE          K4-K4c  n=100  regret +0.02 [-0.06,+0.11]  info +0.02 [-0.06,+0.11]  severe +0.00 [+0.00,+0.00]  rep_cache -0.06 [-0.17,+0.04]
+codex:gpt-6.1-tetext CORE         K2a-K1   n=100  regret +0.10 [-0.22,+0.44]  info +0.09 [-0.07,+0.22]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.13,+0.07]
+codex:gpt-6.1-tetext CORE         K2a-K2   n=100  regret -0.55 [-0.89,-0.25]  info -0.62 [-0.95,-0.36]  severe -0.01 [-0.04,+0.00]  rep_cache +0.28 [+0.14,+0.46]
+codex:gpt-6.1-tetext CORE         K2e-K2   n=100  regret -0.50 [-0.85,-0.18]  info -0.50 [-0.85,-0.18]  severe -0.01 [-0.04,+0.00]  rep_cache +0.20 [+0.06,+0.39]
+codex:gpt-6.1-tetext CORE         K2p-K2   n=100  regret -0.86 [-1.20,-0.58]  info -0.86 [-1.20,-0.58]  severe -0.01 [-0.04,+0.00]  rep_cache +0.43 [+0.23,+0.68]
+codex:gpt-6.1-tetext CORE         K2p-K1   n=100  regret -0.21 [-0.44,-0.09]  info -0.15 [-0.28,-0.08]  severe +0.00 [+0.00,+0.00]  rep_cache +0.11 [-0.02,+0.26]
+codex:gpt-6.1-tetext CORE         K1e-K1   n=100  regret +0.07 [-0.20,+0.27]  info +0.14 [-0.02,+0.29]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.13,+0.08]
+codex:gpt-6.1-tetext CORE         K2e-K1e  n=100  regret +0.07 [-0.10,+0.25]  info +0.07 [-0.10,+0.25]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.18,+0.02]
+codex:gpt-6.1-tetext CORE         K2p-K2e  n=100  regret -0.36 [-0.55,-0.22]  info -0.36 [-0.55,-0.22]  severe +0.00 [+0.00,+0.00]  rep_cache +0.23 [+0.09,+0.39]
+
+Recovery of the observation model (K1e / K2e / K2p); rates over episodes where defined, errors are means
+model           prot family      cond    n parse struct  pair single fault persist phiErr phantom  emTV accMAE dflt reg|exact reg|wrong
+codex:gpt-6.1-tetext MIXED       K1e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.19         -
+codex:gpt-6.1-tetext MIXED       K2e    25  0.96   0.96  0.96   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.22      0.25
+codex:gpt-6.1-tetext MIXED       K2p    25  0.96   0.96  0.96   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00      0.00
+codex:gpt-6.1-tetext PERSIST     K1e    25  0.96   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.49         -
+codex:gpt-6.1-tetext PERSIST     K2e    25  0.96   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.52         -
+codex:gpt-6.1-tetext PERSIST     K2p    25  0.96   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+codex:gpt-6.1-tetext SHARED      K1e    25  0.96   0.96  0.96   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.42      1.32
+codex:gpt-6.1-tetext SHARED      K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.66         -
+codex:gpt-6.1-tetext SHARED      K2p    25  0.96   0.96  0.96   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00      0.00
+codex:gpt-6.1-tetext TRANSIENT   K1e    25  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.03         -
+codex:gpt-6.1-tetext TRANSIENT   K2e    25  0.96   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.05         -
+codex:gpt-6.1-tetext TRANSIENT   K2p    25  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.00         -
+codex:gpt-6.1-tetext TRANSIENT_P K1e    25  0.96   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.01         -
+codex:gpt-6.1-tetext TRANSIENT_P K2e    25  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      0.12         -
+codex:gpt-6.1-tetext TRANSIENT_P K2p    25  0.92   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.1      0.00         -
+codex:gpt-6.1-tetext CORE        K1e   100  0.98   0.99  0.99   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.28      1.32
+codex:gpt-6.1-tetext CORE        K2e   100  0.97   0.99  0.99   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.36      0.25
+codex:gpt-6.1-tetext CORE        K2p   100  0.97   0.98  0.98   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00      0.00
+
+Twin contrasts (fault family minus its phi=0 twin, same parameters) [95% nested CI]; conditions of runs that include a K2 decomposition condition
+codex:gpt-6.1-tetext Shared    K1 n= 25  regret +0.14 [-0.05,+0.55]  rep_cache -0.40 [-0.71,-0.12]
+codex:gpt-6.1-tetext Persist   K1 n= 25  regret +0.30 [+0.17,+0.43]  rep_cache -1.24 [-1.72,-0.83]
+codex:gpt-6.1-tetext Both      K1 n= 50  regret +0.22 [+0.08,+0.43]  rep_cache -0.82 [-1.12,-0.54]
+codex:gpt-6.1-tetext Shared   K1e n= 25  regret +0.43 [+0.08,+0.95]  rep_cache -0.40 [-0.96,+0.08]
+codex:gpt-6.1-tetext Persist  K1e n= 25  regret +0.48 [+0.28,+0.72]  rep_cache -1.24 [-1.73,-0.80]
+codex:gpt-6.1-tetext Both     K1e n= 50  regret +0.45 [+0.24,+0.72]  rep_cache -0.82 [-1.21,-0.42]
+codex:gpt-6.1-tetext Shared    K2 n= 25  regret -0.20 [-1.08,+0.57]  rep_cache +0.04 [-0.17,+0.25]
+codex:gpt-6.1-tetext Persist   K2 n= 25  regret -0.28 [-1.06,+0.33]  rep_cache +0.00 [+0.00,+0.00]
+codex:gpt-6.1-tetext Both      K2 n= 50  regret -0.24 [-0.82,+0.27]  rep_cache +0.02 [-0.10,+0.12]
+codex:gpt-6.1-tetext Shared   K2a n= 25  regret +0.62 [+0.07,+1.90]  rep_cache -0.48 [-0.92,-0.12]
+codex:gpt-6.1-tetext Persist  K2a n= 25  regret +0.30 [+0.18,+0.45]  rep_cache -1.20 [-1.77,-0.74]
+codex:gpt-6.1-tetext Both     K2a n= 50  regret +0.46 [+0.16,+1.10]  rep_cache -0.84 [-1.21,-0.54]
+codex:gpt-6.1-tetext Shared   K2e n= 25  regret +0.61 [+0.16,+1.28]  rep_cache -0.68 [-1.17,-0.28]
+codex:gpt-6.1-tetext Persist  K2e n= 25  regret +0.40 [+0.14,+0.67]  rep_cache -1.00 [-1.54,-0.56]
+codex:gpt-6.1-tetext Both     K2e n= 50  regret +0.50 [+0.20,+0.90]  rep_cache -0.84 [-1.24,-0.48]
+codex:gpt-6.1-tetext Shared   K2p n= 25  regret +0.00 [+0.00,+0.00]  rep_cache -0.24 [-0.50,-0.04]
+codex:gpt-6.1-tetext Persist  K2p n= 25  regret +0.00 [+0.00,+0.00]  rep_cache -0.84 [-1.42,-0.38]
+codex:gpt-6.1-tetext Both     K2p n= 50  regret +0.00 [+0.00,+0.00]  rep_cache -0.54 [-0.85,-0.27]
+codex:gpt-6.1-tetext Shared    K3 n= 25  regret +0.20 [+0.00,+0.56]  rep_cache -0.40 [-0.83,+0.00]
+codex:gpt-6.1-tetext Persist   K3 n= 25  regret +0.28 [+0.10,+0.45]  rep_cache -1.36 [-1.84,-0.96]
+codex:gpt-6.1-tetext Both      K3 n= 50  regret +0.24 [+0.10,+0.44]  rep_cache -0.88 [-1.24,-0.56]
+codex:gpt-6.1-tetext Shared    K4 n= 25  regret +0.18 [-0.05,+0.56]  rep_cache -0.48 [-0.83,-0.20]
+codex:gpt-6.1-tetext Persist   K4 n= 25  regret +0.34 [+0.18,+0.52]  rep_cache -1.12 [-1.62,-0.71]
+codex:gpt-6.1-tetext Both      K4 n= 50  regret +0.26 [+0.09,+0.50]  rep_cache -0.80 [-1.11,-0.52]
+codex:gpt-6.1-tetext Shared   K4c n= 25  regret +0.13 [+0.02,+0.27]  rep_cache -0.36 [-0.77,+0.00]
+codex:gpt-6.1-tetext Persist  K4c n= 25  regret +0.35 [+0.22,+0.50]  rep_cache -1.08 [-1.65,-0.58]
+codex:gpt-6.1-tetext Both     K4c n= 50  regret +0.24 [+0.15,+0.36]  rep_cache -0.72 [-1.14,-0.34]
+
+api_error rows excluded: {'codex:gpt-6.1-terra@medium|text|VALUE|K2': 1}

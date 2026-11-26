@@ -1,0 +1,21 @@
+Second domain: description loss D (K2r) and execution loss E (K2e - K2r) by JSON structure (post hoc)
+
+Sonnet 5.5 (high)        DN  all          n=100  K2e 0.864 [0.689,1.059]  D=K2r 0.135 [0.000,0.541]  E=K2e-K2r 0.729 [0.210,1.046]
+Sonnet 5.5 (high)        DN  struct_ok    n= 80  K2e 0.806 [0.643,1.004]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 0.806 [0.643,1.004]
+Sonnet 5.5 (high)        DN  struct_wrong n= 20  K2e 1.094 [0.712,1.815]  D=K2r 0.673 [0.000,3.622]  E=K2e-K2r 0.421 [-2.572,1.712]
+Sonnet 5.5 (high)        all all          n=200  K2e 0.780 [0.699,0.991]  D=K2r 0.069 [0.000,0.430]  E=K2e-K2r 0.711 [0.308,0.967]
+Sonnet 5.5 (high)        all struct_ok    n=161  K2e 0.758 [0.657,0.945]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 0.758 [0.657,0.945]
+Sonnet 5.5 (high)        all struct_wrong n= 39  K2e 0.868 [0.624,1.357]  D=K2r 0.355 [0.000,1.979]  E=K2e-K2r 0.513 [-1.237,1.316]
+
+gpt-6.1-terra (medium)   DN  all          n=100  K2e 0.978 [0.722,1.232]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 0.978 [0.722,1.232]
+gpt-6.1-terra (medium)   DN  struct_ok    n=100  K2e 0.978 [0.722,1.232]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 0.978 [0.722,1.232]
+gpt-6.1-terra (medium)   all all          n=200  K2e 0.857 [0.729,1.135]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 0.857 [0.729,1.135]
+gpt-6.1-terra (medium)   all struct_ok    n=200  K2e 0.857 [0.729,1.135]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 0.857 [0.729,1.135]
+
+flash (non-thinking)     DN  all          n=100  K2e 4.044 [3.277,5.062]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 4.044 [3.277,5.062]
+flash (non-thinking)     DN  struct_ok    n= 99  K2e 4.057 [3.261,5.165]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 4.057 [3.261,5.165]
+flash (non-thinking)     DN  struct_wrong n=  1  K2e 2.804  D=K2r 0.000  E=K2e-K2r 2.804
+flash (non-thinking)     all all          n=200  K2e 3.913 [3.356,4.864]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 3.913 [3.356,4.864]
+flash (non-thinking)     all struct_ok    n=197  K2e 3.917 [3.380,4.833]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 3.917 [3.380,4.833]
+flash (non-thinking)     all struct_wrong n=  3  K2e 3.705 [2.819,4.795]  D=K2r 0.000 [0.000,0.000]  E=K2e-K2r 3.705 [2.819,4.795]
+

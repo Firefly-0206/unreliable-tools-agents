@@ -1,0 +1,6 @@
+﻿1. existing prompts differing from export_prompts.json: 0
+2. doc-block / parameter mismatches over 300 episodes x 9 conditions x 2 protocols: 0
+3. K2a / elicitation prompt violations: 0
+4. perfect-reader recovery errors: 0; K2p-with-true-model max |regret| over 250 non-VALUE episodes: 0.00e+00
+5. parser / default edge cases passed: 6/6
+SELFTEST_K2DECOMP PASSED

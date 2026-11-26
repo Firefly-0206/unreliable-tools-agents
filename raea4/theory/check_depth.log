@@ -1,0 +1,48 @@
+﻿== Theorem 2: worked instances ==
+{'pi0': 0.5, 'phi': 0.3, 'q': 0.9, 'f': 0.97, 'c': 0.25, 'lam': 30, 'ce': 4, 'B': 1.5}
+   {'N': 6.0, 'Omega': 6.5, 'ell': 2.5512, 'a0': 0.921, 'a1': 0.361, 'mstar': 2.0, 'mD': 3.0, 'excl': 1.0, 'Gamma': 2.0003, 'PS': 0.1856, 'gap_lb': 1.5078}
+   regret by depth: {"('look', 1)": 0.0, "('look', 2)": 0.0, "('look', 3)": 2.736, "('look', 4)": 2.736, "('look', 5)": 2.736, "('look', 6)": 2.736, "('dp',)": 2.736} | checks: {"('look', 1)": True, "('look', 3)": True, "('look', 4)": True, "('look', 5)": True, "('look', 6)": True, "('dp',)": True, 'no_declare_bad': True, 'mstar_formula': True}
+{'pi0': 0.6, 'phi': 0.25, 'q': 0.9, 'f': 0.97, 'c': 0.2, 'lam': 30, 'ce': 4, 'B': 1.2}
+   {'N': 6.0, 'Omega': 6.5, 'ell': 2.8898, 'a0': 0.9175, 'a1': 0.3175, 'mstar': 2.0, 'mD': 2.0, 'excl': 1.0, 'Gamma': 0.5018, 'PS': 0.2589, 'gap_lb': -0.3339}
+   regret by depth: {"('look', 1)": 0.0, "('look', 2)": 1.088, "('look', 3)": 1.073, "('look', 4)": 1.073, "('look', 5)": 1.073, "('look', 6)": 1.073, "('dp',)": 1.073} | checks: {"('look', 1)": True, "('look', 2)": True, "('look', 3)": True, "('look', 4)": True, "('look', 5)": True, "('look', 6)": True, "('dp',)": True, 'no_declare_bad': True, 'mstar_formula': True}
+== Condition D(m) vs call cost (phi=.3, q=.9, f=.97, lam=30, c_e=4, N=6 calls) ==
+  pi0=0.5 c=0.2: m*=2 m_D=3  MMI regret k=1..6,DP: [0.0, 0.0, 2.702, 2.702, 2.702, 2.702, 2.702]
+  pi0=0.5 c=0.3: m*=2 m_D=3  MMI regret k=1..6,DP: [0.0, 0.0, 2.882, 2.882, 2.882, 2.882, 2.882]
+  pi0=0.5 c=0.4: m*=2 m_D=3  MMI regret k=1..6,DP: [0.0, 0.0, 3.128, 3.128, 3.128, 3.128, 3.128]
+  pi0=0.5 c=0.5: m*=2 m_D=None  MMI regret k=1..6,DP: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  pi0=0.5 c=0.6: m*=2 m_D=None  MMI regret k=1..6,DP: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  pi0=0.5 c=0.8: m*=2 m_D=None  MMI regret k=1..6,DP: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  pi0=0.5 c=1.0: m*=2 m_D=None  MMI regret k=1..6,DP: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  pi0=0.6 c=0.2: m*=2 m_D=2  MMI regret k=1..6,DP: [0.0, 1.581, 1.568, 1.569, 1.569, 1.569, 1.569]
+  pi0=0.6 c=0.3: m*=2 m_D=2  MMI regret k=1..6,DP: [0.0, 1.879, 1.878, 1.878, 1.878, 1.878, 1.878]
+  pi0=0.6 c=0.4: m*=2 m_D=2  MMI regret k=1..6,DP: [0.0, 1.902, 2.187, 2.187, 2.187, 2.187, 2.187]
+  pi0=0.6 c=0.5: m*=2 m_D=3  MMI regret k=1..6,DP: [0.0, 0.0, 2.157, 2.157, 2.157, 2.157, 2.157]
+  pi0=0.6 c=0.6: m*=2 m_D=3  MMI regret k=1..6,DP: [0.0, 0.0, 2.366, 2.366, 2.366, 2.366, 2.366]
+  pi0=0.6 c=0.8: m*=2 m_D=None  MMI regret k=1..6,DP: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  pi0=0.6 c=1.0: m*=2 m_D=None  MMI regret k=1..6,DP: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+== Theorem 2: random instances satisfying the hypotheses ==
+  instances 300 (q > .95 in 75, N >= 7 in 105), depth-claims checked 2440, all hold: True
+  explicit lower bound c+Gamma-ce*P(S) > 0 in 94%; P(S) = 0 (clean case) in 163 instances
+  regret(k) - regret(k<m*) > 0 for every k >= m_D in 100%; regret non-decreasing in k over 1..N in 96%
+== Proposition 5 (converse): rare faults ==
+  60 instances; TV <= phi + 1-(1-phi)^N and regret(MMI-DP) <= 2 Lmax TV in all: True
+  max regret 0.9099; mean regret / bound 0.0076
+== Paper families: MMI and exact regret by depth (true parameters, exact evaluation) ==
+  RETRY  MMI ('look', 1)    regret 0.290 [0.068, 0.553]  severe 0.016  repeat 0.15
+  RETRY  MMI ('look', 2)    regret 1.514 [0.976, 2.112]  severe 0.063  repeat 0.53
+  RETRY  MMI ('look', 3)    regret 1.985 [1.397, 2.609]  severe 0.081  repeat 0.70
+  RETRY  MMI ('look', 4)    regret 1.985 [1.397, 2.609]  severe 0.081  repeat 0.70
+  RETRY  MMI ('dp',)        regret 2.066 [1.497, 2.667]  severe 0.085  repeat 0.74
+  RETRY  exact ('look', 1)  regret 0.002 [0.000, 0.005]  severe 0.007  repeat 0.05
+  RETRY  exact ('look', 2)  regret 0.000 [0.000, 0.000]  severe 0.007  repeat 0.06
+  RETRY  exact ('look', 3)  regret 0.000 [0.000, 0.000]  severe 0.007  repeat 0.06
+  RETRY  exact ('look', 4)  regret 0.000 [0.000, 0.000]  severe 0.007  repeat 0.06
+  RETRY  exact ('dp',)      regret 0.000 [0.000, 0.000]  severe 0.007  repeat 0.06
+  SHARED MMI ('look', 1)    regret 0.709 [0.367, 1.096]  severe 0.032  repeat 0.30
+  SHARED MMI ('look', 2)    regret 1.930 [1.445, 2.434]  severe 0.088  repeat 0.83
+  SHARED MMI ('look', 3)    regret 2.165 [1.659, 2.681]  severe 0.097  repeat 0.91
+  SHARED MMI ('dp',)        regret 2.412 [1.904, 2.934]  severe 0.105  repeat 0.99
+  SHARED exact ('look', 1)  regret 0.005 [0.000, 0.011]  severe 0.005  repeat 0.05
+  SHARED exact ('look', 2)  regret 0.002 [0.000, 0.005]  severe 0.005  repeat 0.07
+  SHARED exact ('look', 3)  regret 0.000 [0.000, 0.000]  severe 0.005  repeat 0.07
+  SHARED exact ('dp',)      regret 0.000 [0.000, 0.000]  severe 0.005  repeat 0.07

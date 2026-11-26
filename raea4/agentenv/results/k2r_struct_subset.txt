@@ -1,0 +1,16 @@
+flash: CORE n=100  usable JSON 100/100  exact grouping among usable 86/100  exact grouping incl. fallback 86/100
+  all                        n=100  K2e 3.486 [2.84,4.33]  K2r 0.055 [0.000,0.225]  K2r-K2e -3.431 [-4.24,-2.79]
+  written_struct_exact       n= 86  K2e 3.516 [2.72,4.53]  K2r 0.000 [0.000,0.000]  K2r-K2e -3.516 [-4.53,-2.72]
+  not_written_struct_exact   n= 14  K2e 3.303 [2.25,4.76]  K2r 0.396 [0.000,1.610]  K2r-K2e -2.907 [-4.48,-1.60]
+terra: CORE n=100  usable JSON 97/100  exact grouping among usable 97/97  exact grouping incl. fallback 99/100
+  all                        n=100  K2e 0.361 [0.22,0.55]  K2r 0.015 [0.000,0.065]  K2r-K2e -0.347 [-0.54,-0.19]
+  written_struct_exact       n= 97  K2e 0.368 [0.23,0.57]  K2r 0.000 [0.000,0.000]  K2r-K2e -0.368 [-0.57,-0.23]
+  not_written_struct_exact   n=  3  K2e 0.161 [0.00,0.25]  K2r 0.488 [0.000,1.463]  K2r-K2e +0.327 [-0.23,+1.21]
+terra_high: CORE n=100  usable JSON 99/100  exact grouping among usable 99/99  exact grouping incl. fallback 99/100
+  all                        n=100  K2e 0.271 [0.17,0.39]  K2r 0.000 [0.000,0.000]  K2r-K2e -0.271 [-0.39,-0.17]
+  written_struct_exact       n= 99  K2e 0.269 [0.16,0.39]  K2r 0.000 [0.000,0.000]  K2r-K2e -0.269 [-0.39,-0.16]
+  not_written_struct_exact   n=  1  K2e 0.494 [nan,nan]  K2r 0.000 [nan,nan]  K2r-K2e -0.494 [+nan,+nan]
+sonnet: CORE n=100  usable JSON 100/100  exact grouping among usable 91/100  exact grouping incl. fallback 91/100
+  all                        n=100  K2e 0.481 [0.34,0.65]  K2r 0.000 [0.000,0.000]  K2r-K2e -0.481 [-0.65,-0.34]
+  written_struct_exact       n= 91  K2e 0.493 [0.33,0.69]  K2r 0.000 [0.000,0.000]  K2r-K2e -0.493 [-0.69,-0.33]
+  not_written_struct_exact   n=  9  K2e 0.364 [0.00,0.98]  K2r 0.000 [0.000,0.000]  K2r-K2e -0.364 [-0.98,+0.00]

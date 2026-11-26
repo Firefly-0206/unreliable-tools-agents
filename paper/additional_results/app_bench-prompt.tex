@@ -1,0 +1,7 @@
+% Moved out of main.pdf on 2026-11-18 (appendix trim); verbatim from sections/app_llm.tex. Inputs are relative to the manuscript root.
+\subsection{Prompt example}
+All prompts contain state names, prior, tool documentation, losses, costs and budget, followed by history and a response schema. P0 requests the next action minimising expected total cost and a benign-state probability:
+\begin{verbatim}
+{"p_benign": <probability>, "action": "<action>"}
+\end{verbatim}
+For the payment/retry2 item ($\varphi=.3$, $q=.85$, prior $.5/.25/.25$, false-benign loss 60), two ``settled'' reports give $P(\mathrm{settled})=0.734$. Exact action values are escalate 4.000, query A 4.991 and query V 5.145. Another ``settled'' report lowers the state probability to 0.720 as the stale probability rises from 0.525 to 0.560. L1--L3 expose the joint, predictive and action-value quantities defined in \cref{app:bench-tasks}; C/X change their numbers, not the task. H1 requests source membership, fault rates/persistence, accuracy and stale emissions for the planner. The expanded example and the calculator protocol are in the supplementary package.

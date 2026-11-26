@@ -1,0 +1,348 @@
+% =====================================================================================
+% theory.tex -- LaTeX fragments for the revised theory section and appendix.
+% Requires amsmath, amssymb, amsthm. If the paper does not already define them:
+%   \newtheorem{proposition}{Proposition}  \newtheorem{lemma}{Lemma}
+%   \newtheorem{corollary}{Corollary}      \newtheorem{theorem}{Theorem}
+%   \theoremstyle{remark} \newtheorem{remark}{Remark}  \newtheorem{example}{Example}
+% Every numbered claim is checked numerically by theory/check_*.py (see theory/NOTES.md).
+% "Standard" / "new" labels are given in the comments and in NOTES.md, not in the text.
+% =====================================================================================
+
+% -------------------------------------------------------------------------------------
+\subsection*{Notation}
+% -------------------------------------------------------------------------------------
+World state $s\in\{0,\dots,K-1\}$, $s=0$ benign, prior $\pi$, $\omega_0=\pi_0/(1-\pi_0)$.
+A fault group $G$ has a latent flag $z\in\{0,1\}$. Tool $j\in G$ emits from its healthy law
+$h_j(\cdot\mid s)$ when $z=0$ and from its fault law $e_j(\cdot)$ when $z=1$; $o_0$ is the benign report,
+$q_j=h_j(o_0\mid 0)$, $r_j(s)=h_j(o_0\mid s)$ for $s\neq0$, $f_j=e_j(o_0)$.
+For a finite collection $O$ of observations from $G$ write
+$H_s(O)=\prod_{(j,o)\in O}h_j(o\mid s)$, $F(O)=\prod_{(j,o)\in O}e_j(o)$ and
+$\mathrm{LR}_{s,s'}(O)=P(O\mid s)/P(O\mid s')$.
+Losses: certifying the benign state when it is false costs $\lambda_{\mathrm{sev}}$, escalation costs
+$c_{\mathrm{esc}}\in(0,\lambda_{\mathrm{sev}})$; $\tau^*=1-c_{\mathrm{esc}}/\lambda_{\mathrm{sev}}$ and
+$\Omega=\tau^*/(1-\tau^*)=(\lambda_{\mathrm{sev}}-c_{\mathrm{esc}})/c_{\mathrm{esc}}$.
+For a belief $b$ over $h=(s,z)$, $\Pi(b)$ denotes its $s$-marginal.
+
+% -------------------------------------------------------------------------------------
+\subsection{What same-source evidence can justify}
+% -------------------------------------------------------------------------------------
+
+\begin{lemma}[Event bound]\label{lem:event}
+Let $O$ be any collection of observations and $E$ any event on the latent fault variables such that, given $E$,
+the law of $O$ is a fixed $F_E(O)$ that does not depend on $s$. If $P(O\mid s=0)\le F_E(O)$, then for every $s\neq0$
+with $P(E\mid s)>0$,
+\[
+\mathrm{LR}_{0,s}(O)\;\le\;\frac{1}{P(E\mid s)} .
+\]
+\end{lemma}
+\begin{proof}
+$P(O\mid s)\ge P(E\mid s)\,P(O\mid s,E)=P(E\mid s)\,F_E(O)\ge P(E\mid s)\,P(O\mid s=0)$.
+\end{proof}
+
+\begin{proposition}[One source, two-sided bound]\label{prop:two-sided}
+Assume (A1)--(A3), and let $O$ be any collection of observations from tools of one group $G$ with fault probability
+$\varphi\in(0,1)$ (not necessarily all benign). For all $s\neq s'$,
+\[
+\min\Big\{1,\tfrac{H_s}{H_{s'}}\Big\}\;\le\;\mathrm{LR}_{s,s'}(O)\;\le\;
+\min\Big\{\max\Big\{1,\tfrac{H_s}{H_{s'}}\Big\},\;1+\tfrac{1-\varphi}{\varphi}\,\tfrac{H_s}{F}\Big\},
+\]
+with $H_s=H_s(O)$, $F=F(O)$. Observations from other groups and from fault-free tools contribute separate factors.
+\end{proposition}
+\begin{proof}
+By (A1)--(A3), $P(O\mid s)=(1-\varphi)H_s+\varphi F$. With $a=(1-\varphi)H_s$, $b=(1-\varphi)H_{s'}$, $c=\varphi F\ge0$,
+$(a+c)/(b+c)$ lies between $1$ and $a/b$, and $(a+c)/(b+c)\le (a+c)/c=1+a/c$. Independence of flags across groups
+and (A3) factorize $P(\cdot\mid s)$ over groups.
+\end{proof}
+
+\begin{corollary}[The $f$ versus $q$ boundary]\label{cor:boundary}
+Let $O$ consist of $n_j$ benign reports $o_0$ from each tool $j\in G$, and $\kappa_j=q_j/f_j$.
+\begin{enumerate}
+\item[(i)] If $\kappa_j\le 1$ for all $j$ (assumption (A4)), $\mathrm{LR}_{0,s}\le 1+\frac{1-\varphi}{\varphi}\prod_j\kappa_j^{n_j}\le 1/\varphi$;
+if $\kappa_j<1$ the bound decreases in every $n_j$, and if moreover $f_j>r_j(s)$ then $\mathrm{LR}_{0,s}\to1$ as the counts grow.
+\item[(ii)] (Boundary, one tool.) If $f=q>r(s)$, then $\mathrm{LR}_{0,s}(n)=\big[(1-\varphi)(r/q)^n+\varphi\big]^{-1}$ increases
+strictly to $1/\varphi$: the bound $1/\varphi$ is tight and is not attained.
+\item[(iii)] (Without (A4), one tool.) If $f<q$ and $r(s)<q$, then
+$\mathrm{LR}_{0,s}(n)\ge\tfrac12\min\{(q/r)^n,\;\tfrac{1-\varphi}{\varphi}(q/f)^n\}\to\infty$.
+Repeats are then genuine but discounted evidence: each adds at most $\log(q/\max\{f,r\})$ to the log-odds asymptotically,
+instead of $\log(q/r)$ for an independent report, and no exclusion condition of the form of Corollary~\ref{cor:excl} exists.
+\end{enumerate}
+\end{corollary}
+\begin{proof}
+(i) is Proposition~\ref{prop:two-sided} with $H_0/F=\prod_j\kappa_j^{n_j}$; the limit follows by dividing numerator and
+denominator of $\big[(1-\varphi)H_0+\varphi F\big]/\big[(1-\varphi)H_s+\varphi F\big]$ by $F$.
+(ii) Substitute $f=q$. (iii) The denominator $(1-\varphi)r^n+\varphi f^n$ is at most twice its larger term and the
+numerator is at least $(1-\varphi)q^n$.
+\end{proof}
+
+\begin{corollary}[Benign-commitment exclusion condition]\label{cor:excl}
+For any evidence $O$, the posterior odds of the benign state against its complement are at most
+$\omega_0\max_{s\neq0}\mathrm{LR}_{0,s}(O)$. Hence, if $\omega_0\,\Lambda<\Omega$ where $\Lambda$ bounds
+$\max_{s\ne0}\mathrm{LR}_{0,s}$ over a class of evidence, no evidence in that class makes certifying the benign state
+no worse than escalating. Under (A1)--(A4) and benign-only reports from one group, $\Lambda=1/\varphi$ (the condition of
+Section~4); under Proposition~\ref{prop:beyond}(a), $\Lambda=1/\min_{s\neq0}\varphi_s$; under (b), $\Lambda=1/(\varphi\,\pi_B^{n_B})$;
+under (c), $\Lambda=1/\min_{s\ne0}\varphi_s\rho(0\mid s)$.
+\end{corollary}
+\begin{proof}
+$\sum_{s\neq0}\pi_sP(O\mid s)\ge(1-\pi_0)\min_{s\neq0}P(O\mid s)$. Certifying is no worse than escalating iff the
+posterior benign odds are at least $\Omega$.
+\end{proof}
+
+\begin{proposition}[Beyond (A1), (A2) and a single shared flag]\label{prop:beyond}
+Let $O$ be a run of benign reports from one source.
+\begin{enumerate}
+\item[(a)] \emph{State-dependent fault rates} ((A1) dropped). If $P(z=1\mid s)=\varphi_s$ and (A4) holds, then
+$\mathrm{LR}_{0,s}(O)\le 1/\varphi_s$. If $f_j>q_j$ and $f_j>r_j(s)$, $\mathrm{LR}_{0,s}\to\varphi_0/\varphi_s$ as the run
+grows. The bound $1/\bar\varphi$ with the marginal rate $\bar\varphi=\sum_s\pi_s\varphi_s$ is not valid in general.
+\item[(b)] \emph{Partial sharing.} Tool $A$ reads the shared backend on every call; tool $B$ reads it on each call
+independently with probability $\pi_B$ and otherwise behaves as a healthy tool. If (A4) holds for both, then for
+$n_A$ benign reports from $A$ and $n_B$ from $B$, $\mathrm{LR}_{0,s}\le 1/(\varphi\,\pi_B^{\,n_B})$.
+\item[(c)] \emph{Stale value.} When $z=1$ the cache holds a stale value $v\sim\rho(\cdot\mid s)$ and tool $j$ emits
+$e_j(\cdot\mid v)$. Assume (A4$^*$): $H_0(O)\le e(O\mid 0)$ and $e(O\mid v)\le e(O\mid 0)$ for all $v$, where
+$e(O\mid v)=\prod e_j(o\mid v)$. Then $\mathrm{LR}_{0,s}(O)\le 1/\big(\varphi_s\,\rho(0\mid s)\big)$. If $(z,v)$ is
+independent of $s$, with $\rho_0=\rho(0)$, then
+$\mathrm{LR}_{0,s}\le 1+\frac{1-\varphi}{\varphi\rho_0}\frac{H_0(O)}{e(O\mid0)}$; if the cache is read with the healthy
+accuracy ($e_j(\cdot\mid v)=h_j(\cdot\mid v)$, symmetric, $q>r$), this bound equals $1+\frac{1-\varphi}{\varphi\rho_0}$
+and is the limit of $\mathrm{LR}_{0,s}$ along the run.
+\item[(d)] \emph{Recovery.} One tool; a fault present at the first call clears before each later call with probability
+$\rho$ and never returns. Let $x=q/((1-\rho)f)$. If $x<1$,
+$\mathrm{LR}_{0,s}(n)\le 1+\frac{(1-\varphi)(1-\rho)}{\varphi}x^n+\frac{\rho x}{1-x}$ for all $n$. If $x=1$, $\rho>0$
+and $q>r$, then exactly
+\[
+\mathrm{LR}_{0,s}(n)=\frac{(1-\varphi)(1-\rho)+\varphi\big(1+(n-1)\rho\big)}{(1-\varphi)(1-\rho)(r/q)^n+\varphi\big(1+\rho\sum_{i=1}^{n-1}(r/q)^i\big)}
+\;\ge\;\frac{(1-\varphi)(1-\rho)+\varphi\big(1+(n-1)\rho\big)}{(1-\varphi)(1-\rho)(r/q)^n+\varphi\big(1+\rho r/(q-r)\big)},
+\]
+which grows linearly in $n$ (slope $\to\rho(q-r)/(q-r+\rho r)$): no uniform bound exists. If $x>1$ and $q>r$,
+$\mathrm{LR}_{0,s}(n)\ge\frac{(1-\varphi)(q/m)^n}{(1-\varphi)+\varphi nf/m}\to\infty$ with $m=\max\{r,(1-\rho)f\}$.
+Thus with recovery ($\rho>0$) the analogue of (A4) is the strict inequality $(1-\rho)f>q$; the non-strict form
+$f\ge q$ suffices only when $\rho=0$, where $f=q$ gives the bounded limit $1/\varphi$ (Corollary~\ref{cor:boundary}(ii)).
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+(a) Lemma~\ref{lem:event} with $E=\{z=1\}$, $F_E=F$; (A4) gives $P(O\mid0)=(1-\varphi_0)H_0+\varphi_0F\le F$. For the
+limit divide $\big[(1-\varphi_0)H_0+\varphi_0F\big]/\big[(1-\varphi_s)H_s+\varphi_sF\big]$ by $F$.
+A counterexample to the marginal bound: $\pi=(0.5,0.5)$, $\varphi_0=0.6$, $\varphi_1=0.05$ give $\bar\varphi=0.325$ while
+long runs approach $\varphi_0/\varphi_1=12>1/\bar\varphi$.
+(b) Lemma~\ref{lem:event} with $E=\{z=1$ and every call of $B$ hits the backend$\}$, $P(E\mid s)=\varphi\pi_B^{n_B}$;
+$P(O\mid0)=(1-\varphi)H_0+\varphi\prod_A f\prod_B(\pi_Bf+(1-\pi_B)q_B)\le F$ by (A4).
+(c) Lemma~\ref{lem:event} with $E=\{z=1,v=0\}$, $F_E=e(\cdot\mid0)$; by (A4$^*$) every mixture component of
+$P(O\mid0)$ is at most $e(O\mid0)$. If $(z,v)\perp s$, $P(O\mid s)=(1-\varphi)H_s+c$ with the same
+$c=\varphi\sum_v\rho_ve(O\mid v)\ge\varphi\rho_0e(O\mid0)$ for every $s$, and $(a+c)/(b+c)\le1+a/c$. For the limit,
+divide by $q^n$: $e(O\mid v)/q^n\to\mathbb 1[v=0]$ and $H_s/q^n\to0$, so the ratio tends to
+$(1-\varphi+\varphi\rho_0)/(\varphi\rho_0)$.
+(d) Write $P(O\mid s)=(1-\varphi)h_s^n+\varphi\big[\sum_{k<n}\rho(1-\rho)^{k-1}f^kh_s^{n-k}+(1-\rho)^{n-1}f^n\big]$, $k$ the
+lifetime of the fault. For $x<1$ bound the denominator below by its last term and divide the numerator by it:
+the healthy term gives $\frac{(1-\varphi)(1-\rho)}{\varphi}x^n$, the $k<n$ terms give $\sum_{i=1}^{n-1}\rho x^i\le\rho x/(1-x)$.
+For $x=1$, $(1-\rho)^{k-1}f^k=q^k/(1-\rho)$, so the $k$-th bracketed term is $\rho q^kh_s^{n-k}/(1-\rho)$ and the last is
+$q^n/(1-\rho)$; dividing numerator ($h_0=q$) and denominator ($h_s=r$) by $q^n/(1-\rho)$ gives the closed form, and
+$\sum_{i\ge1}(r/q)^i=r/(q-r)$ gives the lower bound.
+For $x>1$ each of the $n$ bracketed terms is at most $fm^{n-1}$ and $(1-\varphi)r^n\le(1-\varphi)m^n$.
+\end{proof}
+
+\begin{remark}[What the fault model covers and omits]
+The single-flag model with $f\ge q$ covers faults that \emph{fail towards the benign report} and \emph{persist} for the
+episode. Proposition~\ref{prop:beyond} shows how the bound degrades when (a) faults are more likely in bad states
+(the bound uses the smallest bad-state fault rate; long runs then point \emph{away} from the benign state), (b) a tool
+only sometimes reads the shared backend (the shared part stays bounded, the rest is fresh evidence),
+(c) the cache holds a stale \emph{value} (the bound uses the probability that the stale value is benign, and long runs
+no longer wash out), and (d) faults can clear (the condition becomes the strict inequality $(1-\rho)f>q$; at
+$(1-\rho)f=q$ the likelihood ratio grows linearly in the run length). What we cannot bound: if the
+stale value is never benign when the state is bad ($\rho(0\mid s)=0$), or if it tracks the current state with short
+lag, benign runs are genuine evidence and no exclusion condition exists; temporal dynamics of $s$ are outside the
+static model.
+\end{remark}
+
+\begin{proposition}[Estimated fault rate]\label{prop:phihat}
+The exclusion condition $\omega_0/\varphi<\Omega$ is the threshold event $\log\varphi-\log\omega_0>-\log\Omega$.
+Estimates $(\hat\varphi,\hat\omega_0)$ classify it correctly whenever
+$|\log(\hat\varphi/\varphi)|+|\log(\hat\omega_0/\omega_0)|<|\log(\varphi\Omega/\omega_0)|$. If $\hat\ell$ is a
+$(1-\alpha)$ lower confidence bound for $\log\varphi-\log\omega_0$, certifying the condition when $\hat\ell>-\log\Omega$
+is wrong with probability at most $\alpha$.
+\end{proposition}
+\begin{proof}
+Immediate from the triangle inequality and the definition of a confidence bound.
+\end{proof}
+% Numerical note (check_phi_robust.py): the first statement is deterministic and is not tested. The plug-in
+% classification beats the majority-class rule by only 3-4 points at 25 calibration episodes; the guarantee needs a
+% VALID lower bound, and a percentile bootstrap of the EM fit is only approximately valid (1000 resamples: conditional
+% false-certification 3/63 = 4.8% [1.6%, 13.1%] RETRY and 1/82 SHARED at n = 100, alpha = .05).
+
+% -------------------------------------------------------------------------------------
+\subsection{A correct current belief is not enough}
+% -------------------------------------------------------------------------------------
+
+\begin{lemma}[MMI agrees with the exact model to one step]\label{lem:mmi-root}
+Let $b_0$ be the prior over $(s,z)$ and $m_0$ the MMI prior over $s$. Then $\Pi(b_0)=m_0$, the one-step predictive
+distribution of every tool is the same under both models, and after any single observation the $s$-posteriors agree.
+Consequently the single-step VOI action values at the root are identical under MMI and the exact model.
+\end{lemma}
+\begin{proof}
+MMI's per-call likelihood is $\sum_z P(z)P_j(o\mid s,z)=(1-\varphi_g)h_j(o\mid s)+\varphi_ge_j(o)$, which is the
+exact marginal likelihood of one call given $s$ under (A1). One-step VOI uses only the one-step predictive and the
+terminal risk of the one-step posterior, which depends only on its $s$-marginal.
+\end{proof}
+
+\begin{lemma}[What MMI gets wrong: the persistence covariance]\label{lem:cov}
+For two calls to tools $j,j'$ of the same group (possibly $j=j'$) and any outputs $o,o'$,
+\[
+P_{\mathrm{exact}}(o,o'\mid s)-P_{\mathrm{MMI}}(o,o'\mid s)=\varphi(1-\varphi)\big(h_j(o\mid s)-e_j(o)\big)\big(h_{j'}(o'\mid s)-e_{j'}(o')\big).
+\]
+In particular, the exact probability that two calls repeat the same report exceeds MMI's by
+$\varphi(1-\varphi)(h(o\mid s)-e(o))^2\ge0$: MMI expects repeats to disagree more often than they do; this is an identity for the two-report joint, not for action values (more dispersion is not by itself more informative).
+\end{lemma}
+\begin{proof}
+Given $s$, the pair is a $\varphi$-mixture of $h_j\otimes h_{j'}$ and $e_j\otimes e_{j'}$, while MMI uses the product of
+the two mixed marginals; expand.
+\end{proof}
+
+\begin{proposition}[The $s$-marginal is not a sufficient statistic for acquisition]\label{prop:suff}
+Let $V(b,\beta)$ be the optimal value of Section~3.
+\begin{enumerate}
+\item[(a)] The terminal risk $R(b)$ depends on $b$ only through $\Pi(b)$.
+\item[(b)] If no tool whose likelihood depends on $z$ is affordable within the remaining budget, then
+$V(b,\beta)=W(\Pi(b),\beta)$, where $W$ is the value of the problem with state $s$ only; in particular the optimal
+action depends on $b$ only through $\Pi(b)$.
+\item[(c)] Otherwise this can fail even when the one-step predictive distributions of all tools also agree: there are
+beliefs $b,\tilde b$ with $\Pi(b)=\Pi(\tilde b)$ and $P_j(\cdot\mid b)=P_j(\cdot\mid\tilde b)$ for every tool $j$ whose
+optimal next actions differ (Example~\ref{ex:suff}).
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+(a) $R(b)=\min_a\sum_sL(a,s)\Pi(b)_s$. (b) Induction on $\beta$. For a tool with $P_j(o\mid s,z)=h_j(o\mid s)$,
+$P_j(o\mid b)=\sum_s\Pi(b)_sh_j(o\mid s)$ and $b'(s,z)\propto b(s,z)h_j(o\mid s)$, so $\Pi(b')$ is the Bayes update of
+$\Pi(b)$ and $b'(z\mid s)=b(z\mid s)$. Every term of the Bellman recursion is therefore a function of $\Pi(b)$.
+(c) Example~\ref{ex:suff}.
+\end{proof}
+
+\begin{example}[Same posterior, same next-report prediction, different optimal action]\label{ex:suff}
+Pilot setting of Section~7.1 (prior $0.5/0.25/0.25$; source $A$: $q=0.9$, $\varphi=0.3$, stale reports ``healthy''
+w.p.\ $0.97$; verifier $V$: accuracy $0.8$, cost 2; $A$ costs 1; budget 4; losses 30/10/4). After $A$ reports
+\emph{healthy, healthy, degraded} the exact joint posterior has $\Pi(b)=(0.866,0.077,0.057)$ and
+$P(\text{stale}\mid s)=(0.130,0.729,0.980)$; the optimal action is to query $V$ ($Q=3.58$; querying $A$ again: $4.42$).
+The beliefs with the same $\Pi$ and the same one-step predictive distribution for $A$ and for $V$ form a segment
+(three unknowns $b(s,\text{stale})$, two linear constraints); at its far end,
+$P(\text{stale}\mid s)=(1.000,0.358,0.481)$, querying $A$ is optimal ($Q=2.94<3.58$). If the stale flag is taken to be
+independent of $s$ with the correct $P(\text{stale})=0.225$, querying $A$ is again optimal ($Q=2.41$). The same holds in
+the moderate regime after two healthy reports (exact: query $V$, $3.74$; same $\Pi$ and predictives: query $A$, $3.38$).
+The phenomenon is not universal: in the frequent regime after three healthy reports from $A$, every belief with the
+exact $\Pi$ and the exact one-step predictives has escalation as its optimal action (as does the exact belief), and
+so does the $s$-independent staleness belief; only $P(\text{stale}\mid s)=(\cdot,0,0)$, which does \emph{not} match the
+predictive of $A$, makes querying $A$ optimal.
+\end{example}
+
+\begin{remark}[Which mechanism the pilot re-query errors match]\label{rem:pilot}
+Example~\ref{ex:suff} shows that a wrong joint belief \emph{can} produce a wrong re-query, but it does not explain the
+pilot errors in Table~7: for the frequent ``$A\times3$'' item no matched joint belief makes re-querying $A$ optimal, and
+the step-by-step analysis of the seven \texttt{deepseek-chat} re-query answers places the first deviation after the
+current belief: in five the current posterior, $P(\text{stale})$ (when given) and the next-report probability are
+correct but the posterior \emph{after} one more same-source report is overestimated (e.g.\ moderate $A\times2$:
+about $0.93$ written, $0.828$ exact); in two the next-report probability itself drops the persistence of the fault.
+Both are the two-step error of Lemma~\ref{lem:cov}. A planner that holds the \emph{exact} current $\Pi(b)$ but models
+future reports of $A$ as conditionally independent (an MMI update from the correct current marginal) re-queries $A$
+in all four single-source pilot items, including frequent $A\times3$:
+post-repeat $P(\text{healthy})$ $0.890$ vs.\ exact $0.732$ and $Q(\text{query }A)=3.71$ vs.\ $4.97$ (frequent $A\times3$);
+$0.948$ vs.\ $0.877$, $2.87$ vs.\ $4.42$ (frequent OK-OK-degraded); $0.955$ vs.\ $0.828$, $2.81$ vs.\ $4.64$ (moderate $A\times2$);
+$0.954$ vs.\ $0.904$, $3.24$ vs.\ $4.18$ (rare $A\times1$). Its next-report probability in the frequent OK-OK-degraded
+item ($0.841$) is the value one pilot answer wrote. Hence an L1-type intervention should supply, besides
+$P(\text{healthy})$, the conditional staleness $P(\text{stale}\mid s)$ and the posterior after a repeated same-source
+report; supplying the current joint belief alone is not shown to be sufficient.
+\end{remark}
+
+% -------------------------------------------------------------------------------------
+\subsection{When does deeper planning amplify a wrong dependence model?}
+% -------------------------------------------------------------------------------------
+
+\paragraph{Minimal model.} $s\in\{0,1\}$, prior $\pi_0$; one source $A$ with fault flag $z\sim\mathrm{Bern}(\varphi)$,
+$z\perp s$, healthy accuracy $q\in(\frac12,1)$, fault law $P(o=0)=f\in[q,1]$ (so (A4) holds); calls cost $c>0$ and the
+budget allows $N$ calls. Terminal actions: certify the benign state (loss $\lambda$ if $s=1$) or escalate (loss
+$c_{\mathrm e}\in(0,\lambda)$); $\Omega=(\lambda-c_{\mathrm e})/c_{\mathrm e}$. MMI treats calls as i.i.d.\ given $s$ with
+$a_0=P(o=0\mid s=0)=(1-\varphi)q+\varphi f$ and $a_1=(1-\varphi)(1-q)+\varphi f$; $\ell=a_0/a_1>1$.
+$\pi^{M}_k$ is the receding-horizon $k$-step lookahead policy under model $M$ (re-planned after every observation;
+$k=\infty$ is the budgeted DP). Regret is measured under the true model against the optimal value $J^*$.
+Write $P_M(0^i)=\pi_0a_0^i+(1-\pi_0)a_1^i$ and, under the true model,
+$P(0^n)=\sum_{s}\pi_s\big[(1-\varphi)h_s^n+\varphi f^n\big]$ with $h_0=q,h_1=1-q$, and $P(1,0^n)=(1-\pi_0)\big[(1-\varphi)(1-q)^n+\varphi f^n\big]$.
+Define
+\[
+m^*=\min\{m\ge1:\omega_0\ell^m\ge\Omega\},\qquad
+D(m):\; c\sum_{i=0}^{m-1}P_M(0^i)<c_{\mathrm e}P_M(0^m)-\lambda(1-\pi_0)a_1^m,
+\]
+$m_D=\min\{m\in[m^*,N]:D(m)\}$, $\Gamma=\min_{m^*\le n\le N}\big[\lambda P(1,0^n)-c_{\mathrm e}P(0^n)\big]$, and let $P(S)$ be the
+true probability that some prefix of the $N$ reports contains a non-benign report and has exact benign odds at least $\Omega$.
+
+\begin{theorem}[Depth amplification under marginal-matched independence]\label{thm:depth}
+In the minimal model assume the exclusion condition $\omega_0/\varphi<\Omega$.
+\begin{enumerate}
+\item[(i)] For every $k<m^*$, $\pi^{\mathrm{MMI}}_k$ escalates at once, so
+$\mathrm{Reg}(\pi^{\mathrm{MMI}}_k)=c_{\mathrm e}-J^*\le c_{\mathrm e}P(S)$; it is $0$ if $P(S)=0$.
+\item[(ii)] If $m_D$ exists, then for every $k\ge m_D$, including $k=\infty$, $\pi^{\mathrm{MMI}}_k$ queries $A$ at the root,
+never escalates along the all-benign report path, and certifies the benign state after $n$ benign reports for some
+$m^*\le n\le N$. For all $k'<m^*\le m_D\le k$,
+\[
+\mathrm{Reg}(\pi^{\mathrm{MMI}}_k)-\mathrm{Reg}(\pi^{\mathrm{MMI}}_{k'})\;\ge\;c+\Gamma-c_{\mathrm e}P(S),
+\qquad
+\Gamma\;\ge\;\varphi f^N\Big(\frac{\lambda\varphi}{\varphi+\omega_0}-c_{\mathrm e}\Big)>0 .
+\]
+The severe-error probability of $\pi^{\mathrm{MMI}}_k$ is at least $P(1,0^N)\ge(1-\pi_0)\varphi f^N$.
+\item[(iii)] $m^*=\big\lceil\log(\Omega/\omega_0)/\log\ell\big\rceil$ (when $\omega_0<\Omega$): the depth at which the error
+appears grows only logarithmically in $\Omega/\omega_0$ and shrinks as $\ell$ grows.
+\end{enumerate}
+\end{theorem}
+\begin{proof}
+\emph{(i)} Within $k<m^*$ reports, MMI's benign odds are at most $\omega_0\ell^k<\Omega$, because a non-benign report
+multiplies them by $(1-a_0)/(1-a_1)<1$. So at every leaf of every depth-$k$ tree the MMI terminal risk is
+$\min\{c_{\mathrm e},\lambda(1-p)\}=c_{\mathrm e}$, and any tree that probes costs at least $c+c_{\mathrm e}>c_{\mathrm e}$:
+the lookahead stops and escalates. For the bound on $c_{\mathrm e}-J^*$: under the true model every policy pays at
+least the terminal risk $R(h)=\min\{c_{\mathrm e},\lambda P(1\mid h)\}$ at its leaf $h$; $R(h)<c_{\mathrm e}$ requires
+exact benign odds at least $\Omega$, which by Corollary~\ref{cor:boundary}(i) and $\omega_0/\varphi<\Omega$ is impossible on
+all-benign histories, so $h$ lies in $S$. Hence $J^*\ge c_{\mathrm e}(1-P(S))$.
+
+\emph{(ii)} Consider the plan $T$: ``query $A$ until the first non-benign report (then escalate) or until $m_D$ benign
+reports (then certify)''. From the all-benign node after $j<m_D$ reports, the MMI value of the remainder of $T$ is
+$c\sum_{i=j}^{m_D-1}\frac{P_M(0^i)}{P_M(0^j)}+\frac{\lambda(1-\pi_0)a_1^{m_D}}{P_M(0^j)}
++c_{\mathrm e}\Big(1-\frac{P_M(0^{m_D})}{P_M(0^j)}\Big)$, which is below $c_{\mathrm e}$ iff
+$c\sum_{i=j}^{m_D-1}P_M(0^i)<c_{\mathrm e}P_M(0^{m_D})-\lambda(1-\pi_0)a_1^{m_D}$; this follows from $D(m_D)$ because the sum
+over $i\ge j$ is part of the sum over $i\ge0$. The remainder has depth $m_D-j\le k$ and fits the remaining budget, so
+the $k$-step lookahead value is below $c_{\mathrm e}$ and the policy does not escalate at that node. At nodes $j<m^*$
+certifying is worse than escalating under MMI, so the policy probes. At nodes $j\ge m^*$ certifying is the best terminal
+action under MMI, so whenever the policy stops it certifies; it must stop by $j=N$.
+For the regret, let $\mathcal C$ be the leaves at which the policy certifies. Since escalation leaves cost exactly
+$c_{\mathrm e}$ and leaf probabilities sum to one,
+$J(\pi)-c_{\mathrm e}=c\,\mathbb E[\#\text{calls}]+\sum_{h\in\mathcal C}\big[\lambda P(1,h)-c_{\mathrm e}P(h)\big]$.
+The policy makes at least one call; the all-benign certifying leaf contributes at least $\Gamma$; any other certifying
+leaf contributes a negative amount only if its exact benign odds are at least $\Omega$, i.e.\ only if it lies in $S$,
+and then at least $-c_{\mathrm e}P(h)$. Hence $J(\pi^{\mathrm{MMI}}_k)-c_{\mathrm e}\ge c+\Gamma-c_{\mathrm e}P(S)$, and by (i)
+$J(\pi^{\mathrm{MMI}}_{k'})=c_{\mathrm e}$. For $\Gamma$: $\lambda P(1,0^n)-c_{\mathrm e}P(0^n)=P(0^n)\big[\lambda(1-p_n)-c_{\mathrm e}\big]$
+with $p_n$ the exact benign posterior; by Proposition~\ref{prop:two-sided} its odds are at most $\omega_0/\varphi$, so
+$1-p_n\ge\varphi/(\varphi+\omega_0)$, and $P(0^n)\ge\varphi f^n\ge\varphi f^N$. The bracket is positive exactly when
+$\omega_0/\varphi<\Omega$. The severe-error bound follows because the all-benign path, which has probability at least
+$P(1,0^N)$ jointly with $s=1$, ends in certification.
+
+\emph{(iii)} Definition of $m^*$.
+\end{proof}
+
+\begin{remark}[Reading Theorem~\ref{thm:depth}]
+Under MMI the predicted posterior after $m$ further benign repeats tends to one geometrically (rate $\ell$), so a
+planner that can see $m^*$ steps ahead finds a ``retry, then certify'' plan whose \emph{model} value beats escalation,
+while under the true model the same plan certifies a faulty source's report with probability bounded away from zero.
+A one-step planner cannot see that plan; at the root it acts exactly as the exact model does (Lemma~\ref{lem:mmi-root}).
+The theorem gives a step: zero excess regret below $m^*$, at least $c+\Gamma-c_{\mathrm e}P(S)$ from $m_D$ on (strict amplification is guaranteed only when $c+\Gamma>c_{\mathrm e}P(S)$). It does not
+claim that regret is monotone in $k$ beyond $m_D$, and it does not characterize $m^*\le k<m_D$. With a verifier or
+other fault-free tools the decomposition in the proof still holds (every certification on an $A$-only all-benign path costs at
+least $\Gamma$-type excess), but whether the deep MMI planner prefers the retry plan to the verifier is an extra
+condition that we check numerically rather than state in closed form.
+\end{remark}
+
+\begin{proposition}[Converse: rare faults; standard simulation-lemma argument]\label{prop:converse}
+Consider any instance with fault groups $g$ (rate $\varphi_g$) whose tools can be called at most $N_g$ times in total, and
+let $L_{\max}$ bound the total loss of any trajectory. Then
+\[
+\mathrm{Reg}(\pi^{\mathrm{MMI}}_\infty)\;\le\;2L_{\max}\,\mathrm{TV}\;\le\;2L_{\max}\sum_g\big[\varphi_g+1-(1-\varphi_g)^{N_g}\big]\;\le\;2L_{\max}\sum_g(N_g+1)\varphi_g .
+\]
+\end{proposition}
+\begin{proof}
+Represent both models on one space: $s$ and, for every tool, the sequence of reports its successive calls would return;
+any adaptive policy's trajectory and loss are functions of these. Under the true model the sequences are drawn from the
+healthy laws unless some flag $z_g=1$; under MMI, unless some per-call fault indicator is one. Coupling both with the
+all-healthy law gives the TV bound. For any policy $\pi$, $|J_{\mathrm{true}}(\pi)-J_{\mathrm{MMI}}(\pi)|\le L_{\max}\mathrm{TV}$;
+since $\pi^{\mathrm{MMI}}_\infty$ minimizes $J_{\mathrm{MMI}}$,
+$J_{\mathrm{true}}(\pi^{\mathrm{MMI}}_\infty)-J_{\mathrm{true}}(\pi^*)\le 2L_{\max}\mathrm{TV}$.
+\end{proof}

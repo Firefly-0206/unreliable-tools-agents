@@ -1,0 +1,45 @@
+\subsection{Prompt example}
+
+All benchmark prompts share one header (task, state names, prior, tool descriptions, losses, costs, budget) and one answer template; conditions differ only by the block shown.
+We show an item with one persistent source (scenario ``payment'', pattern \texttt{retry2}, $\varphi=.3$, $q=.85$, prior $.5/.25/.25$, false-benign loss 60), where the exact $P(\text{settled})=0.734$, the exact values are escalate $4.000$, query\_A $4.991$, query\_V $5.145$ and the best action is to escalate.
+Excerpts:
+{\footnotesize
+\begin{verbatim}
+[P0 header, abridged]
+ Tool A may be called repeatedly; every call reads the same ledger snapshot.
+ Tool A's ledger snapshot is stale with probability 0.3 ... A stale snapshot
+ reports "settled" with probability 0.97 ... Staleness, if present, persists
+ for the whole case.
+ Observations so far: 1. tool A reported "settled"  2. tool A reported "settled"
+ Give (1) your probability ... and (2) the single next action that minimises
+ expected total cost, chosen from: declare_settled, declare_pending,
+ declare_failed, escalate, query_A, query_V.
+ End your answer with one final line of JSON ...
+ {"p_benign": <probability>, "action": "<action>"}
+
+[P1]  + "Note: these tools may share failure sources; do not treat results
+         from the same source as independent confirmation."
+[P2]  Observations grouped by data source (all reports kept; [n] = arrival):
+      - Source: tool A's ledger snapshot - 2 reports: [1] ... "settled"; [2] ...
+[P3]  (Only the first report from each data source is shown; later reports from
+      a source that had already reported were removed.)  1. tool A reported ...
+[L1]  Joint posterior over (state, staleness): P(settled, not stale) = 0.471,
+      P(settled, stale) = 0.263, P(pending, not stale) = 0.002, ... (6 lines)
+[L2]  + for each query: distribution of the next report and the posterior
+      after each report, e.g. query_A: next report settled 0.910 ...
+        if it reports settled: posterior settled 0.720 ...; P(stale) = 0.560
+[L3]  + "Expected total cost from now on of each action ... followed by optimal
+      decisions within the remaining budget": declare_settled 15.986, ...,
+      escalate 4.000, query_A 4.991, query_V 5.145
+[C1-3] same blocks with every number replaced by "?" and "fill in every ?"
+[X1-3] same blocks and wording as L1-L3, numbers from a donor task
+[T1]  + function calculate(expression), up to 20 rounds / 20 calls per
+         round (observed 9--31 calls, mean 20.4; 122/140 answers reached 20)
+[H1]  "Do not choose an action yourself. An exact Bayesian planner will choose
+      the action ... together with a model of the tools that YOU write down."
+      JSON fields: sources [{tools, fault_prob, fault_persists}], accuracy,
+      stale_report; answer ends with <model>{...}</model>
+\end{verbatim}}
+In this item the exact posterior of ``settled'' \emph{falls} from $0.734$ to $0.720$ if the next report from tool A is again ``settled'', because $P(\text{stale})$ rises from $0.525$ to $0.560$; this is the pattern behind the pilot's re-query errors.
+
+

@@ -1,0 +1,238 @@
+model           prot family      cond    n   loss       regret [95% CI]  info/verd severe   esc   acc calls  useC  repC  repL noSub Probe1 d-Probe1
+deepseek-chat   fc   MIXED       K1     25   4.40    1.85 [ 1.29, 2.55] 1.85/ 0.00   0.00  0.00  1.00  3.92  0.92  0.60  1.24  0.00   2.89    -1.04
+deepseek-chat   fc   MIXED       K1e    25   5.68    2.37 [ 1.67, 3.53] 2.09/ 0.28   0.00  0.04  0.92  3.84  0.96  0.60  1.04  0.00   2.89    -0.52
+deepseek-chat   fc   MIXED       K2     25   5.96    2.63 [ 1.57, 4.57] 1.92/ 0.71   0.00  0.16  0.80  3.76  0.96  0.84  0.92  0.00   2.89    -0.26
+deepseek-chat   fc   MIXED       K2a    25   5.08    2.50 [ 1.81, 3.26] 2.47/ 0.03   0.00  0.08  0.92  3.96  0.96  0.92  0.92  0.00   2.89    -0.39
+deepseek-chat   fc   MIXED       K2e    25   7.12    3.07 [ 1.70, 5.08] 1.95/ 1.12   0.00  0.04  0.84  3.92  0.96  0.72  1.08  0.00   2.89     0.18
+deepseek-chat   fc   MIXED       K2p    25   3.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  2.96  0.96  0.16  1.08  0.00   2.89    -2.89
+deepseek-chat   fc   MIXED       K2r    25   3.28    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  2.96  0.96  0.16  1.08  0.00   2.89    -2.89
+deepseek-chat   fc   MIXED       K3     25   6.88    3.85 [ 2.32, 6.27] 2.41/ 1.44   0.00  0.08  0.84  3.92  0.88  0.72  1.08  0.00   2.89     0.96
+deepseek-chat   fc   MIXED       K4     25   5.52    1.96 [ 1.36, 2.61] 1.96/ 0.00   0.00  0.00  0.96  3.76  0.84  0.48  1.12  0.00   2.89    -0.93
+deepseek-chat   fc   MIXED       K4c    25   5.68    2.33 [ 1.64, 3.35] 2.08/ 0.25   0.00  0.04  0.92  3.84  0.96  0.64  1.00  0.00   2.89    -0.56
+deepseek-chat   fc   PERSIST     K1     25   7.08    2.88 [ 2.02, 3.89] 2.53/ 0.35   0.00  0.16  0.80  3.84  0.92  0.04  0.88  0.00   2.07     0.81
+deepseek-chat   fc   PERSIST     K1e    25   9.28    3.02 [ 2.15, 4.08] 2.39/ 0.63   0.00  0.12  0.72  3.68  0.84  0.00  0.72  0.00   2.07     0.95
+deepseek-chat   fc   PERSIST     K2     25  11.60    3.55 [ 2.41, 5.01] 2.38/ 1.18   0.04  0.12  0.68  3.72  0.88  0.00  0.84  0.00   2.07     1.48
+deepseek-chat   fc   PERSIST     K2a    25  10.00    3.56 [ 2.42, 5.20] 2.61/ 0.94   0.00  0.16  0.64  3.64  0.88  0.04  0.72  0.00   2.07     1.49
+deepseek-chat   fc   PERSIST     K2e    25  10.00    3.66 [ 2.50, 6.12] 2.80/ 0.86   0.04  0.12  0.76  3.44  0.88  0.00  0.52  0.00   2.07     1.59
+deepseek-chat   fc   PERSIST     K2p    25   4.20    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.92  2.84  1.00  0.44  0.76  0.00   2.07    -2.07
+deepseek-chat   fc   PERSIST     K2r    25   4.20    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.92  2.84  1.00  0.44  0.76  0.00   2.07    -2.07
+deepseek-chat   fc   PERSIST     K3     25   8.08    3.08 [ 2.00, 4.83] 2.54/ 0.54   0.00  0.20  0.72  3.40  0.88  0.00  0.44  0.00   2.07     1.01
+deepseek-chat   fc   PERSIST     K4     25   8.60    2.43 [ 1.88, 3.14] 2.36/ 0.06   0.00  0.16  0.72  3.76  0.92  0.04  0.80  0.00   2.07     0.36
+deepseek-chat   fc   PERSIST     K4c    25   7.28    2.70 [ 2.22, 3.26] 2.65/ 0.06   0.00  0.16  0.80  3.88  1.00  0.04  0.76  0.00   2.07     0.63
+deepseek-chat   fc   SHARED      K1     25   7.80    4.30 [ 2.59, 6.47] 2.84/ 1.45   0.00  0.04  0.84  3.24  0.88  0.92  0.32  0.00   2.03     2.26
+deepseek-chat   fc   SHARED      K1e    25  11.44    4.18 [ 2.27, 7.40] 2.70/ 1.48   0.04  0.04  0.72  3.20  0.96  0.80  0.40  0.00   2.03     2.14
+deepseek-chat   fc   SHARED      K2     25   8.60    3.77 [ 2.77, 5.68] 3.17/ 0.60   0.00  0.04  0.80  3.04  0.84  0.80  0.24  0.00   2.03     1.74
+deepseek-chat   fc   SHARED      K2a    25   7.76    3.57 [ 2.53, 4.92] 3.01/ 0.56   0.00  0.04  0.84  3.16  0.92  0.92  0.24  0.00   2.03     1.53
+deepseek-chat   fc   SHARED      K2e    25  10.32    3.94 [ 2.55, 6.70] 3.00/ 0.94   0.04  0.00  0.80  3.00  0.88  0.80  0.20  0.00   2.03     1.90
+deepseek-chat   fc   SHARED      K2p    25   2.64    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  1.80  1.00  0.60  0.00  0.00   2.03    -2.03
+deepseek-chat   fc   SHARED      K2r    25   2.64    0.00 [ 0.00, 0.00] 0.00/ 0.00   0.00  0.04  0.96  1.80  1.00  0.60  0.00  0.00   2.03    -2.03
+deepseek-chat   fc   SHARED      K3     25   8.92    3.20 [ 2.41, 4.50] 2.65/ 0.55   0.04  0.08  0.84  3.04  0.80  0.68  0.36  0.00   2.03     1.17
+deepseek-chat   fc   SHARED      K4     25   8.80    2.94 [ 2.50, 3.42] 2.94/ 0.00   0.04  0.08  0.84  3.08  0.80  0.80  0.28  0.00   2.03     0.91
+deepseek-chat   fc   SHARED      K4c    25   9.40    4.01 [ 2.65, 6.43] 2.91/ 1.10   0.04  0.16  0.76  3.36  0.96  0.92  0.44  0.00   2.03     1.98
+deepseek-chat   fc   TRANSIENT   K1     25   8.40    3.05 [ 2.48, 3.92] 3.01/ 0.03   0.04  0.00  0.88  3.16  1.00  1.08  0.08  0.00   4.94    -1.90
+deepseek-chat   fc   TRANSIENT   K1e    25   8.56    3.13 [ 2.61, 3.76] 3.13/ 0.00   0.04  0.00  0.88  3.16  1.00  1.08  0.08  0.00   4.94    -1.82
+deepseek-chat   fc   TRANSIENT   K2     25   6.84    3.28 [ 2.75, 3.89] 3.27/ 0.01   0.00  0.04  0.88  3.16  1.00  1.12  0.04  0.00   4.94    -1.67
+deepseek-chat   fc   TRANSIENT   K2a    25   9.08    3.34 [ 2.82, 3.97] 3.34/ 0.00   0.04  0.04  0.84  3.24  1.00  1.20  0.04  0.00   4.94    -1.60
+deepseek-chat   fc   TRANSIENT   K2e    25   5.56    3.28 [ 2.47, 4.37] 3.24/ 0.03   0.00  0.00  0.96  3.04  0.88  1.00  0.04  0.00   4.94    -1.67
+deepseek-chat   fc   TRANSIENT   K2p    25   1.80    0.01 [ 0.00, 0.03] 0.01/ 0.00   0.00  0.00  1.00  1.80  1.00  0.80  0.00  0.00   4.94    -4.94
+deepseek-chat   fc   TRANSIENT   K2r    25   2.08    0.22 [ 0.00, 0.89] 0.22/ 0.00   0.00  0.04  0.96  1.76  1.00  0.76  0.00  0.00   4.94    -4.72
+deepseek-chat   fc   TRANSIENT   K3     25   6.84    3.34 [ 2.53, 4.34] 3.05/ 0.29   0.00  0.08  0.84  3.20  1.00  1.04  0.16  0.00   4.94    -1.61
+deepseek-chat   fc   TRANSIENT   K4     25   9.28    3.38 [ 2.56, 4.70] 3.21/ 0.17   0.04  0.04  0.80  3.00  1.00  1.00  0.04  0.00   4.94    -1.56
+deepseek-chat   fc   TRANSIENT   K4c    25   6.00    2.91 [ 2.30, 3.54] 2.91/ 0.00   0.00  0.00  0.92  3.08  1.00  1.08  0.04  0.00   4.94    -2.03
+deepseek-chat   fc   TRANSIENT_P K1     25   6.68    3.90 [ 3.15, 4.78] 3.88/ 0.02   0.00  0.00  0.92  3.52  1.00  0.20  0.32  0.00   4.62    -0.72
+deepseek-chat   fc   TRANSIENT_P K1e    25   5.60    3.45 [ 2.71, 4.23] 3.44/ 0.01   0.00  0.00  0.96  3.36  1.00  0.12  0.36  0.00   4.62    -1.17
+deepseek-chat   fc   TRANSIENT_P K2     25   6.52    3.39 [ 2.48, 4.27] 3.39/ 0.00   0.00  0.00  0.92  3.00  1.00  0.12  0.00  0.00   4.62    -1.22
+deepseek-chat   fc   TRANSIENT_P K2a    25   6.92    3.62 [ 2.87, 4.62] 3.62/ 0.00   0.00  0.04  0.88  3.12  1.00  0.04  0.08  0.00   4.62    -1.00
+deepseek-chat   fc   TRANSIENT_P K2e    25   7.68    4.39 [ 3.14, 6.46] 4.01/ 0.37   0.00  0.04  0.84  3.56  1.00  0.20  0.36  0.00   4.62    -0.23
+deepseek-chat   fc   TRANSIENT_P K2p    25   2.36    0.26 [ 0.00, 0.74] 0.26/ 0.00   0.00  0.00  1.00  2.32  0.96  1.12  0.08  0.00   4.62    -4.36
+deepseek-chat   fc   TRANSIENT_P K2r    25   2.28    0.05 [ 0.00, 0.20] 0.05/ 0.00   0.00  0.00  1.00  2.28  1.00  1.24  0.00  0.00   4.62    -4.57
+deepseek-chat   fc   TRANSIENT_P K3     25   6.00    3.58 [ 2.79, 4.52] 3.58/ 0.00   0.00  0.04  0.92  3.16  1.00  0.08  0.16  0.00   4.62    -1.04
+deepseek-chat   fc   TRANSIENT_P K4     25   7.24    3.38 [ 2.58, 4.19] 3.38/ 0.00   0.00  0.00  0.88  3.20  1.00  0.08  0.20  0.00   4.62    -1.24
+deepseek-chat   fc   TRANSIENT_P K4c    25   7.44    3.30 [ 2.76, 3.83] 3.30/ 0.00   0.00  0.00  0.88  3.44  1.00  0.24  0.24  0.00   4.62    -1.32
+deepseek-chat   fc   VALUE       K1     25   7.48    2.89 [ 1.78, 4.42] 2.18/ 0.71   0.00  0.20  0.76  3.48  1.00  1.04  0.44  0.00   1.47     1.42
+deepseek-chat   fc   VALUE       K2     25  10.68    5.03 [ 3.32, 7.07] 2.66/ 2.37   0.04  0.20  0.68  3.28  0.92  0.96  0.32  0.00   1.47     3.56
+deepseek-chat   fc   VALUE       K3     25  11.88    5.29 [ 2.40,10.86] 2.37/ 2.92   0.04  0.16  0.64  3.20  0.92  0.88  0.32  0.00   1.47     3.82
+deepseek-chat   fc   VALUE       K4     25   7.52    2.62 [ 1.88, 3.54] 2.34/ 0.27   0.00  0.12  0.80  3.24  0.84  1.00  0.24  0.00   1.47     1.15
+deepseek-chat   fc   VALUE       K4c    25   9.96    2.92 [ 2.02, 4.08] 2.05/ 0.87   0.04  0.12  0.76  3.32  0.96  0.84  0.48  0.00   1.47     1.45
+
+Paired condition contrasts (A - B over common episodes) [95% nested CI]
+deepseek-chat   fc   MIXED         K2-K1   n= 25  regret +0.78 [-0.72,+2.95]  info +0.07 [-0.85,+0.79]  severe +0.00 [+0.00,+0.00]  rep_cache +0.24 [-0.08,+0.54]
+deepseek-chat   fc   MIXED         K3-K1   n= 25  regret +2.00 [+0.21,+4.58]  info +0.56 [-0.24,+1.31]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [-0.20,+0.44]
+deepseek-chat   fc   MIXED         K4-K1   n= 25  regret +0.11 [-0.64,+0.87]  info +0.11 [-0.64,+0.87]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.46,+0.23]
+deepseek-chat   fc   MIXED        K4c-K1   n= 25  regret +0.48 [-0.68,+1.67]  info +0.23 [-0.73,+1.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [-0.38,+0.44]
+deepseek-chat   fc   MIXED         K4-K4c  n= 25  regret -0.37 [-1.60,+0.55]  info -0.12 [-0.82,+0.59]  severe +0.00 [+0.00,+0.00]  rep_cache -0.16 [-0.44,+0.12]
+deepseek-chat   fc   MIXED        K2a-K1   n= 25  regret +0.65 [-0.18,+1.54]  info +0.62 [-0.19,+1.46]  severe +0.00 [+0.00,+0.00]  rep_cache +0.32 [-0.08,+0.68]
+deepseek-chat   fc   MIXED        K2a-K2   n= 25  regret -0.13 [-2.05,+1.15]  info +0.54 [-0.14,+1.23]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [-0.27,+0.50]
+deepseek-chat   fc   MIXED        K2e-K2   n= 25  regret +0.44 [-1.70,+2.53]  info +0.03 [-0.56,+0.59]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.44,+0.21]
+deepseek-chat   fc   MIXED        K2p-K2   n= 25  regret -2.63 [-4.57,-1.57]  info -1.92 [-2.42,-1.45]  severe +0.00 [+0.00,+0.00]  rep_cache -0.68 [-0.89,-0.38]
+deepseek-chat   fc   MIXED        K2p-K1   n= 25  regret -1.85 [-2.55,-1.29]  info -1.85 [-2.55,-1.29]  severe +0.00 [+0.00,+0.00]  rep_cache -0.44 [-0.72,-0.19]
+deepseek-chat   fc   MIXED        K1e-K1   n= 25  regret +0.51 [-0.39,+1.80]  info +0.24 [-0.50,+1.03]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.31,+0.28]
+deepseek-chat   fc   MIXED        K2e-K1e  n= 25  regret +0.70 [-1.43,+3.02]  info -0.14 [-0.86,+0.52]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [-0.20,+0.46]
+deepseek-chat   fc   MIXED        K2p-K2e  n= 25  regret -3.07 [-5.08,-1.70]  info -1.95 [-2.41,-1.56]  severe +0.00 [+0.00,+0.00]  rep_cache -0.56 [-0.88,-0.25]
+deepseek-chat   fc   MIXED        K2r-K2e  n= 25  regret -3.07 [-5.08,-1.70]  info -1.95 [-2.41,-1.56]  severe +0.00 [+0.00,+0.00]  rep_cache -0.56 [-0.88,-0.25]
+deepseek-chat   fc   MIXED        K2r-K1   n= 25  regret -1.85 [-2.55,-1.29]  info -1.85 [-2.55,-1.29]  severe +0.00 [+0.00,+0.00]  rep_cache -0.44 [-0.72,-0.19]
+deepseek-chat   fc   MIXED        K2r-K2p  n= 25  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+deepseek-chat   fc   MIXED        K2r-K2   n= 25  regret -2.63 [-4.57,-1.57]  info -1.92 [-2.42,-1.45]  severe +0.00 [+0.00,+0.00]  rep_cache -0.68 [-0.89,-0.38]
+deepseek-chat   fc   MIXED        K2r-K1e  n= 25  regret -2.37 [-3.53,-1.67]  info -2.09 [-2.63,-1.60]  severe +0.00 [+0.00,+0.00]  rep_cache -0.44 [-0.75,-0.12]
+deepseek-chat   fc   PERSIST       K2-K1   n= 25  regret +0.67 [-0.34,+1.77]  info -0.16 [-0.78,+0.45]  severe +0.04 [+0.00,+0.17]  rep_cache -0.04 [-0.17,+0.00]
+deepseek-chat   fc   PERSIST       K3-K1   n= 25  regret +0.20 [-1.18,+2.08]  info +0.01 [-0.63,+0.60]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.17,+0.00]
+deepseek-chat   fc   PERSIST       K4-K1   n= 25  regret -0.45 [-1.56,+0.68]  info -0.17 [-1.18,+0.83]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.12,+0.12]
+deepseek-chat   fc   PERSIST      K4c-K1   n= 25  regret -0.18 [-1.13,+0.58]  info +0.12 [-0.66,+0.77]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.17,+0.15]
+deepseek-chat   fc   PERSIST       K4-K4c  n= 25  regret -0.28 [-1.01,+0.52]  info -0.28 [-1.06,+0.49]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.15,+0.17]
+deepseek-chat   fc   PERSIST      K2a-K1   n= 25  regret +0.68 [-0.65,+2.14]  info +0.08 [-0.72,+1.11]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.16,+0.16]
+deepseek-chat   fc   PERSIST      K2a-K2   n= 25  regret +0.00 [-1.28,+1.32]  info +0.24 [-0.52,+1.15]  severe -0.04 [-0.17,+0.00]  rep_cache +0.04 [+0.00,+0.17]
+deepseek-chat   fc   PERSIST      K2e-K2   n= 25  regret +0.11 [-1.83,+2.42]  info +0.43 [-0.21,+1.05]  severe +0.00 [-0.16,+0.15]  rep_cache +0.00 [+0.00,+0.00]
+deepseek-chat   fc   PERSIST      K2p-K2   n= 25  regret -3.55 [-5.01,-2.41]  info -2.38 [-3.22,-1.71]  severe -0.04 [-0.17,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+deepseek-chat   fc   PERSIST      K2p-K1   n= 25  regret -2.88 [-3.92,-2.04]  info -2.53 [-3.39,-1.87]  severe +0.00 [+0.00,+0.00]  rep_cache +0.40 [+0.04,+0.76]
+deepseek-chat   fc   PERSIST      K1e-K1   n= 25  regret +0.14 [-0.60,+0.90]  info -0.14 [-0.73,+0.49]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.17,+0.00]
+deepseek-chat   fc   PERSIST      K2e-K1e  n= 25  regret +0.64 [-0.70,+2.62]  info +0.41 [-0.09,+0.88]  severe +0.04 [+0.00,+0.16]  rep_cache +0.00 [+0.00,+0.00]
+deepseek-chat   fc   PERSIST      K2p-K2e  n= 25  regret -3.66 [-6.12,-2.50]  info -2.80 [-3.31,-2.32]  severe -0.04 [-0.16,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+deepseek-chat   fc   PERSIST      K2r-K2e  n= 25  regret -3.66 [-6.12,-2.50]  info -2.80 [-3.31,-2.32]  severe -0.04 [-0.16,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+deepseek-chat   fc   PERSIST      K2r-K1   n= 25  regret -2.88 [-3.92,-2.04]  info -2.53 [-3.39,-1.87]  severe +0.00 [+0.00,+0.00]  rep_cache +0.40 [+0.04,+0.76]
+deepseek-chat   fc   PERSIST      K2r-K2p  n= 25  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+deepseek-chat   fc   PERSIST      K2r-K2   n= 25  regret -3.55 [-5.01,-2.41]  info -2.38 [-3.22,-1.71]  severe -0.04 [-0.17,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+deepseek-chat   fc   PERSIST      K2r-K1e  n= 25  regret -3.02 [-4.08,-2.14]  info -2.39 [-3.06,-1.87]  severe +0.00 [+0.00,+0.00]  rep_cache +0.44 [+0.12,+0.79]
+deepseek-chat   fc   SHARED        K2-K1   n= 25  regret -0.53 [-3.17,+2.23]  info +0.33 [-0.42,+1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.50,+0.19]
+deepseek-chat   fc   SHARED        K3-K1   n= 25  regret -1.09 [-3.56,+1.16]  info -0.19 [-0.66,+0.32]  severe +0.04 [+0.00,+0.17]  rep_cache -0.24 [-0.71,+0.12]
+deepseek-chat   fc   SHARED        K4-K1   n= 25  regret -1.35 [-3.53,+0.27]  info +0.10 [-0.44,+0.64]  severe +0.04 [+0.00,+0.17]  rep_cache -0.12 [-0.42,+0.17]
+deepseek-chat   fc   SHARED       K4c-K1   n= 25  regret -0.28 [-2.59,+2.25]  info +0.07 [-0.53,+0.67]  severe +0.04 [+0.00,+0.17]  rep_cache +0.00 [-0.33,+0.24]
+deepseek-chat   fc   SHARED        K4-K4c  n= 25  regret -1.07 [-3.60,+0.21]  info +0.03 [-0.48,+0.58]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.36,+0.12]
+deepseek-chat   fc   SHARED       K2a-K1   n= 25  regret -0.73 [-2.90,+0.90]  info +0.16 [-0.49,+0.85]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.32,+0.24]
+deepseek-chat   fc   SHARED       K2a-K2   n= 25  regret -0.20 [-2.46,+1.56]  info -0.17 [-0.96,+0.61]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [-0.14,+0.38]
+deepseek-chat   fc   SHARED       K2e-K2   n= 25  regret +0.17 [-2.07,+2.94]  info -0.17 [-0.73,+0.42]  severe +0.04 [+0.00,+0.17]  rep_cache +0.00 [-0.23,+0.25]
+deepseek-chat   fc   SHARED       K2p-K2   n= 25  regret -3.77 [-5.68,-2.77]  info -3.17 [-3.81,-2.65]  severe +0.00 [+0.00,+0.00]  rep_cache -0.20 [-0.65,+0.38]
+deepseek-chat   fc   SHARED       K2p-K1   n= 25  regret -4.30 [-6.48,-2.59]  info -2.84 [-3.43,-2.37]  severe +0.00 [+0.00,+0.00]  rep_cache -0.32 [-0.74,+0.25]
+deepseek-chat   fc   SHARED       K1e-K1   n= 25  regret -0.12 [-2.66,+3.12]  info -0.14 [-0.64,+0.34]  severe +0.04 [+0.00,+0.17]  rep_cache -0.12 [-0.50,+0.21]
+deepseek-chat   fc   SHARED       K2e-K1e  n= 25  regret -0.24 [-2.36,+1.20]  info +0.30 [-0.60,+1.11]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.28,+0.27]
+deepseek-chat   fc   SHARED       K2p-K2e  n= 25  regret -3.94 [-6.70,-2.55]  info -3.00 [-3.59,-2.40]  severe -0.04 [-0.17,+0.00]  rep_cache -0.20 [-0.65,+0.42]
+deepseek-chat   fc   SHARED       K2r-K2e  n= 25  regret -3.94 [-6.70,-2.55]  info -3.00 [-3.59,-2.40]  severe -0.04 [-0.17,+0.00]  rep_cache -0.20 [-0.65,+0.42]
+deepseek-chat   fc   SHARED       K2r-K1   n= 25  regret -4.30 [-6.48,-2.59]  info -2.84 [-3.43,-2.37]  severe +0.00 [+0.00,+0.00]  rep_cache -0.32 [-0.74,+0.25]
+deepseek-chat   fc   SHARED       K2r-K2p  n= 25  regret +0.00 [+0.00,+0.00]  info +0.00 [+0.00,+0.00]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [+0.00,+0.00]
+deepseek-chat   fc   SHARED       K2r-K2   n= 25  regret -3.77 [-5.68,-2.77]  info -3.17 [-3.81,-2.65]  severe +0.00 [+0.00,+0.00]  rep_cache -0.20 [-0.65,+0.38]
+deepseek-chat   fc   SHARED       K2r-K1e  n= 25  regret -4.18 [-7.40,-2.27]  info -2.70 [-3.43,-2.14]  severe -0.04 [-0.17,+0.00]  rep_cache -0.20 [-0.62,+0.31]
+deepseek-chat   fc   TRANSIENT     K2-K1   n= 25  regret +0.23 [-0.62,+0.91]  info +0.25 [-0.50,+0.90]  severe -0.04 [-0.17,+0.00]  rep_cache +0.04 [-0.08,+0.21]
+deepseek-chat   fc   TRANSIENT     K3-K1   n= 25  regret +0.29 [-0.52,+1.14]  info +0.03 [-0.56,+0.65]  severe -0.04 [-0.17,+0.00]  rep_cache -0.04 [-0.23,+0.12]
+deepseek-chat   fc   TRANSIENT     K4-K1   n= 25  regret +0.33 [-0.53,+1.69]  info +0.20 [-0.48,+1.08]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.24,+0.00]
+deepseek-chat   fc   TRANSIENT    K4c-K1   n= 25  regret -0.14 [-1.15,+0.72]  info -0.10 [-1.04,+0.73]  severe -0.04 [-0.17,+0.00]  rep_cache +0.00 [-0.17,+0.20]
+deepseek-chat   fc   TRANSIENT     K4-K4c  n= 25  regret +0.47 [-0.28,+1.64]  info +0.30 [-0.30,+1.05]  severe +0.04 [+0.00,+0.17]  rep_cache -0.08 [-0.24,+0.00]
+deepseek-chat   fc   TRANSIENT    K2a-K1   n= 25  regret +0.29 [-0.49,+0.93]  info +0.33 [-0.37,+0.94]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [-0.04,+0.42]
+deepseek-chat   fc   TRANSIENT    K2a-K2   n= 25  regret +0.06 [-0.64,+0.74]  info +0.07 [-0.62,+0.74]  severe +0.04 [+0.00,+0.17]  rep_cache +0.08 [-0.12,+0.33]
+deepseek-chat   fc   TRANSIENT    K2e-K2   n= 25  regret -0.00 [-0.94,+1.10]  info -0.02 [-0.93,+1.01]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.42,+0.12]
+deepseek-chat   fc   TRANSIENT    K2p-K2   n= 25  regret -3.27 [-3.88,-2.74]  info -3.26 [-3.85,-2.74]  severe +0.00 [+0.00,+0.00]  rep_cache -0.32 [-0.84,+0.25]
+deepseek-chat   fc   TRANSIENT    K2p-K1   n= 25  regret -3.04 [-3.91,-2.48]  info -3.01 [-3.78,-2.48]  severe -0.04 [-0.17,+0.00]  rep_cache -0.28 [-0.85,+0.33]
+deepseek-chat   fc   TRANSIENT    K1e-K1   n= 25  regret +0.08 [-0.70,+0.76]  info +0.11 [-0.58,+0.76]  severe +0.00 [+0.00,+0.00]  rep_cache +0.00 [-0.19,+0.25]
+deepseek-chat   fc   TRANSIENT    K2e-K1e  n= 25  regret +0.15 [-0.76,+1.13]  info +0.12 [-0.76,+1.07]  severe -0.04 [-0.17,+0.00]  rep_cache -0.08 [-0.50,+0.25]
+deepseek-chat   fc   TRANSIENT    K2p-K2e  n= 25  regret -3.27 [-4.35,-2.47]  info -3.24 [-4.26,-2.47]  severe +0.00 [+0.00,+0.00]  rep_cache -0.20 [-0.80,+0.46]
+deepseek-chat   fc   TRANSIENT    K2r-K2e  n= 25  regret -3.05 [-4.22,-2.13]  info -3.02 [-4.16,-2.13]  severe +0.00 [+0.00,+0.00]  rep_cache -0.24 [-0.80,+0.38]
+deepseek-chat   fc   TRANSIENT    K2r-K1   n= 25  regret -2.82 [-3.67,-2.29]  info -2.79 [-3.54,-2.29]  severe -0.04 [-0.17,+0.00]  rep_cache -0.32 [-0.85,+0.25]
+deepseek-chat   fc   TRANSIENT    K2r-K2p  n= 25  regret +0.21 [+0.00,+0.89]  info +0.21 [+0.00,+0.89]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.17,+0.00]
+deepseek-chat   fc   TRANSIENT    K2r-K2   n= 25  regret -3.05 [-3.55,-2.61]  info -3.04 [-3.55,-2.59]  severe +0.00 [+0.00,+0.00]  rep_cache -0.36 [-0.85,+0.17]
+deepseek-chat   fc   TRANSIENT    K2r-K1e  n= 25  regret -2.90 [-3.42,-2.46]  info -2.90 [-3.42,-2.46]  severe -0.04 [-0.17,+0.00]  rep_cache -0.32 [-0.88,+0.25]
+deepseek-chat   fc   TRANSIENT_P   K2-K1   n= 25  regret -0.50 [-1.33,+0.34]  info -0.49 [-1.29,+0.34]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.29,+0.15]
+deepseek-chat   fc   TRANSIENT_P   K3-K1   n= 25  regret -0.32 [-1.38,+0.73]  info -0.31 [-1.36,+0.74]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.40,+0.12]
+deepseek-chat   fc   TRANSIENT_P   K4-K1   n= 25  regret -0.52 [-1.52,+0.27]  info -0.50 [-1.49,+0.27]  severe +0.00 [+0.00,+0.00]  rep_cache -0.12 [-0.38,+0.11]
+deepseek-chat   fc   TRANSIENT_P  K4c-K1   n= 25  regret -0.60 [-1.41,+0.12]  info -0.58 [-1.36,+0.12]  severe +0.00 [+0.00,+0.00]  rep_cache +0.04 [-0.27,+0.33]
+deepseek-chat   fc   TRANSIENT_P   K4-K4c  n= 25  regret +0.08 [-0.84,+0.94]  info +0.08 [-0.84,+0.94]  severe +0.00 [+0.00,+0.00]  rep_cache -0.16 [-0.33,+0.00]
+deepseek-chat   fc   TRANSIENT_P  K2a-K1   n= 25  regret -0.28 [-1.15,+0.67]  info -0.26 [-1.13,+0.68]  severe +0.00 [+0.00,+0.00]  rep_cache -0.16 [-0.42,+0.00]
+deepseek-chat   fc   TRANSIENT_P  K2a-K2   n= 25  regret +0.23 [-0.94,+1.47]  info +0.23 [-0.94,+1.47]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.31,+0.12]
+deepseek-chat   fc   TRANSIENT_P  K2e-K2   n= 25  regret +0.99 [-0.66,+3.12]  info +0.62 [-0.70,+1.94]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [-0.12,+0.28]
+deepseek-chat   fc   TRANSIENT_P  K2p-K2   n= 25  regret -3.14 [-4.16,-1.86]  info -3.14 [-4.16,-1.86]  severe +0.00 [+0.00,+0.00]  rep_cache +1.00 [+0.52,+1.56]
+deepseek-chat   fc   TRANSIENT_P  K2p-K1   n= 25  regret -3.64 [-4.66,-2.61]  info -3.63 [-4.62,-2.61]  severe +0.00 [+0.00,+0.00]  rep_cache +0.92 [+0.44,+1.48]
+deepseek-chat   fc   TRANSIENT_P  K1e-K1   n= 25  regret -0.45 [-1.47,+0.40]  info -0.44 [-1.41,+0.38]  severe +0.00 [+0.00,+0.00]  rep_cache -0.08 [-0.31,+0.16]
+deepseek-chat   fc   TRANSIENT_P  K2e-K1e  n= 25  regret +0.94 [-0.56,+3.20]  info +0.57 [-0.59,+1.88]  severe +0.00 [+0.00,+0.00]  rep_cache +0.08 [-0.16,+0.31]
+deepseek-chat   fc   TRANSIENT_P  K2p-K2e  n= 25  regret -4.13 [-6.28,-2.73]  info -3.76 [-5.02,-2.73]  severe +0.00 [+0.00,+0.00]  rep_cache +0.92 [+0.44,+1.50]
+deepseek-chat   fc   TRANSIENT_P  K2r-K2e  n= 25  regret -4.34 [-6.46,-3.07]  info -3.96 [-5.11,-3.07]  severe +0.00 [+0.00,+0.00]  rep_cache +1.04 [+0.50,+1.68]
+deepseek-chat   fc   TRANSIENT_P  K2r-K1   n= 25  regret -3.85 [-4.76,-3.08]  info -3.83 [-4.72,-3.08]  severe +0.00 [+0.00,+0.00]  rep_cache +1.04 [+0.52,+1.65]
+deepseek-chat   fc   TRANSIENT_P  K2r-K2p  n= 25  regret -0.21 [-0.73,+0.15]  info -0.21 [-0.73,+0.15]  severe +0.00 [+0.00,+0.00]  rep_cache +0.12 [-0.12,+0.46]
+deepseek-chat   fc   TRANSIENT_P  K2r-K2   n= 25  regret -3.35 [-4.25,-2.41]  info -3.35 [-4.25,-2.41]  severe +0.00 [+0.00,+0.00]  rep_cache +1.12 [+0.65,+1.71]
+deepseek-chat   fc   TRANSIENT_P  K2r-K1e  n= 25  regret -3.40 [-4.18,-2.67]  info -3.39 [-4.18,-2.67]  severe +0.00 [+0.00,+0.00]  rep_cache +1.12 [+0.58,+1.68]
+deepseek-chat   fc   VALUE         K2-K1   n= 25  regret +2.14 [+0.38,+4.05]  info +0.48 [-0.05,+1.02]  severe +0.04 [+0.00,+0.17]  rep_cache -0.08 [-0.28,+0.12]
+deepseek-chat   fc   VALUE         K3-K1   n= 25  regret +2.41 [-1.23,+8.77]  info +0.19 [-0.36,+0.66]  severe +0.04 [+0.00,+0.17]  rep_cache -0.16 [-0.48,+0.08]
+deepseek-chat   fc   VALUE         K4-K1   n= 25  regret -0.27 [-1.35,+0.63]  info +0.17 [-0.75,+0.99]  severe +0.00 [+0.00,+0.00]  rep_cache -0.04 [-0.39,+0.35]
+deepseek-chat   fc   VALUE        K4c-K1   n= 25  regret +0.04 [-1.54,+1.53]  info -0.12 [-0.71,+0.37]  severe +0.04 [+0.00,+0.17]  rep_cache -0.20 [-0.38,-0.04]
+deepseek-chat   fc   VALUE         K4-K4c  n= 25  regret -0.31 [-1.46,+0.65]  info +0.29 [-0.41,+0.94]  severe -0.04 [-0.17,+0.00]  rep_cache +0.16 [-0.16,+0.54]
+deepseek-chat   fc   CORE          K2-K1   n=100  regret +0.29 [-0.69,+1.30]  info +0.12 [-0.39,+0.56]  severe +0.00 [-0.04,+0.04]  rep_cache +0.03 [-0.10,+0.16]
+deepseek-chat   fc   CORE          K3-K1   n=100  regret +0.35 [-0.72,+1.38]  info +0.10 [-0.24,+0.44]  severe +0.00 [-0.03,+0.03]  rep_cache -0.05 [-0.25,+0.13]
+deepseek-chat   fc   CORE          K4-K1   n=100  regret -0.34 [-1.18,+0.35]  info +0.06 [-0.36,+0.49]  severe +0.01 [+0.00,+0.05]  rep_cache -0.08 [-0.24,+0.06]
+deepseek-chat   fc   CORE         K4c-K1   n=100  regret -0.03 [-0.99,+0.80]  info +0.08 [-0.40,+0.51]  severe +0.00 [-0.03,+0.03]  rep_cache +0.01 [-0.16,+0.16]
+deepseek-chat   fc   CORE          K4-K4c  n=100  regret -0.31 [-1.07,+0.21]  info -0.02 [-0.33,+0.31]  severe +0.01 [+0.00,+0.04]  rep_cache -0.09 [-0.19,+0.01]
+deepseek-chat   fc   CORE         K2a-K1   n=100  regret +0.22 [-0.60,+0.90]  info +0.30 [-0.10,+0.72]  severe +0.00 [+0.00,+0.00]  rep_cache +0.11 [-0.04,+0.26]
+deepseek-chat   fc   CORE         K2a-K2   n=100  regret -0.07 [-0.81,+0.67]  info +0.17 [-0.19,+0.60]  severe +0.00 [-0.04,+0.04]  rep_cache +0.08 [-0.03,+0.21]
+deepseek-chat   fc   CORE         K2e-K2   n=100  regret +0.18 [-0.77,+1.11]  info +0.06 [-0.31,+0.43]  severe +0.01 [-0.04,+0.06]  rep_cache -0.06 [-0.18,+0.06]
+deepseek-chat   fc   CORE         K2p-K2   n=100  regret -3.31 [-4.05,-2.67]  info -2.68 [-3.01,-2.33]  severe -0.01 [-0.05,+0.00]  rep_cache -0.19 [-0.46,+0.10]
+deepseek-chat   fc   CORE         K2p-K1   n=100  regret -3.02 [-3.81,-2.42]  info -2.56 [-2.91,-2.24]  severe -0.01 [-0.04,+0.00]  rep_cache -0.16 [-0.41,+0.12]
+deepseek-chat   fc   CORE         K1e-K1   n=100  regret +0.15 [-0.69,+1.05]  info +0.02 [-0.31,+0.36]  severe +0.01 [+0.00,+0.05]  rep_cache -0.04 [-0.18,+0.09]
+deepseek-chat   fc   CORE         K2e-K1e  n=100  regret +0.31 [-0.48,+1.11]  info +0.17 [-0.22,+0.50]  severe +0.00 [-0.04,+0.04]  rep_cache +0.01 [-0.11,+0.12]
+deepseek-chat   fc   CORE         K2p-K2e  n=100  regret -3.48 [-4.33,-2.84]  info -2.75 [-3.09,-2.43]  severe -0.02 [-0.06,+0.00]  rep_cache -0.13 [-0.38,+0.16]
+deepseek-chat   fc   CORE         K2r-K2e  n=100  regret -3.43 [-4.24,-2.79]  info -2.69 [-3.03,-2.38]  severe -0.02 [-0.06,+0.00]  rep_cache -0.14 [-0.38,+0.14]
+deepseek-chat   fc   CORE         K2r-K1   n=100  regret -2.96 [-3.76,-2.33]  info -2.50 [-2.88,-2.17]  severe -0.01 [-0.04,+0.00]  rep_cache -0.17 [-0.41,+0.10]
+deepseek-chat   fc   CORE         K2r-K2p  n=100  regret +0.05 [+0.00,+0.22]  info +0.05 [+0.00,+0.22]  severe +0.00 [+0.00,+0.00]  rep_cache -0.01 [-0.04,+0.00]
+deepseek-chat   fc   CORE         K2r-K2   n=100  regret -3.25 [-3.98,-2.66]  info -2.63 [-2.93,-2.32]  severe -0.01 [-0.05,+0.00]  rep_cache -0.20 [-0.46,+0.09]
+deepseek-chat   fc   CORE         K2r-K1e  n=100  regret -3.12 [-3.96,-2.39]  info -2.52 [-2.87,-2.18]  severe -0.02 [-0.08,+0.00]  rep_cache -0.13 [-0.38,+0.15]
+
+Recovery of the observation model (K1e / K2e / K2p); rates over episodes where defined, errors are means
+model           prot family      cond    n parse struct  pair single fault persist phiErr phantom  emTV accMAE dflt reg|exact reg|wrong
+deepseek-chat   fc   MIXED       K1e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      2.37         -
+deepseek-chat   fc   MIXED       K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.07         -
+deepseek-chat   fc   MIXED       K2p    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+deepseek-chat   fc   MIXED       K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+deepseek-chat   fc   PERSIST     K1e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.02         -
+deepseek-chat   fc   PERSIST     K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.66         -
+deepseek-chat   fc   PERSIST     K2p    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.1      0.00         -
+deepseek-chat   fc   PERSIST     K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+deepseek-chat   fc   SHARED      K1e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      4.18         -
+deepseek-chat   fc   SHARED      K2e    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.94         -
+deepseek-chat   fc   SHARED      K2p    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.1      0.00         -
+deepseek-chat   fc   SHARED      K2r    25  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      0.00         -
+deepseek-chat   fc   TRANSIENT   K1e    25  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.1      3.13         -
+deepseek-chat   fc   TRANSIENT   K2e    25  1.00   0.44  0.44   0.44  0.44       -   0.07    0.00     -  0.000  0.2      3.24      3.30
+deepseek-chat   fc   TRANSIENT   K2p    25  1.00   0.68  0.68   0.68  0.68       -   0.04    0.00     -  0.000  0.5      0.00      0.02
+deepseek-chat   fc   TRANSIENT   K2r    25  1.00   0.44  0.44   0.44  0.44       -   0.07    0.00     -  0.000  0.2      0.00      0.40
+deepseek-chat   fc   TRANSIENT_P K1e    25  1.00   1.00  1.00   1.00  1.00       -   0.00    0.00     -  0.000  0.0      3.45         -
+deepseek-chat   fc   TRANSIENT_P K2e    25  1.00   0.72  1.00   0.72  0.72       -   0.03    0.00     -  0.000  0.0      3.87      5.71
+deepseek-chat   fc   TRANSIENT_P K2p    25  1.00   0.68  1.00   0.68  0.68       -   0.06    0.00     -  0.000  0.6      0.00      0.80
+deepseek-chat   fc   TRANSIENT_P K2r    25  1.00   0.72  1.00   0.72  0.72       -   0.03    0.00     -  0.000  0.0      0.00      0.18
+deepseek-chat   fc   CORE        K1e   100  1.00   1.00  1.00   1.00  1.00    1.00   0.00    0.00  0.00  0.000  0.0      3.17         -
+deepseek-chat   fc   CORE        K2e   100  1.00   0.86  0.86   0.86  0.86    1.00   0.02    0.00  0.00  0.000  0.0      3.52      3.30
+deepseek-chat   fc   CORE        K2p   100  1.00   0.92  0.92   0.92  0.92    1.00   0.01    0.00  0.00  0.000  0.2      0.00      0.02
+deepseek-chat   fc   CORE        K2r   100  1.00   0.86  0.86   0.86  0.86    1.00   0.02    0.00  0.00  0.000  0.0      0.00      0.40
+
+Twin contrasts (fault family minus its phi=0 twin, same parameters) [95% nested CI]; conditions of runs that include a K2 decomposition condition
+deepseek-chat   fc   Shared    K1 n= 25  regret +1.25 [-0.76,+3.61]  rep_cache -0.16 [-0.48,+0.21]
+deepseek-chat   fc   Persist   K1 n= 25  regret -1.02 [-2.47,+0.44]  rep_cache -0.16 [-0.42,+0.00]
+deepseek-chat   fc   Both      K1 n= 50  regret +0.12 [-1.42,+1.92]  rep_cache -0.16 [-0.38,+0.08]
+deepseek-chat   fc   Shared   K1e n= 25  regret +1.05 [-0.70,+4.04]  rep_cache -0.28 [-0.67,+0.00]
+deepseek-chat   fc   Persist  K1e n= 25  regret -0.42 [-1.69,+0.85]  rep_cache -0.12 [-0.32,+0.00]
+deepseek-chat   fc   Both     K1e n= 50  regret +0.31 [-0.95,+2.00]  rep_cache -0.20 [-0.43,-0.02]
+deepseek-chat   fc   Shared    K2 n= 25  regret +0.50 [-0.47,+1.96]  rep_cache -0.32 [-0.62,-0.07]
+deepseek-chat   fc   Persist   K2 n= 25  regret +0.16 [-1.66,+2.05]  rep_cache -0.12 [-0.31,+0.00]
+deepseek-chat   fc   Both      K2 n= 50  regret +0.33 [-0.84,+1.48]  rep_cache -0.22 [-0.38,-0.08]
+deepseek-chat   fc   Shared   K2a n= 25  regret +0.23 [-0.95,+1.64]  rep_cache -0.28 [-0.71,+0.00]
+deepseek-chat   fc   Persist  K2a n= 25  regret -0.06 [-1.37,+1.89]  rep_cache +0.00 [-0.15,+0.16]
+deepseek-chat   fc   Both     K2a n= 50  regret +0.08 [-0.93,+1.58]  rep_cache -0.14 [-0.42,+0.04]
+deepseek-chat   fc   Shared   K2e n= 25  regret +0.66 [-1.12,+3.51]  rep_cache -0.20 [-0.52,+0.08]
+deepseek-chat   fc   Persist  K2e n= 25  regret -0.72 [-2.54,+1.12]  rep_cache -0.20 [-0.40,-0.04]
+deepseek-chat   fc   Both     K2e n= 50  regret -0.03 [-1.41,+1.77]  rep_cache -0.20 [-0.38,-0.04]
+deepseek-chat   fc   Shared   K2p n= 25  regret -0.01 [-0.03,+0.00]  rep_cache -0.20 [-0.48,+0.00]
+deepseek-chat   fc   Persist  K2p n= 25  regret -0.26 [-0.74,+0.00]  rep_cache -0.68 [-1.20,-0.25]
+deepseek-chat   fc   Both     K2p n= 50  regret -0.13 [-0.37,+0.00]  rep_cache -0.44 [-0.71,-0.21]
+deepseek-chat   fc   Shared   K2r n= 25  regret -0.22 [-0.89,+0.00]  rep_cache -0.16 [-0.38,+0.00]
+deepseek-chat   fc   Persist  K2r n= 25  regret -0.05 [-0.20,+0.00]  rep_cache -0.80 [-1.40,-0.28]
+deepseek-chat   fc   Both     K2r n= 50  regret -0.14 [-0.50,+0.00]  rep_cache -0.48 [-0.77,-0.19]
+deepseek-chat   fc   Shared    K3 n= 25  regret -0.13 [-1.30,+1.12]  rep_cache -0.36 [-0.63,-0.12]
+deepseek-chat   fc   Persist   K3 n= 25  regret -0.49 [-1.62,+1.12]  rep_cache -0.08 [-0.24,+0.00]
+deepseek-chat   fc   Both      K3 n= 50  regret -0.31 [-1.06,+0.65]  rep_cache -0.22 [-0.38,-0.08]
+deepseek-chat   fc   Shared    K4 n= 25  regret -0.44 [-1.65,+0.35]  rep_cache -0.20 [-0.40,-0.04]
+deepseek-chat   fc   Persist   K4 n= 25  regret -0.95 [-2.10,+0.22]  rep_cache -0.04 [-0.19,+0.12]
+deepseek-chat   fc   Both      K4 n= 50  regret -0.69 [-1.55,+0.08]  rep_cache -0.12 [-0.24,+0.00]
+deepseek-chat   fc   Shared   K4c n= 25  regret +1.10 [-0.34,+3.74]  rep_cache -0.16 [-0.38,+0.00]
+deepseek-chat   fc   Persist  K4c n= 25  regret -0.59 [-1.33,+0.09]  rep_cache -0.20 [-0.42,+0.04]
+deepseek-chat   fc   Both     K4c n= 50  regret +0.25 [-0.63,+1.69]  rep_cache -0.18 [-0.35,-0.04]
+
+K2r vs K2e by completion of the JSON (fallback = no usable JSON; key_defaults = phi / shared_fault / persistent / emission / group membership filled; other_defaults = accuracy only; clean = nothing filled)
+deepseek-chat   fc   MIXED       clean n=25 K2r=0.000 K2e=3.068
+deepseek-chat   fc   PERSIST     clean n=25 K2r=0.000 K2e=3.661
+deepseek-chat   fc   SHARED      clean n=25 K2r=0.000 K2e=3.939
+deepseek-chat   fc   TRANSIENT   clean n=21 K2r=0.264 K2e=3.253  key_defaults n=4 K2r=0.000 K2e=3.392  ANY_DEFAULT_OR_FALLBACK n=4 K2r=0.000 K2e=3.392
+deepseek-chat   fc   TRANSIENT_P clean n=25 K2r=0.049 K2e=4.385
+deepseek-chat   fc   CORE        clean n=96 K2r=0.058 K2e=3.490  key_defaults n=4 K2r=0.000 K2e=3.392  ANY_DEFAULT_OR_FALLBACK n=4 K2r=0.000 K2e=3.392

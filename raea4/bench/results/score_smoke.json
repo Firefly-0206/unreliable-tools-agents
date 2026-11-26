@@ -1,0 +1,699 @@
+{
+ "conditions": {
+  "deepseek-chat|cap1500|smoke|P2": {
+   "n_answers": 1,
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "optimal": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "severe": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "escalate": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "query_cost": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "parsed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "abs_err": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "overcount": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "overconf2": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "signed_err": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "cbwa": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "cbwa_shown": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "regret_parsed": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ]
+  },
+  "deepseek-chat|cap1500|smoke|L3": {
+   "n_answers": 1,
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "optimal": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "severe": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "escalate": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "query_cost": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "parsed": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "abs_err": [
+    0.0004309934348172284,
+    0.0004309934348172284,
+    0.0004309934348172284,
+    1
+   ],
+   "overcount": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "overconf2": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "signed_err": [
+    0.0004309934348172284,
+    0.0004309934348172284,
+    0.0004309934348172284,
+    1
+   ],
+   "cbwa": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "cbwa_shown": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret_parsed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ]
+  },
+  "deepseek-chat|cap1500|smoke|T1": {
+   "n_answers": 1,
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "optimal": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "severe": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "escalate": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "query_cost": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "parsed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "abs_err": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "overcount": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "overconf2": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "signed_err": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "cbwa": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "cbwa_shown": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ],
+   "regret_parsed": [
+    NaN,
+    NaN,
+    NaN,
+    0
+   ]
+  },
+  "deepseek-chat|cap1500|smoke|H1": {
+   "n_answers": 1,
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "optimal": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "severe": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "escalate": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "query_cost": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "parsed": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "abs_err": [
+    4.833986544383606e-10,
+    4.833986544383606e-10,
+    4.833986544383606e-10,
+    1
+   ],
+   "overcount": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "overconf2": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "signed_err": [
+    4.833986544383606e-10,
+    4.833986544383606e-10,
+    4.833986544383606e-10,
+    1
+   ],
+   "cbwa": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "cbwa_shown": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret_parsed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ]
+  }
+ },
+ "contrasts": {},
+ "breakdown": {
+  "deepseek-chat|cap1500|smoke|P2": {
+   "declare_benign": "nan",
+   "declare_nonbenign": "nan",
+   "escalate": "0.00",
+   "query_same_source": "nan",
+   "query_repeat_transient": "nan",
+   "query_new_source": "nan",
+   "repeat_right": "nan",
+   "repeat_right_transient": "nan",
+   "repeat_wrong": "0.00"
+  },
+  "deepseek-chat|cap1500|smoke|L3": {
+   "declare_benign": "nan",
+   "declare_nonbenign": "nan",
+   "escalate": "0.00",
+   "query_same_source": "nan",
+   "query_repeat_transient": "nan",
+   "query_new_source": "nan",
+   "repeat_right": "nan",
+   "repeat_right_transient": "nan",
+   "repeat_wrong": "0.00"
+  },
+  "deepseek-chat|cap1500|smoke|T1": {
+   "declare_benign": "nan",
+   "declare_nonbenign": "nan",
+   "escalate": "0.00",
+   "query_same_source": "nan",
+   "query_repeat_transient": "nan",
+   "query_new_source": "nan",
+   "repeat_right": "nan",
+   "repeat_right_transient": "nan",
+   "repeat_wrong": "0.00"
+  },
+  "deepseek-chat|cap1500|smoke|H1": {
+   "declare_benign": "nan",
+   "declare_nonbenign": "nan",
+   "escalate": "0.00",
+   "query_same_source": "nan",
+   "query_repeat_transient": "nan",
+   "query_new_source": "nan",
+   "repeat_right": "nan",
+   "repeat_right_transient": "nan",
+   "repeat_wrong": "0.00"
+  }
+ },
+ "cbwa_by_action": {
+  "deepseek-chat|cap1500|smoke|P2": {
+   "declare_benign": NaN,
+   "declare_nonbenign": NaN,
+   "escalate": NaN,
+   "query_same_source": NaN,
+   "query_repeat_transient": NaN,
+   "query_new_source": NaN
+  },
+  "deepseek-chat|cap1500|smoke|L3": {
+   "declare_benign": 0.0,
+   "declare_nonbenign": 0.0,
+   "escalate": 0.0,
+   "query_same_source": 0.0,
+   "query_repeat_transient": 0.0,
+   "query_new_source": 0.0
+  },
+  "deepseek-chat|cap1500|smoke|T1": {
+   "declare_benign": NaN,
+   "declare_nonbenign": NaN,
+   "escalate": NaN,
+   "query_same_source": NaN,
+   "query_repeat_transient": NaN,
+   "query_new_source": NaN
+  },
+  "deepseek-chat|cap1500|smoke|H1": {
+   "declare_benign": 0.0,
+   "declare_nonbenign": 0.0,
+   "escalate": 0.0,
+   "query_same_source": 0.0,
+   "query_repeat_transient": 0.0,
+   "query_new_source": 0.0
+  }
+ },
+ "fixed_budget": {
+  "deepseek-chat|1500|P2": {
+   "success": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "median_out": 1500.0,
+   "median_reason": 0.0,
+   "median_latency": 7.37,
+   "n": 1
+  },
+  "deepseek-chat|1500|L3": {
+   "success": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "median_out": 130.0,
+   "median_reason": 0.0,
+   "median_latency": 1.94,
+   "n": 1
+  },
+  "deepseek-chat|1500|T1": {
+   "success": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "median_out": 458.0,
+   "median_reason": 0.0,
+   "median_latency": 4.93,
+   "n": 1
+  },
+  "deepseek-chat|1500|H1": {
+   "success": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "regret": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "median_out": 165.0,
+   "median_reason": 0.0,
+   "median_latency": 1.99,
+   "n": 1
+  }
+ },
+ "cost": {
+  "deepseek-chat": {
+   "answers": 4,
+   "input": 3656.0,
+   "output": 2253.0,
+   "reasoning": 0.0,
+   "usd": 0.0019002
+  }
+ },
+ "unparsed": {
+  "deepseek-chat|cap1500|smoke": {
+   "P2:truncated": 1,
+   "T1:tool_markup_in_content": 1
+  }
+ },
+ "retries": {
+  "deepseek-chat|cap1500|smoke": {
+   "keys_with_later_attempts": 0,
+   "later_attempt_parsed_where_first_did_not": 0,
+   "answers_after_failed_calls": 0
+  }
+ },
+ "reference_policies": {
+  "fault_unaware": {
+   "regret_1step": [
+    11.985859606089026,
+    11.985859606089026,
+    11.985859606089026,
+    1
+   ],
+   "regret_closed": [
+    11.985859606089026,
+    11.985859606089026,
+    11.985859606089026,
+    1
+   ],
+   "opt_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "opt_closed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "severe_1step": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ]
+  },
+  "mmi": {
+   "regret_1step": [
+    0.9914743059547435,
+    0.9914743059547435,
+    0.9914743059547435,
+    1
+   ],
+   "regret_closed": [
+    13.407034134761957,
+    13.407034134761957,
+    13.407034134761957,
+    1
+   ],
+   "opt_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "opt_closed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "severe_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ]
+  },
+  "dedup_history": {
+   "regret_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret_closed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "opt_1step": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "opt_closed": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "severe_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ]
+  },
+  "dedup_history_initial": {
+   "regret_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret_closed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "opt_1step": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "opt_closed": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "severe_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ]
+  },
+  "forbid_repeat": {
+   "regret_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret_closed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "opt_1step": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "opt_closed": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "severe_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ]
+  },
+  "dedup_both": {
+   "regret_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "regret_closed": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ],
+   "opt_1step": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "opt_closed": [
+    1.0,
+    1.0,
+    1.0,
+    1
+   ],
+   "severe_1step": [
+    0.0,
+    0.0,
+    0.0,
+    1
+   ]
+  }
+ }
+}

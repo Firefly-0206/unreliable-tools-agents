@@ -1,0 +1,24 @@
+
+== flash (non-thinking): M0 tau=0.3;  M1 g=16, tau=0.3
+  mean log-likelihood per first action (nats)   M0 noise   M1 pessimism+noise   uniform
+  fit_persistent   (n=100)                 -0.891        -0.512        -1.609
+  independent      (n=100)                 -0.981        -0.588        -1.609
+  randomised       (n=100)                 -1.213        -0.708        -1.609
+  repeats          (n= 80)                 -1.085        -0.492        -1.609
+  replica first-call share, obs / M0 / M1 (%): XP|0.10: 16/68/21; XP|0.30: 0/61/4; XP|0.50: 4/43/2; XP|0.70: 12/14/2; XI|0.10: 24/83/14; XI|0.30: 12/65/3; XI|0.50: 0/33/2; XI|0.70: 0/9/2
+
+== gpt-6.1-terra (medium): M0 tau=0.2;  M1 g=4, tau=0.1
+  mean log-likelihood per first action (nats)   M0 noise   M1 pessimism+noise   uniform
+  fit_persistent   (n=100)                 -0.638        -0.306        -1.609
+  independent      (n=100)                 -0.526        -0.329        -1.609
+  randomised       (n=100)                 -0.645        -1.004        -1.609
+  repeats          (n= 80)                 -0.813        -0.483        -1.609
+  replica first-call share, obs / M0 / M1 (%): XP|0.10: 88/76/82; XP|0.30: 12/68/8; XP|0.50: 0/44/0; XP|0.70: 0/8/0; XI|0.10: 100/92/79; XI|0.30: 16/71/4; XI|0.50: 0/30/0; XI|0.70: 0/4/0
+
+== Sonnet 5.5 (high): M0 tau=0.3;  M1 g=4, tau=0.2
+  mean log-likelihood per first action (nats)   M0 noise   M1 pessimism+noise   uniform
+  fit_persistent   (n=100)                 -0.722        -0.475        -1.609
+  independent      (n=100)                 -0.625        -0.836        -1.609
+  randomised       (n=100)                 -0.938        -0.911        -1.609
+  repeats          (n= 80)                 -0.854        -0.500        -1.609
+  replica first-call share, obs / M0 / M1 (%): XP|0.10: 48/68/68; XP|0.30: 16/61/17; XP|0.50: 8/43/2; XP|0.70: 0/14/1; XI|0.10: 76/83/70; XI|0.30: 44/65/10; XI|0.50: 24/33/1; XI|0.70: 4/9/1

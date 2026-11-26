@@ -1,0 +1,1936 @@
+{
+ "HQ-000": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 3,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "log_search",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "synthetic_probe",
+    "j": 3,
+    "o": 0,
+    "cost": 4,
+    "budget_after": 0.0
+   },
+   {
+    "type": "submit",
+    "verdict": "healthy",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.986025856384351,
+  "sec": 0.6954267024993896
+ },
+ "HQ-001": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.061182974946124,
+  "sec": 0.7583434581756592
+ },
+ "HQ-002": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "backup_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "backup_console",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "verified",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.572139576514349,
+  "sec": 0.6736645698547363
+ },
+ "HQ-003": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "dns_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "dig_probe",
+    "j": 3,
+    "o": 2,
+    "cost": 4,
+    "budget_after": 1.0
+   },
+   {
+    "type": "submit",
+    "verdict": "failing",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 4.4164431845070204,
+  "sec": 0.7854049205780029
+ },
+ "HQ-004": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 3,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "in_sync",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.270157333010223,
+  "sec": 0.6886076927185059
+ },
+ "HQ-005": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 2,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "backlogged",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 3.0196505509031946,
+  "sec": 0.8107454776763916
+ },
+ "HQ-006": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 1,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "submit",
+    "verdict": "degraded",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 2.7540997334940016,
+  "sec": 0.7592301368713379
+ },
+ "HQ-007": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 6,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 1.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 0.0
+   },
+   {
+    "type": "submit",
+    "verdict": "partial",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 3.352514535948971,
+  "sec": 0.7442798614501953
+ },
+ "HQ-008": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "backup_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "backup_console",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "verified",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.706294173624879,
+  "sec": 0.7283821105957031
+ },
+ "HQ-009": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 3,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "dns_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "resolving",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 5.970491591473798,
+  "sec": 0.7427213191986084
+ },
+ "HQ-010": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 3,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "lagging",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 6.575646162749476,
+  "sec": 0.7670307159423828
+ },
+ "HQ-011": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "draining",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 2.9754750156718903,
+  "sec": 0.7513465881347656
+ },
+ "HQ-012": {
+  "regret": 0.006629084927419537,
+  "under": 0.006629084927419537,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "log_search",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "log_search",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "degraded",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 3.3525145359489708,
+  "sec": 0.7368028163909912
+ },
+ "HQ-013": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "job_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "pipeline_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.907965947137036,
+  "sec": 0.702878475189209
+ },
+ "HQ-014": {
+  "regret": 0.05021469563599723,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 4,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "backup_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "submit",
+    "verdict": "verified",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 5.275786489774478,
+  "sec": 0.8121764659881592
+ },
+ "HQ-015": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 2,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "dns_status",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "dns_status",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "intermittent",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 4.633645232242598,
+  "sec": 0.74922776222229
+ },
+ "HQ-016": {
+  "regret": 0.36689758440616504,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "db_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "db_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 2.0
+   },
+   {
+    "type": "submit",
+    "verdict": "in_sync",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 5.415975669106185,
+  "sec": 0.7379012107849121
+ },
+ "HQ-017": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "stalled",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 3.3420718030516428,
+  "sec": 0.815016508102417
+ },
+ "HQ-018": {
+  "regret": 0.29064056316360976,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 3,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "status_dashboard",
+    "j": 1,
+    "o": 2,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "log_search",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "submit",
+    "verdict": "down",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 4.611977880778739,
+  "sec": 0.6563930511474609
+ },
+ "HQ-019": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.4212274123557176,
+  "sec": 0.7140614986419678
+ },
+ "HQ-020": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 5,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "backup_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 1.0
+   },
+   {
+    "type": "submit",
+    "verdict": "incomplete",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 5.952109959676706,
+  "sec": 0.7465348243713379
+ },
+ "HQ-021": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 3,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "dns_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "network_dashboard",
+    "j": 1,
+    "o": 2,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "submit",
+    "verdict": "failing",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 5.496118931119748,
+  "sec": 1.107121467590332
+ },
+ "HQ-022": {
+  "regret": 0.858665747439308,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 4,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "replication_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "db_dashboard",
+    "j": 1,
+    "o": 2,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "db_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 1.0
+   },
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 0.0
+   },
+   {
+    "type": "submit",
+    "verdict": "escalate",
+    "a": 3
+   }
+  ],
+  "V0_bayes": 4.923128523256806,
+  "sec": 1.1543195247650146
+ },
+ "HQ-023": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 2,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "stalled",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 3.947273129600418,
+  "sec": 1.153961181640625
+ },
+ "HQ-024": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "log_search",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "healthy",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.0238637777828785,
+  "sec": 1.4094274044036865
+ },
+ "HQ-025": {
+  "regret": 0.006657046565041735,
+  "under": 0.006657046565041735,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.310164112480581,
+  "sec": 1.351679801940918
+ },
+ "HQ-026": {
+  "regret": 0.30886181256730705,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "backup_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "restore_test",
+    "j": 3,
+    "o": 0,
+    "cost": 4,
+    "budget_after": 1.0
+   },
+   {
+    "type": "submit",
+    "verdict": "verified",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 5.224963585919869,
+  "sec": 1.3679208755493164
+ },
+ "HQ-027": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "resolving",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.502625740710747,
+  "sec": 1.5039377212524414
+ },
+ "HQ-028": {
+  "regret": 1.221186728366078,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "replication_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "checksum_compare",
+    "j": 3,
+    "o": 2,
+    "cost": 4,
+    "budget_after": 1.0
+   },
+   {
+    "type": "submit",
+    "verdict": "broken",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 5.444308265464159,
+  "sec": 1.8525779247283936
+ },
+ "HQ-029": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 2,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "stalled",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 5.560502103488624,
+  "sec": 1.8418962955474854
+ },
+ "HQ-030": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "log_search",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "healthy",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.041637754144647,
+  "sec": 1.8241746425628662
+ },
+ "HQ-031": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "job_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "pipeline_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.698466665694542,
+  "sec": 1.8553893566131592
+ },
+ "HQ-032": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 5,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "backup_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 1.0
+   },
+   {
+    "type": "submit",
+    "verdict": "incomplete",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 5.955987212043183,
+  "sec": 1.8533213138580322
+ },
+ "HQ-033": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 5,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "dns_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "call",
+    "tool": "query_log_sample",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 1.0
+   },
+   {
+    "type": "submit",
+    "verdict": "failing",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 5.0536514523649,
+  "sec": 1.8857691287994385
+ },
+ "HQ-034": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "binlog_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "in_sync",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.160686510744896,
+  "sec": 1.8476080894470215
+ },
+ "HQ-035": {
+  "regret": 1.682957449060396,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 4,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "broker_dashboard",
+    "j": 1,
+    "o": 2,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 2.0
+   },
+   {
+    "type": "call",
+    "tool": "broker_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 0.0
+   },
+   {
+    "type": "submit",
+    "verdict": "draining",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 5.324004585583688,
+  "sec": 1.8492584228515625
+ },
+ "HQ-036": {
+  "regret": 0.3144453284424108,
+  "under": 0.0,
+  "over": 0.3144453284424108,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 2,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "degraded",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 3.95983693279015,
+  "sec": 1.865966796875
+ },
+ "HQ-037": {
+  "regret": 0.2886605369297799,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 3,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "job_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "run_log_grep",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "validate_output",
+    "j": 3,
+    "o": 0,
+    "cost": 4,
+    "budget_after": 0.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.125670463209684,
+  "sec": 1.8624584674835205
+ },
+ "HQ-038": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "corrupt",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 3.3948490469114527,
+  "sec": 1.8857159614562988
+ },
+ "HQ-039": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 1,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "network_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "resolving",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.761396100246914,
+  "sec": 1.8407304286956787
+ },
+ "HQ-040": {
+  "regret": 0.5136799999999972,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 1,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "db_dashboard",
+    "j": 1,
+    "o": 2,
+    "cost": 2,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "broken",
+    "a": 2
+   }
+  ],
+  "V0_bayes": 5.541336828009857,
+  "sec": 1.8731307983398438
+ },
+ "HQ-041": {
+  "regret": 0.24342066414143115,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 3,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "queue_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 2,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "broker_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 2.0
+   },
+   {
+    "type": "submit",
+    "verdict": "draining",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.823174414933206,
+  "sec": 1.854069471359253
+ },
+ "HQ-042": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "status_dashboard",
+    "j": 1,
+    "o": 1,
+    "cost": 2,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "status_dashboard",
+    "j": 1,
+    "o": 1,
+    "cost": 2,
+    "budget_after": 2.0
+   },
+   {
+    "type": "submit",
+    "verdict": "degraded",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 5.817836792572823,
+  "sec": 1.8318367004394531
+ },
+ "HQ-043": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "job_status",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "pipeline_dashboard",
+    "j": 1,
+    "o": 0,
+    "cost": 2,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 3.831823610835094,
+  "sec": 1.8007450103759766
+ },
+ "HQ-044": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 2,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "agent_log_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "verified",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 5.550433392428365,
+  "sec": 1.8255159854888916
+ },
+ "HQ-045": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 1,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "dns_status",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "submit",
+    "verdict": "intermittent",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 2.6840482045008724,
+  "sec": 1.8621289730072021
+ },
+ "HQ-046": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 2,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "replication_status",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "replication_status",
+    "j": 0,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "lagging",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 5.280161963639853,
+  "sec": 1.812849521636963
+ },
+ "HQ-047": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 3,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "call",
+    "tool": "consumer_log_scan",
+    "j": 2,
+    "o": 1,
+    "cost": 1,
+    "budget_after": 3.0
+   },
+   {
+    "type": "submit",
+    "verdict": "backlogged",
+    "a": 1
+   }
+  ],
+  "V0_bayes": 6.45351583677785,
+  "sec": 1.8574256896972656
+ },
+ "HQ-048": {
+  "regret": 0.0,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 1.0,
+  "used": 1.0,
+  "calls": 2,
+  "rep_calls": 1,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "health_check",
+    "j": 0,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 5.0
+   },
+   {
+    "type": "call",
+    "tool": "log_search",
+    "j": 2,
+    "o": 0,
+    "cost": 1,
+    "budget_after": 4.0
+   },
+   {
+    "type": "submit",
+    "verdict": "healthy",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 4.876007945433565,
+  "sec": 1.808032512664795
+ },
+ "HQ-049": {
+  "regret": 0.144514066349263,
+  "under": 0.0,
+  "over": 0.0,
+  "first": 0.0,
+  "used": 0.0,
+  "calls": 1,
+  "rep_calls": 0,
+  "verdict": 0.0,
+  "log": [
+   {
+    "type": "call",
+    "tool": "validate_output",
+    "j": 3,
+    "o": 0,
+    "cost": 4,
+    "budget_after": 2.0
+   },
+   {
+    "type": "submit",
+    "verdict": "succeeded",
+    "a": 0
+   }
+  ],
+  "V0_bayes": 5.715565733333345,
+  "sec": 1.923708438873291
+ }
+}

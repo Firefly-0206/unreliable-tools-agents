@@ -1,0 +1,75 @@
+
+== flash (non-thinking)   n=175  usable JSON 175  no submit 0  as-if g=24
+cell     first replica: model oracle as-if planner   first log: model oracle as-if other stop    K2e   K2r under rep under log over rep verdict
+A|0.55                    16%   100%    0%    100%                76%     0%    0%    8%   0%   4.45  0.00      1.90      0.07     0.03    1.59
+A|0.65                    12%   100%    0%    100%                88%     0%   56%    0%   0%   2.09  0.00      1.12      0.44     0.04    0.06
+A|0.75                     0%    84%    0%     84%               100%    16%  100%    0%   0%   2.83  0.00      0.95      0.68     0.16    0.32
+A|0.85                     4%     0%    0%      0%                96%   100%  100%    0%   0%   2.61  0.00      0.17      1.65     0.46    0.00
+A|0.95                     4%     0%    0%      0%                96%   100%  100%    0%   0%   2.89  0.00      0.00      0.56     0.50    0.00
+B|0.75                    12%    72%    0%     72%                84%    28%   88%    4%   0%   3.34  0.00      0.72      0.57     0.19    1.35
+B|0.65                     0%     0%    0%      0%               100%    88%   88%    0%   0%   2.11  0.00      0.00      1.29     0.41    0.11
+  W1 first replica model-oracle|A 0.55,0.65        -86 [-98, -71]  (pp)
+  W1 under replica|A 0.55,0.65                     +1.509 [+0.857, +2.219]
+  W2 first replica 0.55-0.95|A                     +12 [+0, +31]  (pp)
+  W3 first log model-oracle|A 0.85,0.95            -4 [-12, +0]  (pp)
+  W3 first replica|A 0.85,0.95                     +4 [+0, +12]  (pp)
+  W3 under log|A 0.85,0.95                         +1.106 [+0.685, +1.556]
+  W4 first replica model-oracle|B 0.75             -60 [-84, -31]  (pp)
+  W4 first replica model-oracle|B 0.65             +0 [+0, +0]  (pp)
+  W4 first replica drawn-0.65|B                    +16 [+4, +33]  (pp)
+  W5 K2r-K2e|all                                   -2.904 [-3.603, -2.352]
+  regret|all                                       +2.904 [+2.352, +3.603]
+  W6 first-action match, as-if|all                 +72 [+64, +79]  (pp)
+  W6 first-action match, oracle|all                +51 [+46, +55]  (pp)
+  W6 first-action match, as-if minus oracle|all    +21 [+15, +27]  (pp)
+  W6 episodes where as-if and oracle predictions differ: n=89; model agrees with as-if 52%, with oracle 10%
+
+== gpt-6.1-terra (medium)   n=175  usable JSON 173  no submit 0  as-if g=4
+cell     first replica: model oracle as-if planner   first log: model oracle as-if other stop    K2e   K2r under rep under log over rep verdict
+A|0.55                    76%   100%   48%    100%                12%     0%    0%   12%   0%   0.90  0.00      0.67      0.00     0.00    0.00
+A|0.65                    28%   100%   24%    100%                68%     0%   44%    4%   0%   0.99  0.00      0.84      0.13     0.05    0.00
+A|0.75                     0%    84%    0%     84%               100%    16%  100%    0%   0%   0.49  0.00      0.36      0.11     0.00    0.00
+A|0.85                     0%     0%    0%      0%               100%   100%  100%    0%   0%   0.15  0.00      0.00      0.12     0.00    0.00
+A|0.95                     0%     0%    0%      0%               100%   100%  100%    0%   0%   0.05  0.00      0.00      0.00     0.00    0.00
+B|0.75                     0%    72%   24%     72%               100%    28%   68%    0%   0%   0.48  0.00      0.41      0.03     0.00    0.00
+B|0.65                     0%     0%    0%      0%               100%    88%   88%    0%   0%   0.15  0.00      0.00      0.12     0.00    0.00
+  W1 first replica model-oracle|A 0.55,0.65        -48 [-65, -31]  (pp)
+  W1 under replica|A 0.55,0.65                     +0.754 [+0.325, +1.257]
+  W2 first replica 0.55-0.95|A                     +76 [+52, +96]  (pp)
+  W3 first log model-oracle|A 0.85,0.95            +0 [+0, +0]  (pp)
+  W3 first replica|A 0.85,0.95                     +0 [+0, +0]  (pp)
+  W3 under log|A 0.85,0.95                         +0.061 [+0.005, +0.136]
+  W4 first replica model-oracle|B 0.75             -72 [-96, -48]  (pp)
+  W4 first replica model-oracle|B 0.65             +0 [+0, +0]  (pp)
+  W4 first replica drawn-0.65|B                    +88 [+68, +100]  (pp)
+  W5 K2r-K2e|all                                   -0.460 [-0.636, -0.301]
+  regret|all                                       +0.460 [+0.301, +0.636]
+  W6 first-action match, as-if|all                 +81 [+73, +87]  (pp)
+  W6 first-action match, oracle|all                +62 [+54, +70]  (pp)
+  W6 first-action match, as-if minus oracle|all    +18 [+10, +25]  (pp)
+  W6 episodes where as-if and oracle predictions differ: n=65; model agrees with as-if 68%, with oracle 18%
+
+== Sonnet 5.5 (high)   n=175  usable JSON 175  no submit 0  as-if g=4
+cell     first replica: model oracle as-if planner   first log: model oracle as-if other stop    K2e   K2r under rep under log over rep verdict
+A|0.55                    80%   100%   48%    100%                 4%     0%    0%   16%   0%   0.66  0.00      0.44      0.01     0.00    0.13
+A|0.65                    56%   100%   24%    100%                40%     0%   44%    4%   0%   1.42  0.00      0.77      0.18     0.02    0.37
+A|0.75                     0%    84%    0%     84%               100%    16%  100%    0%   0%   0.64  0.00      0.50      0.12     0.00    0.00
+A|0.85                     0%     0%    0%      0%               100%   100%  100%    0%   0%   0.31  0.00      0.00      0.29     0.00    0.00
+A|0.95                     0%     0%    0%      0%               100%   100%  100%    0%   0%   0.11  0.00      0.00      0.08     0.00    0.00
+B|0.75                     0%    72%   24%     72%               100%    28%   68%    0%   0%   0.70  0.00      0.52      0.17     0.00    0.00
+B|0.65                     0%     0%    0%      0%               100%    88%   88%    0%   0%   0.31  0.00      0.00      0.29     0.00    0.00
+  W1 first replica model-oracle|A 0.55,0.65        -32 [-48, -16]  (pp)
+  W1 under replica|A 0.55,0.65                     +0.604 [+0.324, +0.930]
+  W2 first replica 0.55-0.95|A                     +80 [+60, +96]  (pp)
+  W3 first log model-oracle|A 0.85,0.95            +0 [+0, +0]  (pp)
+  W3 first replica|A 0.85,0.95                     +0 [+0, +0]  (pp)
+  W3 under log|A 0.85,0.95                         +0.187 [+0.057, +0.389]
+  W4 first replica model-oracle|B 0.75             -72 [-96, -48]  (pp)
+  W4 first replica model-oracle|B 0.65             +0 [+0, +0]  (pp)
+  W4 first replica drawn-0.65|B                    +48 [+23, +75]  (pp)
+  W5 K2r-K2e|all                                   -0.591 [-0.790, -0.388]
+  regret|all                                       +0.591 [+0.388, +0.790]
+  W6 first-action match, as-if|all                 +78 [+70, +87]  (pp)
+  W6 first-action match, oracle|all                +67 [+61, +72]  (pp)
+  W6 first-action match, as-if minus oracle|all    +11 [+2, +22]  (pp)
+  W6 episodes where as-if and oracle predictions differ: n=65; model agrees with as-if 60%, with oracle 29%

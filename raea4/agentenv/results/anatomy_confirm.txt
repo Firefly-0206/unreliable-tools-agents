@@ -1,0 +1,28 @@
+episodes: index 25..49 of PERSIST, TRANSIENT, SHARED, MIXED (n=100 per run)
+
+== flash (non-thinking)   usable JSON 100/100, no submit 0
+  K2e +3.680 [+2.956, +4.598]   K2r +0.006 [+0.000, +0.026]
+  C1  K2r-K2e -3.673 [-4.585, -2.944]  -> met
+  C2  pass_cache +0.945 [+0.616, +1.330]  rest +2.735 [+1.953, +3.725]  pass-rest -1.789 [-2.965, -0.765]  share 26%  -> NOT met (not a criterion for this run)
+  C3  first call replica, fault families: model 17%  planner 96%  diff -0.787 [-0.907, -0.639]  -> met (not a criterion for this run)
+      twin: model 84%  planner 100%;  pass_cache_other fault 0.909  twin 0.768
+  parts: over 1.219  wrong 1.231  early 0.165  verdict 1.065;  calls 3.44 (planner 2.27)
+  => CONFIRMS (C1)
+
+== gpt-6.1-terra (medium)   usable JSON 98/100, no submit 0
+  K2e +0.287 [+0.203, +0.384]   K2r +0.033 [+0.000, +0.153]
+  C1  K2r-K2e -0.254 [-0.368, -0.118]  -> met
+  C2  pass_cache +0.206 [+0.124, +0.299]  rest +0.081 [+0.035, +0.136]  pass-rest +0.125 [+0.018, +0.244]  share 72%  -> met
+  C3  first call replica, fault families: model 47%  planner 96%  diff -0.493 [-0.613, -0.375]  -> met
+      twin: model 100%  planner 100%;  pass_cache_other fault 0.244  twin 0.000
+  parts: over 0.029  wrong 0.222  early 0.036  verdict 0.000;  calls 2.31 (planner 2.27)
+  => CONFIRMS (C1, C2, C3)
+
+== Sonnet 5.5 (high)   usable JSON 100/100, no submit 0
+  K2e +0.393 [+0.254, +0.538]   K2r +0.031 [+0.000, +0.129]
+  C1  K2r-K2e -0.362 [-0.514, -0.218]  -> met
+  C2  pass_cache +0.334 [+0.197, +0.478]  rest +0.059 [+0.019, +0.130]  pass-rest +0.275 [+0.117, +0.433]  share 85%  -> met
+  C3  first call replica, fault families: model 43%  planner 96%  diff -0.533 [-0.667, -0.400]  -> met
+      twin: model 100%  planner 100%;  pass_cache_other fault 0.272  twin 0.000
+  parts: over 0.001  wrong 0.231  early 0.161  verdict 0.000;  calls 2.08 (planner 2.25)
+  => CONFIRMS (C1, C2, C3)

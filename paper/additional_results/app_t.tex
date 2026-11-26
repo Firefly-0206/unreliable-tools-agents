@@ -1,0 +1,15 @@
+\subsubsection{Fault wording against an equivalent probability table}\label{app:t}
+% src: raea4/agentenv/PLAN_t_wording.md, frozen_t_wording.sha256, make_episodes_t.py, run_t.sh, t_analysis.py -> results/t_analysis.json|txt; scripts/make_t_outputs.py
+\paragraph{Design.}
+Reusing the 25 draws at independent fault rates 0.10 and 0.30 from \cref{app:x} (identical hidden states, outputs, and single-call laws), we compare three K2 (documentation-only) prompt formats across 150 episodes per model: the original sentences, a fresh/stale mixture table, and a single conditional probability table with fault wording removed (retaining only the backend name ``read replica''). Because K2e's JSON schema explicitly references faults, this experiment omits JSON elicitation and replay. Pre-run checks confirmed the table matches the true per-call law to $10^{-9}$. Planned nested 95\% contrasts (pooled over both rates) are T1 (model minus oracle replica-first share per format), T2 (one table minus fresh/stale, testing fault wording), and T3 (fresh/stale minus sentences, testing format).
+
+\paragraph{Results (\cref{tab:t-contrasts}).}
+All 450 episodes submitted a verdict (per-cell estimates in \texttt{additional\_results/tab\_t\_cells.tex}). Under-use persists even with the single probability table stripped of fault wording: replica-first shares remain below the oracle for flash (\twFlashTTGap), terra (\twTerraTTGap), and Sonnet (\twSonnetTTGap\ points), with positive under-use regret (\twFlashTTUnder, \twTerraTTUnder, \twSonnetTTUnder). Removing fault wording with the table format fixed (T2) produces no detected shift in first-call share (flash \twFlashTTmTDFirst, terra \twTerraTTmTDFirst, Sonnet \twSonnetTTmTDFirst\ points) or regret (\twFlashTTmTDRegret, \twTerraTTmTDRegret, \twSonnetTTmTDRegret), though the intervals are wide (flash's nearly excludes zero). By contrast, switching from sentences to explicit probability tables (T3) raises first-call share for flash (\twFlashTDmTSFirst) and terra (\twTerraTDmTSFirst\ points; Sonnet \twSonnetTDmTSFirst) and lowers regret for terra (\twTerraTDmTSRegret; from \twTerraTSRegret\ to \twTerraTDRegret\ and \twTerraTTRegret) and Sonnet (\twSonnetTDmTSRegret; \twSonnetTSRegret, \twSonnetTDRegret, \twSonnetTTRegret; flash \twFlashTDmTSRegret). Under-use therefore does not depend on fault terminology, though these runs cover independent faults in the first domain only and omit a paired K2--K2e comparison.
+
+\begin{table}[!htbp]
+\centering
+\caption{Fault wording against an equivalent probability table: the planned contrasts (nested 95\% intervals; first-call shares of the replica tool in points, regret in regret units; fault rates 0.10 and 0.30 pooled, 50 episodes per version).}
+\label{tab:t-contrasts}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{\input{tables/agent_t_contrasts}}
+\end{table}

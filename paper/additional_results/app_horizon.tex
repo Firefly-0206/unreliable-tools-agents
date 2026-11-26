@@ -1,0 +1,12 @@
+\subsubsection{Effective planning horizon (post hoc)}\label{app:horizon}
+% src: raea4/agentenv/h_horizon.py -> results/h_horizon_{core,x,m}.json|txt; scripts/make_u_outputs.py
+At every logged decision of the K2e runs (calls and the decision to stop; the verdict is not compared) the belief is recomputed from the logged reports and the action compared with the $k$-step look-ahead policy $\pi_k$ (\cref{sec:setup}; $k=1,\dots,4,\infty$), either on the true model or, for the as-if planner of \cref{app:asif}, on a model with the replica's fault odds multiplied by 4 that both tracks the belief and plans; an action within $10^{-6}$ of the best depth-$k$ value agrees (\cref{tab:horizon}).
+First decisions agree most with full look-ahead on inflated fault odds (first domain: terra \uHCoreTerraGFourFirstKInf\%, Sonnet \uHCoreSonnetGFourFirstKInf\%, against \uHCoreTerraGOneFirstKInf\% and \uHCoreSonnetGOneFirstKInf\% with the true odds).
+No horizon describes the later decisions: with the true odds, agreement is at most \uHCoreTerraGOneLaterMax\% (terra) and \uHCoreSonnetGOneLaterMax\% (Sonnet) for any $k$, and in the fault-free matched tasks at most \uHMZTerraLaterMax\% and \uHMZSonnetLaterMax\%. Sonnet's later decisions agree somewhat more with one-step look-ahead (fault-free: \uHMZSonnetLaterKOne\% against \uHMZSonnetLaterKInf\% for $k=\infty$). The later-step shortfall is therefore not a shorter look-ahead of this exact kind, and no effective horizon is identified.
+\begin{table}[!htbp]
+\centering
+\caption{Share of decisions (\%) agreeing with the $k$-step look-ahead policy $\pi_k$ on the true model ($g{=}1$) or with the replica's fault odds multiplied by $g{=}4$ (post hoc; ties agree). First: the first decision of an episode; later: all subsequent decisions up to and including the stop.}
+\label{tab:horizon}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\input{tables/agent_h}
+\end{table}
